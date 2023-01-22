@@ -1,0 +1,36 @@
+{
+    "title": "invalid applyRule key",
+    "query": {
+      "WHERE": {
+            "AND": [
+                {
+                    "AND": [
+                        {
+                            "IS": {
+                                "courses_dept": "aanb"
+                            }
+                        },
+                        {
+                            "GT": {
+                                "courses_avg": 75
+                            }
+                        }
+                    ]
+                },
+                {
+                    "LT": {
+                        "courses_avg": 95
+                    }
+                }
+            ]
+        },
+      "OPTIONS": {
+        "COLUMNS": [
+          "courses_lot"
+        ],
+          "ORDER": "courses_lot"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

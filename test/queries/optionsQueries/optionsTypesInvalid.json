@@ -1,0 +1,21 @@
+{
+    "title": "options missing columns invalid",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_pass": 2020
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                33,
+                "courses_audit",
+                "courses_instructor",
+                "courses_id"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

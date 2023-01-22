@@ -1,0 +1,19 @@
+{
+    "title": "Incorrect Key Reference in Columns",
+    "query": {
+        "WHERE": {
+            "LT": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_department",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

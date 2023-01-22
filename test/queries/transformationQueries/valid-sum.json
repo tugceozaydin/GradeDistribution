@@ -1,0 +1,54 @@
+{
+    "title": "valid sum",
+    "query": {
+      "WHERE": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "IS": {
+                  "courses_dept": "cpsc"
+                }
+              },
+              {
+                "GT": {
+                  "courses_avg": 89
+                }
+              }
+            ]
+          },
+          {
+            "LT": {
+              "courses_avg": 93
+            }
+          }
+        ]
+      },
+      "OPTIONS": {
+        "COLUMNS": [
+          "courses_title",
+          "sumAvg"
+        ],
+        "ORDER": {
+          "dir": "UP",
+          "keys": [
+            "sumAvg"
+          ]
+        }
+      },
+      "TRANSFORMATIONS": {
+        "GROUP": [
+          "courses_title"
+        ],
+        "APPLY": [
+          {
+            "sumAvg": {
+              "SUM": "courses_avg"
+            }
+          }
+        ]
+      }
+    },
+    "isQueryValid": true,
+    "result": [{"courses_title":"intgrt sys desgn","sumAvg":178.18},{"courses_title":"phy user intfc","sumAvg":179.5},{"courses_title":"artif intell 2","sumAvg":181.42},{"courses_title":"alg in bioin","sumAvg":182.5},{"courses_title":"computl ling 1","sumAvg":357.14},{"courses_title":"software eng","sumAvg":361.92},{"courses_title":"comp comm protcl","sumAvg":362.66},{"courses_title":"machine learn i","sumAvg":363.5},{"courses_title":"honours thesis","sumAvg":550.76},{"courses_title":"thry of automata","sumAvg":552.36},{"courses_title":"student seminar","sumAvg":999.55}]
+}

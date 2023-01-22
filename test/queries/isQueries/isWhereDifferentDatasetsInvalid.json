@@ -1,0 +1,18 @@
+{
+    "title": "where different datasets invalid",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "joshcourses_dept": "cpsc"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_id"
+            ],
+            "ORDER": "courses_id"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

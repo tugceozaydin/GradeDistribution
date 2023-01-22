@@ -1,0 +1,49 @@
+{
+    "title": "LT Where average valid",
+    "query": {
+        "WHERE": {
+            "LT": {
+                "courses_avg": 5
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_pass",
+                "courses_audit"
+            ],
+            "ORDER": "courses_pass"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_pass": 0,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 0,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 0,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 0,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 0,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 0,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 0,
+            "courses_audit": 0
+        }
+    ]
+}
+

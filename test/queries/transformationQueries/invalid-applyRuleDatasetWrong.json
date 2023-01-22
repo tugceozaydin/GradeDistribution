@@ -1,0 +1,54 @@
+{
+    "title": "invalid applyRule key",
+    "query": {
+      "WHERE": {
+            "AND": [
+                {
+                    "AND": [
+                        {
+                            "IS": {
+                                "courses_dept": "aanb"
+                            }
+                        },
+                        {
+                            "GT": {
+                                "courses_avg": 75
+                            }
+                        }
+                    ]
+                },
+                {
+                    "LT": {
+                        "courses_avg": 95
+                    }
+                }
+            ]
+        },
+      "OPTIONS": {
+        "COLUMNS": [
+          "courses_title",
+          "overallAvg"
+        ],
+          "ORDER": { 
+            "dir": "UP",
+            "keys": [
+              "overallAvg"
+            ]
+          }
+      },
+      "TRANSFORMATIONS": {
+        "GROUP": [
+          "courses_lot"
+        ],
+        "APPLY": [
+          {
+            "overallAvg": {
+              "AVG": "courses_avg"
+            }
+          }
+        ]
+      }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

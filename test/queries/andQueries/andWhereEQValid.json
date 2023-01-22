@@ -1,0 +1,33 @@
+{
+    "title": "WHERE AND EQ Valid",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "EQ": {
+                        "courses_avg": 97
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_dept": "crwr"
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "crwr",
+            "courses_avg": 97
+        }
+    ]
+}

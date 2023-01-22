@@ -1,0 +1,46 @@
+{
+    "title": "WHERE eq lat Rooms Valid",
+    "query": {
+        "WHERE": {
+            "EQ": {
+                "rooms_lat": 49.2699
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_shortname",
+                "rooms_lon",
+                "rooms_lat"
+            ],
+            "ORDER": "rooms_shortname"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "rooms_shortname": "ALRD",
+            "rooms_lon": -123.25318,
+            "rooms_lat": 49.2699
+        },
+        {
+            "rooms_shortname": "ALRD",
+            "rooms_lon": -123.25318,
+            "rooms_lat": 49.2699
+        },
+        {
+            "rooms_shortname": "ALRD",
+            "rooms_lon": -123.25318,
+            "rooms_lat": 49.2699
+        },
+        {
+            "rooms_shortname": "ALRD",
+            "rooms_lon": -123.25318,
+            "rooms_lat": 49.2699
+        },
+        {
+            "rooms_shortname": "ALRD",
+            "rooms_lon": -123.25318,
+            "rooms_lat": 49.2699
+        }
+    ]
+}

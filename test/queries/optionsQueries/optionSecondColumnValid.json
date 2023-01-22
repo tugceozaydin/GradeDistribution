@@ -1,0 +1,22 @@
+{
+    "title": "second columns valid",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_pass": 2020
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_pass",
+                "courses_audit",
+                "courses_instructor",
+                "courses_id"
+            ],
+            "COLUMNS": [],
+            "ORDER": "courses_pass"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

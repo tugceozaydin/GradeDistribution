@@ -1,0 +1,516 @@
+{
+    "title": "where asterix before and after valid",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_dept": "*ca*"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_id",
+                "courses_dept"
+            ],
+            "ORDER": "courses_id"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_id": "200",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "200",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "200",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "200",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "301",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "301",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "301",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "301",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "301",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "301",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "301",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "301",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "301",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "301",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "301",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "301",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "303",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "303",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "303",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "303",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "303",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "303",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "333",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "333",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "333",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "333",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "333",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "333",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "333",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "333",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "333",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "333",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "333",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "333",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "335",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "335",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "335",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "335",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "335",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "335",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "336",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "336",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "336",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "336",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "336",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "336",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "390",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "390",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "390",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "390",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "390",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "390",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "390",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "390",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "390",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "390",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "391",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "391",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "391",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "391",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "391",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "391",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "391",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "391",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "391",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "391",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "414",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "414",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "414",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "414",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "414",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "414",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "414",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "414",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "414",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "414",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "414",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "414",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "414",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "414",
+            "courses_dept": "scan"
+        },
+        {
+            "courses_id": "421",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "421",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "421",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "421",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "421",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "421",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "421",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "421",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "422",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "422",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "422",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "422",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "422",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "422",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "423",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "423",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "423",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "423",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "423",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "423",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "424",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "424",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "424",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "424",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "424",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "424",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "426",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "426",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "426",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "426",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "426",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "426",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "430",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "430",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "430",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "430",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "430",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "430",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "449",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "449",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "449",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "449",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "449",
+            "courses_dept": "caps"
+        },
+        {
+            "courses_id": "449",
+            "courses_dept": "caps"
+        }
+    ]
+}

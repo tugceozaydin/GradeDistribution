@@ -1,0 +1,54 @@
+{
+    "title": "valid avg keyType",
+    "query": {
+      "WHERE": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "IS": {
+                  "courses_dept": "cpsc"
+                }
+              },
+              {
+                "GT": {
+                  "courses_avg": 89
+                }
+              }
+            ]
+          },
+          {
+            "LT": {
+              "courses_avg": 93
+            }
+          }
+        ]
+      },
+      "OPTIONS": {
+        "COLUMNS": [
+          "courses_title",
+          "overallAvg"
+        ],
+        "ORDER": {
+          "dir": "UP",
+          "keys": [
+            "overallAvg"
+          ]
+        }
+      },
+      "TRANSFORMATIONS": {
+        "GROUP": [
+          "courses_title"
+        ],
+        "APPLY": [
+          {
+            "overallAvg": {
+              "AVG": "courses_title"
+            }
+          }
+        ]
+      }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,39 @@
+{
+    "title": "Sort Rooms Apply Avg Up",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "rooms_seats": 100
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_shortname",
+                "rooms_address",
+                "maxLon"
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "rooms_shortname",
+                    "maxLon"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "rooms_shortname",
+                "rooms_address"
+            ],
+            "APPLY": [
+                {
+                    "maxLon": {
+                        "AVG": "rooms_shortname"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

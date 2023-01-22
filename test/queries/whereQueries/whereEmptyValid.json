@@ -1,0 +1,25 @@
+{
+    "title": "where empty valid",
+    "query": {
+        "WHERE": {
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "joshcourses_pass",
+                "joshcourses_audit"
+            ],
+            "ORDER": "joshcourses_pass"
+        }
+    },
+    "isQueryValid": false,
+    "result": [
+        {
+            "joshcourses_pass": 9,
+            "joshcourses_audit": 9
+        },
+        {
+            "joshcourses_pass": 9,
+            "joshcourses_audit": 9
+        }
+    ]
+}

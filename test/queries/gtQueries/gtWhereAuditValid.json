@@ -1,0 +1,88 @@
+{
+    "title": "GT Where audit valid",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_audit": 13
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_pass",
+                "courses_audit"
+            ],
+            "ORDER": "courses_pass"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_pass": 9,
+            "courses_audit": 17
+        },
+        {
+            "courses_pass": 9,
+            "courses_audit": 19
+        },
+        {
+            "courses_pass": 9,
+            "courses_audit": 19
+        },
+        {
+            "courses_pass": 13,
+            "courses_audit": 19
+        },
+        {
+            "courses_pass": 14,
+            "courses_audit": 18
+        },
+        {
+            "courses_pass": 14,
+            "courses_audit": 23
+        },
+        {
+            "courses_pass": 15,
+            "courses_audit": 15
+        },
+        {
+            "courses_pass": 16,
+            "courses_audit": 19
+        },
+        {
+            "courses_pass": 16,
+            "courses_audit": 19
+        },
+        {
+            "courses_pass": 17,
+            "courses_audit": 15
+        },
+        {
+            "courses_pass": 18,
+            "courses_audit": 21
+        },
+        {
+            "courses_pass": 23,
+            "courses_audit": 20
+        },
+        {
+            "courses_pass": 25,
+            "courses_audit": 14
+        },
+        {
+            "courses_pass": 33,
+            "courses_audit": 15
+        },
+        {
+            "courses_pass": 59,
+            "courses_audit": 21
+        },
+        {
+            "courses_pass": 59,
+            "courses_audit": 18
+        },
+        {
+            "courses_pass": 146,
+            "courses_audit": 14
+        }
+    ]
+}

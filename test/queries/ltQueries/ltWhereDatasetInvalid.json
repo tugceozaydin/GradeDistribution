@@ -1,0 +1,19 @@
+{
+    "title": "LT Where dataset invalid",
+    "query": {
+        "WHERE": {
+            "LT": {
+                "courseResultInvalid_audit": 13
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courseResultInvalid_pass",
+                "courseResultInvalid_audit"
+            ],
+            "ORDER": "courseResultInvalid_pass"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

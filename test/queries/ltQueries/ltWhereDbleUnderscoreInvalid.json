@@ -1,0 +1,19 @@
+{
+    "title": "LT Where dble underscore invalid",
+    "query": {
+        "WHERE": {
+            "LT": {
+                "courses__audit": 13
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_pass",
+                "courses_audit"
+            ],
+            "ORDER": "courses_pass"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

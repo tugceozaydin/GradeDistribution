@@ -1,0 +1,2457 @@
+{
+    "title": "group courses avg",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 89
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_avg",
+                "sumAvg"
+            ],
+            "ORDER": {
+                "dir": "UP",
+                "keys": [
+                    "sumAvg"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_avg"
+            ],
+            "APPLY": [
+                {
+                    "sumAvg": {
+                        "SUM": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_avg": 89.03,
+            "sumAvg": 89.03
+        },
+        {
+            "courses_avg": 89.34,
+            "sumAvg": 89.34
+        },
+        {
+            "courses_avg": 89.37,
+            "sumAvg": 89.37
+        },
+        {
+            "courses_avg": 89.49,
+            "sumAvg": 89.49
+        },
+        {
+            "courses_avg": 89.51,
+            "sumAvg": 89.51
+        },
+        {
+            "courses_avg": 89.61,
+            "sumAvg": 89.61
+        },
+        {
+            "courses_avg": 89.84,
+            "sumAvg": 89.84
+        },
+        {
+            "courses_avg": 90.16,
+            "sumAvg": 90.16
+        },
+        {
+            "courses_avg": 90.49,
+            "sumAvg": 90.49
+        },
+        {
+            "courses_avg": 90.72,
+            "sumAvg": 90.72
+        },
+        {
+            "courses_avg": 90.96,
+            "sumAvg": 90.96
+        },
+        {
+            "courses_avg": 91.02,
+            "sumAvg": 91.02
+        },
+        {
+            "courses_avg": 91.41,
+            "sumAvg": 91.41
+        },
+        {
+            "courses_avg": 91.59,
+            "sumAvg": 91.59
+        },
+        {
+            "courses_avg": 91.69,
+            "sumAvg": 91.69
+        },
+        {
+            "courses_avg": 91.76,
+            "sumAvg": 91.76
+        },
+        {
+            "courses_avg": 91.96,
+            "sumAvg": 91.96
+        },
+        {
+            "courses_avg": 92.16,
+            "sumAvg": 92.16
+        },
+        {
+            "courses_avg": 92.21,
+            "sumAvg": 92.21
+        },
+        {
+            "courses_avg": 92.24,
+            "sumAvg": 92.24
+        },
+        {
+            "courses_avg": 92.31,
+            "sumAvg": 92.31
+        },
+        {
+            "courses_avg": 92.48,
+            "sumAvg": 92.48
+        },
+        {
+            "courses_avg": 92.52,
+            "sumAvg": 92.52
+        },
+        {
+            "courses_avg": 92.54,
+            "sumAvg": 92.54
+        },
+        {
+            "courses_avg": 92.55,
+            "sumAvg": 92.55
+        },
+        {
+            "courses_avg": 92.77,
+            "sumAvg": 92.77
+        },
+        {
+            "courses_avg": 92.79,
+            "sumAvg": 92.79
+        },
+        {
+            "courses_avg": 92.84,
+            "sumAvg": 92.84
+        },
+        {
+            "courses_avg": 92.93,
+            "sumAvg": 92.93
+        },
+        {
+            "courses_avg": 92.94,
+            "sumAvg": 92.94
+        },
+        {
+            "courses_avg": 92.96,
+            "sumAvg": 92.96
+        },
+        {
+            "courses_avg": 93.1,
+            "sumAvg": 93.1
+        },
+        {
+            "courses_avg": 93.17,
+            "sumAvg": 93.17
+        },
+        {
+            "courses_avg": 93.19,
+            "sumAvg": 93.19
+        },
+        {
+            "courses_avg": 93.26,
+            "sumAvg": 93.26
+        },
+        {
+            "courses_avg": 93.32,
+            "sumAvg": 93.32
+        },
+        {
+            "courses_avg": 93.34,
+            "sumAvg": 93.34
+        },
+        {
+            "courses_avg": 93.48,
+            "sumAvg": 93.48
+        },
+        {
+            "courses_avg": 93.51,
+            "sumAvg": 93.51
+        },
+        {
+            "courses_avg": 93.53,
+            "sumAvg": 93.53
+        },
+        {
+            "courses_avg": 93.65,
+            "sumAvg": 93.65
+        },
+        {
+            "courses_avg": 93.66,
+            "sumAvg": 93.66
+        },
+        {
+            "courses_avg": 93.68,
+            "sumAvg": 93.68
+        },
+        {
+            "courses_avg": 93.74,
+            "sumAvg": 93.74
+        },
+        {
+            "courses_avg": 93.83,
+            "sumAvg": 93.83
+        },
+        {
+            "courses_avg": 93.92,
+            "sumAvg": 93.92
+        },
+        {
+            "courses_avg": 93.93,
+            "sumAvg": 93.93
+        },
+        {
+            "courses_avg": 93.97,
+            "sumAvg": 93.97
+        },
+        {
+            "courses_avg": 94.09,
+            "sumAvg": 94.09
+        },
+        {
+            "courses_avg": 94.16,
+            "sumAvg": 94.16
+        },
+        {
+            "courses_avg": 94.34,
+            "sumAvg": 94.34
+        },
+        {
+            "courses_avg": 94.38,
+            "sumAvg": 94.38
+        },
+        {
+            "courses_avg": 94.48,
+            "sumAvg": 94.48
+        },
+        {
+            "courses_avg": 94.54,
+            "sumAvg": 94.54
+        },
+        {
+            "courses_avg": 94.62,
+            "sumAvg": 94.62
+        },
+        {
+            "courses_avg": 94.72,
+            "sumAvg": 94.72
+        },
+        {
+            "courses_avg": 94.79,
+            "sumAvg": 94.79
+        },
+        {
+            "courses_avg": 94.8,
+            "sumAvg": 94.8
+        },
+        {
+            "courses_avg": 94.85,
+            "sumAvg": 94.85
+        },
+        {
+            "courses_avg": 94.89,
+            "sumAvg": 94.89
+        },
+        {
+            "courses_avg": 95.05,
+            "sumAvg": 95.05
+        },
+        {
+            "courses_avg": 95.07,
+            "sumAvg": 95.07
+        },
+        {
+            "courses_avg": 95.14,
+            "sumAvg": 95.14
+        },
+        {
+            "courses_avg": 95.18,
+            "sumAvg": 95.18
+        },
+        {
+            "courses_avg": 95.3,
+            "sumAvg": 95.3
+        },
+        {
+            "courses_avg": 95.38,
+            "sumAvg": 95.38
+        },
+        {
+            "courses_avg": 95.41,
+            "sumAvg": 95.41
+        },
+        {
+            "courses_avg": 95.6,
+            "sumAvg": 95.6
+        },
+        {
+            "courses_avg": 95.63,
+            "sumAvg": 95.63
+        },
+        {
+            "courses_avg": 95.72,
+            "sumAvg": 95.72
+        },
+        {
+            "courses_avg": 95.76,
+            "sumAvg": 95.76
+        },
+        {
+            "courses_avg": 95.9,
+            "sumAvg": 95.9
+        },
+        {
+            "courses_avg": 95.94,
+            "sumAvg": 95.94
+        },
+        {
+            "courses_avg": 95.95,
+            "sumAvg": 95.95
+        },
+        {
+            "courses_avg": 96.09,
+            "sumAvg": 96.09
+        },
+        {
+            "courses_avg": 96.11,
+            "sumAvg": 96.11
+        },
+        {
+            "courses_avg": 96.16,
+            "sumAvg": 96.16
+        },
+        {
+            "courses_avg": 96.23,
+            "sumAvg": 96.23
+        },
+        {
+            "courses_avg": 96.24,
+            "sumAvg": 96.24
+        },
+        {
+            "courses_avg": 96.59,
+            "sumAvg": 96.59
+        },
+        {
+            "courses_avg": 96.96,
+            "sumAvg": 96.96
+        },
+        {
+            "courses_avg": 97.5,
+            "sumAvg": 97.5
+        },
+        {
+            "courses_avg": 97.67,
+            "sumAvg": 97.67
+        },
+        {
+            "courses_avg": 97.69,
+            "sumAvg": 97.69
+        },
+        {
+            "courses_avg": 97.78,
+            "sumAvg": 97.78
+        },
+        {
+            "courses_avg": 98.08,
+            "sumAvg": 98.08
+        },
+        {
+            "courses_avg": 98.36,
+            "sumAvg": 98.36
+        },
+        {
+            "courses_avg": 98.7,
+            "sumAvg": 98.7
+        },
+        {
+            "courses_avg": 98.8,
+            "sumAvg": 98.8
+        },
+        {
+            "courses_avg": 99.19,
+            "sumAvg": 99.19
+        },
+        {
+            "courses_avg": 89.04,
+            "sumAvg": 178.08
+        },
+        {
+            "courses_avg": 89.85,
+            "sumAvg": 179.7
+        },
+        {
+            "courses_avg": 90.28,
+            "sumAvg": 180.56
+        },
+        {
+            "courses_avg": 90.31,
+            "sumAvg": 180.62
+        },
+        {
+            "courses_avg": 90.32,
+            "sumAvg": 180.64
+        },
+        {
+            "courses_avg": 90.47,
+            "sumAvg": 180.94
+        },
+        {
+            "courses_avg": 90.59,
+            "sumAvg": 181.18
+        },
+        {
+            "courses_avg": 90.61,
+            "sumAvg": 181.22
+        },
+        {
+            "courses_avg": 90.66,
+            "sumAvg": 181.32
+        },
+        {
+            "courses_avg": 90.76,
+            "sumAvg": 181.52
+        },
+        {
+            "courses_avg": 91.11,
+            "sumAvg": 182.22
+        },
+        {
+            "courses_avg": 91.19,
+            "sumAvg": 182.38
+        },
+        {
+            "courses_avg": 91.28,
+            "sumAvg": 182.56
+        },
+        {
+            "courses_avg": 91.39,
+            "sumAvg": 182.78
+        },
+        {
+            "courses_avg": 91.52,
+            "sumAvg": 183.04
+        },
+        {
+            "courses_avg": 91.58,
+            "sumAvg": 183.16
+        },
+        {
+            "courses_avg": 91.62,
+            "sumAvg": 183.24
+        },
+        {
+            "courses_avg": 91.87,
+            "sumAvg": 183.74
+        },
+        {
+            "courses_avg": 92.04,
+            "sumAvg": 184.08
+        },
+        {
+            "courses_avg": 92.15,
+            "sumAvg": 184.3
+        },
+        {
+            "courses_avg": 92.18,
+            "sumAvg": 184.36
+        },
+        {
+            "courses_avg": 92.23,
+            "sumAvg": 184.46
+        },
+        {
+            "courses_avg": 92.26,
+            "sumAvg": 184.52
+        },
+        {
+            "courses_avg": 92.27,
+            "sumAvg": 184.54
+        },
+        {
+            "courses_avg": 92.42,
+            "sumAvg": 184.84
+        },
+        {
+            "courses_avg": 92.46,
+            "sumAvg": 184.92
+        },
+        {
+            "courses_avg": 92.49,
+            "sumAvg": 184.98
+        },
+        {
+            "courses_avg": 92.56,
+            "sumAvg": 185.12
+        },
+        {
+            "courses_avg": 92.66,
+            "sumAvg": 185.32
+        },
+        {
+            "courses_avg": 92.72,
+            "sumAvg": 185.44
+        },
+        {
+            "courses_avg": 92.82,
+            "sumAvg": 185.64
+        },
+        {
+            "courses_avg": 92.86,
+            "sumAvg": 185.72
+        },
+        {
+            "courses_avg": 92.95,
+            "sumAvg": 185.9
+        },
+        {
+            "courses_avg": 93.12,
+            "sumAvg": 186.24
+        },
+        {
+            "courses_avg": 93.14,
+            "sumAvg": 186.28
+        },
+        {
+            "courses_avg": 93.15,
+            "sumAvg": 186.3
+        },
+        {
+            "courses_avg": 93.27,
+            "sumAvg": 186.54
+        },
+        {
+            "courses_avg": 93.28,
+            "sumAvg": 186.56
+        },
+        {
+            "courses_avg": 93.36,
+            "sumAvg": 186.72
+        },
+        {
+            "courses_avg": 93.37,
+            "sumAvg": 186.74
+        },
+        {
+            "courses_avg": 93.38,
+            "sumAvg": 186.76
+        },
+        {
+            "courses_avg": 93.44,
+            "sumAvg": 186.88
+        },
+        {
+            "courses_avg": 93.52,
+            "sumAvg": 187.04
+        },
+        {
+            "courses_avg": 93.57,
+            "sumAvg": 187.14
+        },
+        {
+            "courses_avg": 93.59,
+            "sumAvg": 187.18
+        },
+        {
+            "courses_avg": 93.63,
+            "sumAvg": 187.26
+        },
+        {
+            "courses_avg": 93.69,
+            "sumAvg": 187.38
+        },
+        {
+            "courses_avg": 93.82,
+            "sumAvg": 187.64
+        },
+        {
+            "courses_avg": 93.87,
+            "sumAvg": 187.74
+        },
+        {
+            "courses_avg": 93.9,
+            "sumAvg": 187.8
+        },
+        {
+            "courses_avg": 94.07,
+            "sumAvg": 188.14
+        },
+        {
+            "courses_avg": 94.11,
+            "sumAvg": 188.22
+        },
+        {
+            "courses_avg": 94.18,
+            "sumAvg": 188.36
+        },
+        {
+            "courses_avg": 94.19,
+            "sumAvg": 188.38
+        },
+        {
+            "courses_avg": 94.21,
+            "sumAvg": 188.42
+        },
+        {
+            "courses_avg": 94.26,
+            "sumAvg": 188.52
+        },
+        {
+            "courses_avg": 94.32,
+            "sumAvg": 188.64
+        },
+        {
+            "courses_avg": 94.36,
+            "sumAvg": 188.72
+        },
+        {
+            "courses_avg": 94.58,
+            "sumAvg": 189.16
+        },
+        {
+            "courses_avg": 94.69,
+            "sumAvg": 189.38
+        },
+        {
+            "courses_avg": 94.71,
+            "sumAvg": 189.42
+        },
+        {
+            "courses_avg": 94.84,
+            "sumAvg": 189.68
+        },
+        {
+            "courses_avg": 94.87,
+            "sumAvg": 189.74
+        },
+        {
+            "courses_avg": 94.93,
+            "sumAvg": 189.86
+        },
+        {
+            "courses_avg": 94.94,
+            "sumAvg": 189.88
+        },
+        {
+            "courses_avg": 95.09,
+            "sumAvg": 190.18
+        },
+        {
+            "courses_avg": 95.1,
+            "sumAvg": 190.2
+        },
+        {
+            "courses_avg": 95.11,
+            "sumAvg": 190.22
+        },
+        {
+            "courses_avg": 95.16,
+            "sumAvg": 190.32
+        },
+        {
+            "courses_avg": 95.17,
+            "sumAvg": 190.34
+        },
+        {
+            "courses_avg": 95.19,
+            "sumAvg": 190.38
+        },
+        {
+            "courses_avg": 95.2,
+            "sumAvg": 190.4
+        },
+        {
+            "courses_avg": 95.22,
+            "sumAvg": 190.44
+        },
+        {
+            "courses_avg": 95.25,
+            "sumAvg": 190.5
+        },
+        {
+            "courses_avg": 95.26,
+            "sumAvg": 190.52
+        },
+        {
+            "courses_avg": 95.27,
+            "sumAvg": 190.54
+        },
+        {
+            "courses_avg": 95.32,
+            "sumAvg": 190.64
+        },
+        {
+            "courses_avg": 95.33,
+            "sumAvg": 190.66
+        },
+        {
+            "courses_avg": 95.37,
+            "sumAvg": 190.74
+        },
+        {
+            "courses_avg": 95.44,
+            "sumAvg": 190.88
+        },
+        {
+            "courses_avg": 95.5,
+            "sumAvg": 191
+        },
+        {
+            "courses_avg": 95.54,
+            "sumAvg": 191.08
+        },
+        {
+            "courses_avg": 95.56,
+            "sumAvg": 191.12
+        },
+        {
+            "courses_avg": 95.58,
+            "sumAvg": 191.16
+        },
+        {
+            "courses_avg": 95.7,
+            "sumAvg": 191.4
+        },
+        {
+            "courses_avg": 95.83,
+            "sumAvg": 191.66
+        },
+        {
+            "courses_avg": 95.86,
+            "sumAvg": 191.72
+        },
+        {
+            "courses_avg": 95.93,
+            "sumAvg": 191.86
+        },
+        {
+            "courses_avg": 95.96,
+            "sumAvg": 191.92
+        },
+        {
+            "courses_avg": 96.03,
+            "sumAvg": 192.06
+        },
+        {
+            "courses_avg": 96.06,
+            "sumAvg": 192.12
+        },
+        {
+            "courses_avg": 96.1,
+            "sumAvg": 192.2
+        },
+        {
+            "courses_avg": 96.15,
+            "sumAvg": 192.3
+        },
+        {
+            "courses_avg": 96.27,
+            "sumAvg": 192.54
+        },
+        {
+            "courses_avg": 96.36,
+            "sumAvg": 192.72
+        },
+        {
+            "courses_avg": 96.4,
+            "sumAvg": 192.8
+        },
+        {
+            "courses_avg": 96.44,
+            "sumAvg": 192.88
+        },
+        {
+            "courses_avg": 96.46,
+            "sumAvg": 192.92
+        },
+        {
+            "courses_avg": 96.64,
+            "sumAvg": 193.28
+        },
+        {
+            "courses_avg": 96.73,
+            "sumAvg": 193.46
+        },
+        {
+            "courses_avg": 96.8,
+            "sumAvg": 193.6
+        },
+        {
+            "courses_avg": 96.83,
+            "sumAvg": 193.66
+        },
+        {
+            "courses_avg": 96.94,
+            "sumAvg": 193.88
+        },
+        {
+            "courses_avg": 97.25,
+            "sumAvg": 194.5
+        },
+        {
+            "courses_avg": 97.29,
+            "sumAvg": 194.58
+        },
+        {
+            "courses_avg": 97.33,
+            "sumAvg": 194.66
+        },
+        {
+            "courses_avg": 97.41,
+            "sumAvg": 194.82
+        },
+        {
+            "courses_avg": 97.47,
+            "sumAvg": 194.94
+        },
+        {
+            "courses_avg": 97.48,
+            "sumAvg": 194.96
+        },
+        {
+            "courses_avg": 97.53,
+            "sumAvg": 195.06
+        },
+        {
+            "courses_avg": 98,
+            "sumAvg": 196
+        },
+        {
+            "courses_avg": 98.21,
+            "sumAvg": 196.42
+        },
+        {
+            "courses_avg": 98.45,
+            "sumAvg": 196.9
+        },
+        {
+            "courses_avg": 98.5,
+            "sumAvg": 197
+        },
+        {
+            "courses_avg": 98.71,
+            "sumAvg": 197.42
+        },
+        {
+            "courses_avg": 98.75,
+            "sumAvg": 197.5
+        },
+        {
+            "courses_avg": 98.76,
+            "sumAvg": 197.52
+        },
+        {
+            "courses_avg": 98.98,
+            "sumAvg": 197.96
+        },
+        {
+            "courses_avg": 99.78,
+            "sumAvg": 199.56
+        },
+        {
+            "courses_avg": 89.48,
+            "sumAvg": 268.44
+        },
+        {
+            "courses_avg": 89.59,
+            "sumAvg": 268.77
+        },
+        {
+            "courses_avg": 89.87,
+            "sumAvg": 269.61
+        },
+        {
+            "courses_avg": 90.02,
+            "sumAvg": 270.06
+        },
+        {
+            "courses_avg": 90.12,
+            "sumAvg": 270.36
+        },
+        {
+            "courses_avg": 90.37,
+            "sumAvg": 271.11
+        },
+        {
+            "courses_avg": 90.79,
+            "sumAvg": 272.37
+        },
+        {
+            "courses_avg": 90.84,
+            "sumAvg": 272.52
+        },
+        {
+            "courses_avg": 90.87,
+            "sumAvg": 272.61
+        },
+        {
+            "courses_avg": 90.91,
+            "sumAvg": 272.73
+        },
+        {
+            "courses_avg": 90.97,
+            "sumAvg": 272.91
+        },
+        {
+            "courses_avg": 90.99,
+            "sumAvg": 272.97
+        },
+        {
+            "courses_avg": 91.15,
+            "sumAvg": 273.45
+        },
+        {
+            "courses_avg": 91.35,
+            "sumAvg": 274.05
+        },
+        {
+            "courses_avg": 91.61,
+            "sumAvg": 274.83
+        },
+        {
+            "courses_avg": 91.85,
+            "sumAvg": 275.55
+        },
+        {
+            "courses_avg": 91.95,
+            "sumAvg": 275.85
+        },
+        {
+            "courses_avg": 92.09,
+            "sumAvg": 276.27
+        },
+        {
+            "courses_avg": 92.28,
+            "sumAvg": 276.84
+        },
+        {
+            "courses_avg": 92.41,
+            "sumAvg": 277.23
+        },
+        {
+            "courses_avg": 92.57,
+            "sumAvg": 277.71
+        },
+        {
+            "courses_avg": 92.61,
+            "sumAvg": 277.83
+        },
+        {
+            "courses_avg": 92.74,
+            "sumAvg": 278.22
+        },
+        {
+            "courses_avg": 92.76,
+            "sumAvg": 278.28
+        },
+        {
+            "courses_avg": 92.89,
+            "sumAvg": 278.67
+        },
+        {
+            "courses_avg": 92.91,
+            "sumAvg": 278.73
+        },
+        {
+            "courses_avg": 93.04,
+            "sumAvg": 279.12
+        },
+        {
+            "courses_avg": 93.06,
+            "sumAvg": 279.18
+        },
+        {
+            "courses_avg": 93.09,
+            "sumAvg": 279.27
+        },
+        {
+            "courses_avg": 93.3,
+            "sumAvg": 279.9
+        },
+        {
+            "courses_avg": 93.31,
+            "sumAvg": 279.93
+        },
+        {
+            "courses_avg": 93.35,
+            "sumAvg": 280.05
+        },
+        {
+            "courses_avg": 93.41,
+            "sumAvg": 280.23
+        },
+        {
+            "courses_avg": 93.42,
+            "sumAvg": 280.26
+        },
+        {
+            "courses_avg": 93.55,
+            "sumAvg": 280.65
+        },
+        {
+            "courses_avg": 93.7,
+            "sumAvg": 281.1
+        },
+        {
+            "courses_avg": 93.79,
+            "sumAvg": 281.37
+        },
+        {
+            "courses_avg": 93.85,
+            "sumAvg": 281.55
+        },
+        {
+            "courses_avg": 93.88,
+            "sumAvg": 281.64
+        },
+        {
+            "courses_avg": 93.95,
+            "sumAvg": 281.85
+        },
+        {
+            "courses_avg": 94.05,
+            "sumAvg": 282.15
+        },
+        {
+            "courses_avg": 94.06,
+            "sumAvg": 282.18
+        },
+        {
+            "courses_avg": 94.12,
+            "sumAvg": 282.36
+        },
+        {
+            "courses_avg": 94.13,
+            "sumAvg": 282.39
+        },
+        {
+            "courses_avg": 94.24,
+            "sumAvg": 282.72
+        },
+        {
+            "courses_avg": 94.42,
+            "sumAvg": 283.26
+        },
+        {
+            "courses_avg": 94.92,
+            "sumAvg": 284.76
+        },
+        {
+            "courses_avg": 95.47,
+            "sumAvg": 286.41
+        },
+        {
+            "courses_avg": 96.21,
+            "sumAvg": 288.63
+        },
+        {
+            "courses_avg": 97,
+            "sumAvg": 291
+        },
+        {
+            "courses_avg": 89.24,
+            "sumAvg": 356.96
+        },
+        {
+            "courses_avg": 89.52,
+            "sumAvg": 358.08
+        },
+        {
+            "courses_avg": 89.91,
+            "sumAvg": 359.64
+        },
+        {
+            "courses_avg": 89.97,
+            "sumAvg": 359.88
+        },
+        {
+            "courses_avg": 90.3,
+            "sumAvg": 361.2
+        },
+        {
+            "courses_avg": 90.48,
+            "sumAvg": 361.92
+        },
+        {
+            "courses_avg": 90.81,
+            "sumAvg": 363.24
+        },
+        {
+            "courses_avg": 91.16,
+            "sumAvg": 364.64
+        },
+        {
+            "courses_avg": 91.18,
+            "sumAvg": 364.72
+        },
+        {
+            "courses_avg": 91.23,
+            "sumAvg": 364.92
+        },
+        {
+            "courses_avg": 91.24,
+            "sumAvg": 364.96
+        },
+        {
+            "courses_avg": 91.37,
+            "sumAvg": 365.48
+        },
+        {
+            "courses_avg": 91.42,
+            "sumAvg": 365.68
+        },
+        {
+            "courses_avg": 91.46,
+            "sumAvg": 365.84
+        },
+        {
+            "courses_avg": 91.53,
+            "sumAvg": 366.12
+        },
+        {
+            "courses_avg": 91.55,
+            "sumAvg": 366.2
+        },
+        {
+            "courses_avg": 91.64,
+            "sumAvg": 366.56
+        },
+        {
+            "courses_avg": 91.65,
+            "sumAvg": 366.6
+        },
+        {
+            "courses_avg": 91.68,
+            "sumAvg": 366.72
+        },
+        {
+            "courses_avg": 91.71,
+            "sumAvg": 366.84
+        },
+        {
+            "courses_avg": 91.77,
+            "sumAvg": 367.08
+        },
+        {
+            "courses_avg": 91.9,
+            "sumAvg": 367.6
+        },
+        {
+            "courses_avg": 91.94,
+            "sumAvg": 367.76
+        },
+        {
+            "courses_avg": 92.05,
+            "sumAvg": 368.2
+        },
+        {
+            "courses_avg": 92.07,
+            "sumAvg": 368.28
+        },
+        {
+            "courses_avg": 92.19,
+            "sumAvg": 368.76
+        },
+        {
+            "courses_avg": 92.47,
+            "sumAvg": 369.88
+        },
+        {
+            "courses_avg": 92.59,
+            "sumAvg": 370.36
+        },
+        {
+            "courses_avg": 92.62,
+            "sumAvg": 370.48
+        },
+        {
+            "courses_avg": 92.64,
+            "sumAvg": 370.56
+        },
+        {
+            "courses_avg": 92.69,
+            "sumAvg": 370.76
+        },
+        {
+            "courses_avg": 92.73,
+            "sumAvg": 370.92
+        },
+        {
+            "courses_avg": 92.78,
+            "sumAvg": 371.12
+        },
+        {
+            "courses_avg": 93.05,
+            "sumAvg": 372.2
+        },
+        {
+            "courses_avg": 93.22,
+            "sumAvg": 372.88
+        },
+        {
+            "courses_avg": 93.54,
+            "sumAvg": 374.16
+        },
+        {
+            "courses_avg": 93.71,
+            "sumAvg": 374.84
+        },
+        {
+            "courses_avg": 93.72,
+            "sumAvg": 374.88
+        },
+        {
+            "courses_avg": 93.73,
+            "sumAvg": 374.92
+        },
+        {
+            "courses_avg": 93.81,
+            "sumAvg": 375.24
+        },
+        {
+            "courses_avg": 93.86,
+            "sumAvg": 375.44
+        },
+        {
+            "courses_avg": 93.89,
+            "sumAvg": 375.56
+        },
+        {
+            "courses_avg": 93.94,
+            "sumAvg": 375.76
+        },
+        {
+            "courses_avg": 94.14,
+            "sumAvg": 376.56
+        },
+        {
+            "courses_avg": 94.15,
+            "sumAvg": 376.6
+        },
+        {
+            "courses_avg": 94.23,
+            "sumAvg": 376.92
+        },
+        {
+            "courses_avg": 94.27,
+            "sumAvg": 377.08
+        },
+        {
+            "courses_avg": 94.4,
+            "sumAvg": 377.6
+        },
+        {
+            "courses_avg": 94.47,
+            "sumAvg": 377.88
+        },
+        {
+            "courses_avg": 94.91,
+            "sumAvg": 379.64
+        },
+        {
+            "courses_avg": 95.15,
+            "sumAvg": 380.6
+        },
+        {
+            "courses_avg": 95.29,
+            "sumAvg": 381.16
+        },
+        {
+            "courses_avg": 95.31,
+            "sumAvg": 381.24
+        },
+        {
+            "courses_avg": 95.75,
+            "sumAvg": 383
+        },
+        {
+            "courses_avg": 95.78,
+            "sumAvg": 383.12
+        },
+        {
+            "courses_avg": 96.25,
+            "sumAvg": 385
+        },
+        {
+            "courses_avg": 96.33,
+            "sumAvg": 385.32
+        },
+        {
+            "courses_avg": 96.47,
+            "sumAvg": 385.88
+        },
+        {
+            "courses_avg": 96.5,
+            "sumAvg": 386
+        },
+        {
+            "courses_avg": 96.9,
+            "sumAvg": 387.6
+        },
+        {
+            "courses_avg": 97.09,
+            "sumAvg": 388.36
+        },
+        {
+            "courses_avg": 98.58,
+            "sumAvg": 394.32
+        },
+        {
+            "courses_avg": 89.09,
+            "sumAvg": 445.45
+        },
+        {
+            "courses_avg": 89.12,
+            "sumAvg": 445.6
+        },
+        {
+            "courses_avg": 89.28,
+            "sumAvg": 446.4
+        },
+        {
+            "courses_avg": 89.32,
+            "sumAvg": 446.6
+        },
+        {
+            "courses_avg": 89.41,
+            "sumAvg": 447.05
+        },
+        {
+            "courses_avg": 89.58,
+            "sumAvg": 447.9
+        },
+        {
+            "courses_avg": 89.65,
+            "sumAvg": 448.25
+        },
+        {
+            "courses_avg": 89.76,
+            "sumAvg": 448.8
+        },
+        {
+            "courses_avg": 89.79,
+            "sumAvg": 448.95
+        },
+        {
+            "courses_avg": 89.81,
+            "sumAvg": 449.05
+        },
+        {
+            "courses_avg": 90.03,
+            "sumAvg": 450.15
+        },
+        {
+            "courses_avg": 90.09,
+            "sumAvg": 450.45
+        },
+        {
+            "courses_avg": 90.23,
+            "sumAvg": 451.15
+        },
+        {
+            "courses_avg": 91.06,
+            "sumAvg": 455.3
+        },
+        {
+            "courses_avg": 91.26,
+            "sumAvg": 456.3
+        },
+        {
+            "courses_avg": 91.3,
+            "sumAvg": 456.5
+        },
+        {
+            "courses_avg": 91.31,
+            "sumAvg": 456.55
+        },
+        {
+            "courses_avg": 91.43,
+            "sumAvg": 457.15
+        },
+        {
+            "courses_avg": 91.44,
+            "sumAvg": 457.2
+        },
+        {
+            "courses_avg": 91.72,
+            "sumAvg": 458.6
+        },
+        {
+            "courses_avg": 91.74,
+            "sumAvg": 458.7
+        },
+        {
+            "courses_avg": 91.84,
+            "sumAvg": 459.2
+        },
+        {
+            "courses_avg": 91.91,
+            "sumAvg": 459.55
+        },
+        {
+            "courses_avg": 91.93,
+            "sumAvg": 459.65
+        },
+        {
+            "courses_avg": 92.13,
+            "sumAvg": 460.65
+        },
+        {
+            "courses_avg": 92.39,
+            "sumAvg": 461.95
+        },
+        {
+            "courses_avg": 93.23,
+            "sumAvg": 466.15
+        },
+        {
+            "courses_avg": 93.29,
+            "sumAvg": 466.45
+        },
+        {
+            "courses_avg": 93.45,
+            "sumAvg": 467.25
+        },
+        {
+            "courses_avg": 93.64,
+            "sumAvg": 468.2
+        },
+        {
+            "courses_avg": 93.91,
+            "sumAvg": 469.55
+        },
+        {
+            "courses_avg": 94.86,
+            "sumAvg": 474.3
+        },
+        {
+            "courses_avg": 94.88,
+            "sumAvg": 474.4
+        },
+        {
+            "courses_avg": 95.13,
+            "sumAvg": 475.65
+        },
+        {
+            "courses_avg": 95.36,
+            "sumAvg": 476.8
+        },
+        {
+            "courses_avg": 95.43,
+            "sumAvg": 477.15
+        },
+        {
+            "courses_avg": 95.67,
+            "sumAvg": 478.35
+        },
+        {
+            "courses_avg": 89.39,
+            "sumAvg": 536.34
+        },
+        {
+            "courses_avg": 89.42,
+            "sumAvg": 536.52
+        },
+        {
+            "courses_avg": 89.73,
+            "sumAvg": 538.38
+        },
+        {
+            "courses_avg": 89.96,
+            "sumAvg": 539.76
+        },
+        {
+            "courses_avg": 90.05,
+            "sumAvg": 540.3
+        },
+        {
+            "courses_avg": 90.18,
+            "sumAvg": 541.08
+        },
+        {
+            "courses_avg": 90.24,
+            "sumAvg": 541.44
+        },
+        {
+            "courses_avg": 90.26,
+            "sumAvg": 541.56
+        },
+        {
+            "courses_avg": 90.41,
+            "sumAvg": 542.46
+        },
+        {
+            "courses_avg": 90.52,
+            "sumAvg": 543.12
+        },
+        {
+            "courses_avg": 90.54,
+            "sumAvg": 543.24
+        },
+        {
+            "courses_avg": 90.65,
+            "sumAvg": 543.9
+        },
+        {
+            "courses_avg": 90.69,
+            "sumAvg": 544.14
+        },
+        {
+            "courses_avg": 90.74,
+            "sumAvg": 544.44
+        },
+        {
+            "courses_avg": 90.77,
+            "sumAvg": 544.62
+        },
+        {
+            "courses_avg": 90.82,
+            "sumAvg": 544.92
+        },
+        {
+            "courses_avg": 91.08,
+            "sumAvg": 546.48
+        },
+        {
+            "courses_avg": 91.13,
+            "sumAvg": 546.78
+        },
+        {
+            "courses_avg": 91.14,
+            "sumAvg": 546.84
+        },
+        {
+            "courses_avg": 91.21,
+            "sumAvg": 547.26
+        },
+        {
+            "courses_avg": 91.48,
+            "sumAvg": 548.88
+        },
+        {
+            "courses_avg": 91.81,
+            "sumAvg": 550.86
+        },
+        {
+            "courses_avg": 91.92,
+            "sumAvg": 551.52
+        },
+        {
+            "courses_avg": 92.12,
+            "sumAvg": 552.72
+        },
+        {
+            "courses_avg": 92.32,
+            "sumAvg": 553.92
+        },
+        {
+            "courses_avg": 92.35,
+            "sumAvg": 554.1
+        },
+        {
+            "courses_avg": 92.58,
+            "sumAvg": 555.48
+        },
+        {
+            "courses_avg": 92.9,
+            "sumAvg": 557.4
+        },
+        {
+            "courses_avg": 93.07,
+            "sumAvg": 558.42
+        },
+        {
+            "courses_avg": 93.11,
+            "sumAvg": 558.66
+        },
+        {
+            "courses_avg": 93.58,
+            "sumAvg": 561.48
+        },
+        {
+            "courses_avg": 94.1,
+            "sumAvg": 564.6
+        },
+        {
+            "courses_avg": 94.29,
+            "sumAvg": 565.74
+        },
+        {
+            "courses_avg": 94.7,
+            "sumAvg": 568.2
+        },
+        {
+            "courses_avg": 89.18,
+            "sumAvg": 624.26
+        },
+        {
+            "courses_avg": 89.35,
+            "sumAvg": 625.45
+        },
+        {
+            "courses_avg": 89.55,
+            "sumAvg": 626.85
+        },
+        {
+            "courses_avg": 89.69,
+            "sumAvg": 627.83
+        },
+        {
+            "courses_avg": 89.7,
+            "sumAvg": 627.9
+        },
+        {
+            "courses_avg": 89.78,
+            "sumAvg": 628.46
+        },
+        {
+            "courses_avg": 89.9,
+            "sumAvg": 629.3
+        },
+        {
+            "courses_avg": 90.36,
+            "sumAvg": 632.52
+        },
+        {
+            "courses_avg": 90.73,
+            "sumAvg": 635.11
+        },
+        {
+            "courses_avg": 90.85,
+            "sumAvg": 635.95
+        },
+        {
+            "courses_avg": 90.95,
+            "sumAvg": 636.65
+        },
+        {
+            "courses_avg": 91.07,
+            "sumAvg": 637.49
+        },
+        {
+            "courses_avg": 91.09,
+            "sumAvg": 637.63
+        },
+        {
+            "courses_avg": 91.32,
+            "sumAvg": 639.24
+        },
+        {
+            "courses_avg": 91.45,
+            "sumAvg": 640.15
+        },
+        {
+            "courses_avg": 91.78,
+            "sumAvg": 642.46
+        },
+        {
+            "courses_avg": 92.06,
+            "sumAvg": 644.42
+        },
+        {
+            "courses_avg": 92.08,
+            "sumAvg": 644.56
+        },
+        {
+            "courses_avg": 92.14,
+            "sumAvg": 644.98
+        },
+        {
+            "courses_avg": 92.29,
+            "sumAvg": 646.03
+        },
+        {
+            "courses_avg": 92.43,
+            "sumAvg": 647.01
+        },
+        {
+            "courses_avg": 92.44,
+            "sumAvg": 647.08
+        },
+        {
+            "courses_avg": 92.45,
+            "sumAvg": 647.15
+        },
+        {
+            "courses_avg": 92.6,
+            "sumAvg": 648.2
+        },
+        {
+            "courses_avg": 92.7,
+            "sumAvg": 648.9
+        },
+        {
+            "courses_avg": 92.92,
+            "sumAvg": 650.44
+        },
+        {
+            "courses_avg": 93.08,
+            "sumAvg": 651.56
+        },
+        {
+            "courses_avg": 93.56,
+            "sumAvg": 654.92
+        },
+        {
+            "courses_avg": 93.6,
+            "sumAvg": 655.2
+        },
+        {
+            "courses_avg": 93.67,
+            "sumAvg": 655.69
+        },
+        {
+            "courses_avg": 93.78,
+            "sumAvg": 656.46
+        },
+        {
+            "courses_avg": 94.17,
+            "sumAvg": 659.19
+        },
+        {
+            "courses_avg": 94.2,
+            "sumAvg": 659.4
+        },
+        {
+            "courses_avg": 94.44,
+            "sumAvg": 661.08
+        },
+        {
+            "courses_avg": 94.67,
+            "sumAvg": 662.69
+        },
+        {
+            "courses_avg": 89.1,
+            "sumAvg": 712.8
+        },
+        {
+            "courses_avg": 89.16,
+            "sumAvg": 713.28
+        },
+        {
+            "courses_avg": 89.53,
+            "sumAvg": 716.24
+        },
+        {
+            "courses_avg": 90.15,
+            "sumAvg": 721.2
+        },
+        {
+            "courses_avg": 90.21,
+            "sumAvg": 721.68
+        },
+        {
+            "courses_avg": 90.35,
+            "sumAvg": 722.8
+        },
+        {
+            "courses_avg": 90.53,
+            "sumAvg": 724.24
+        },
+        {
+            "courses_avg": 90.64,
+            "sumAvg": 725.12
+        },
+        {
+            "courses_avg": 90.68,
+            "sumAvg": 725.44
+        },
+        {
+            "courses_avg": 90.94,
+            "sumAvg": 727.52
+        },
+        {
+            "courses_avg": 91.7,
+            "sumAvg": 733.6
+        },
+        {
+            "courses_avg": 91.73,
+            "sumAvg": 733.84
+        },
+        {
+            "courses_avg": 92.11,
+            "sumAvg": 736.88
+        },
+        {
+            "courses_avg": 92.36,
+            "sumAvg": 738.88
+        },
+        {
+            "courses_avg": 92.85,
+            "sumAvg": 742.8
+        },
+        {
+            "courses_avg": 92.87,
+            "sumAvg": 742.96
+        },
+        {
+            "courses_avg": 93.8,
+            "sumAvg": 750.4
+        },
+        {
+            "courses_avg": 94.25,
+            "sumAvg": 754
+        },
+        {
+            "courses_avg": 89.11,
+            "sumAvg": 801.99
+        },
+        {
+            "courses_avg": 89.21,
+            "sumAvg": 802.89
+        },
+        {
+            "courses_avg": 89.22,
+            "sumAvg": 802.98
+        },
+        {
+            "courses_avg": 89.44,
+            "sumAvg": 804.96
+        },
+        {
+            "courses_avg": 89.46,
+            "sumAvg": 805.14
+        },
+        {
+            "courses_avg": 89.47,
+            "sumAvg": 805.23
+        },
+        {
+            "courses_avg": 89.72,
+            "sumAvg": 807.48
+        },
+        {
+            "courses_avg": 90.08,
+            "sumAvg": 810.72
+        },
+        {
+            "courses_avg": 90.19,
+            "sumAvg": 811.71
+        },
+        {
+            "courses_avg": 90.22,
+            "sumAvg": 811.98
+        },
+        {
+            "courses_avg": 90.56,
+            "sumAvg": 815.04
+        },
+        {
+            "courses_avg": 90.62,
+            "sumAvg": 815.58
+        },
+        {
+            "courses_avg": 90.63,
+            "sumAvg": 815.67
+        },
+        {
+            "courses_avg": 90.92,
+            "sumAvg": 818.28
+        },
+        {
+            "courses_avg": 91.27,
+            "sumAvg": 821.43
+        },
+        {
+            "courses_avg": 91.82,
+            "sumAvg": 826.38
+        },
+        {
+            "courses_avg": 91.86,
+            "sumAvg": 826.74
+        },
+        {
+            "courses_avg": 92.1,
+            "sumAvg": 828.9
+        },
+        {
+            "courses_avg": 92.3,
+            "sumAvg": 830.7
+        },
+        {
+            "courses_avg": 92.83,
+            "sumAvg": 835.47
+        },
+        {
+            "courses_avg": 92.88,
+            "sumAvg": 835.92
+        },
+        {
+            "courses_avg": 93.47,
+            "sumAvg": 841.23
+        },
+        {
+            "courses_avg": 94.08,
+            "sumAvg": 846.72
+        },
+        {
+            "courses_avg": 89.06,
+            "sumAvg": 890.6
+        },
+        {
+            "courses_avg": 89.07,
+            "sumAvg": 890.7
+        },
+        {
+            "courses_avg": 89.26,
+            "sumAvg": 892.6
+        },
+        {
+            "courses_avg": 89.54,
+            "sumAvg": 895.4
+        },
+        {
+            "courses_avg": 89.74,
+            "sumAvg": 897.4
+        },
+        {
+            "courses_avg": 89.82,
+            "sumAvg": 898.2
+        },
+        {
+            "courses_avg": 89.94,
+            "sumAvg": 899.4
+        },
+        {
+            "courses_avg": 89.95,
+            "sumAvg": 899.5
+        },
+        {
+            "courses_avg": 90.14,
+            "sumAvg": 901.4
+        },
+        {
+            "courses_avg": 90.17,
+            "sumAvg": 901.7
+        },
+        {
+            "courses_avg": 90.38,
+            "sumAvg": 903.8
+        },
+        {
+            "courses_avg": 90.58,
+            "sumAvg": 905.8
+        },
+        {
+            "courses_avg": 90.8,
+            "sumAvg": 908
+        },
+        {
+            "courses_avg": 90.93,
+            "sumAvg": 909.3
+        },
+        {
+            "courses_avg": 91.1,
+            "sumAvg": 911
+        },
+        {
+            "courses_avg": 91.47,
+            "sumAvg": 914.7
+        },
+        {
+            "courses_avg": 91.88,
+            "sumAvg": 918.8
+        },
+        {
+            "courses_avg": 92.17,
+            "sumAvg": 921.7
+        },
+        {
+            "courses_avg": 92.8,
+            "sumAvg": 928
+        },
+        {
+            "courses_avg": 93.4,
+            "sumAvg": 934
+        },
+        {
+            "courses_avg": 94.56,
+            "sumAvg": 945.6
+        },
+        {
+            "courses_avg": 94.75,
+            "sumAvg": 947.5
+        },
+        {
+            "courses_avg": 89.15,
+            "sumAvg": 980.65
+        },
+        {
+            "courses_avg": 89.77,
+            "sumAvg": 987.47
+        },
+        {
+            "courses_avg": 89.93,
+            "sumAvg": 989.23
+        },
+        {
+            "courses_avg": 90.13,
+            "sumAvg": 991.43
+        },
+        {
+            "courses_avg": 90.78,
+            "sumAvg": 998.58
+        },
+        {
+            "courses_avg": 91.36,
+            "sumAvg": 1004.96
+        },
+        {
+            "courses_avg": 91.57,
+            "sumAvg": 1007.27
+        },
+        {
+            "courses_avg": 92.2,
+            "sumAvg": 1014.2
+        },
+        {
+            "courses_avg": 92.63,
+            "sumAvg": 1018.93
+        },
+        {
+            "courses_avg": 92.71,
+            "sumAvg": 1019.81
+        },
+        {
+            "courses_avg": 93.25,
+            "sumAvg": 1025.75
+        },
+        {
+            "courses_avg": 94.33,
+            "sumAvg": 1037.63
+        },
+        {
+            "courses_avg": 89.05,
+            "sumAvg": 1068.6
+        },
+        {
+            "courses_avg": 89.08,
+            "sumAvg": 1068.96
+        },
+        {
+            "courses_avg": 89.19,
+            "sumAvg": 1070.28
+        },
+        {
+            "courses_avg": 89.36,
+            "sumAvg": 1072.32
+        },
+        {
+            "courses_avg": 89.43,
+            "sumAvg": 1073.16
+        },
+        {
+            "courses_avg": 89.62,
+            "sumAvg": 1075.44
+        },
+        {
+            "courses_avg": 89.64,
+            "sumAvg": 1075.68
+        },
+        {
+            "courses_avg": 89.68,
+            "sumAvg": 1076.16
+        },
+        {
+            "courses_avg": 89.71,
+            "sumAvg": 1076.52
+        },
+        {
+            "courses_avg": 90.1,
+            "sumAvg": 1081.2
+        },
+        {
+            "courses_avg": 90.11,
+            "sumAvg": 1081.32
+        },
+        {
+            "courses_avg": 90.46,
+            "sumAvg": 1085.52
+        },
+        {
+            "courses_avg": 90.55,
+            "sumAvg": 1086.6
+        },
+        {
+            "courses_avg": 90.86,
+            "sumAvg": 1090.32
+        },
+        {
+            "courses_avg": 91.63,
+            "sumAvg": 1099.56
+        },
+        {
+            "courses_avg": 91.89,
+            "sumAvg": 1102.68
+        },
+        {
+            "courses_avg": 89.23,
+            "sumAvg": 1159.99
+        },
+        {
+            "courses_avg": 90.42,
+            "sumAvg": 1175.46
+        },
+        {
+            "courses_avg": 90.45,
+            "sumAvg": 1175.85
+        },
+        {
+            "courses_avg": 90.7,
+            "sumAvg": 1179.1
+        },
+        {
+            "courses_avg": 91.67,
+            "sumAvg": 1191.71
+        },
+        {
+            "courses_avg": 91.75,
+            "sumAvg": 1192.75
+        },
+        {
+            "courses_avg": 91.83,
+            "sumAvg": 1193.79
+        },
+        {
+            "courses_avg": 92.25,
+            "sumAvg": 1199.25
+        },
+        {
+            "courses_avg": 92.38,
+            "sumAvg": 1200.94
+        },
+        {
+            "courses_avg": 93.33,
+            "sumAvg": 1213.29
+        },
+        {
+            "courses_avg": 89.88,
+            "sumAvg": 1258.32
+        },
+        {
+            "courses_avg": 89.92,
+            "sumAvg": 1258.88
+        },
+        {
+            "courses_avg": 90.39,
+            "sumAvg": 1265.46
+        },
+        {
+            "courses_avg": 90.4,
+            "sumAvg": 1265.6
+        },
+        {
+            "courses_avg": 90.44,
+            "sumAvg": 1266.16
+        },
+        {
+            "courses_avg": 90.71,
+            "sumAvg": 1269.94
+        },
+        {
+            "courses_avg": 90.89,
+            "sumAvg": 1272.46
+        },
+        {
+            "courses_avg": 90.9,
+            "sumAvg": 1272.6
+        },
+        {
+            "courses_avg": 91.22,
+            "sumAvg": 1277.08
+        },
+        {
+            "courses_avg": 92.22,
+            "sumAvg": 1291.08
+        },
+        {
+            "courses_avg": 92.33,
+            "sumAvg": 1292.62
+        },
+        {
+            "courses_avg": 93.75,
+            "sumAvg": 1312.5
+        },
+        {
+            "courses_avg": 89.8,
+            "sumAvg": 1347
+        },
+        {
+            "courses_avg": 89.89,
+            "sumAvg": 1348.35
+        },
+        {
+            "courses_avg": 91.17,
+            "sumAvg": 1367.55
+        },
+        {
+            "courses_avg": 91.2,
+            "sumAvg": 1368
+        },
+        {
+            "courses_avg": 91.38,
+            "sumAvg": 1370.7
+        },
+        {
+            "courses_avg": 91.56,
+            "sumAvg": 1373.4
+        },
+        {
+            "courses_avg": 89.3,
+            "sumAvg": 1428.8
+        },
+        {
+            "courses_avg": 89.45,
+            "sumAvg": 1431.2
+        },
+        {
+            "courses_avg": 90.06,
+            "sumAvg": 1440.96
+        },
+        {
+            "courses_avg": 90.07,
+            "sumAvg": 1441.12
+        },
+        {
+            "courses_avg": 90.27,
+            "sumAvg": 1444.32
+        },
+        {
+            "courses_avg": 90.57,
+            "sumAvg": 1449.12
+        },
+        {
+            "courses_avg": 91.29,
+            "sumAvg": 1460.64
+        },
+        {
+            "courses_avg": 93.2,
+            "sumAvg": 1491.2
+        },
+        {
+            "courses_avg": 96,
+            "sumAvg": 1536
+        },
+        {
+            "courses_avg": 90.43,
+            "sumAvg": 1537.31
+        },
+        {
+            "courses_avg": 90.83,
+            "sumAvg": 1544.11
+        },
+        {
+            "courses_avg": 91.79,
+            "sumAvg": 1560.43
+        },
+        {
+            "courses_avg": 92.75,
+            "sumAvg": 1576.75
+        },
+        {
+            "courses_avg": 90.88,
+            "sumAvg": 1635.84
+        },
+        {
+            "courses_avg": 91.8,
+            "sumAvg": 1652.4
+        },
+        {
+            "courses_avg": 90.6,
+            "sumAvg": 1721.4
+        },
+        {
+            "courses_avg": 92.4,
+            "sumAvg": 1755.6
+        },
+        {
+            "courses_avg": 89.31,
+            "sumAvg": 1786.2
+        },
+        {
+            "courses_avg": 94.5,
+            "sumAvg": 1795.5
+        },
+        {
+            "courses_avg": 89.83,
+            "sumAvg": 1796.6
+        },
+        {
+            "courses_avg": 89.86,
+            "sumAvg": 1797.2
+        },
+        {
+            "courses_avg": 89.57,
+            "sumAvg": 1880.97
+        },
+        {
+            "courses_avg": 89.63,
+            "sumAvg": 1882.23
+        },
+        {
+            "courses_avg": 89.14,
+            "sumAvg": 1961.08
+        },
+        {
+            "courses_avg": 91.4,
+            "sumAvg": 2010.8
+        },
+        {
+            "courses_avg": 91.6,
+            "sumAvg": 2015.2
+        },
+        {
+            "courses_avg": 90.67,
+            "sumAvg": 2085.41
+        },
+        {
+            "courses_avg": 93.5,
+            "sumAvg": 2150.5
+        },
+        {
+            "courses_avg": 92.67,
+            "sumAvg": 2224.08
+        },
+        {
+            "courses_avg": 89.38,
+            "sumAvg": 2234.5
+        },
+        {
+            "courses_avg": 89.56,
+            "sumAvg": 2239
+        },
+        {
+            "courses_avg": 90.2,
+            "sumAvg": 2255
+        },
+        {
+            "courses_avg": 89.27,
+            "sumAvg": 2321.02
+        },
+        {
+            "courses_avg": 89.67,
+            "sumAvg": 2331.42
+        },
+        {
+            "courses_avg": 90.29,
+            "sumAvg": 2347.54
+        },
+        {
+            "courses_avg": 91.25,
+            "sumAvg": 2463.75
+        },
+        {
+            "courses_avg": 89.13,
+            "sumAvg": 2495.64
+        },
+        {
+            "courses_avg": 91.33,
+            "sumAvg": 2557.24
+        },
+        {
+            "courses_avg": 89.2,
+            "sumAvg": 2676
+        },
+        {
+            "courses_avg": 89.4,
+            "sumAvg": 2682
+        },
+        {
+            "courses_avg": 90.25,
+            "sumAvg": 2707.5
+        },
+        {
+            "courses_avg": 94,
+            "sumAvg": 2820
+        },
+        {
+            "courses_avg": 89.6,
+            "sumAvg": 3046.4
+        },
+        {
+            "courses_avg": 90.75,
+            "sumAvg": 3085.5
+        },
+        {
+            "courses_avg": 89.17,
+            "sumAvg": 3210.12
+        },
+        {
+            "courses_avg": 89.29,
+            "sumAvg": 3214.44
+        },
+        {
+            "courses_avg": 92.5,
+            "sumAvg": 3330
+        },
+        {
+            "courses_avg": 90.33,
+            "sumAvg": 3522.87
+        },
+        {
+            "courses_avg": 95,
+            "sumAvg": 3895
+        },
+        {
+            "courses_avg": 89.75,
+            "sumAvg": 4038.75
+        },
+        {
+            "courses_avg": 89.33,
+            "sumAvg": 4198.51
+        },
+        {
+            "courses_avg": 89.25,
+            "sumAvg": 4641
+        },
+        {
+            "courses_avg": 93,
+            "sumAvg": 4836
+        },
+        {
+            "courses_avg": 91.5,
+            "sumAvg": 5215.5
+        },
+        {
+            "courses_avg": 90.5,
+            "sumAvg": 5430
+        },
+        {
+            "courses_avg": 92,
+            "sumAvg": 6808
+        },
+        {
+            "courses_avg": 91,
+            "sumAvg": 6916
+        },
+        {
+            "courses_avg": 89.5,
+            "sumAvg": 7160
+        },
+        {
+            "courses_avg": 90,
+            "sumAvg": 15480
+        }
+    ]
+}

@@ -1,0 +1,4877 @@
+{
+    "title": "results too large two",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_pass": 300
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_uuid",
+                "overallAvg"
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "courses_uuid"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_uuid"
+            ],
+            "APPLY": [
+                {
+                    "overallAvg": {
+                        "AVG": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_uuid": "9980",
+            "overallAvg": 70.08
+        },
+        {
+            "courses_uuid": "9972",
+            "overallAvg": 69.99
+        },
+        {
+            "courses_uuid": "9929",
+            "overallAvg": 72.45
+        },
+        {
+            "courses_uuid": "98863",
+            "overallAvg": 71.06
+        },
+        {
+            "courses_uuid": "98855",
+            "overallAvg": 74.39
+        },
+        {
+            "courses_uuid": "98854",
+            "overallAvg": 71.9
+        },
+        {
+            "courses_uuid": "98853",
+            "overallAvg": 75.93
+        },
+        {
+            "courses_uuid": "98717",
+            "overallAvg": 74.44
+        },
+        {
+            "courses_uuid": "98712",
+            "overallAvg": 80.43
+        },
+        {
+            "courses_uuid": "98696",
+            "overallAvg": 65.87
+        },
+        {
+            "courses_uuid": "98692",
+            "overallAvg": 67.27
+        },
+        {
+            "courses_uuid": "98672",
+            "overallAvg": 77.09
+        },
+        {
+            "courses_uuid": "98668",
+            "overallAvg": 74.98
+        },
+        {
+            "courses_uuid": "98660",
+            "overallAvg": 69.89
+        },
+        {
+            "courses_uuid": "98574",
+            "overallAvg": 72.83
+        },
+        {
+            "courses_uuid": "98193",
+            "overallAvg": 67.72
+        },
+        {
+            "courses_uuid": "98192",
+            "overallAvg": 67.72
+        },
+        {
+            "courses_uuid": "98117",
+            "overallAvg": 70.12
+        },
+        {
+            "courses_uuid": "97935",
+            "overallAvg": 75.53
+        },
+        {
+            "courses_uuid": "97933",
+            "overallAvg": 73.74
+        },
+        {
+            "courses_uuid": "97898",
+            "overallAvg": 68.02
+        },
+        {
+            "courses_uuid": "97865",
+            "overallAvg": 72.6
+        },
+        {
+            "courses_uuid": "97419",
+            "overallAvg": 71.51
+        },
+        {
+            "courses_uuid": "97331",
+            "overallAvg": 72.94
+        },
+        {
+            "courses_uuid": "97317",
+            "overallAvg": 73.5
+        },
+        {
+            "courses_uuid": "97256",
+            "overallAvg": 68.66
+        },
+        {
+            "courses_uuid": "96685",
+            "overallAvg": 76.22
+        },
+        {
+            "courses_uuid": "96599",
+            "overallAvg": 72.35
+        },
+        {
+            "courses_uuid": "9652",
+            "overallAvg": 72.94
+        },
+        {
+            "courses_uuid": "96517",
+            "overallAvg": 74.84
+        },
+        {
+            "courses_uuid": "96502",
+            "overallAvg": 72.9
+        },
+        {
+            "courses_uuid": "9648",
+            "overallAvg": 69.2
+        },
+        {
+            "courses_uuid": "96455",
+            "overallAvg": 75.66
+        },
+        {
+            "courses_uuid": "96388",
+            "overallAvg": 70.63
+        },
+        {
+            "courses_uuid": "96380",
+            "overallAvg": 75.74
+        },
+        {
+            "courses_uuid": "96366",
+            "overallAvg": 74
+        },
+        {
+            "courses_uuid": "96359",
+            "overallAvg": 71.62
+        },
+        {
+            "courses_uuid": "96352",
+            "overallAvg": 67.06
+        },
+        {
+            "courses_uuid": "96343",
+            "overallAvg": 71.87
+        },
+        {
+            "courses_uuid": "96326",
+            "overallAvg": 71.69
+        },
+        {
+            "courses_uuid": "96319",
+            "overallAvg": 72.82
+        },
+        {
+            "courses_uuid": "95950",
+            "overallAvg": 71.13
+        },
+        {
+            "courses_uuid": "95239",
+            "overallAvg": 74.95
+        },
+        {
+            "courses_uuid": "95219",
+            "overallAvg": 71.71
+        },
+        {
+            "courses_uuid": "95133",
+            "overallAvg": 72.3
+        },
+        {
+            "courses_uuid": "94832",
+            "overallAvg": 67.88
+        },
+        {
+            "courses_uuid": "94823",
+            "overallAvg": 70.46
+        },
+        {
+            "courses_uuid": "94814",
+            "overallAvg": 69.87
+        },
+        {
+            "courses_uuid": "94791",
+            "overallAvg": 70.38
+        },
+        {
+            "courses_uuid": "94778",
+            "overallAvg": 69.7
+        },
+        {
+            "courses_uuid": "94773",
+            "overallAvg": 69.92
+        },
+        {
+            "courses_uuid": "94756",
+            "overallAvg": 68.68
+        },
+        {
+            "courses_uuid": "94749",
+            "overallAvg": 69.24
+        },
+        {
+            "courses_uuid": "94742",
+            "overallAvg": 67.2
+        },
+        {
+            "courses_uuid": "94738",
+            "overallAvg": 66.29
+        },
+        {
+            "courses_uuid": "94734",
+            "overallAvg": 68.6
+        },
+        {
+            "courses_uuid": "94728",
+            "overallAvg": 66.69
+        },
+        {
+            "courses_uuid": "94304",
+            "overallAvg": 68.21
+        },
+        {
+            "courses_uuid": "94292",
+            "overallAvg": 72.16
+        },
+        {
+            "courses_uuid": "94268",
+            "overallAvg": 73.57
+        },
+        {
+            "courses_uuid": "94093",
+            "overallAvg": 70.31
+        },
+        {
+            "courses_uuid": "94092",
+            "overallAvg": 70.31
+        },
+        {
+            "courses_uuid": "9380",
+            "overallAvg": 75.93
+        },
+        {
+            "courses_uuid": "9370",
+            "overallAvg": 68.91
+        },
+        {
+            "courses_uuid": "93648",
+            "overallAvg": 75.75
+        },
+        {
+            "courses_uuid": "93644",
+            "overallAvg": 74.68
+        },
+        {
+            "courses_uuid": "936",
+            "overallAvg": 75.45
+        },
+        {
+            "courses_uuid": "93525",
+            "overallAvg": 70.66
+        },
+        {
+            "courses_uuid": "92829",
+            "overallAvg": 77.16
+        },
+        {
+            "courses_uuid": "92826",
+            "overallAvg": 75.85
+        },
+        {
+            "courses_uuid": "92779",
+            "overallAvg": 73.95
+        },
+        {
+            "courses_uuid": "92759",
+            "overallAvg": 69.15
+        },
+        {
+            "courses_uuid": "92665",
+            "overallAvg": 64.64
+        },
+        {
+            "courses_uuid": "92605",
+            "overallAvg": 70.15
+        },
+        {
+            "courses_uuid": "92171",
+            "overallAvg": 81.76
+        },
+        {
+            "courses_uuid": "919",
+            "overallAvg": 74.13
+        },
+        {
+            "courses_uuid": "90972",
+            "overallAvg": 74.51
+        },
+        {
+            "courses_uuid": "90963",
+            "overallAvg": 70.77
+        },
+        {
+            "courses_uuid": "90944",
+            "overallAvg": 76.02
+        },
+        {
+            "courses_uuid": "90918",
+            "overallAvg": 73.01
+        },
+        {
+            "courses_uuid": "90913",
+            "overallAvg": 73.31
+        },
+        {
+            "courses_uuid": "90903",
+            "overallAvg": 71.21
+        },
+        {
+            "courses_uuid": "90894",
+            "overallAvg": 68.27
+        },
+        {
+            "courses_uuid": "90887",
+            "overallAvg": 66.85
+        },
+        {
+            "courses_uuid": "90881",
+            "overallAvg": 68.4
+        },
+        {
+            "courses_uuid": "90873",
+            "overallAvg": 67.31
+        },
+        {
+            "courses_uuid": "90705",
+            "overallAvg": 72.84
+        },
+        {
+            "courses_uuid": "90694",
+            "overallAvg": 75.28
+        },
+        {
+            "courses_uuid": "90668",
+            "overallAvg": 72.69
+        },
+        {
+            "courses_uuid": "90366",
+            "overallAvg": 70.08
+        },
+        {
+            "courses_uuid": "90095",
+            "overallAvg": 71.3
+        },
+        {
+            "courses_uuid": "90091",
+            "overallAvg": 71.42
+        },
+        {
+            "courses_uuid": "90084",
+            "overallAvg": 72.19
+        },
+        {
+            "courses_uuid": "90072",
+            "overallAvg": 68.33
+        },
+        {
+            "courses_uuid": "90065",
+            "overallAvg": 68.38
+        },
+        {
+            "courses_uuid": "90055",
+            "overallAvg": 69.63
+        },
+        {
+            "courses_uuid": "90046",
+            "overallAvg": 66.13
+        },
+        {
+            "courses_uuid": "90035",
+            "overallAvg": 63.12
+        },
+        {
+            "courses_uuid": "90024",
+            "overallAvg": 67.81
+        },
+        {
+            "courses_uuid": "90009",
+            "overallAvg": 67.74
+        },
+        {
+            "courses_uuid": "89999",
+            "overallAvg": 69.57
+        },
+        {
+            "courses_uuid": "89990",
+            "overallAvg": 68.86
+        },
+        {
+            "courses_uuid": "89981",
+            "overallAvg": 71.07
+        },
+        {
+            "courses_uuid": "89972",
+            "overallAvg": 66.28
+        },
+        {
+            "courses_uuid": "89960",
+            "overallAvg": 68.63
+        },
+        {
+            "courses_uuid": "89955",
+            "overallAvg": 69.8
+        },
+        {
+            "courses_uuid": "89771",
+            "overallAvg": 68.31
+        },
+        {
+            "courses_uuid": "89762",
+            "overallAvg": 70.72
+        },
+        {
+            "courses_uuid": "89757",
+            "overallAvg": 71.05
+        },
+        {
+            "courses_uuid": "89737",
+            "overallAvg": 70.31
+        },
+        {
+            "courses_uuid": "89722",
+            "overallAvg": 69.26
+        },
+        {
+            "courses_uuid": "89717",
+            "overallAvg": 72.32
+        },
+        {
+            "courses_uuid": "897",
+            "overallAvg": 78.1
+        },
+        {
+            "courses_uuid": "89699",
+            "overallAvg": 66.91
+        },
+        {
+            "courses_uuid": "89691",
+            "overallAvg": 68.91
+        },
+        {
+            "courses_uuid": "89683",
+            "overallAvg": 67.94
+        },
+        {
+            "courses_uuid": "89679",
+            "overallAvg": 69.49
+        },
+        {
+            "courses_uuid": "89676",
+            "overallAvg": 68.72
+        },
+        {
+            "courses_uuid": "89674",
+            "overallAvg": 68.35
+        },
+        {
+            "courses_uuid": "89667",
+            "overallAvg": 69.15
+        },
+        {
+            "courses_uuid": "89664",
+            "overallAvg": 67.63
+        },
+        {
+            "courses_uuid": "89663",
+            "overallAvg": 70.24
+        },
+        {
+            "courses_uuid": "89659",
+            "overallAvg": 68.84
+        },
+        {
+            "courses_uuid": "89424",
+            "overallAvg": 73.29
+        },
+        {
+            "courses_uuid": "89269",
+            "overallAvg": 72.58
+        },
+        {
+            "courses_uuid": "89254",
+            "overallAvg": 64.6
+        },
+        {
+            "courses_uuid": "89239",
+            "overallAvg": 68.87
+        },
+        {
+            "courses_uuid": "89231",
+            "overallAvg": 69.75
+        },
+        {
+            "courses_uuid": "89230",
+            "overallAvg": 70.52
+        },
+        {
+            "courses_uuid": "89229",
+            "overallAvg": 69.91
+        },
+        {
+            "courses_uuid": "89227",
+            "overallAvg": 72.83
+        },
+        {
+            "courses_uuid": "89218",
+            "overallAvg": 69.41
+        },
+        {
+            "courses_uuid": "89025",
+            "overallAvg": 65.75
+        },
+        {
+            "courses_uuid": "89007",
+            "overallAvg": 76.7
+        },
+        {
+            "courses_uuid": "89006",
+            "overallAvg": 76.7
+        },
+        {
+            "courses_uuid": "8899",
+            "overallAvg": 73.16
+        },
+        {
+            "courses_uuid": "88984",
+            "overallAvg": 76.87
+        },
+        {
+            "courses_uuid": "88972",
+            "overallAvg": 72.7
+        },
+        {
+            "courses_uuid": "88971",
+            "overallAvg": 72.7
+        },
+        {
+            "courses_uuid": "88970",
+            "overallAvg": 72.45
+        },
+        {
+            "courses_uuid": "88965",
+            "overallAvg": 69.92
+        },
+        {
+            "courses_uuid": "88960",
+            "overallAvg": 70.48
+        },
+        {
+            "courses_uuid": "88955",
+            "overallAvg": 72.66
+        },
+        {
+            "courses_uuid": "8894",
+            "overallAvg": 74.21
+        },
+        {
+            "courses_uuid": "88930",
+            "overallAvg": 67.49
+        },
+        {
+            "courses_uuid": "88920",
+            "overallAvg": 69.77
+        },
+        {
+            "courses_uuid": "88913",
+            "overallAvg": 68
+        },
+        {
+            "courses_uuid": "8887",
+            "overallAvg": 75.78
+        },
+        {
+            "courses_uuid": "8884",
+            "overallAvg": 71.35
+        },
+        {
+            "courses_uuid": "8879",
+            "overallAvg": 72.2
+        },
+        {
+            "courses_uuid": "88784",
+            "overallAvg": 73.38
+        },
+        {
+            "courses_uuid": "88783",
+            "overallAvg": 73.38
+        },
+        {
+            "courses_uuid": "88782",
+            "overallAvg": 75.76
+        },
+        {
+            "courses_uuid": "88781",
+            "overallAvg": 75.76
+        },
+        {
+            "courses_uuid": "88778",
+            "overallAvg": 68.4
+        },
+        {
+            "courses_uuid": "88776",
+            "overallAvg": 69.71
+        },
+        {
+            "courses_uuid": "8832",
+            "overallAvg": 77.52
+        },
+        {
+            "courses_uuid": "8830",
+            "overallAvg": 79.63
+        },
+        {
+            "courses_uuid": "8827",
+            "overallAvg": 81.6
+        },
+        {
+            "courses_uuid": "8808",
+            "overallAvg": 71.05
+        },
+        {
+            "courses_uuid": "8797",
+            "overallAvg": 74.43
+        },
+        {
+            "courses_uuid": "87872",
+            "overallAvg": 76.98
+        },
+        {
+            "courses_uuid": "87720",
+            "overallAvg": 71.76
+        },
+        {
+            "courses_uuid": "8769",
+            "overallAvg": 76.31
+        },
+        {
+            "courses_uuid": "87273",
+            "overallAvg": 70.11
+        },
+        {
+            "courses_uuid": "87270",
+            "overallAvg": 69.68
+        },
+        {
+            "courses_uuid": "86490",
+            "overallAvg": 72.84
+        },
+        {
+            "courses_uuid": "86322",
+            "overallAvg": 80.07
+        },
+        {
+            "courses_uuid": "86319",
+            "overallAvg": 73.79
+        },
+        {
+            "courses_uuid": "86315",
+            "overallAvg": 72.63
+        },
+        {
+            "courses_uuid": "86314",
+            "overallAvg": 72.76
+        },
+        {
+            "courses_uuid": "86312",
+            "overallAvg": 71.86
+        },
+        {
+            "courses_uuid": "86309",
+            "overallAvg": 71.54
+        },
+        {
+            "courses_uuid": "86295",
+            "overallAvg": 69.43
+        },
+        {
+            "courses_uuid": "85809",
+            "overallAvg": 75.5
+        },
+        {
+            "courses_uuid": "85799",
+            "overallAvg": 71.79
+        },
+        {
+            "courses_uuid": "85627",
+            "overallAvg": 71.57
+        },
+        {
+            "courses_uuid": "85379",
+            "overallAvg": 74.2
+        },
+        {
+            "courses_uuid": "842",
+            "overallAvg": 76.54
+        },
+        {
+            "courses_uuid": "84040",
+            "overallAvg": 76.42
+        },
+        {
+            "courses_uuid": "83947",
+            "overallAvg": 72.36
+        },
+        {
+            "courses_uuid": "8391",
+            "overallAvg": 70.18
+        },
+        {
+            "courses_uuid": "83863",
+            "overallAvg": 75.29
+        },
+        {
+            "courses_uuid": "83846",
+            "overallAvg": 72.3
+        },
+        {
+            "courses_uuid": "83822",
+            "overallAvg": 76.01
+        },
+        {
+            "courses_uuid": "83758",
+            "overallAvg": 76.27
+        },
+        {
+            "courses_uuid": "83682",
+            "overallAvg": 79.67
+        },
+        {
+            "courses_uuid": "83672",
+            "overallAvg": 78.06
+        },
+        {
+            "courses_uuid": "83657",
+            "overallAvg": 74.05
+        },
+        {
+            "courses_uuid": "83649",
+            "overallAvg": 73.47
+        },
+        {
+            "courses_uuid": "83643",
+            "overallAvg": 72.81
+        },
+        {
+            "courses_uuid": "83639",
+            "overallAvg": 72.42
+        },
+        {
+            "courses_uuid": "83621",
+            "overallAvg": 72.84
+        },
+        {
+            "courses_uuid": "83616",
+            "overallAvg": 70.6
+        },
+        {
+            "courses_uuid": "83607",
+            "overallAvg": 77.55
+        },
+        {
+            "courses_uuid": "83597",
+            "overallAvg": 72.76
+        },
+        {
+            "courses_uuid": "83408",
+            "overallAvg": 71.05
+        },
+        {
+            "courses_uuid": "83400",
+            "overallAvg": 75.19
+        },
+        {
+            "courses_uuid": "83395",
+            "overallAvg": 72.63
+        },
+        {
+            "courses_uuid": "83389",
+            "overallAvg": 74.24
+        },
+        {
+            "courses_uuid": "83267",
+            "overallAvg": 71.32
+        },
+        {
+            "courses_uuid": "8308",
+            "overallAvg": 74.01
+        },
+        {
+            "courses_uuid": "8306",
+            "overallAvg": 74.13
+        },
+        {
+            "courses_uuid": "82834",
+            "overallAvg": 73.53
+        },
+        {
+            "courses_uuid": "82831",
+            "overallAvg": 73.1
+        },
+        {
+            "courses_uuid": "8282",
+            "overallAvg": 68.55
+        },
+        {
+            "courses_uuid": "82814",
+            "overallAvg": 70.81
+        },
+        {
+            "courses_uuid": "8271",
+            "overallAvg": 73.85
+        },
+        {
+            "courses_uuid": "8246",
+            "overallAvg": 73.39
+        },
+        {
+            "courses_uuid": "82149",
+            "overallAvg": 74.64
+        },
+        {
+            "courses_uuid": "82131",
+            "overallAvg": 64.94
+        },
+        {
+            "courses_uuid": "82120",
+            "overallAvg": 71.25
+        },
+        {
+            "courses_uuid": "82107",
+            "overallAvg": 72.5
+        },
+        {
+            "courses_uuid": "82106",
+            "overallAvg": 74.33
+        },
+        {
+            "courses_uuid": "82105",
+            "overallAvg": 70.6
+        },
+        {
+            "courses_uuid": "82104",
+            "overallAvg": 68.93
+        },
+        {
+            "courses_uuid": "82096",
+            "overallAvg": 68.77
+        },
+        {
+            "courses_uuid": "81952",
+            "overallAvg": 72.74
+        },
+        {
+            "courses_uuid": "81944",
+            "overallAvg": 72.3
+        },
+        {
+            "courses_uuid": "81892",
+            "overallAvg": 76.21
+        },
+        {
+            "courses_uuid": "81837",
+            "overallAvg": 76.56
+        },
+        {
+            "courses_uuid": "81816",
+            "overallAvg": 70.48
+        },
+        {
+            "courses_uuid": "81731",
+            "overallAvg": 75.7
+        },
+        {
+            "courses_uuid": "81711",
+            "overallAvg": 76
+        },
+        {
+            "courses_uuid": "81694",
+            "overallAvg": 74.26
+        },
+        {
+            "courses_uuid": "81669",
+            "overallAvg": 76.7
+        },
+        {
+            "courses_uuid": "81601",
+            "overallAvg": 80.34
+        },
+        {
+            "courses_uuid": "81593",
+            "overallAvg": 76.42
+        },
+        {
+            "courses_uuid": "81531",
+            "overallAvg": 74.81
+        },
+        {
+            "courses_uuid": "81516",
+            "overallAvg": 74.82
+        },
+        {
+            "courses_uuid": "81507",
+            "overallAvg": 76.17
+        },
+        {
+            "courses_uuid": "81492",
+            "overallAvg": 73.72
+        },
+        {
+            "courses_uuid": "81485",
+            "overallAvg": 74.56
+        },
+        {
+            "courses_uuid": "81479",
+            "overallAvg": 71.99
+        },
+        {
+            "courses_uuid": "81473",
+            "overallAvg": 75.06
+        },
+        {
+            "courses_uuid": "81452",
+            "overallAvg": 72.32
+        },
+        {
+            "courses_uuid": "81443",
+            "overallAvg": 72.25
+        },
+        {
+            "courses_uuid": "81427",
+            "overallAvg": 75.28
+        },
+        {
+            "courses_uuid": "81417",
+            "overallAvg": 70.89
+        },
+        {
+            "courses_uuid": "81203",
+            "overallAvg": 70.76
+        },
+        {
+            "courses_uuid": "80930",
+            "overallAvg": 70.06
+        },
+        {
+            "courses_uuid": "8093",
+            "overallAvg": 68.19
+        },
+        {
+            "courses_uuid": "80925",
+            "overallAvg": 71.68
+        },
+        {
+            "courses_uuid": "80903",
+            "overallAvg": 70.42
+        },
+        {
+            "courses_uuid": "8090",
+            "overallAvg": 69.65
+        },
+        {
+            "courses_uuid": "80888",
+            "overallAvg": 67.33
+        },
+        {
+            "courses_uuid": "80883",
+            "overallAvg": 70.81
+        },
+        {
+            "courses_uuid": "80862",
+            "overallAvg": 66.97
+        },
+        {
+            "courses_uuid": "80854",
+            "overallAvg": 70.02
+        },
+        {
+            "courses_uuid": "80846",
+            "overallAvg": 68.73
+        },
+        {
+            "courses_uuid": "80841",
+            "overallAvg": 68.81
+        },
+        {
+            "courses_uuid": "80835",
+            "overallAvg": 69.45
+        },
+        {
+            "courses_uuid": "80830",
+            "overallAvg": 70.17
+        },
+        {
+            "courses_uuid": "80825",
+            "overallAvg": 68.89
+        },
+        {
+            "courses_uuid": "80824",
+            "overallAvg": 69.87
+        },
+        {
+            "courses_uuid": "80823",
+            "overallAvg": 68.41
+        },
+        {
+            "courses_uuid": "80821",
+            "overallAvg": 66.53
+        },
+        {
+            "courses_uuid": "80819",
+            "overallAvg": 70.42
+        },
+        {
+            "courses_uuid": "80817",
+            "overallAvg": 71.94
+        },
+        {
+            "courses_uuid": "80582",
+            "overallAvg": 73.87
+        },
+        {
+            "courses_uuid": "80565",
+            "overallAvg": 72.05
+        },
+        {
+            "courses_uuid": "80561",
+            "overallAvg": 71.43
+        },
+        {
+            "courses_uuid": "80553",
+            "overallAvg": 76.34
+        },
+        {
+            "courses_uuid": "80441",
+            "overallAvg": 69.09
+        },
+        {
+            "courses_uuid": "80429",
+            "overallAvg": 69.47
+        },
+        {
+            "courses_uuid": "80420",
+            "overallAvg": 69.7
+        },
+        {
+            "courses_uuid": "80395",
+            "overallAvg": 71.1
+        },
+        {
+            "courses_uuid": "80382",
+            "overallAvg": 68.67
+        },
+        {
+            "courses_uuid": "80377",
+            "overallAvg": 71.31
+        },
+        {
+            "courses_uuid": "80362",
+            "overallAvg": 68.48
+        },
+        {
+            "courses_uuid": "80355",
+            "overallAvg": 66.8
+        },
+        {
+            "courses_uuid": "80344",
+            "overallAvg": 68.22
+        },
+        {
+            "courses_uuid": "80342",
+            "overallAvg": 70.42
+        },
+        {
+            "courses_uuid": "80341",
+            "overallAvg": 67.41
+        },
+        {
+            "courses_uuid": "80340",
+            "overallAvg": 67.55
+        },
+        {
+            "courses_uuid": "80337",
+            "overallAvg": 68.74
+        },
+        {
+            "courses_uuid": "80184",
+            "overallAvg": 71.09
+        },
+        {
+            "courses_uuid": "80017",
+            "overallAvg": 72.43
+        },
+        {
+            "courses_uuid": "79990",
+            "overallAvg": 73.49
+        },
+        {
+            "courses_uuid": "79123",
+            "overallAvg": 75.2
+        },
+        {
+            "courses_uuid": "79097",
+            "overallAvg": 71.02
+        },
+        {
+            "courses_uuid": "79093",
+            "overallAvg": 70.89
+        },
+        {
+            "courses_uuid": "79090",
+            "overallAvg": 71.58
+        },
+        {
+            "courses_uuid": "79076",
+            "overallAvg": 73.07
+        },
+        {
+            "courses_uuid": "78428",
+            "overallAvg": 74.81
+        },
+        {
+            "courses_uuid": "78423",
+            "overallAvg": 72.96
+        },
+        {
+            "courses_uuid": "78414",
+            "overallAvg": 72.92
+        },
+        {
+            "courses_uuid": "78369",
+            "overallAvg": 68.32
+        },
+        {
+            "courses_uuid": "78363",
+            "overallAvg": 73.54
+        },
+        {
+            "courses_uuid": "78352",
+            "overallAvg": 70.16
+        },
+        {
+            "courses_uuid": "78343",
+            "overallAvg": 68.98
+        },
+        {
+            "courses_uuid": "78337",
+            "overallAvg": 69.73
+        },
+        {
+            "courses_uuid": "78331",
+            "overallAvg": 68.75
+        },
+        {
+            "courses_uuid": "78324",
+            "overallAvg": 69.26
+        },
+        {
+            "courses_uuid": "78173",
+            "overallAvg": 72.1
+        },
+        {
+            "courses_uuid": "7817",
+            "overallAvg": 79.98
+        },
+        {
+            "courses_uuid": "78167",
+            "overallAvg": 71.6
+        },
+        {
+            "courses_uuid": "7816",
+            "overallAvg": 79.98
+        },
+        {
+            "courses_uuid": "7815",
+            "overallAvg": 79.97
+        },
+        {
+            "courses_uuid": "78147",
+            "overallAvg": 70.1
+        },
+        {
+            "courses_uuid": "78127",
+            "overallAvg": 70.71
+        },
+        {
+            "courses_uuid": "78120",
+            "overallAvg": 71.69
+        },
+        {
+            "courses_uuid": "78106",
+            "overallAvg": 66.5
+        },
+        {
+            "courses_uuid": "78098",
+            "overallAvg": 68.58
+        },
+        {
+            "courses_uuid": "78087",
+            "overallAvg": 71.26
+        },
+        {
+            "courses_uuid": "78083",
+            "overallAvg": 69.51
+        },
+        {
+            "courses_uuid": "78077",
+            "overallAvg": 71.6
+        },
+        {
+            "courses_uuid": "78076",
+            "overallAvg": 71.91
+        },
+        {
+            "courses_uuid": "78073",
+            "overallAvg": 67.96
+        },
+        {
+            "courses_uuid": "78072",
+            "overallAvg": 69.29
+        },
+        {
+            "courses_uuid": "78071",
+            "overallAvg": 69.14
+        },
+        {
+            "courses_uuid": "78068",
+            "overallAvg": 70.01
+        },
+        {
+            "courses_uuid": "78066",
+            "overallAvg": 64.55
+        },
+        {
+            "courses_uuid": "78065",
+            "overallAvg": 69.49
+        },
+        {
+            "courses_uuid": "77770",
+            "overallAvg": 69.66
+        },
+        {
+            "courses_uuid": "77656",
+            "overallAvg": 74.18
+        },
+        {
+            "courses_uuid": "77645",
+            "overallAvg": 73.07
+        },
+        {
+            "courses_uuid": "77620",
+            "overallAvg": 74.46
+        },
+        {
+            "courses_uuid": "769",
+            "overallAvg": 72.64
+        },
+        {
+            "courses_uuid": "760",
+            "overallAvg": 75.46
+        },
+        {
+            "courses_uuid": "75981",
+            "overallAvg": 70.56
+        },
+        {
+            "courses_uuid": "75820",
+            "overallAvg": 74.79
+        },
+        {
+            "courses_uuid": "75677",
+            "overallAvg": 76.46
+        },
+        {
+            "courses_uuid": "75641",
+            "overallAvg": 74.94
+        },
+        {
+            "courses_uuid": "75290",
+            "overallAvg": 71.15
+        },
+        {
+            "courses_uuid": "75272",
+            "overallAvg": 72.64
+        },
+        {
+            "courses_uuid": "75268",
+            "overallAvg": 71.52
+        },
+        {
+            "courses_uuid": "75260",
+            "overallAvg": 74.97
+        },
+        {
+            "courses_uuid": "75049",
+            "overallAvg": 72.98
+        },
+        {
+            "courses_uuid": "75046",
+            "overallAvg": 82.36
+        },
+        {
+            "courses_uuid": "75042",
+            "overallAvg": 76.6
+        },
+        {
+            "courses_uuid": "75030",
+            "overallAvg": 79.69
+        },
+        {
+            "courses_uuid": "75024",
+            "overallAvg": 79.76
+        },
+        {
+            "courses_uuid": "747",
+            "overallAvg": 74.22
+        },
+        {
+            "courses_uuid": "74388",
+            "overallAvg": 73.69
+        },
+        {
+            "courses_uuid": "74383",
+            "overallAvg": 73.46
+        },
+        {
+            "courses_uuid": "74373",
+            "overallAvg": 71.81
+        },
+        {
+            "courses_uuid": "74349",
+            "overallAvg": 79.45
+        },
+        {
+            "courses_uuid": "74315",
+            "overallAvg": 73.32
+        },
+        {
+            "courses_uuid": "74302",
+            "overallAvg": 73.6
+        },
+        {
+            "courses_uuid": "74293",
+            "overallAvg": 69.5
+        },
+        {
+            "courses_uuid": "74285",
+            "overallAvg": 67.9
+        },
+        {
+            "courses_uuid": "74279",
+            "overallAvg": 69.82
+        },
+        {
+            "courses_uuid": "74270",
+            "overallAvg": 67.66
+        },
+        {
+            "courses_uuid": "740",
+            "overallAvg": 73.15
+        },
+        {
+            "courses_uuid": "73929",
+            "overallAvg": 69.87
+        },
+        {
+            "courses_uuid": "73916",
+            "overallAvg": 71.95
+        },
+        {
+            "courses_uuid": "73754",
+            "overallAvg": 70.53
+        },
+        {
+            "courses_uuid": "73745",
+            "overallAvg": 71.77
+        },
+        {
+            "courses_uuid": "73744",
+            "overallAvg": 71.42
+        },
+        {
+            "courses_uuid": "733",
+            "overallAvg": 72.95
+        },
+        {
+            "courses_uuid": "73018",
+            "overallAvg": 68.6
+        },
+        {
+            "courses_uuid": "73004",
+            "overallAvg": 68.51
+        },
+        {
+            "courses_uuid": "72980",
+            "overallAvg": 68.16
+        },
+        {
+            "courses_uuid": "72969",
+            "overallAvg": 64.68
+        },
+        {
+            "courses_uuid": "72962",
+            "overallAvg": 59.13
+        },
+        {
+            "courses_uuid": "72957",
+            "overallAvg": 67.23
+        },
+        {
+            "courses_uuid": "72942",
+            "overallAvg": 71.51
+        },
+        {
+            "courses_uuid": "72932",
+            "overallAvg": 69.42
+        },
+        {
+            "courses_uuid": "72923",
+            "overallAvg": 69.22
+        },
+        {
+            "courses_uuid": "72916",
+            "overallAvg": 72.98
+        },
+        {
+            "courses_uuid": "72908",
+            "overallAvg": 63.51
+        },
+        {
+            "courses_uuid": "72895",
+            "overallAvg": 68.98
+        },
+        {
+            "courses_uuid": "72325",
+            "overallAvg": 75.36
+        },
+        {
+            "courses_uuid": "72159",
+            "overallAvg": 77.2
+        },
+        {
+            "courses_uuid": "72131",
+            "overallAvg": 73.05
+        },
+        {
+            "courses_uuid": "72127",
+            "overallAvg": 70.6
+        },
+        {
+            "courses_uuid": "72096",
+            "overallAvg": 80.06
+        },
+        {
+            "courses_uuid": "72093",
+            "overallAvg": 76.46
+        },
+        {
+            "courses_uuid": "72090",
+            "overallAvg": 68.27
+        },
+        {
+            "courses_uuid": "72085",
+            "overallAvg": 73.67
+        },
+        {
+            "courses_uuid": "72071",
+            "overallAvg": 75.28
+        },
+        {
+            "courses_uuid": "72067",
+            "overallAvg": 69.19
+        },
+        {
+            "courses_uuid": "72065",
+            "overallAvg": 69.34
+        },
+        {
+            "courses_uuid": "72060",
+            "overallAvg": 72.88
+        },
+        {
+            "courses_uuid": "72059",
+            "overallAvg": 72.85
+        },
+        {
+            "courses_uuid": "72058",
+            "overallAvg": 72.92
+        },
+        {
+            "courses_uuid": "72057",
+            "overallAvg": 70.95
+        },
+        {
+            "courses_uuid": "72047",
+            "overallAvg": 74.49
+        },
+        {
+            "courses_uuid": "72040",
+            "overallAvg": 71.31
+        },
+        {
+            "courses_uuid": "71531",
+            "overallAvg": 76.29
+        },
+        {
+            "courses_uuid": "715",
+            "overallAvg": 75.46
+        },
+        {
+            "courses_uuid": "71467",
+            "overallAvg": 70.7
+        },
+        {
+            "courses_uuid": "71382",
+            "overallAvg": 75.22
+        },
+        {
+            "courses_uuid": "71367",
+            "overallAvg": 74.59
+        },
+        {
+            "courses_uuid": "71313",
+            "overallAvg": 70.74
+        },
+        {
+            "courses_uuid": "71248",
+            "overallAvg": 73.69
+        },
+        {
+            "courses_uuid": "71240",
+            "overallAvg": 75.77
+        },
+        {
+            "courses_uuid": "71224",
+            "overallAvg": 73.12
+        },
+        {
+            "courses_uuid": "71217",
+            "overallAvg": 74.12
+        },
+        {
+            "courses_uuid": "71209",
+            "overallAvg": 70.74
+        },
+        {
+            "courses_uuid": "71201",
+            "overallAvg": 72.68
+        },
+        {
+            "courses_uuid": "71186",
+            "overallAvg": 73.49
+        },
+        {
+            "courses_uuid": "71177",
+            "overallAvg": 71.01
+        },
+        {
+            "courses_uuid": "711",
+            "overallAvg": 71.25
+        },
+        {
+            "courses_uuid": "71066",
+            "overallAvg": 79.4
+        },
+        {
+            "courses_uuid": "70742",
+            "overallAvg": 74.53
+        },
+        {
+            "courses_uuid": "70730",
+            "overallAvg": 71.28
+        },
+        {
+            "courses_uuid": "70725",
+            "overallAvg": 72.18
+        },
+        {
+            "courses_uuid": "707",
+            "overallAvg": 79.78
+        },
+        {
+            "courses_uuid": "70549",
+            "overallAvg": 76.01
+        },
+        {
+            "courses_uuid": "70546",
+            "overallAvg": 73.44
+        },
+        {
+            "courses_uuid": "70542",
+            "overallAvg": 73.39
+        },
+        {
+            "courses_uuid": "70537",
+            "overallAvg": 71.48
+        },
+        {
+            "courses_uuid": "70536",
+            "overallAvg": 71.15
+        },
+        {
+            "courses_uuid": "70535",
+            "overallAvg": 73.12
+        },
+        {
+            "courses_uuid": "70534",
+            "overallAvg": 73.89
+        },
+        {
+            "courses_uuid": "70533",
+            "overallAvg": 75.74
+        },
+        {
+            "courses_uuid": "70531",
+            "overallAvg": 77.11
+        },
+        {
+            "courses_uuid": "70519",
+            "overallAvg": 74.21
+        },
+        {
+            "courses_uuid": "704",
+            "overallAvg": 72.1
+        },
+        {
+            "courses_uuid": "70261",
+            "overallAvg": 75
+        },
+        {
+            "courses_uuid": "70256",
+            "overallAvg": 68.03
+        },
+        {
+            "courses_uuid": "70118",
+            "overallAvg": 72.74
+        },
+        {
+            "courses_uuid": "70104",
+            "overallAvg": 67.89
+        },
+        {
+            "courses_uuid": "70093",
+            "overallAvg": 77.57
+        },
+        {
+            "courses_uuid": "70080",
+            "overallAvg": 67.98
+        },
+        {
+            "courses_uuid": "70079",
+            "overallAvg": 67.59
+        },
+        {
+            "courses_uuid": "70077",
+            "overallAvg": 72.66
+        },
+        {
+            "courses_uuid": "70069",
+            "overallAvg": 68.2
+        },
+        {
+            "courses_uuid": "7005",
+            "overallAvg": 81.79
+        },
+        {
+            "courses_uuid": "70027",
+            "overallAvg": 73.99
+        },
+        {
+            "courses_uuid": "70024",
+            "overallAvg": 72.19
+        },
+        {
+            "courses_uuid": "69864",
+            "overallAvg": 74.15
+        },
+        {
+            "courses_uuid": "69860",
+            "overallAvg": 76.22
+        },
+        {
+            "courses_uuid": "69853",
+            "overallAvg": 74.57
+        },
+        {
+            "courses_uuid": "69810",
+            "overallAvg": 74.32
+        },
+        {
+            "courses_uuid": "69806",
+            "overallAvg": 72.87
+        },
+        {
+            "courses_uuid": "69790",
+            "overallAvg": 67.7
+        },
+        {
+            "courses_uuid": "69786",
+            "overallAvg": 67.49
+        },
+        {
+            "courses_uuid": "69782",
+            "overallAvg": 66.76
+        },
+        {
+            "courses_uuid": "69781",
+            "overallAvg": 66.86
+        },
+        {
+            "courses_uuid": "69775",
+            "overallAvg": 67.53
+        },
+        {
+            "courses_uuid": "69596",
+            "overallAvg": 68.62
+        },
+        {
+            "courses_uuid": "69586",
+            "overallAvg": 73.57
+        },
+        {
+            "courses_uuid": "69434",
+            "overallAvg": 71.74
+        },
+        {
+            "courses_uuid": "69429",
+            "overallAvg": 73.04
+        },
+        {
+            "courses_uuid": "69422",
+            "overallAvg": 72.4
+        },
+        {
+            "courses_uuid": "69417",
+            "overallAvg": 73.44
+        },
+        {
+            "courses_uuid": "6906",
+            "overallAvg": 73.39
+        },
+        {
+            "courses_uuid": "68951",
+            "overallAvg": 74.79
+        },
+        {
+            "courses_uuid": "68892",
+            "overallAvg": 72.16
+        },
+        {
+            "courses_uuid": "68887",
+            "overallAvg": 71.48
+        },
+        {
+            "courses_uuid": "68883",
+            "overallAvg": 72.46
+        },
+        {
+            "courses_uuid": "68876",
+            "overallAvg": 69.43
+        },
+        {
+            "courses_uuid": "68875",
+            "overallAvg": 67.16
+        },
+        {
+            "courses_uuid": "68874",
+            "overallAvg": 75.8
+        },
+        {
+            "courses_uuid": "68860",
+            "overallAvg": 70.34
+        },
+        {
+            "courses_uuid": "68785",
+            "overallAvg": 77.93
+        },
+        {
+            "courses_uuid": "68753",
+            "overallAvg": 73.69
+        },
+        {
+            "courses_uuid": "68747",
+            "overallAvg": 78.96
+        },
+        {
+            "courses_uuid": "68385",
+            "overallAvg": 74.66
+        },
+        {
+            "courses_uuid": "68349",
+            "overallAvg": 74.64
+        },
+        {
+            "courses_uuid": "67584",
+            "overallAvg": 69.78
+        },
+        {
+            "courses_uuid": "67568",
+            "overallAvg": 76.16
+        },
+        {
+            "courses_uuid": "67553",
+            "overallAvg": 77.59
+        },
+        {
+            "courses_uuid": "67503",
+            "overallAvg": 72.08
+        },
+        {
+            "courses_uuid": "67408",
+            "overallAvg": 70.95
+        },
+        {
+            "courses_uuid": "67396",
+            "overallAvg": 71.57
+        },
+        {
+            "courses_uuid": "67245",
+            "overallAvg": 74.03
+        },
+        {
+            "courses_uuid": "67014",
+            "overallAvg": 73.12
+        },
+        {
+            "courses_uuid": "67008",
+            "overallAvg": 72.64
+        },
+        {
+            "courses_uuid": "67002",
+            "overallAvg": 70.15
+        },
+        {
+            "courses_uuid": "66997",
+            "overallAvg": 73.96
+        },
+        {
+            "courses_uuid": "66503",
+            "overallAvg": 70.26
+        },
+        {
+            "courses_uuid": "66389",
+            "overallAvg": 77.95
+        },
+        {
+            "courses_uuid": "66382",
+            "overallAvg": 77.87
+        },
+        {
+            "courses_uuid": "6634",
+            "overallAvg": 76.83
+        },
+        {
+            "courses_uuid": "66203",
+            "overallAvg": 70.13
+        },
+        {
+            "courses_uuid": "66199",
+            "overallAvg": 66.43
+        },
+        {
+            "courses_uuid": "6599",
+            "overallAvg": 76.08
+        },
+        {
+            "courses_uuid": "6592",
+            "overallAvg": 75.66
+        },
+        {
+            "courses_uuid": "65338",
+            "overallAvg": 67.38
+        },
+        {
+            "courses_uuid": "65335",
+            "overallAvg": 69.98
+        },
+        {
+            "courses_uuid": "65333",
+            "overallAvg": 70.44
+        },
+        {
+            "courses_uuid": "65030",
+            "overallAvg": 78.64
+        },
+        {
+            "courses_uuid": "64992",
+            "overallAvg": 76.04
+        },
+        {
+            "courses_uuid": "64806",
+            "overallAvg": 73.98
+        },
+        {
+            "courses_uuid": "64792",
+            "overallAvg": 63.31
+        },
+        {
+            "courses_uuid": "64786",
+            "overallAvg": 72.51
+        },
+        {
+            "courses_uuid": "64783",
+            "overallAvg": 72.44
+        },
+        {
+            "courses_uuid": "64767",
+            "overallAvg": 70.24
+        },
+        {
+            "courses_uuid": "64766",
+            "overallAvg": 71.06
+        },
+        {
+            "courses_uuid": "64765",
+            "overallAvg": 69.41
+        },
+        {
+            "courses_uuid": "64764",
+            "overallAvg": 72.1
+        },
+        {
+            "courses_uuid": "64755",
+            "overallAvg": 69.3
+        },
+        {
+            "courses_uuid": "64371",
+            "overallAvg": 72.03
+        },
+        {
+            "courses_uuid": "64360",
+            "overallAvg": 76.56
+        },
+        {
+            "courses_uuid": "64351",
+            "overallAvg": 73.75
+        },
+        {
+            "courses_uuid": "64334",
+            "overallAvg": 73.17
+        },
+        {
+            "courses_uuid": "64243",
+            "overallAvg": 73.51
+        },
+        {
+            "courses_uuid": "63158",
+            "overallAvg": 72.41
+        },
+        {
+            "courses_uuid": "63112",
+            "overallAvg": 71.99
+        },
+        {
+            "courses_uuid": "62957",
+            "overallAvg": 73.46
+        },
+        {
+            "courses_uuid": "62951",
+            "overallAvg": 74.92
+        },
+        {
+            "courses_uuid": "62947",
+            "overallAvg": 74.19
+        },
+        {
+            "courses_uuid": "62943",
+            "overallAvg": 69.04
+        },
+        {
+            "courses_uuid": "62938",
+            "overallAvg": 71.65
+        },
+        {
+            "courses_uuid": "62406",
+            "overallAvg": 71.09
+        },
+        {
+            "courses_uuid": "62394",
+            "overallAvg": 72.75
+        },
+        {
+            "courses_uuid": "62387",
+            "overallAvg": 79.04
+        },
+        {
+            "courses_uuid": "62384",
+            "overallAvg": 76.2
+        },
+        {
+            "courses_uuid": "62371",
+            "overallAvg": 73.63
+        },
+        {
+            "courses_uuid": "62366",
+            "overallAvg": 73.98
+        },
+        {
+            "courses_uuid": "62362",
+            "overallAvg": 72.85
+        },
+        {
+            "courses_uuid": "62355",
+            "overallAvg": 76.17
+        },
+        {
+            "courses_uuid": "62349",
+            "overallAvg": 73.25
+        },
+        {
+            "courses_uuid": "62284",
+            "overallAvg": 77.88
+        },
+        {
+            "courses_uuid": "62280",
+            "overallAvg": 69.5
+        },
+        {
+            "courses_uuid": "62169",
+            "overallAvg": 71.22
+        },
+        {
+            "courses_uuid": "62154",
+            "overallAvg": 71.42
+        },
+        {
+            "courses_uuid": "61100",
+            "overallAvg": 71.46
+        },
+        {
+            "courses_uuid": "61092",
+            "overallAvg": 76.35
+        },
+        {
+            "courses_uuid": "61087",
+            "overallAvg": 75.29
+        },
+        {
+            "courses_uuid": "60580",
+            "overallAvg": 79.54
+        },
+        {
+            "courses_uuid": "60294",
+            "overallAvg": 75.15
+        },
+        {
+            "courses_uuid": "60175",
+            "overallAvg": 74.41
+        },
+        {
+            "courses_uuid": "5944",
+            "overallAvg": 75.97
+        },
+        {
+            "courses_uuid": "59354",
+            "overallAvg": 70.01
+        },
+        {
+            "courses_uuid": "59353",
+            "overallAvg": 70.01
+        },
+        {
+            "courses_uuid": "5926",
+            "overallAvg": 73.77
+        },
+        {
+            "courses_uuid": "5922",
+            "overallAvg": 76.57
+        },
+        {
+            "courses_uuid": "5914",
+            "overallAvg": 72.98
+        },
+        {
+            "courses_uuid": "58912",
+            "overallAvg": 71.64
+        },
+        {
+            "courses_uuid": "58900",
+            "overallAvg": 72.28
+        },
+        {
+            "courses_uuid": "58873",
+            "overallAvg": 72.86
+        },
+        {
+            "courses_uuid": "58790",
+            "overallAvg": 75.29
+        },
+        {
+            "courses_uuid": "58653",
+            "overallAvg": 71.47
+        },
+        {
+            "courses_uuid": "58399",
+            "overallAvg": 68.01
+        },
+        {
+            "courses_uuid": "58333",
+            "overallAvg": 68.14
+        },
+        {
+            "courses_uuid": "58325",
+            "overallAvg": 69.72
+        },
+        {
+            "courses_uuid": "58324",
+            "overallAvg": 68.48
+        },
+        {
+            "courses_uuid": "58319",
+            "overallAvg": 67.83
+        },
+        {
+            "courses_uuid": "58196",
+            "overallAvg": 72.75
+        },
+        {
+            "courses_uuid": "58172",
+            "overallAvg": 73.51
+        },
+        {
+            "courses_uuid": "58085",
+            "overallAvg": 76.15
+        },
+        {
+            "courses_uuid": "57984",
+            "overallAvg": 72.79
+        },
+        {
+            "courses_uuid": "57900",
+            "overallAvg": 74.56
+        },
+        {
+            "courses_uuid": "57886",
+            "overallAvg": 73.99
+        },
+        {
+            "courses_uuid": "57845",
+            "overallAvg": 77.17
+        },
+        {
+            "courses_uuid": "57774",
+            "overallAvg": 71.47
+        },
+        {
+            "courses_uuid": "57765",
+            "overallAvg": 76.22
+        },
+        {
+            "courses_uuid": "57760",
+            "overallAvg": 73.86
+        },
+        {
+            "courses_uuid": "57756",
+            "overallAvg": 73.25
+        },
+        {
+            "courses_uuid": "57748",
+            "overallAvg": 68.91
+        },
+        {
+            "courses_uuid": "57743",
+            "overallAvg": 71.87
+        },
+        {
+            "courses_uuid": "57726",
+            "overallAvg": 72.39
+        },
+        {
+            "courses_uuid": "57720",
+            "overallAvg": 71.19
+        },
+        {
+            "courses_uuid": "57716",
+            "overallAvg": 72.07
+        },
+        {
+            "courses_uuid": "57689",
+            "overallAvg": 85.21
+        },
+        {
+            "courses_uuid": "57595",
+            "overallAvg": 74.42
+        },
+        {
+            "courses_uuid": "57592",
+            "overallAvg": 74.3
+        },
+        {
+            "courses_uuid": "57401",
+            "overallAvg": 75
+        },
+        {
+            "courses_uuid": "57377",
+            "overallAvg": 77.22
+        },
+        {
+            "courses_uuid": "57346",
+            "overallAvg": 76.54
+        },
+        {
+            "courses_uuid": "5718",
+            "overallAvg": 71.5
+        },
+        {
+            "courses_uuid": "57114",
+            "overallAvg": 71.49
+        },
+        {
+            "courses_uuid": "57026",
+            "overallAvg": 72.56
+        },
+        {
+            "courses_uuid": "56095",
+            "overallAvg": 71.32
+        },
+        {
+            "courses_uuid": "55824",
+            "overallAvg": 73.81
+        },
+        {
+            "courses_uuid": "55810",
+            "overallAvg": 70.66
+        },
+        {
+            "courses_uuid": "55158",
+            "overallAvg": 76.82
+        },
+        {
+            "courses_uuid": "55130",
+            "overallAvg": 73.41
+        },
+        {
+            "courses_uuid": "55097",
+            "overallAvg": 76.08
+        },
+        {
+            "courses_uuid": "55094",
+            "overallAvg": 76.42
+        },
+        {
+            "courses_uuid": "55091",
+            "overallAvg": 69.02
+        },
+        {
+            "courses_uuid": "55084",
+            "overallAvg": 71.85
+        },
+        {
+            "courses_uuid": "55070",
+            "overallAvg": 73.02
+        },
+        {
+            "courses_uuid": "55066",
+            "overallAvg": 73.7
+        },
+        {
+            "courses_uuid": "55065",
+            "overallAvg": 73.7
+        },
+        {
+            "courses_uuid": "55060",
+            "overallAvg": 80.99
+        },
+        {
+            "courses_uuid": "55059",
+            "overallAvg": 81.42
+        },
+        {
+            "courses_uuid": "55058",
+            "overallAvg": 80.34
+        },
+        {
+            "courses_uuid": "55057",
+            "overallAvg": 71.98
+        },
+        {
+            "courses_uuid": "55047",
+            "overallAvg": 76.47
+        },
+        {
+            "courses_uuid": "55041",
+            "overallAvg": 77.56
+        },
+        {
+            "courses_uuid": "55040",
+            "overallAvg": 72.72
+        },
+        {
+            "courses_uuid": "54763",
+            "overallAvg": 68.66
+        },
+        {
+            "courses_uuid": "54753",
+            "overallAvg": 70.01
+        },
+        {
+            "courses_uuid": "54746",
+            "overallAvg": 71.16
+        },
+        {
+            "courses_uuid": "54725",
+            "overallAvg": 70.12
+        },
+        {
+            "courses_uuid": "54713",
+            "overallAvg": 70.21
+        },
+        {
+            "courses_uuid": "54707",
+            "overallAvg": 70.19
+        },
+        {
+            "courses_uuid": "54689",
+            "overallAvg": 67.31
+        },
+        {
+            "courses_uuid": "54681",
+            "overallAvg": 69.9
+        },
+        {
+            "courses_uuid": "5468",
+            "overallAvg": 69.02
+        },
+        {
+            "courses_uuid": "54673",
+            "overallAvg": 68.3
+        },
+        {
+            "courses_uuid": "54669",
+            "overallAvg": 68.37
+        },
+        {
+            "courses_uuid": "54666",
+            "overallAvg": 68.62
+        },
+        {
+            "courses_uuid": "54659",
+            "overallAvg": 68.4
+        },
+        {
+            "courses_uuid": "54655",
+            "overallAvg": 68.52
+        },
+        {
+            "courses_uuid": "54524",
+            "overallAvg": 73.94
+        },
+        {
+            "courses_uuid": "54510",
+            "overallAvg": 67.7
+        },
+        {
+            "courses_uuid": "54499",
+            "overallAvg": 73.06
+        },
+        {
+            "courses_uuid": "54486",
+            "overallAvg": 68.69
+        },
+        {
+            "courses_uuid": "54485",
+            "overallAvg": 69.75
+        },
+        {
+            "courses_uuid": "54483",
+            "overallAvg": 70.14
+        },
+        {
+            "courses_uuid": "54475",
+            "overallAvg": 70.22
+        },
+        {
+            "courses_uuid": "54104",
+            "overallAvg": 68.67
+        },
+        {
+            "courses_uuid": "54066",
+            "overallAvg": 74.09
+        },
+        {
+            "courses_uuid": "54055",
+            "overallAvg": 72.38
+        },
+        {
+            "courses_uuid": "54050",
+            "overallAvg": 72.56
+        },
+        {
+            "courses_uuid": "54044",
+            "overallAvg": 73.45
+        },
+        {
+            "courses_uuid": "54039",
+            "overallAvg": 72.86
+        },
+        {
+            "courses_uuid": "54014",
+            "overallAvg": 67.69
+        },
+        {
+            "courses_uuid": "54004",
+            "overallAvg": 69.89
+        },
+        {
+            "courses_uuid": "53997",
+            "overallAvg": 67.75
+        },
+        {
+            "courses_uuid": "53905",
+            "overallAvg": 70.61
+        },
+        {
+            "courses_uuid": "53726",
+            "overallAvg": 71.83
+        },
+        {
+            "courses_uuid": "53721",
+            "overallAvg": 74.3
+        },
+        {
+            "courses_uuid": "53712",
+            "overallAvg": 72.11
+        },
+        {
+            "courses_uuid": "53707",
+            "overallAvg": 74.09
+        },
+        {
+            "courses_uuid": "53076",
+            "overallAvg": 76.99
+        },
+        {
+            "courses_uuid": "52900",
+            "overallAvg": 72.86
+        },
+        {
+            "courses_uuid": "52888",
+            "overallAvg": 73.24
+        },
+        {
+            "courses_uuid": "52864",
+            "overallAvg": 73.4
+        },
+        {
+            "courses_uuid": "52689",
+            "overallAvg": 71.6
+        },
+        {
+            "courses_uuid": "52468",
+            "overallAvg": 73.04
+        },
+        {
+            "courses_uuid": "5239",
+            "overallAvg": 70.52
+        },
+        {
+            "courses_uuid": "52332",
+            "overallAvg": 76.4
+        },
+        {
+            "courses_uuid": "52327",
+            "overallAvg": 73.73
+        },
+        {
+            "courses_uuid": "52319",
+            "overallAvg": 72.07
+        },
+        {
+            "courses_uuid": "52263",
+            "overallAvg": 74.41
+        },
+        {
+            "courses_uuid": "5225",
+            "overallAvg": 69.69
+        },
+        {
+            "courses_uuid": "52243",
+            "overallAvg": 67.58
+        },
+        {
+            "courses_uuid": "52238",
+            "overallAvg": 66.5
+        },
+        {
+            "courses_uuid": "52233",
+            "overallAvg": 68.41
+        },
+        {
+            "courses_uuid": "52227",
+            "overallAvg": 66.99
+        },
+        {
+            "courses_uuid": "52223",
+            "overallAvg": 65.8
+        },
+        {
+            "courses_uuid": "52141",
+            "overallAvg": 70.83
+        },
+        {
+            "courses_uuid": "52132",
+            "overallAvg": 71.78
+        },
+        {
+            "courses_uuid": "5204",
+            "overallAvg": 67.32
+        },
+        {
+            "courses_uuid": "5192",
+            "overallAvg": 63.89
+        },
+        {
+            "courses_uuid": "5186",
+            "overallAvg": 61.18
+        },
+        {
+            "courses_uuid": "5181",
+            "overallAvg": 66
+        },
+        {
+            "courses_uuid": "51719",
+            "overallAvg": 66.31
+        },
+        {
+            "courses_uuid": "51716",
+            "overallAvg": 69.47
+        },
+        {
+            "courses_uuid": "5166",
+            "overallAvg": 69.43
+        },
+        {
+            "courses_uuid": "51637",
+            "overallAvg": 76.72
+        },
+        {
+            "courses_uuid": "51600",
+            "overallAvg": 79.81
+        },
+        {
+            "courses_uuid": "5155",
+            "overallAvg": 68.99
+        },
+        {
+            "courses_uuid": "5145",
+            "overallAvg": 69.43
+        },
+        {
+            "courses_uuid": "5138",
+            "overallAvg": 66.88
+        },
+        {
+            "courses_uuid": "5131",
+            "overallAvg": 65.38
+        },
+        {
+            "courses_uuid": "51181",
+            "overallAvg": 77.12
+        },
+        {
+            "courses_uuid": "5118",
+            "overallAvg": 72.56
+        },
+        {
+            "courses_uuid": "51160",
+            "overallAvg": 74.66
+        },
+        {
+            "courses_uuid": "51087",
+            "overallAvg": 70.14
+        },
+        {
+            "courses_uuid": "51084",
+            "overallAvg": 72.19
+        },
+        {
+            "courses_uuid": "51082",
+            "overallAvg": 75.13
+        },
+        {
+            "courses_uuid": "51054",
+            "overallAvg": 76.52
+        },
+        {
+            "courses_uuid": "51050",
+            "overallAvg": 76.9
+        },
+        {
+            "courses_uuid": "50643",
+            "overallAvg": 74.61
+        },
+        {
+            "courses_uuid": "50637",
+            "overallAvg": 73.23
+        },
+        {
+            "courses_uuid": "50522",
+            "overallAvg": 84.86
+        },
+        {
+            "courses_uuid": "50506",
+            "overallAvg": 78.84
+        },
+        {
+            "courses_uuid": "50503",
+            "overallAvg": 78.92
+        },
+        {
+            "courses_uuid": "50221",
+            "overallAvg": 67.5
+        },
+        {
+            "courses_uuid": "50203",
+            "overallAvg": 72.76
+        },
+        {
+            "courses_uuid": "50198",
+            "overallAvg": 70.63
+        },
+        {
+            "courses_uuid": "50190",
+            "overallAvg": 76.15
+        },
+        {
+            "courses_uuid": "50132",
+            "overallAvg": 66.04
+        },
+        {
+            "courses_uuid": "50128",
+            "overallAvg": 67.95
+        },
+        {
+            "courses_uuid": "50018",
+            "overallAvg": 75.01
+        },
+        {
+            "courses_uuid": "49912",
+            "overallAvg": 70.46
+        },
+        {
+            "courses_uuid": "49869",
+            "overallAvg": 74.8
+        },
+        {
+            "courses_uuid": "49861",
+            "overallAvg": 75.48
+        },
+        {
+            "courses_uuid": "49856",
+            "overallAvg": 71.22
+        },
+        {
+            "courses_uuid": "49850",
+            "overallAvg": 70.11
+        },
+        {
+            "courses_uuid": "4957",
+            "overallAvg": 68.31
+        },
+        {
+            "courses_uuid": "4954",
+            "overallAvg": 69.57
+        },
+        {
+            "courses_uuid": "49169",
+            "overallAvg": 70.85
+        },
+        {
+            "courses_uuid": "49158",
+            "overallAvg": 65.74
+        },
+        {
+            "courses_uuid": "48908",
+            "overallAvg": 70.86
+        },
+        {
+            "courses_uuid": "48714",
+            "overallAvg": 72.93
+        },
+        {
+            "courses_uuid": "48636",
+            "overallAvg": 68.92
+        },
+        {
+            "courses_uuid": "48383",
+            "overallAvg": 75.64
+        },
+        {
+            "courses_uuid": "48364",
+            "overallAvg": 72.02
+        },
+        {
+            "courses_uuid": "48276",
+            "overallAvg": 72.76
+        },
+        {
+            "courses_uuid": "47136",
+            "overallAvg": 65.1
+        },
+        {
+            "courses_uuid": "47132",
+            "overallAvg": 71.11
+        },
+        {
+            "courses_uuid": "47125",
+            "overallAvg": 69.68
+        },
+        {
+            "courses_uuid": "47113",
+            "overallAvg": 68.46
+        },
+        {
+            "courses_uuid": "47106",
+            "overallAvg": 67.05
+        },
+        {
+            "courses_uuid": "47088",
+            "overallAvg": 68.51
+        },
+        {
+            "courses_uuid": "47077",
+            "overallAvg": 64.08
+        },
+        {
+            "courses_uuid": "47069",
+            "overallAvg": 57.93
+        },
+        {
+            "courses_uuid": "47064",
+            "overallAvg": 64.41
+        },
+        {
+            "courses_uuid": "47049",
+            "overallAvg": 62.88
+        },
+        {
+            "courses_uuid": "47036",
+            "overallAvg": 68.41
+        },
+        {
+            "courses_uuid": "47027",
+            "overallAvg": 67.5
+        },
+        {
+            "courses_uuid": "47019",
+            "overallAvg": 70.75
+        },
+        {
+            "courses_uuid": "47011",
+            "overallAvg": 65.99
+        },
+        {
+            "courses_uuid": "46997",
+            "overallAvg": 68.73
+        },
+        {
+            "courses_uuid": "46992",
+            "overallAvg": 70.42
+        },
+        {
+            "courses_uuid": "46886",
+            "overallAvg": 69.87
+        },
+        {
+            "courses_uuid": "46872",
+            "overallAvg": 71.49
+        },
+        {
+            "courses_uuid": "46297",
+            "overallAvg": 75.97
+        },
+        {
+            "courses_uuid": "46254",
+            "overallAvg": 72.82
+        },
+        {
+            "courses_uuid": "46239",
+            "overallAvg": 68.57
+        },
+        {
+            "courses_uuid": "45959",
+            "overallAvg": 73.26
+        },
+        {
+            "courses_uuid": "45956",
+            "overallAvg": 73.17
+        },
+        {
+            "courses_uuid": "45952",
+            "overallAvg": 74.53
+        },
+        {
+            "courses_uuid": "45951",
+            "overallAvg": 77.43
+        },
+        {
+            "courses_uuid": "45949",
+            "overallAvg": 73.84
+        },
+        {
+            "courses_uuid": "45948",
+            "overallAvg": 73.5
+        },
+        {
+            "courses_uuid": "45946",
+            "overallAvg": 73.56
+        },
+        {
+            "courses_uuid": "45945",
+            "overallAvg": 76.37
+        },
+        {
+            "courses_uuid": "45931",
+            "overallAvg": 70.61
+        },
+        {
+            "courses_uuid": "45826",
+            "overallAvg": 82.13
+        },
+        {
+            "courses_uuid": "45825",
+            "overallAvg": 82.63
+        },
+        {
+            "courses_uuid": "45824",
+            "overallAvg": 81.66
+        },
+        {
+            "courses_uuid": "45821",
+            "overallAvg": 81.41
+        },
+        {
+            "courses_uuid": "45802",
+            "overallAvg": 70.76
+        },
+        {
+            "courses_uuid": "45795",
+            "overallAvg": 75.92
+        },
+        {
+            "courses_uuid": "45774",
+            "overallAvg": 75.46
+        },
+        {
+            "courses_uuid": "45541",
+            "overallAvg": 76.37
+        },
+        {
+            "courses_uuid": "45538",
+            "overallAvg": 78.62
+        },
+        {
+            "courses_uuid": "4469",
+            "overallAvg": 73.73
+        },
+        {
+            "courses_uuid": "44636",
+            "overallAvg": 70.92
+        },
+        {
+            "courses_uuid": "44632",
+            "overallAvg": 67.4
+        },
+        {
+            "courses_uuid": "44305",
+            "overallAvg": 75.62
+        },
+        {
+            "courses_uuid": "44233",
+            "overallAvg": 71.12
+        },
+        {
+            "courses_uuid": "44152",
+            "overallAvg": 75.65
+        },
+        {
+            "courses_uuid": "44135",
+            "overallAvg": 71.58
+        },
+        {
+            "courses_uuid": "44110",
+            "overallAvg": 77.59
+        },
+        {
+            "courses_uuid": "44047",
+            "overallAvg": 75.38
+        },
+        {
+            "courses_uuid": "43972",
+            "overallAvg": 76.05
+        },
+        {
+            "courses_uuid": "43963",
+            "overallAvg": 76.95
+        },
+        {
+            "courses_uuid": "43949",
+            "overallAvg": 72.43
+        },
+        {
+            "courses_uuid": "43941",
+            "overallAvg": 74.7
+        },
+        {
+            "courses_uuid": "43935",
+            "overallAvg": 71.07
+        },
+        {
+            "courses_uuid": "43931",
+            "overallAvg": 72.04
+        },
+        {
+            "courses_uuid": "43911",
+            "overallAvg": 71.15
+        },
+        {
+            "courses_uuid": "43907",
+            "overallAvg": 74.29
+        },
+        {
+            "courses_uuid": "43903",
+            "overallAvg": 75.44
+        },
+        {
+            "courses_uuid": "43898",
+            "overallAvg": 73.24
+        },
+        {
+            "courses_uuid": "43887",
+            "overallAvg": 70.42
+        },
+        {
+            "courses_uuid": "43886",
+            "overallAvg": 70.42
+        },
+        {
+            "courses_uuid": "43707",
+            "overallAvg": 69.7
+        },
+        {
+            "courses_uuid": "43701",
+            "overallAvg": 70.15
+        },
+        {
+            "courses_uuid": "43696",
+            "overallAvg": 70.4
+        },
+        {
+            "courses_uuid": "43516",
+            "overallAvg": 72.59
+        },
+        {
+            "courses_uuid": "43508",
+            "overallAvg": 70.39
+        },
+        {
+            "courses_uuid": "43506",
+            "overallAvg": 70.76
+        },
+        {
+            "courses_uuid": "42911",
+            "overallAvg": 73.81
+        },
+        {
+            "courses_uuid": "42898",
+            "overallAvg": 72.49
+        },
+        {
+            "courses_uuid": "42885",
+            "overallAvg": 73.81
+        },
+        {
+            "courses_uuid": "42865",
+            "overallAvg": 72.91
+        },
+        {
+            "courses_uuid": "42777",
+            "overallAvg": 73.77
+        },
+        {
+            "courses_uuid": "42772",
+            "overallAvg": 72.75
+        },
+        {
+            "courses_uuid": "4277",
+            "overallAvg": 81.76
+        },
+        {
+            "courses_uuid": "4275",
+            "overallAvg": 82.46
+        },
+        {
+            "courses_uuid": "4270",
+            "overallAvg": 80.37
+        },
+        {
+            "courses_uuid": "42546",
+            "overallAvg": 71.32
+        },
+        {
+            "courses_uuid": "42532",
+            "overallAvg": 63.33
+        },
+        {
+            "courses_uuid": "42523",
+            "overallAvg": 76.95
+        },
+        {
+            "courses_uuid": "42507",
+            "overallAvg": 63.71
+        },
+        {
+            "courses_uuid": "42506",
+            "overallAvg": 65.18
+        },
+        {
+            "courses_uuid": "42505",
+            "overallAvg": 62.28
+        },
+        {
+            "courses_uuid": "42504",
+            "overallAvg": 70.36
+        },
+        {
+            "courses_uuid": "4250",
+            "overallAvg": 68.46
+        },
+        {
+            "courses_uuid": "42495",
+            "overallAvg": 70.97
+        },
+        {
+            "courses_uuid": "424",
+            "overallAvg": 76.16
+        },
+        {
+            "courses_uuid": "42345",
+            "overallAvg": 79.89
+        },
+        {
+            "courses_uuid": "42223",
+            "overallAvg": 77.6
+        },
+        {
+            "courses_uuid": "4220",
+            "overallAvg": 75.51
+        },
+        {
+            "courses_uuid": "42195",
+            "overallAvg": 71.96
+        },
+        {
+            "courses_uuid": "42160",
+            "overallAvg": 76.85
+        },
+        {
+            "courses_uuid": "42157",
+            "overallAvg": 80.27
+        },
+        {
+            "courses_uuid": "42154",
+            "overallAvg": 71.97
+        },
+        {
+            "courses_uuid": "42148",
+            "overallAvg": 69.88
+        },
+        {
+            "courses_uuid": "4214",
+            "overallAvg": 78.66
+        },
+        {
+            "courses_uuid": "42134",
+            "overallAvg": 74.58
+        },
+        {
+            "courses_uuid": "42130",
+            "overallAvg": 71.78
+        },
+        {
+            "courses_uuid": "42129",
+            "overallAvg": 71.78
+        },
+        {
+            "courses_uuid": "42124",
+            "overallAvg": 72.38
+        },
+        {
+            "courses_uuid": "42123",
+            "overallAvg": 73.66
+        },
+        {
+            "courses_uuid": "42122",
+            "overallAvg": 70.44
+        },
+        {
+            "courses_uuid": "42121",
+            "overallAvg": 72.91
+        },
+        {
+            "courses_uuid": "42111",
+            "overallAvg": 73.56
+        },
+        {
+            "courses_uuid": "42104",
+            "overallAvg": 72.2
+        },
+        {
+            "courses_uuid": "4209",
+            "overallAvg": 80.78
+        },
+        {
+            "courses_uuid": "419",
+            "overallAvg": 73.94
+        },
+        {
+            "courses_uuid": "41889",
+            "overallAvg": 72.86
+        },
+        {
+            "courses_uuid": "41542",
+            "overallAvg": 74.26
+        },
+        {
+            "courses_uuid": "41513",
+            "overallAvg": 73.11
+        },
+        {
+            "courses_uuid": "41497",
+            "overallAvg": 74.49
+        },
+        {
+            "courses_uuid": "41482",
+            "overallAvg": 76.18
+        },
+        {
+            "courses_uuid": "41461",
+            "overallAvg": 71.91
+        },
+        {
+            "courses_uuid": "4139",
+            "overallAvg": 72.08
+        },
+        {
+            "courses_uuid": "41365",
+            "overallAvg": 72.72
+        },
+        {
+            "courses_uuid": "41359",
+            "overallAvg": 72.3
+        },
+        {
+            "courses_uuid": "41198",
+            "overallAvg": 70.05
+        },
+        {
+            "courses_uuid": "41181",
+            "overallAvg": 69.58
+        },
+        {
+            "courses_uuid": "41176",
+            "overallAvg": 71.85
+        },
+        {
+            "courses_uuid": "41168",
+            "overallAvg": 72.3
+        },
+        {
+            "courses_uuid": "40802",
+            "overallAvg": 74.54
+        },
+        {
+            "courses_uuid": "40469",
+            "overallAvg": 69.95
+        },
+        {
+            "courses_uuid": "402",
+            "overallAvg": 67.98
+        },
+        {
+            "courses_uuid": "39928",
+            "overallAvg": 79.25
+        },
+        {
+            "courses_uuid": "398",
+            "overallAvg": 74.13
+        },
+        {
+            "courses_uuid": "39539",
+            "overallAvg": 71.84
+        },
+        {
+            "courses_uuid": "39456",
+            "overallAvg": 73.18
+        },
+        {
+            "courses_uuid": "39334",
+            "overallAvg": 68.69
+        },
+        {
+            "courses_uuid": "39326",
+            "overallAvg": 70.42
+        },
+        {
+            "courses_uuid": "393",
+            "overallAvg": 83.86
+        },
+        {
+            "courses_uuid": "39218",
+            "overallAvg": 75.89
+        },
+        {
+            "courses_uuid": "39162",
+            "overallAvg": 76.63
+        },
+        {
+            "courses_uuid": "39141",
+            "overallAvg": 71.09
+        },
+        {
+            "courses_uuid": "39063",
+            "overallAvg": 75.76
+        },
+        {
+            "courses_uuid": "39039",
+            "overallAvg": 75.85
+        },
+        {
+            "courses_uuid": "39021",
+            "overallAvg": 73.27
+        },
+        {
+            "courses_uuid": "39008",
+            "overallAvg": 75.68
+        },
+        {
+            "courses_uuid": "38936",
+            "overallAvg": 80.16
+        },
+        {
+            "courses_uuid": "38927",
+            "overallAvg": 77.18
+        },
+        {
+            "courses_uuid": "38864",
+            "overallAvg": 74.05
+        },
+        {
+            "courses_uuid": "38841",
+            "overallAvg": 76.69
+        },
+        {
+            "courses_uuid": "38831",
+            "overallAvg": 77.82
+        },
+        {
+            "courses_uuid": "38815",
+            "overallAvg": 73.57
+        },
+        {
+            "courses_uuid": "38807",
+            "overallAvg": 74.49
+        },
+        {
+            "courses_uuid": "38802",
+            "overallAvg": 72.15
+        },
+        {
+            "courses_uuid": "38798",
+            "overallAvg": 74.43
+        },
+        {
+            "courses_uuid": "38780",
+            "overallAvg": 71.19
+        },
+        {
+            "courses_uuid": "38774",
+            "overallAvg": 74.49
+        },
+        {
+            "courses_uuid": "38760",
+            "overallAvg": 78.89
+        },
+        {
+            "courses_uuid": "38752",
+            "overallAvg": 76.46
+        },
+        {
+            "courses_uuid": "3874",
+            "overallAvg": 67.63
+        },
+        {
+            "courses_uuid": "38728",
+            "overallAvg": 77.21
+        },
+        {
+            "courses_uuid": "38716",
+            "overallAvg": 79.71
+        },
+        {
+            "courses_uuid": "38701",
+            "overallAvg": 72.55
+        },
+        {
+            "courses_uuid": "3868",
+            "overallAvg": 69.5
+        },
+        {
+            "courses_uuid": "3852",
+            "overallAvg": 67.98
+        },
+        {
+            "courses_uuid": "38517",
+            "overallAvg": 81.27
+        },
+        {
+            "courses_uuid": "38516",
+            "overallAvg": 80.43
+        },
+        {
+            "courses_uuid": "38515",
+            "overallAvg": 82.82
+        },
+        {
+            "courses_uuid": "38514",
+            "overallAvg": 71.8
+        },
+        {
+            "courses_uuid": "38510",
+            "overallAvg": 76.61
+        },
+        {
+            "courses_uuid": "38509",
+            "overallAvg": 78.69
+        },
+        {
+            "courses_uuid": "38507",
+            "overallAvg": 73.87
+        },
+        {
+            "courses_uuid": "38505",
+            "overallAvg": 75.88
+        },
+        {
+            "courses_uuid": "38504",
+            "overallAvg": 72.35
+        },
+        {
+            "courses_uuid": "3828",
+            "overallAvg": 66.91
+        },
+        {
+            "courses_uuid": "38275",
+            "overallAvg": 73.17
+        },
+        {
+            "courses_uuid": "382",
+            "overallAvg": 72.87
+        },
+        {
+            "courses_uuid": "3817",
+            "overallAvg": 62.37
+        },
+        {
+            "courses_uuid": "3807",
+            "overallAvg": 66.46
+        },
+        {
+            "courses_uuid": "3792",
+            "overallAvg": 69.27
+        },
+        {
+            "courses_uuid": "37831",
+            "overallAvg": 71.02
+        },
+        {
+            "courses_uuid": "37822",
+            "overallAvg": 71.97
+        },
+        {
+            "courses_uuid": "3780",
+            "overallAvg": 67.85
+        },
+        {
+            "courses_uuid": "37734",
+            "overallAvg": 68.67
+        },
+        {
+            "courses_uuid": "3772",
+            "overallAvg": 70.08
+        },
+        {
+            "courses_uuid": "3765",
+            "overallAvg": 68.89
+        },
+        {
+            "courses_uuid": "3759",
+            "overallAvg": 66.12
+        },
+        {
+            "courses_uuid": "37516",
+            "overallAvg": 69.59
+        },
+        {
+            "courses_uuid": "37513",
+            "overallAvg": 69.08
+        },
+        {
+            "courses_uuid": "3747",
+            "overallAvg": 70.06
+        },
+        {
+            "courses_uuid": "37222",
+            "overallAvg": 72.59
+        },
+        {
+            "courses_uuid": "37132",
+            "overallAvg": 73.44
+        },
+        {
+            "courses_uuid": "37116",
+            "overallAvg": 71.61
+        },
+        {
+            "courses_uuid": "37044",
+            "overallAvg": 72.8
+        },
+        {
+            "courses_uuid": "367",
+            "overallAvg": 75.15
+        },
+        {
+            "courses_uuid": "36611",
+            "overallAvg": 75.77
+        },
+        {
+            "courses_uuid": "36609",
+            "overallAvg": 76.25
+        },
+        {
+            "courses_uuid": "36606",
+            "overallAvg": 82.64
+        },
+        {
+            "courses_uuid": "36587",
+            "overallAvg": 66.21
+        },
+        {
+            "courses_uuid": "36576",
+            "overallAvg": 77.69
+        },
+        {
+            "courses_uuid": "36555",
+            "overallAvg": 73.83
+        },
+        {
+            "courses_uuid": "360",
+            "overallAvg": 72.76
+        },
+        {
+            "courses_uuid": "35458",
+            "overallAvg": 80.04
+        },
+        {
+            "courses_uuid": "34366",
+            "overallAvg": 68.48
+        },
+        {
+            "courses_uuid": "3436",
+            "overallAvg": 73.71
+        },
+        {
+            "courses_uuid": "34326",
+            "overallAvg": 75.71
+        },
+        {
+            "courses_uuid": "34312",
+            "overallAvg": 76.5
+        },
+        {
+            "courses_uuid": "34307",
+            "overallAvg": 68.25
+        },
+        {
+            "courses_uuid": "34303",
+            "overallAvg": 68.58
+        },
+        {
+            "courses_uuid": "34298",
+            "overallAvg": 72.26
+        },
+        {
+            "courses_uuid": "34273",
+            "overallAvg": 66.69
+        },
+        {
+            "courses_uuid": "34263",
+            "overallAvg": 68.77
+        },
+        {
+            "courses_uuid": "34256",
+            "overallAvg": 67.53
+        },
+        {
+            "courses_uuid": "34086",
+            "overallAvg": 70.25
+        },
+        {
+            "courses_uuid": "34082",
+            "overallAvg": 71.77
+        },
+        {
+            "courses_uuid": "34075",
+            "overallAvg": 69.69
+        },
+        {
+            "courses_uuid": "34061",
+            "overallAvg": 67.81
+        },
+        {
+            "courses_uuid": "34054",
+            "overallAvg": 67.83
+        },
+        {
+            "courses_uuid": "34036",
+            "overallAvg": 66.48
+        },
+        {
+            "courses_uuid": "34025",
+            "overallAvg": 67.5
+        },
+        {
+            "courses_uuid": "34018",
+            "overallAvg": 64.64
+        },
+        {
+            "courses_uuid": "34013",
+            "overallAvg": 66.83
+        },
+        {
+            "courses_uuid": "33997",
+            "overallAvg": 64.63
+        },
+        {
+            "courses_uuid": "33988",
+            "overallAvg": 70.63
+        },
+        {
+            "courses_uuid": "33978",
+            "overallAvg": 66.24
+        },
+        {
+            "courses_uuid": "33971",
+            "overallAvg": 69.36
+        },
+        {
+            "courses_uuid": "33964",
+            "overallAvg": 66.31
+        },
+        {
+            "courses_uuid": "33953",
+            "overallAvg": 73.29
+        },
+        {
+            "courses_uuid": "33947",
+            "overallAvg": 74.75
+        },
+        {
+            "courses_uuid": "33548",
+            "overallAvg": 68.24
+        },
+        {
+            "courses_uuid": "33530",
+            "overallAvg": 71.05
+        },
+        {
+            "courses_uuid": "33525",
+            "overallAvg": 69.62
+        },
+        {
+            "courses_uuid": "33517",
+            "overallAvg": 75.31
+        },
+        {
+            "courses_uuid": "33419",
+            "overallAvg": 80.04
+        },
+        {
+            "courses_uuid": "33389",
+            "overallAvg": 79.26
+        },
+        {
+            "courses_uuid": "3337",
+            "overallAvg": 68.34
+        },
+        {
+            "courses_uuid": "33186",
+            "overallAvg": 67.07
+        },
+        {
+            "courses_uuid": "33183",
+            "overallAvg": 71.22
+        },
+        {
+            "courses_uuid": "33179",
+            "overallAvg": 72.23
+        },
+        {
+            "courses_uuid": "33178",
+            "overallAvg": 68.75
+        },
+        {
+            "courses_uuid": "33175",
+            "overallAvg": 68.01
+        },
+        {
+            "courses_uuid": "32588",
+            "overallAvg": 68.09
+        },
+        {
+            "courses_uuid": "31968",
+            "overallAvg": 73.83
+        },
+        {
+            "courses_uuid": "31957",
+            "overallAvg": 65.99
+        },
+        {
+            "courses_uuid": "31944",
+            "overallAvg": 60.12
+        },
+        {
+            "courses_uuid": "31938",
+            "overallAvg": 67.06
+        },
+        {
+            "courses_uuid": "31931",
+            "overallAvg": 71.6
+        },
+        {
+            "courses_uuid": "31924",
+            "overallAvg": 66.8
+        },
+        {
+            "courses_uuid": "31920",
+            "overallAvg": 65.85
+        },
+        {
+            "courses_uuid": "31798",
+            "overallAvg": 78.54
+        },
+        {
+            "courses_uuid": "31645",
+            "overallAvg": 73.81
+        },
+        {
+            "courses_uuid": "31631",
+            "overallAvg": 68.72
+        },
+        {
+            "courses_uuid": "31501",
+            "overallAvg": 70.74
+        },
+        {
+            "courses_uuid": "31491",
+            "overallAvg": 68.61
+        },
+        {
+            "courses_uuid": "31482",
+            "overallAvg": 68.65
+        },
+        {
+            "courses_uuid": "31458",
+            "overallAvg": 69.73
+        },
+        {
+            "courses_uuid": "31444",
+            "overallAvg": 68.74
+        },
+        {
+            "courses_uuid": "31439",
+            "overallAvg": 72.13
+        },
+        {
+            "courses_uuid": "31421",
+            "overallAvg": 68.94
+        },
+        {
+            "courses_uuid": "31414",
+            "overallAvg": 69.79
+        },
+        {
+            "courses_uuid": "31406",
+            "overallAvg": 68.9
+        },
+        {
+            "courses_uuid": "31403",
+            "overallAvg": 68.52
+        },
+        {
+            "courses_uuid": "31400",
+            "overallAvg": 68.26
+        },
+        {
+            "courses_uuid": "31397",
+            "overallAvg": 66.8
+        },
+        {
+            "courses_uuid": "31394",
+            "overallAvg": 67.82
+        },
+        {
+            "courses_uuid": "31391",
+            "overallAvg": 68.69
+        },
+        {
+            "courses_uuid": "31242",
+            "overallAvg": 74.58
+        },
+        {
+            "courses_uuid": "31227",
+            "overallAvg": 67.02
+        },
+        {
+            "courses_uuid": "31216",
+            "overallAvg": 76.86
+        },
+        {
+            "courses_uuid": "31203",
+            "overallAvg": 74.44
+        },
+        {
+            "courses_uuid": "31200",
+            "overallAvg": 73.45
+        },
+        {
+            "courses_uuid": "31192",
+            "overallAvg": 67.42
+        },
+        {
+            "courses_uuid": "31041",
+            "overallAvg": 72.97
+        },
+        {
+            "courses_uuid": "30860",
+            "overallAvg": 63.46
+        },
+        {
+            "courses_uuid": "30066",
+            "overallAvg": 71.73
+        },
+        {
+            "courses_uuid": "29847",
+            "overallAvg": 67.31
+        },
+        {
+            "courses_uuid": "29834",
+            "overallAvg": 70.34
+        },
+        {
+            "courses_uuid": "29815",
+            "overallAvg": 66.09
+        },
+        {
+            "courses_uuid": "29805",
+            "overallAvg": 60.96
+        },
+        {
+            "courses_uuid": "29781",
+            "overallAvg": 61.03
+        },
+        {
+            "courses_uuid": "29760",
+            "overallAvg": 63.98
+        },
+        {
+            "courses_uuid": "29745",
+            "overallAvg": 68.65
+        },
+        {
+            "courses_uuid": "29738",
+            "overallAvg": 69.89
+        },
+        {
+            "courses_uuid": "29729",
+            "overallAvg": 67.39
+        },
+        {
+            "courses_uuid": "29722",
+            "overallAvg": 70.76
+        },
+        {
+            "courses_uuid": "29715",
+            "overallAvg": 65.21
+        },
+        {
+            "courses_uuid": "29703",
+            "overallAvg": 69.06
+        },
+        {
+            "courses_uuid": "2931",
+            "overallAvg": 71.99
+        },
+        {
+            "courses_uuid": "2923",
+            "overallAvg": 75.28
+        },
+        {
+            "courses_uuid": "28224",
+            "overallAvg": 69.21
+        },
+        {
+            "courses_uuid": "28220",
+            "overallAvg": 68.44
+        },
+        {
+            "courses_uuid": "27910",
+            "overallAvg": 69.2
+        },
+        {
+            "courses_uuid": "27902",
+            "overallAvg": 71.79
+        },
+        {
+            "courses_uuid": "27876",
+            "overallAvg": 71
+        },
+        {
+            "courses_uuid": "27861",
+            "overallAvg": 69.05
+        },
+        {
+            "courses_uuid": "27855",
+            "overallAvg": 71.26
+        },
+        {
+            "courses_uuid": "27839",
+            "overallAvg": 68.33
+        },
+        {
+            "courses_uuid": "27831",
+            "overallAvg": 69.97
+        },
+        {
+            "courses_uuid": "27823",
+            "overallAvg": 68.16
+        },
+        {
+            "courses_uuid": "27819",
+            "overallAvg": 68.66
+        },
+        {
+            "courses_uuid": "27815",
+            "overallAvg": 67.84
+        },
+        {
+            "courses_uuid": "27811",
+            "overallAvg": 68.67
+        },
+        {
+            "courses_uuid": "27807",
+            "overallAvg": 68.18
+        },
+        {
+            "courses_uuid": "27329",
+            "overallAvg": 69.41
+        },
+        {
+            "courses_uuid": "27314",
+            "overallAvg": 69.67
+        },
+        {
+            "courses_uuid": "27291",
+            "overallAvg": 67.16
+        },
+        {
+            "courses_uuid": "27280",
+            "overallAvg": 60.66
+        },
+        {
+            "courses_uuid": "27274",
+            "overallAvg": 61.35
+        },
+        {
+            "courses_uuid": "27269",
+            "overallAvg": 66.13
+        },
+        {
+            "courses_uuid": "27257",
+            "overallAvg": 60.41
+        },
+        {
+            "courses_uuid": "27253",
+            "overallAvg": 64.43
+        },
+        {
+            "courses_uuid": "27240",
+            "overallAvg": 65.46
+        },
+        {
+            "courses_uuid": "27230",
+            "overallAvg": 65.37
+        },
+        {
+            "courses_uuid": "27223",
+            "overallAvg": 69.48
+        },
+        {
+            "courses_uuid": "27216",
+            "overallAvg": 68.65
+        },
+        {
+            "courses_uuid": "27205",
+            "overallAvg": 70.84
+        },
+        {
+            "courses_uuid": "27198",
+            "overallAvg": 71.07
+        },
+        {
+            "courses_uuid": "27000",
+            "overallAvg": 72.44
+        },
+        {
+            "courses_uuid": "26988",
+            "overallAvg": 74.73
+        },
+        {
+            "courses_uuid": "26962",
+            "overallAvg": 73.17
+        },
+        {
+            "courses_uuid": "26842",
+            "overallAvg": 70.85
+        },
+        {
+            "courses_uuid": "26653",
+            "overallAvg": 71.61
+        },
+        {
+            "courses_uuid": "26611",
+            "overallAvg": 80.6
+        },
+        {
+            "courses_uuid": "26357",
+            "overallAvg": 81.68
+        },
+        {
+            "courses_uuid": "26356",
+            "overallAvg": 81.68
+        },
+        {
+            "courses_uuid": "26151",
+            "overallAvg": 77.22
+        },
+        {
+            "courses_uuid": "26147",
+            "overallAvg": 78.19
+        },
+        {
+            "courses_uuid": "26130",
+            "overallAvg": 78.51
+        },
+        {
+            "courses_uuid": "25645",
+            "overallAvg": 70.19
+        },
+        {
+            "courses_uuid": "25637",
+            "overallAvg": 70.69
+        },
+        {
+            "courses_uuid": "25603",
+            "overallAvg": 68.15
+        },
+        {
+            "courses_uuid": "25597",
+            "overallAvg": 70.67
+        },
+        {
+            "courses_uuid": "25583",
+            "overallAvg": 68.53
+        },
+        {
+            "courses_uuid": "25576",
+            "overallAvg": 67.9
+        },
+        {
+            "courses_uuid": "25566",
+            "overallAvg": 68.87
+        },
+        {
+            "courses_uuid": "25564",
+            "overallAvg": 70
+        },
+        {
+            "courses_uuid": "25563",
+            "overallAvg": 68.6
+        },
+        {
+            "courses_uuid": "25562",
+            "overallAvg": 68.19
+        },
+        {
+            "courses_uuid": "25560",
+            "overallAvg": 67.3
+        },
+        {
+            "courses_uuid": "25436",
+            "overallAvg": 70.98
+        },
+        {
+            "courses_uuid": "25423",
+            "overallAvg": 73.44
+        },
+        {
+            "courses_uuid": "24991",
+            "overallAvg": 70.56
+        },
+        {
+            "courses_uuid": "24776",
+            "overallAvg": 71.86
+        },
+        {
+            "courses_uuid": "24728",
+            "overallAvg": 71.9
+        },
+        {
+            "courses_uuid": "24723",
+            "overallAvg": 80.53
+        },
+        {
+            "courses_uuid": "24719",
+            "overallAvg": 83.68
+        },
+        {
+            "courses_uuid": "24388",
+            "overallAvg": 71.69
+        },
+        {
+            "courses_uuid": "24385",
+            "overallAvg": 69.36
+        },
+        {
+            "courses_uuid": "23836",
+            "overallAvg": 70.38
+        },
+        {
+            "courses_uuid": "2378",
+            "overallAvg": 73.19
+        },
+        {
+            "courses_uuid": "2373",
+            "overallAvg": 73.35
+        },
+        {
+            "courses_uuid": "2369",
+            "overallAvg": 72.59
+        },
+        {
+            "courses_uuid": "23616",
+            "overallAvg": 78.37
+        },
+        {
+            "courses_uuid": "23615",
+            "overallAvg": 78.37
+        },
+        {
+            "courses_uuid": "23602",
+            "overallAvg": 75.64
+        },
+        {
+            "courses_uuid": "2360",
+            "overallAvg": 77.13
+        },
+        {
+            "courses_uuid": "23585",
+            "overallAvg": 71.84
+        },
+        {
+            "courses_uuid": "23579",
+            "overallAvg": 78.11
+        },
+        {
+            "courses_uuid": "2346",
+            "overallAvg": 73.9
+        },
+        {
+            "courses_uuid": "23373",
+            "overallAvg": 71.47
+        },
+        {
+            "courses_uuid": "23372",
+            "overallAvg": 71.47
+        },
+        {
+            "courses_uuid": "23371",
+            "overallAvg": 74.34
+        },
+        {
+            "courses_uuid": "23370",
+            "overallAvg": 74.34
+        },
+        {
+            "courses_uuid": "23367",
+            "overallAvg": 69.58
+        },
+        {
+            "courses_uuid": "23365",
+            "overallAvg": 69.77
+        },
+        {
+            "courses_uuid": "23315",
+            "overallAvg": 78.74
+        },
+        {
+            "courses_uuid": "23309",
+            "overallAvg": 78.11
+        },
+        {
+            "courses_uuid": "22996",
+            "overallAvg": 72.68
+        },
+        {
+            "courses_uuid": "22975",
+            "overallAvg": 73.83
+        },
+        {
+            "courses_uuid": "22798",
+            "overallAvg": 73.21
+        },
+        {
+            "courses_uuid": "22777",
+            "overallAvg": 72.99
+        },
+        {
+            "courses_uuid": "22551",
+            "overallAvg": 72.26
+        },
+        {
+            "courses_uuid": "22539",
+            "overallAvg": 71.15
+        },
+        {
+            "courses_uuid": "22456",
+            "overallAvg": 79.43
+        },
+        {
+            "courses_uuid": "22454",
+            "overallAvg": 79.34
+        },
+        {
+            "courses_uuid": "22429",
+            "overallAvg": 68.76
+        },
+        {
+            "courses_uuid": "22418",
+            "overallAvg": 73.68
+        },
+        {
+            "courses_uuid": "22385",
+            "overallAvg": 72.29
+        },
+        {
+            "courses_uuid": "22263",
+            "overallAvg": 73.76
+        },
+        {
+            "courses_uuid": "22260",
+            "overallAvg": 70.77
+        },
+        {
+            "courses_uuid": "22225",
+            "overallAvg": 71.93
+        },
+        {
+            "courses_uuid": "22210",
+            "overallAvg": 71.99
+        },
+        {
+            "courses_uuid": "21990",
+            "overallAvg": 74.05
+        },
+        {
+            "courses_uuid": "21985",
+            "overallAvg": 74.33
+        },
+        {
+            "courses_uuid": "21980",
+            "overallAvg": 72.11
+        },
+        {
+            "courses_uuid": "21935",
+            "overallAvg": 71.76
+        },
+        {
+            "courses_uuid": "21928",
+            "overallAvg": 75.57
+        },
+        {
+            "courses_uuid": "21916",
+            "overallAvg": 72.06
+        },
+        {
+            "courses_uuid": "21907",
+            "overallAvg": 68.98
+        },
+        {
+            "courses_uuid": "21902",
+            "overallAvg": 66.08
+        },
+        {
+            "courses_uuid": "21896",
+            "overallAvg": 69.43
+        },
+        {
+            "courses_uuid": "21890",
+            "overallAvg": 69.11
+        },
+        {
+            "courses_uuid": "21529",
+            "overallAvg": 71.2
+        },
+        {
+            "courses_uuid": "21517",
+            "overallAvg": 76.07
+        },
+        {
+            "courses_uuid": "21513",
+            "overallAvg": 71.85
+        },
+        {
+            "courses_uuid": "21505",
+            "overallAvg": 72.43
+        },
+        {
+            "courses_uuid": "21458",
+            "overallAvg": 74.08
+        },
+        {
+            "courses_uuid": "21442",
+            "overallAvg": 69.62
+        },
+        {
+            "courses_uuid": "21438",
+            "overallAvg": 63.91
+        },
+        {
+            "courses_uuid": "21434",
+            "overallAvg": 72.16
+        },
+        {
+            "courses_uuid": "21433",
+            "overallAvg": 67.24
+        },
+        {
+            "courses_uuid": "21427",
+            "overallAvg": 65.86
+        },
+        {
+            "courses_uuid": "21423",
+            "overallAvg": 63.79
+        },
+        {
+            "courses_uuid": "20739",
+            "overallAvg": 71.8
+        },
+        {
+            "courses_uuid": "20645",
+            "overallAvg": 76.76
+        },
+        {
+            "courses_uuid": "20618",
+            "overallAvg": 74.62
+        },
+        {
+            "courses_uuid": "20580",
+            "overallAvg": 78.04
+        },
+        {
+            "courses_uuid": "20577",
+            "overallAvg": 72.89
+        },
+        {
+            "courses_uuid": "20574",
+            "overallAvg": 70.95
+        },
+        {
+            "courses_uuid": "20569",
+            "overallAvg": 68.07
+        },
+        {
+            "courses_uuid": "20557",
+            "overallAvg": 74.68
+        },
+        {
+            "courses_uuid": "20553",
+            "overallAvg": 68.7
+        },
+        {
+            "courses_uuid": "20550",
+            "overallAvg": 69.09
+        },
+        {
+            "courses_uuid": "20545",
+            "overallAvg": 72.75
+        },
+        {
+            "courses_uuid": "20544",
+            "overallAvg": 72.84
+        },
+        {
+            "courses_uuid": "20543",
+            "overallAvg": 72.62
+        },
+        {
+            "courses_uuid": "20542",
+            "overallAvg": 68.22
+        },
+        {
+            "courses_uuid": "20532",
+            "overallAvg": 70.02
+        },
+        {
+            "courses_uuid": "20525",
+            "overallAvg": 69.57
+        },
+        {
+            "courses_uuid": "20367",
+            "overallAvg": 71.89
+        },
+        {
+            "courses_uuid": "19912",
+            "overallAvg": 69.53
+        },
+        {
+            "courses_uuid": "19877",
+            "overallAvg": 84.05
+        },
+        {
+            "courses_uuid": "19875",
+            "overallAvg": 87.81
+        },
+        {
+            "courses_uuid": "19866",
+            "overallAvg": 84.98
+        },
+        {
+            "courses_uuid": "19848",
+            "overallAvg": 71.37
+        },
+        {
+            "courses_uuid": "19837",
+            "overallAvg": 72.09
+        },
+        {
+            "courses_uuid": "19807",
+            "overallAvg": 74.96
+        },
+        {
+            "courses_uuid": "19699",
+            "overallAvg": 80.36
+        },
+        {
+            "courses_uuid": "19670",
+            "overallAvg": 70.67
+        },
+        {
+            "courses_uuid": "19654",
+            "overallAvg": 70.31
+        },
+        {
+            "courses_uuid": "19630",
+            "overallAvg": 71.97
+        },
+        {
+            "courses_uuid": "19627",
+            "overallAvg": 74.26
+        },
+        {
+            "courses_uuid": "19624",
+            "overallAvg": 68.82
+        },
+        {
+            "courses_uuid": "19608",
+            "overallAvg": 75.27
+        },
+        {
+            "courses_uuid": "19603",
+            "overallAvg": 69.54
+        },
+        {
+            "courses_uuid": "19599",
+            "overallAvg": 70
+        },
+        {
+            "courses_uuid": "19594",
+            "overallAvg": 72.55
+        },
+        {
+            "courses_uuid": "19569",
+            "overallAvg": 66.78
+        },
+        {
+            "courses_uuid": "19559",
+            "overallAvg": 69.72
+        },
+        {
+            "courses_uuid": "19552",
+            "overallAvg": 69.92
+        },
+        {
+            "courses_uuid": "19520",
+            "overallAvg": 68.13
+        },
+        {
+            "courses_uuid": "19517",
+            "overallAvg": 68.6
+        },
+        {
+            "courses_uuid": "18815",
+            "overallAvg": 71.44
+        },
+        {
+            "courses_uuid": "18739",
+            "overallAvg": 80.31
+        },
+        {
+            "courses_uuid": "18738",
+            "overallAvg": 80.31
+        },
+        {
+            "courses_uuid": "18712",
+            "overallAvg": 71.35
+        },
+        {
+            "courses_uuid": "18701",
+            "overallAvg": 67.23
+        },
+        {
+            "courses_uuid": "18671",
+            "overallAvg": 72.08
+        },
+        {
+            "courses_uuid": "18615",
+            "overallAvg": 75.57
+        },
+        {
+            "courses_uuid": "18597",
+            "overallAvg": 69.97
+        },
+        {
+            "courses_uuid": "18331",
+            "overallAvg": 75.14
+        },
+        {
+            "courses_uuid": "18264",
+            "overallAvg": 68.42
+        },
+        {
+            "courses_uuid": "18140",
+            "overallAvg": 64.5
+        },
+        {
+            "courses_uuid": "18097",
+            "overallAvg": 75.84
+        },
+        {
+            "courses_uuid": "18079",
+            "overallAvg": 74.53
+        },
+        {
+            "courses_uuid": "18074",
+            "overallAvg": 64.73
+        },
+        {
+            "courses_uuid": "18071",
+            "overallAvg": 64.98
+        },
+        {
+            "courses_uuid": "18066",
+            "overallAvg": 72.64
+        },
+        {
+            "courses_uuid": "18041",
+            "overallAvg": 66.88
+        },
+        {
+            "courses_uuid": "18031",
+            "overallAvg": 67.77
+        },
+        {
+            "courses_uuid": "18024",
+            "overallAvg": 67.7
+        },
+        {
+            "courses_uuid": "17949",
+            "overallAvg": 79.45
+        },
+        {
+            "courses_uuid": "17737",
+            "overallAvg": 73.6
+        },
+        {
+            "courses_uuid": "17717",
+            "overallAvg": 72.74
+        },
+        {
+            "courses_uuid": "17691",
+            "overallAvg": 76.29
+        },
+        {
+            "courses_uuid": "17684",
+            "overallAvg": 70.82
+        },
+        {
+            "courses_uuid": "17680",
+            "overallAvg": 74.36
+        },
+        {
+            "courses_uuid": "17673",
+            "overallAvg": 72.13
+        },
+        {
+            "courses_uuid": "17672",
+            "overallAvg": 74.76
+        },
+        {
+            "courses_uuid": "17658",
+            "overallAvg": 74.56
+        },
+        {
+            "courses_uuid": "17540",
+            "overallAvg": 78.74
+        },
+        {
+            "courses_uuid": "17537",
+            "overallAvg": 79.24
+        },
+        {
+            "courses_uuid": "17468",
+            "overallAvg": 75.86
+        },
+        {
+            "courses_uuid": "17464",
+            "overallAvg": 71.36
+        },
+        {
+            "courses_uuid": "17365",
+            "overallAvg": 73.91
+        },
+        {
+            "courses_uuid": "1721",
+            "overallAvg": 81.74
+        },
+        {
+            "courses_uuid": "17197",
+            "overallAvg": 74.21
+        },
+        {
+            "courses_uuid": "17037",
+            "overallAvg": 74.96
+        },
+        {
+            "courses_uuid": "17032",
+            "overallAvg": 74.54
+        },
+        {
+            "courses_uuid": "17024",
+            "overallAvg": 73.4
+        },
+        {
+            "courses_uuid": "17021",
+            "overallAvg": 69.24
+        },
+        {
+            "courses_uuid": "17016",
+            "overallAvg": 71.43
+        },
+        {
+            "courses_uuid": "16222",
+            "overallAvg": 69.87
+        },
+        {
+            "courses_uuid": "1610",
+            "overallAvg": 78.16
+        },
+        {
+            "courses_uuid": "1607",
+            "overallAvg": 76.46
+        },
+        {
+            "courses_uuid": "16066",
+            "overallAvg": 72.89
+        },
+        {
+            "courses_uuid": "16061",
+            "overallAvg": 72.26
+        },
+        {
+            "courses_uuid": "16051",
+            "overallAvg": 71.07
+        },
+        {
+            "courses_uuid": "16046",
+            "overallAvg": 72.52
+        },
+        {
+            "courses_uuid": "14647",
+            "overallAvg": 70.27
+        },
+        {
+            "courses_uuid": "14448",
+            "overallAvg": 75.95
+        },
+        {
+            "courses_uuid": "14435",
+            "overallAvg": 70.37
+        },
+        {
+            "courses_uuid": "14431",
+            "overallAvg": 67.96
+        },
+        {
+            "courses_uuid": "14342",
+            "overallAvg": 67.72
+        },
+        {
+            "courses_uuid": "14185",
+            "overallAvg": 69.37
+        },
+        {
+            "courses_uuid": "14022",
+            "overallAvg": 78.68
+        },
+        {
+            "courses_uuid": "13986",
+            "overallAvg": 72.45
+        },
+        {
+            "courses_uuid": "13979",
+            "overallAvg": 74.52
+        },
+        {
+            "courses_uuid": "13808",
+            "overallAvg": 66.63
+        },
+        {
+            "courses_uuid": "13794",
+            "overallAvg": 68.11
+        },
+        {
+            "courses_uuid": "13772",
+            "overallAvg": 65.18
+        },
+        {
+            "courses_uuid": "13760",
+            "overallAvg": 63.3
+        },
+        {
+            "courses_uuid": "13746",
+            "overallAvg": 61.49
+        },
+        {
+            "courses_uuid": "13732",
+            "overallAvg": 64.28
+        },
+        {
+            "courses_uuid": "13719",
+            "overallAvg": 67.41
+        },
+        {
+            "courses_uuid": "13709",
+            "overallAvg": 75.11
+        },
+        {
+            "courses_uuid": "13701",
+            "overallAvg": 66.82
+        },
+        {
+            "courses_uuid": "13694",
+            "overallAvg": 68.4
+        },
+        {
+            "courses_uuid": "13688",
+            "overallAvg": 64.55
+        },
+        {
+            "courses_uuid": "13675",
+            "overallAvg": 70.82
+        },
+        {
+            "courses_uuid": "13272",
+            "overallAvg": 71.74
+        },
+        {
+            "courses_uuid": "13258",
+            "overallAvg": 70.1
+        },
+        {
+            "courses_uuid": "1314",
+            "overallAvg": 70.93
+        },
+        {
+            "courses_uuid": "1295",
+            "overallAvg": 79.5
+        },
+        {
+            "courses_uuid": "1279",
+            "overallAvg": 76.66
+        },
+        {
+            "courses_uuid": "1274",
+            "overallAvg": 74.93
+        },
+        {
+            "courses_uuid": "1270",
+            "overallAvg": 75.26
+        },
+        {
+            "courses_uuid": "1262",
+            "overallAvg": 76.71
+        },
+        {
+            "courses_uuid": "1256",
+            "overallAvg": 72.28
+        },
+        {
+            "courses_uuid": "12370",
+            "overallAvg": 73.67
+        },
+        {
+            "courses_uuid": "12366",
+            "overallAvg": 72.67
+        },
+        {
+            "courses_uuid": "11923",
+            "overallAvg": 70.94
+        },
+        {
+            "courses_uuid": "11754",
+            "overallAvg": 76.95
+        },
+        {
+            "courses_uuid": "11722",
+            "overallAvg": 74.23
+        },
+        {
+            "courses_uuid": "11715",
+            "overallAvg": 73.02
+        },
+        {
+            "courses_uuid": "11526",
+            "overallAvg": 74.43
+        },
+        {
+            "courses_uuid": "11521",
+            "overallAvg": 75.12
+        },
+        {
+            "courses_uuid": "11510",
+            "overallAvg": 69.21
+        },
+        {
+            "courses_uuid": "11453",
+            "overallAvg": 73.07
+        },
+        {
+            "courses_uuid": "11440",
+            "overallAvg": 71.16
+        },
+        {
+            "courses_uuid": "11431",
+            "overallAvg": 68.72
+        },
+        {
+            "courses_uuid": "11424",
+            "overallAvg": 66.81
+        },
+        {
+            "courses_uuid": "11418",
+            "overallAvg": 69.25
+        },
+        {
+            "courses_uuid": "11410",
+            "overallAvg": 68.13
+        },
+        {
+            "courses_uuid": "11372",
+            "overallAvg": 69.71
+        },
+        {
+            "courses_uuid": "11371",
+            "overallAvg": 69.71
+        },
+        {
+            "courses_uuid": "11370",
+            "overallAvg": 74.7
+        },
+        {
+            "courses_uuid": "11369",
+            "overallAvg": 74.7
+        },
+        {
+            "courses_uuid": "1084",
+            "overallAvg": 74.55
+        },
+        {
+            "courses_uuid": "10635",
+            "overallAvg": 77.47
+        },
+        {
+            "courses_uuid": "10632",
+            "overallAvg": 77.76
+        },
+        {
+            "courses_uuid": "1018",
+            "overallAvg": 72.12
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "title": "invalid applyRule key",
+    "query": {
+      "WHERE": {
+            "AND": [{
+                "GT": {
+                      "rooms_seats": 75
+                    }
+                },
+                {
+                    "LT": {
+                        "courses_avg": 95
+                    }
+                }
+            ]
+        },
+      "OPTIONS": {
+        "COLUMNS": [
+          "rooms_avg"
+        ],
+          "ORDER": "rooms_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

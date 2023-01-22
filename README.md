@@ -1,0 +1,2 @@
+Academic project where me and my teammate developed a RESTful web server to look up historical grade distributions at UBC with a variety of filtering options in TypeScript. I wrote a query language interpreter to perform valid query requests for POST method and parsed data from JSON files. 
+Performed tests with 98% of line coverage and handled all exceptions.

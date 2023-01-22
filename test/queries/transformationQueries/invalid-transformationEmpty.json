@@ -1,0 +1,34 @@
+{
+    "title": "invalid transformations empty",
+    "query": {
+      "WHERE": {
+        "AND": [
+          {
+            "IS": {
+              "rooms_furniture": "x"
+            }
+          },
+          {
+            "GT": {
+              "rooms_seats": 80
+            }
+          }
+        ]
+      },
+      "OPTIONS": {
+        "COLUMNS": [
+          "rooms_shortname",
+          "rooms_seats"
+        ],
+        "ORDER": {
+          "dir": "DOWN",
+          "keys": [
+            "rooms_seats"
+          ]
+        }
+      },
+      "TRANSFORMATIONS": {}
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

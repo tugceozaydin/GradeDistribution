@@ -1,0 +1,52 @@
+{
+    "title": "invalid apply key in group",
+    "query": {
+      "WHERE": {
+        "AND": [
+          {
+            "IS": {
+              "rooms_furniture": "*Tables*"
+            }
+          },
+          {
+            "GT": {
+              "rooms_seats": 80
+            }
+          }
+        ]
+      },
+      "OPTIONS": {
+        "COLUMNS": [
+          "rooms_shortname",
+          "maxSeats",
+          "minLon"
+        ],
+        "ORDER": {
+          "dir": "DOWN",
+          "keys": [
+            "maxSeats"
+          ]
+        }
+      },
+      "TRANSFORMATIONS": {
+        "GROUP": [
+          "rooms_shortname",
+          "minLon"
+        ],
+        "APPLY": [
+          {
+            "maxSeats": {
+              "MAX": "rooms_seats"
+            }
+          },
+          {
+            "minLon": {
+              "MIN": "rooms_lon"
+            }
+          }
+        ]
+      }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,19 @@
+{
+    "title": "Filter Incorrectly",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": "funny"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

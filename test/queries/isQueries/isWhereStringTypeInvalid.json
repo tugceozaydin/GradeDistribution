@@ -1,0 +1,18 @@
+{
+    "title": "where string type invalid",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_dept": 75
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_id"
+            ],
+            "ORDER": "courses_id"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

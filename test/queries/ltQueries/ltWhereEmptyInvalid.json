@@ -1,0 +1,18 @@
+{
+    "title": "LT Where empty invalid",
+    "query": {
+        "WHERE": {
+            "LT": {
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_pass",
+                "courses_audit"
+            ],
+            "ORDER": "courses_pass"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

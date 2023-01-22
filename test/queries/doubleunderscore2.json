@@ -1,0 +1,19 @@
+{
+    "title": "Double underscore order",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_uuid"
+            ],
+            "ORDER": "courses__uuid"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

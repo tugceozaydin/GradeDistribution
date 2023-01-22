@@ -1,0 +1,49 @@
+{
+    "title": "valid order missing",
+    "query": {
+      "WHERE": {
+            "AND": [
+                {
+                    "AND": [
+                        {
+                            "IS": {
+                                "courses_dept": "aanb"
+                            }
+                        },
+                        {
+                            "GT": {
+                                "courses_avg": 75
+                            }
+                        }
+                    ]
+                },
+                {
+                    "LT": {
+                        "courses_avg": 95
+                    }
+                }
+            ]
+        },
+      "OPTIONS": {
+        "COLUMNS": [
+          "courses_title",
+          "overallAvg"
+        ]
+      },
+      "TRANSFORMATIONS": {
+        "GROUP": [
+          "courses_title"
+        ],
+        "APPLY": [
+          {
+            "overallAvg": {
+                "AVG": "courses_avg"
+            }
+          }
+        ]
+      }
+    },
+    "isQueryValid": true,
+    "result":[{"courses_title":"rsrch methdlgy","overallAvg":94.44},{"courses_title":"anml welf rsrch","overallAvg":87.83}]
+}
+

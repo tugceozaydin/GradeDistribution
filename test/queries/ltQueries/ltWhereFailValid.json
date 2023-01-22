@@ -1,0 +1,21 @@
+{
+    "title": "LT Where fail valid",
+    "query": {
+        "WHERE": {
+            "LT": {
+                "courses_fail": 0
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_pass",
+                "courses_audit",
+                "courses_instructor",
+                "courses_id"
+            ],
+            "ORDER": "courses_pass"
+        }
+    },
+    "isQueryValid": true,
+    "result": []
+}

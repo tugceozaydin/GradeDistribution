@@ -1,0 +1,54 @@
+{
+    "title": "invalid UNDERSCORE applyToken",
+    "query": {
+      "WHERE": {
+            "AND": [
+                {
+                    "AND": [
+                        {
+                            "IS": {
+                                "courses_dept": "aanb"
+                            }
+                        },
+                        {
+                            "GT": {
+                                "courses_avg": 75
+                            }
+                        }
+                    ]
+                },
+                {
+                    "LT": {
+                        "courses_avg": 95
+                    }
+                }
+            ]
+        },
+      "OPTIONS": {
+        "COLUMNS": [
+          "courses_title",
+          "overall_Avg"
+        ],
+          "ORDER": { 
+            "dir": "UP",
+            "keys": [
+              "overall_Avg"
+            ]
+          }
+      },
+      "TRANSFORMATIONS": {
+        "GROUP": [
+          "courses_title"
+        ],
+        "APPLY": [
+          {
+            "overall_Avg": {
+              "avg": "courses_avg"
+            }
+          }
+        ]
+      }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

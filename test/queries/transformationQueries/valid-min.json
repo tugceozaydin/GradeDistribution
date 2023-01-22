@@ -1,0 +1,54 @@
+{
+    "title": "valid min",
+    "query": {
+      "WHERE": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "IS": {
+                  "courses_dept": "cpsc"
+                }
+              },
+              {
+                "GT": {
+                  "courses_avg": 89
+                }
+              }
+            ]
+          },
+          {
+            "LT": {
+              "courses_avg": 93
+            }
+          }
+        ]
+      },
+      "OPTIONS": {
+        "COLUMNS": [
+          "courses_title",
+          "minAvg"
+        ],
+        "ORDER": {
+          "dir": "UP",
+          "keys": [
+            "minAvg"
+          ]
+        }
+      },
+      "TRANSFORMATIONS": {
+        "GROUP": [
+          "courses_title"
+        ],
+        "APPLY": [
+          {
+            "minAvg": {
+              "MIN": "courses_avg"
+            }
+          }
+        ]
+      }
+    },
+    "isQueryValid": true,
+    "result": [{"courses_title":"intgrt sys desgn","minAvg":89.09},{"courses_title":"computl ling 1","minAvg":89.1},{"courses_title":"software eng","minAvg":89.17},{"courses_title":"student seminar","minAvg":89.64},{"courses_title":"phy user intfc","minAvg":89.75},{"courses_title":"comp comm protcl","minAvg":90.11},{"courses_title":"honours thesis","minAvg":90.25},{"courses_title":"machine learn i","minAvg":90.53},{"courses_title":"artif intell 2","minAvg":90.71},{"courses_title":"thry of automata","minAvg":91},{"courses_title":"alg in bioin","minAvg":91.25}]
+}

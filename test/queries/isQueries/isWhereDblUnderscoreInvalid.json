@@ -1,0 +1,18 @@
+{
+    "title": "where dbl underscore invalid",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses__dept": "cpsc"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_id"
+            ],
+            "ORDER": "courses_id"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

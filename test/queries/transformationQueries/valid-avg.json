@@ -1,0 +1,94 @@
+{
+    "title": "valid avg",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "IS": {
+                        "courses_dept": "cpsc"
+                    }
+                },
+                {
+                    "GT": {
+                        "courses_avg": 89
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "overallAvg"
+            ],
+            "ORDER": {
+                "dir": "UP",
+                "keys": [
+                    "overallAvg"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_title"
+            ],
+            "APPLY": [
+                {
+                    "overallAvg": {
+                        "AVG": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_title": "intgrt sys desgn",
+            "overallAvg": 89.09
+        },
+        {
+            "courses_title": "phy user intfc",
+            "overallAvg": 89.75
+        },
+        {
+            "courses_title": "software eng",
+            "overallAvg": 90.48
+        },
+        {
+            "courses_title": "comp comm protcl",
+            "overallAvg": 90.67
+        },
+        {
+            "courses_title": "artif intell 2",
+            "overallAvg": 90.71
+        },
+        {
+            "courses_title": "student seminar",
+            "overallAvg": 90.87
+        },
+        {
+            "courses_title": "machine learn i",
+            "overallAvg": 90.88
+        },
+        {
+            "courses_title": "computl ling 1",
+            "overallAvg": 91.02
+        },
+        {
+            "courses_title": "alg in bioin",
+            "overallAvg": 91.25
+        },
+        {
+            "courses_title": "honours thesis",
+            "overallAvg": 92.45
+        },
+        {
+            "courses_title": "thry of automata",
+            "overallAvg": 92.55
+        },
+        {
+            "courses_title": "m.sc major essay",
+            "overallAvg": 95
+        }
+    ]
+}

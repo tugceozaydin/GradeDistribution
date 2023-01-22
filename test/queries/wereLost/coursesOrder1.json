@@ -1,0 +1,4685 @@
+{
+    "title": "courses sort 1",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_pass": 400
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_audit",
+                "courses_uuid",
+                "courses_year"
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "courses_dept",
+                    "courses_audit",
+                    "courses_uuid"
+                ]
+            }
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "wrds",
+            "courses_audit": 0,
+            "courses_uuid": "92605",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "wrds",
+            "courses_audit": 0,
+            "courses_uuid": "81203",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "visa",
+            "courses_audit": 1,
+            "courses_uuid": "53905",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "visa",
+            "courses_audit": 0,
+            "courses_uuid": "83267",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "visa",
+            "courses_audit": 0,
+            "courses_uuid": "52468",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "stat",
+            "courses_audit": 4,
+            "courses_uuid": "73745",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "stat",
+            "courses_audit": 1,
+            "courses_uuid": "98855",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "stat",
+            "courses_audit": 1,
+            "courses_uuid": "69586",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "stat",
+            "courses_audit": 1,
+            "courses_uuid": "43508",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "stat",
+            "courses_audit": 1,
+            "courses_uuid": "2931",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "stat",
+            "courses_audit": 0,
+            "courses_uuid": "98863",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "stat",
+            "courses_audit": 0,
+            "courses_uuid": "85809",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "stat",
+            "courses_audit": 0,
+            "courses_uuid": "85799",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "stat",
+            "courses_audit": 0,
+            "courses_uuid": "81952",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "stat",
+            "courses_audit": 0,
+            "courses_uuid": "81944",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "stat",
+            "courses_audit": 0,
+            "courses_uuid": "52132",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "stat",
+            "courses_audit": 0,
+            "courses_uuid": "2923",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "span",
+            "courses_audit": 7,
+            "courses_uuid": "23836",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "span",
+            "courses_audit": 6,
+            "courses_uuid": "67396",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "span",
+            "courses_audit": 3,
+            "courses_uuid": "73916",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "span",
+            "courses_audit": 2,
+            "courses_uuid": "98574",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "span",
+            "courses_audit": 2,
+            "courses_uuid": "48908",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "span",
+            "courses_audit": 2,
+            "courses_uuid": "46872",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "span",
+            "courses_audit": 1,
+            "courses_uuid": "25423",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "soci",
+            "courses_audit": 2,
+            "courses_uuid": "80184",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "soci",
+            "courses_audit": 0,
+            "courses_uuid": "52689",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "soci",
+            "courses_audit": 0,
+            "courses_uuid": "31041",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "soci",
+            "courses_audit": 0,
+            "courses_uuid": "16222",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "scie",
+            "courses_audit": 0,
+            "courses_uuid": "60294",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "scie",
+            "courses_audit": 0,
+            "courses_uuid": "3436",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "scie",
+            "courses_audit": 0,
+            "courses_uuid": "17365",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 3,
+            "courses_uuid": "89699",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 2,
+            "courses_uuid": "89737",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 2,
+            "courses_uuid": "80420",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 2,
+            "courses_uuid": "78173",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 2,
+            "courses_uuid": "54659",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 2,
+            "courses_uuid": "27902",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "94791",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "94773",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "89717",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "89691",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "89676",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "89667",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "80835",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "80355",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "78127",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "78083",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "78071",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "54673",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "54666",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "31482",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "31458",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "31439",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "27910",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "27855",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "27839",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "27831",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 1,
+            "courses_uuid": "25576",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "94823",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "94814",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "94756",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "94749",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "94742",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "94738",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "94734",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "94728",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "89762",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "89757",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "89683",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "80930",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "80925",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "80903",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "80883",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "80862",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "80854",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "80823",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "80429",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "80395",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "80377",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "80362",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "80344",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "80341",
+            "courses_year": 2008
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "80340",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "80337",
+            "courses_year": 2008
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "78167",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "78147",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "78106",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "78098",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "54753",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "54746",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "54725",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "54707",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "54689",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "54681",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "31491",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "31444",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "31414",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "31400",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "31394",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "31391",
+            "courses_year": 2009
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "27876",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "27823",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "27815",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "27807",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "25645",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "25637",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "25603",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "25583",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "25566",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_audit": 0,
+            "courses_uuid": "25562",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 3,
+            "courses_uuid": "69434",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 3,
+            "courses_uuid": "53726",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 2,
+            "courses_uuid": "69417",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 1,
+            "courses_uuid": "17037",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 1,
+            "courses_uuid": "16051",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "8899",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "8884",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "8879",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "70742",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "70730",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "70725",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "69429",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "69422",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "67014",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "67002",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "66997",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "62957",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "62943",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "62938",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "53712",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "53707",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "17021",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "17016",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "16066",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "poli",
+            "courses_audit": 0,
+            "courses_uuid": "16046",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 2,
+            "courses_uuid": "5926",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 2,
+            "courses_uuid": "41168",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 1,
+            "courses_uuid": "5922",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 1,
+            "courses_uuid": "41176",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "98717",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "98712",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "98696",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "98692",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "98672",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "98668",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "98660",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "80582",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "80565",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "80561",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "80553",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "79990",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "75290",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "75272",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "75268",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "75260",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "5944",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "5914",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "50221",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "50203",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "50198",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "50190",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "424",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "419",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "41198",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "41181",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "402",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "398",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "367",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "360",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "33548",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "33530",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "33525",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phys",
+            "courses_audit": 0,
+            "courses_uuid": "33517",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phil",
+            "courses_audit": 3,
+            "courses_uuid": "37831",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phil",
+            "courses_audit": 3,
+            "courses_uuid": "33183",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phil",
+            "courses_audit": 2,
+            "courses_uuid": "8391",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phil",
+            "courses_audit": 2,
+            "courses_uuid": "20367",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phil",
+            "courses_audit": 1,
+            "courses_uuid": "24991",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phil",
+            "courses_audit": 0,
+            "courses_uuid": "70261",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phil",
+            "courses_audit": 0,
+            "courses_uuid": "58653",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phil",
+            "courses_audit": 0,
+            "courses_uuid": "49169",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phil",
+            "courses_audit": 0,
+            "courses_uuid": "43707",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "phil",
+            "courses_audit": 0,
+            "courses_uuid": "33179",
+            "courses_year": 2007
+        },
+        {
+            "courses_dept": "micb",
+            "courses_audit": 1,
+            "courses_uuid": "9652",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "micb",
+            "courses_audit": 1,
+            "courses_uuid": "12370",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "micb",
+            "courses_audit": 0,
+            "courses_uuid": "93648",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "micb",
+            "courses_audit": 0,
+            "courses_uuid": "80017",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "micb",
+            "courses_audit": 0,
+            "courses_uuid": "67245",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "micb",
+            "courses_audit": 0,
+            "courses_uuid": "62284",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "micb",
+            "courses_audit": 0,
+            "courses_uuid": "18331",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "micb",
+            "courses_audit": 0,
+            "courses_uuid": "17468",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "micb",
+            "courses_audit": 0,
+            "courses_uuid": "17197",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 4,
+            "courses_uuid": "29834",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 1,
+            "courses_uuid": "89990",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 1,
+            "courses_uuid": "89972",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 1,
+            "courses_uuid": "89960",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 1,
+            "courses_uuid": "72980",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 1,
+            "courses_uuid": "72916",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 1,
+            "courses_uuid": "27216",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "90095",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "90091",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "90084",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "90072",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "90065",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "90046",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "90035",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "90024",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "90009",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "89999",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "89981",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "73004",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "72969",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "72957",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "72942",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "72932",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "72923",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "72908",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "72895",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "5239",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "5225",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "5204",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "5192",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "5181",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "5166",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "5155",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "5145",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "5138",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "5131",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "5118",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "47125",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "47113",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "47088",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "47077",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "47064",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "47049",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "47036",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "47027",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "47019",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "47011",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "46997",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "3868",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "3852",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "3828",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "3817",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "3807",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "3792",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "3780",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "3772",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "3765",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "3759",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "3747",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "34075",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "34061",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "34036",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "34025",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "34018",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "34013",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "33997",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "33988",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "33978",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "33971",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "33964",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "33953",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "31968",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "31957",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "31938",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "31931",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "31924",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "29815",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "29805",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "29760",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "29745",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "29738",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "29729",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "29722",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "29715",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "29703",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "27329",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "27314",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "27291",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "27280",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "27269",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "27253",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "27240",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "27230",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "27223",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "27205",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "13794",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "13772",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "13760",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "13732",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "13719",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "13709",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "13701",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "13694",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "13688",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "math",
+            "courses_audit": 0,
+            "courses_uuid": "13675",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "ling",
+            "courses_audit": 2,
+            "courses_uuid": "57401",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "ling",
+            "courses_audit": 1,
+            "courses_uuid": "17540",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "ling",
+            "courses_audit": 0,
+            "courses_uuid": "57592",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "ling",
+            "courses_audit": 0,
+            "courses_uuid": "45541",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "ling",
+            "courses_audit": 0,
+            "courses_uuid": "45538",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "ling",
+            "courses_audit": 0,
+            "courses_uuid": "4139",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "ling",
+            "courses_audit": 0,
+            "courses_uuid": "37044",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "ling",
+            "courses_audit": 0,
+            "courses_uuid": "17537",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "ling",
+            "courses_audit": 0,
+            "courses_uuid": "1610",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "ling",
+            "courses_audit": 0,
+            "courses_uuid": "1607",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "japn",
+            "courses_audit": 6,
+            "courses_uuid": "98117",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "japn",
+            "courses_audit": 5,
+            "courses_uuid": "93525",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "germ",
+            "courses_audit": 8,
+            "courses_uuid": "31798",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "germ",
+            "courses_audit": 8,
+            "courses_uuid": "17949",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "germ",
+            "courses_audit": 6,
+            "courses_uuid": "33419",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "germ",
+            "courses_audit": 5,
+            "courses_uuid": "7005",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "germ",
+            "courses_audit": 3,
+            "courses_uuid": "60580",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "germ",
+            "courses_audit": 3,
+            "courses_uuid": "39928",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "germ",
+            "courses_audit": 1,
+            "courses_uuid": "42345",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "germ",
+            "courses_audit": 1,
+            "courses_uuid": "1721",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "geog",
+            "courses_audit": 0,
+            "courses_uuid": "14431",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "geob",
+            "courses_audit": 2,
+            "courses_uuid": "51084",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "geob",
+            "courses_audit": 0,
+            "courses_uuid": "66203",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "geob",
+            "courses_audit": 0,
+            "courses_uuid": "66199",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "geob",
+            "courses_audit": 0,
+            "courses_uuid": "65338",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "geob",
+            "courses_audit": 0,
+            "courses_uuid": "65335",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "geob",
+            "courses_audit": 0,
+            "courses_uuid": "51087",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "geob",
+            "courses_audit": 0,
+            "courses_uuid": "50132",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "geob",
+            "courses_audit": 0,
+            "courses_uuid": "50128",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "geob",
+            "courses_audit": 0,
+            "courses_uuid": "44636",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "geob",
+            "courses_audit": 0,
+            "courses_uuid": "44632",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "geob",
+            "courses_audit": 0,
+            "courses_uuid": "37516",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "geob",
+            "courses_audit": 0,
+            "courses_uuid": "37513",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "geob",
+            "courses_audit": 0,
+            "courses_uuid": "24388",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "geob",
+            "courses_audit": 0,
+            "courses_uuid": "24385",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fren",
+            "courses_audit": 6,
+            "courses_uuid": "26988",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fren",
+            "courses_audit": 2,
+            "courses_uuid": "90694",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fren",
+            "courses_audit": 2,
+            "courses_uuid": "58900",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fren",
+            "courses_audit": 2,
+            "courses_uuid": "58873",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fren",
+            "courses_audit": 0,
+            "courses_uuid": "26962",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fnh",
+            "courses_audit": 1,
+            "courses_uuid": "13979",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fnh",
+            "courses_audit": 1,
+            "courses_uuid": "11715",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fnh",
+            "courses_audit": 0,
+            "courses_uuid": "75641",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fnh",
+            "courses_audit": 0,
+            "courses_uuid": "68785",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fnh",
+            "courses_audit": 0,
+            "courses_uuid": "68747",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fnh",
+            "courses_audit": 0,
+            "courses_uuid": "68385",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fnh",
+            "courses_audit": 0,
+            "courses_uuid": "68349",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fnh",
+            "courses_audit": 0,
+            "courses_uuid": "6634",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fnh",
+            "courses_audit": 0,
+            "courses_uuid": "6592",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fnh",
+            "courses_audit": 0,
+            "courses_uuid": "65030",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fnh",
+            "courses_audit": 0,
+            "courses_uuid": "64992",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fnh",
+            "courses_audit": 0,
+            "courses_uuid": "51637",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fnh",
+            "courses_audit": 0,
+            "courses_uuid": "51600",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fnh",
+            "courses_audit": 0,
+            "courses_uuid": "23579",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fnh",
+            "courses_audit": 0,
+            "courses_uuid": "14022",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fnh",
+            "courses_audit": 0,
+            "courses_uuid": "11754",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fmst",
+            "courses_audit": 1,
+            "courses_uuid": "9929",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fmst",
+            "courses_audit": 1,
+            "courses_uuid": "87720",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fmst",
+            "courses_audit": 1,
+            "courses_uuid": "48636",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fmst",
+            "courses_audit": 0,
+            "courses_uuid": "9370",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fmst",
+            "courses_audit": 0,
+            "courses_uuid": "46239",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fmst",
+            "courses_audit": 0,
+            "courses_uuid": "41889",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "fmst",
+            "courses_audit": 0,
+            "courses_uuid": "13258",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 3,
+            "courses_uuid": "38510",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 2,
+            "courses_uuid": "68883",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 2,
+            "courses_uuid": "68874",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 2,
+            "courses_uuid": "17680",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 1,
+            "courses_uuid": "70542",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 1,
+            "courses_uuid": "70533",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 1,
+            "courses_uuid": "68892",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 1,
+            "courses_uuid": "45952",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 1,
+            "courses_uuid": "45931",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 1,
+            "courses_uuid": "38517",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 0,
+            "courses_uuid": "86319",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 0,
+            "courses_uuid": "86315",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 0,
+            "courses_uuid": "82834",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 0,
+            "courses_uuid": "79097",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 0,
+            "courses_uuid": "70549",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 0,
+            "courses_uuid": "70519",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 0,
+            "courses_uuid": "68860",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 0,
+            "courses_uuid": "45959",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 0,
+            "courses_uuid": "45945",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 0,
+            "courses_uuid": "38516",
+            "courses_year": 2010
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 0,
+            "courses_uuid": "38514",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 0,
+            "courses_uuid": "2378",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 0,
+            "courses_uuid": "2369",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 0,
+            "courses_uuid": "2360",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "eosc",
+            "courses_audit": 0,
+            "courses_uuid": "17691",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 1,
+            "courses_uuid": "41497",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "97419",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "97331",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "95219",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "95133",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "64334",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "64243",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "63158",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "63112",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "57114",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "57026",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "55824",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "48364",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "48276",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "42911",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "42898",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "42885",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "42865",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "42772",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "41513",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "41461",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "41365",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "41359",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "37222",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "engl",
+            "courses_audit": 0,
+            "courses_uuid": "37132",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 6,
+            "courses_uuid": "21907",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 3,
+            "courses_uuid": "90972",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 3,
+            "courses_uuid": "78423",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 2,
+            "courses_uuid": "9980",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 2,
+            "courses_uuid": "78414",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 2,
+            "courses_uuid": "74293",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 2,
+            "courses_uuid": "69790",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 2,
+            "courses_uuid": "58324",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 2,
+            "courses_uuid": "21980",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 2,
+            "courses_uuid": "21896",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 2,
+            "courses_uuid": "11510",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 1,
+            "courses_uuid": "78343",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 1,
+            "courses_uuid": "69786",
+            "courses_year": 2008
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 1,
+            "courses_uuid": "58399",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 1,
+            "courses_uuid": "52332",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 1,
+            "courses_uuid": "52243",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 1,
+            "courses_uuid": "52233",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "90894",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "90887",
+            "courses_year": 2013
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "90881",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "90873",
+            "courses_year": 2013
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "78428",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "78331",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "78324",
+            "courses_year": 2012
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "74279",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "74270",
+            "courses_year": 2015
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "69781",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "69775",
+            "courses_year": 2008
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "58333",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "58319",
+            "courses_year": 2007
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "52327",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "52319",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "52227",
+            "courses_year": 2010
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "21985",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "21890",
+            "courses_year": 2011
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "21517",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "21513",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "21505",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "21442",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "21433",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "21427",
+            "courses_year": 2009
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "11521",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "11431",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "11418",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "econ",
+            "courses_audit": 0,
+            "courses_uuid": "11410",
+            "courses_year": 2014
+        },
+        {
+            "courses_dept": "crwr",
+            "courses_audit": 2,
+            "courses_uuid": "75042",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "crwr",
+            "courses_audit": 2,
+            "courses_uuid": "50506",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "crwr",
+            "courses_audit": 2,
+            "courses_uuid": "46297",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "crwr",
+            "courses_audit": 1,
+            "courses_uuid": "75024",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "crwr",
+            "courses_audit": 1,
+            "courses_uuid": "71066",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "crwr",
+            "courses_audit": 1,
+            "courses_uuid": "26130",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_audit": 3,
+            "courses_uuid": "83395",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_audit": 2,
+            "courses_uuid": "62371",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_audit": 0,
+            "courses_uuid": "83400",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_audit": 0,
+            "courses_uuid": "72325",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_audit": 0,
+            "courses_uuid": "62366",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_audit": 0,
+            "courses_uuid": "62362",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_audit": 0,
+            "courses_uuid": "62355",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_audit": 0,
+            "courses_uuid": "62349",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_audit": 0,
+            "courses_uuid": "61087",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_audit": 0,
+            "courses_uuid": "49869",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_audit": 0,
+            "courses_uuid": "49861",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_audit": 0,
+            "courses_uuid": "49856",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_audit": 0,
+            "courses_uuid": "1279",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_audit": 0,
+            "courses_uuid": "1270",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_audit": 0,
+            "courses_uuid": "1262",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_audit": 0,
+            "courses_uuid": "1256",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 8,
+            "courses_uuid": "57760",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 7,
+            "courses_uuid": "44152",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 5,
+            "courses_uuid": "711",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 4,
+            "courses_uuid": "83863",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 4,
+            "courses_uuid": "81593",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 4,
+            "courses_uuid": "43963",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 4,
+            "courses_uuid": "43935",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 3,
+            "courses_uuid": "96388",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 3,
+            "courses_uuid": "83643",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 3,
+            "courses_uuid": "81516",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 3,
+            "courses_uuid": "747",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 3,
+            "courses_uuid": "57720",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 2,
+            "courses_uuid": "96517",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 2,
+            "courses_uuid": "842",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 2,
+            "courses_uuid": "83846",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 2,
+            "courses_uuid": "83682",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 2,
+            "courses_uuid": "83657",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 2,
+            "courses_uuid": "83621",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 2,
+            "courses_uuid": "81892",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 2,
+            "courses_uuid": "81492",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 2,
+            "courses_uuid": "769",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 2,
+            "courses_uuid": "71248",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 2,
+            "courses_uuid": "71209",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 2,
+            "courses_uuid": "71177",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 2,
+            "courses_uuid": "57774",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 2,
+            "courses_uuid": "39039",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 2,
+            "courses_uuid": "38815",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 1,
+            "courses_uuid": "96366",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 1,
+            "courses_uuid": "96359",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 1,
+            "courses_uuid": "96352",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 1,
+            "courses_uuid": "81711",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 1,
+            "courses_uuid": "81479",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 1,
+            "courses_uuid": "81443",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 1,
+            "courses_uuid": "760",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 1,
+            "courses_uuid": "71382",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 1,
+            "courses_uuid": "57748",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "96502",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "96380",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "96343",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "96326",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "96319",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "936",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "919",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "897",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "83822",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "83758",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "83672",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "83649",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "83639",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "83616",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "83607",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "83597",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "81731",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "81694",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "81669",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "81507",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "81485",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "81473",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "81452",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "81427",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "81417",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "740",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "733",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "715",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "71367",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "71240",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "71224",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "71217",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "71201",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "71186",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "704",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "67503",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "57900",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "57886",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "57845",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "57765",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "57756",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "57743",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "57726",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "57716",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "44135",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "44110",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "44047",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "43972",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "43949",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "43941",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "43931",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "43911",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "43907",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "43903",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "43898",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "39063",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "39021",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "39008",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "38927",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "38841",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "38831",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "38807",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "38802",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "38798",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "38780",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "38774",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "38760",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "38752",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "38728",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "38716",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "comm",
+            "courses_audit": 0,
+            "courses_uuid": "38701",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "clst",
+            "courses_audit": 2,
+            "courses_uuid": "51054",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "clst",
+            "courses_audit": 2,
+            "courses_uuid": "18615",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "clst",
+            "courses_audit": 0,
+            "courses_uuid": "92779",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "clst",
+            "courses_audit": 0,
+            "courses_uuid": "7817",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "clst",
+            "courses_audit": 0,
+            "courses_uuid": "51181",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "clst",
+            "courses_audit": 0,
+            "courses_uuid": "10635",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chin",
+            "courses_audit": 0,
+            "courses_uuid": "66389",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chin",
+            "courses_audit": 0,
+            "courses_uuid": "66382",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 2,
+            "courses_uuid": "64767",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 1,
+            "courses_uuid": "89254",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 1,
+            "courses_uuid": "64755",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 1,
+            "courses_uuid": "54510",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "89269",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "89239",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "89231",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "89227",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "89218",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "82149",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "82131",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "82120",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "82107",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "82104",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "82096",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "70118",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "70104",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "70093",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "70080",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "70077",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "70069",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "64806",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "64792",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "64783",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "64764",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "54524",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "54499",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "54486",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "54483",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "54475",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "42546",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "42532",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "42523",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "42507",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "42504",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "42495",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "31645",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "31631",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "31242",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "31227",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "31216",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "31203",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "31200",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "chem",
+            "courses_audit": 0,
+            "courses_uuid": "31192",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "caps",
+            "courses_audit": 0,
+            "courses_uuid": "88784",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "caps",
+            "courses_audit": 0,
+            "courses_uuid": "88783",
+            "courses_year": 2013
+        },
+        {
+            "courses_dept": "caps",
+            "courses_audit": 0,
+            "courses_uuid": "88782",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "caps",
+            "courses_audit": 0,
+            "courses_uuid": "88781",
+            "courses_year": 2013
+        },
+        {
+            "courses_dept": "caps",
+            "courses_audit": 0,
+            "courses_uuid": "88778",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "caps",
+            "courses_audit": 0,
+            "courses_uuid": "23373",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "caps",
+            "courses_audit": 0,
+            "courses_uuid": "23372",
+            "courses_year": 2014
+        },
+        {
+            "courses_dept": "caps",
+            "courses_audit": 0,
+            "courses_uuid": "23371",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "caps",
+            "courses_audit": 0,
+            "courses_uuid": "23370",
+            "courses_year": 2014
+        },
+        {
+            "courses_dept": "caps",
+            "courses_audit": 0,
+            "courses_uuid": "23367",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "caps",
+            "courses_audit": 0,
+            "courses_uuid": "11372",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "caps",
+            "courses_audit": 0,
+            "courses_uuid": "11371",
+            "courses_year": 2015
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 7,
+            "courses_uuid": "19603",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 6,
+            "courses_uuid": "42130",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 3,
+            "courses_uuid": "19599",
+            "courses_year": 2011
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 2,
+            "courses_uuid": "88965",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 2,
+            "courses_uuid": "55066",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 2,
+            "courses_uuid": "42160",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 2,
+            "courses_uuid": "42129",
+            "courses_year": 2014
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 2,
+            "courses_uuid": "34307",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 2,
+            "courses_uuid": "18097",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 1,
+            "courses_uuid": "88960",
+            "courses_year": 2009
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 1,
+            "courses_uuid": "72131",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 1,
+            "courses_uuid": "55097",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 1,
+            "courses_uuid": "55065",
+            "courses_year": 2015
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 1,
+            "courses_uuid": "54014",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 1,
+            "courses_uuid": "34303",
+            "courses_year": 2008
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 1,
+            "courses_uuid": "34263",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 1,
+            "courses_uuid": "20618",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 1,
+            "courses_uuid": "18031",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "88984",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "88970",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "88955",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "88930",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "88920",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "72096",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "72093",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "72090",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "72085",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "72071",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "72067",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "72065",
+            "courses_year": 2013
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "72060",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "72059",
+            "courses_year": 2013
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "72058",
+            "courses_year": 2013
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "72057",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "72047",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "55094",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "55091",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "55084",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "55070",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "55060",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "55059",
+            "courses_year": 2015
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "55058",
+            "courses_year": 2015
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "55057",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "55047",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "54055",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "54050",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "54044",
+            "courses_year": 2010
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "54039",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "54004",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "42195",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "42157",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "42154",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "42148",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "42134",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "42124",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "42123",
+            "courses_year": 2014
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "42122",
+            "courses_year": 2014
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "42121",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "42111",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "34312",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "34298",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "34273",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "24723",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "20580",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "20577",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "20574",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "20569",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "20557",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "20553",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "20550",
+            "courses_year": 2012
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "20545",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "20544",
+            "courses_year": 2012
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "20543",
+            "courses_year": 2012
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "20542",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "20532",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "19627",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "19624",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "19608",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "19594",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "19569",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "19559",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "18079",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "18074",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "18071",
+            "courses_year": 2007
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "18066",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "biol",
+            "courses_audit": 0,
+            "courses_uuid": "18041",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "bioc",
+            "courses_audit": 1,
+            "courses_uuid": "26653",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "bioc",
+            "courses_audit": 0,
+            "courses_uuid": "97256",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "bioc",
+            "courses_audit": 0,
+            "courses_uuid": "77770",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "bioc",
+            "courses_audit": 0,
+            "courses_uuid": "39334",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "bioc",
+            "courses_audit": 0,
+            "courses_uuid": "37734",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "bioc",
+            "courses_audit": 0,
+            "courses_uuid": "3337",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "bioc",
+            "courses_audit": 0,
+            "courses_uuid": "32588",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "bioc",
+            "courses_audit": 0,
+            "courses_uuid": "14342",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "astr",
+            "courses_audit": 0,
+            "courses_uuid": "92826",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "astr",
+            "courses_audit": 0,
+            "courses_uuid": "70024",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "asia",
+            "courses_audit": 0,
+            "courses_uuid": "39456",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 2,
+            "courses_uuid": "8832",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 1,
+            "courses_uuid": "4220",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "97935",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "97898",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "97865",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "8797",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "8769",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "8308",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "8271",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "8246",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "45826",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "45795",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "45774",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "4277",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "4250",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "4214",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "4209",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "36611",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "36576",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "36555",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "22456",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "22418",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "22385",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "19877",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "19875",
+            "courses_year": 2010
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "19837",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "19807",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "18739",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "18738",
+            "courses_year": 2007
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "18701",
+            "courses_year": 1900
+        },
+        {
+            "courses_dept": "apsc",
+            "courses_audit": 0,
+            "courses_uuid": "18671",
+            "courses_year": 1900
+        }
+    ]
+}

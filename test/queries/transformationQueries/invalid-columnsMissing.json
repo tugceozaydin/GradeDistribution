@@ -1,0 +1,51 @@
+{
+    "title": "invalid columns missing",
+    "query": {
+      "WHERE": {
+            "AND": [
+                {
+                    "AND": [
+                        {
+                            "IS": {
+                                "courses_dept": "aanb"
+                            }
+                        },
+                        {
+                            "GT": {
+                                "courses_avg": 75
+                            }
+                        }
+                    ]
+                },
+                {
+                    "LT": {
+                        "courses_avg": 95
+                    }
+                }
+            ]
+        },
+      "OPTIONS": {
+          "ORDER": { 
+            "dir": "UP",
+            "keys": [
+              "overallAvg"
+            ]
+          }
+      },
+      "TRANSFORMATIONS": {
+        "GROUP": [
+          "_title"
+        ],
+        "APPLY": [
+          {
+            "overallAvg": {
+                "AVG": "courses_avg",
+                "MAX": "courses_year"
+            }
+          }
+        ]
+      }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

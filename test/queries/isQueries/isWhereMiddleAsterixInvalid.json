@@ -1,0 +1,18 @@
+{
+    "title": "where middle asterisk  valid",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_dept": "b*a"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_id"
+            ],
+            "ORDER": "courses_id"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

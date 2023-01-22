@@ -1,0 +1,283 @@
+{
+    "title": "three apply keys valid - not all in columns - 2",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 92
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept"
+            ],
+            "ORDER": {
+                "dir": "UP",
+                "keys": [
+                    "courses_dept"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_dept"
+            ],
+            "APPLY": [
+                {
+                    "maxAverage": {
+                        "MAX": "courses_avg"
+                    }
+                },
+                {
+                    "minPass": {
+                        "MIN": "courses_pass"
+                    }
+                },
+                {
+                    "countInstructor": {
+                        "COUNT": "courses_instructor"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "aanb"
+        },
+        {
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_dept": "anth"
+        },
+        {
+            "courses_dept": "apsc"
+        },
+        {
+            "courses_dept": "arst"
+        },
+        {
+            "courses_dept": "arth"
+        },
+        {
+            "courses_dept": "audi"
+        },
+        {
+            "courses_dept": "biof"
+        },
+        {
+            "courses_dept": "biol"
+        },
+        {
+            "courses_dept": "bmeg"
+        },
+        {
+            "courses_dept": "ccst"
+        },
+        {
+            "courses_dept": "ceen"
+        },
+        {
+            "courses_dept": "cell"
+        },
+        {
+            "courses_dept": "chbe"
+        },
+        {
+            "courses_dept": "chem"
+        },
+        {
+            "courses_dept": "civl"
+        },
+        {
+            "courses_dept": "cnps"
+        },
+        {
+            "courses_dept": "comm"
+        },
+        {
+            "courses_dept": "cpsc"
+        },
+        {
+            "courses_dept": "crwr"
+        },
+        {
+            "courses_dept": "dent"
+        },
+        {
+            "courses_dept": "dhyg"
+        },
+        {
+            "courses_dept": "eced"
+        },
+        {
+            "courses_dept": "econ"
+        },
+        {
+            "courses_dept": "edcp"
+        },
+        {
+            "courses_dept": "edst"
+        },
+        {
+            "courses_dept": "educ"
+        },
+        {
+            "courses_dept": "eece"
+        },
+        {
+            "courses_dept": "elec"
+        },
+        {
+            "courses_dept": "eosc"
+        },
+        {
+            "courses_dept": "epse"
+        },
+        {
+            "courses_dept": "etec"
+        },
+        {
+            "courses_dept": "fipr"
+        },
+        {
+            "courses_dept": "fish"
+        },
+        {
+            "courses_dept": "fnh"
+        },
+        {
+            "courses_dept": "frst"
+        },
+        {
+            "courses_dept": "germ"
+        },
+        {
+            "courses_dept": "gpp"
+        },
+        {
+            "courses_dept": "hgse"
+        },
+        {
+            "courses_dept": "hinu"
+        },
+        {
+            "courses_dept": "hist"
+        },
+        {
+            "courses_dept": "itst"
+        },
+        {
+            "courses_dept": "kin"
+        },
+        {
+            "courses_dept": "larc"
+        },
+        {
+            "courses_dept": "libe"
+        },
+        {
+            "courses_dept": "libr"
+        },
+        {
+            "courses_dept": "ling"
+        },
+        {
+            "courses_dept": "lled"
+        },
+        {
+            "courses_dept": "math"
+        },
+        {
+            "courses_dept": "mech"
+        },
+        {
+            "courses_dept": "medg"
+        },
+        {
+            "courses_dept": "medi"
+        },
+        {
+            "courses_dept": "micb"
+        },
+        {
+            "courses_dept": "midw"
+        },
+        {
+            "courses_dept": "mine"
+        },
+        {
+            "courses_dept": "mtrl"
+        },
+        {
+            "courses_dept": "musc"
+        },
+        {
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_dept": "obst"
+        },
+        {
+            "courses_dept": "onco"
+        },
+        {
+            "courses_dept": "path"
+        },
+        {
+            "courses_dept": "pcth"
+        },
+        {
+            "courses_dept": "phar"
+        },
+        {
+            "courses_dept": "phil"
+        },
+        {
+            "courses_dept": "phrm"
+        },
+        {
+            "courses_dept": "phth"
+        },
+        {
+            "courses_dept": "phys"
+        },
+        {
+            "courses_dept": "plan"
+        },
+        {
+            "courses_dept": "psyc"
+        },
+        {
+            "courses_dept": "rhsc"
+        },
+        {
+            "courses_dept": "russ"
+        },
+        {
+            "courses_dept": "sans"
+        },
+        {
+            "courses_dept": "sowk"
+        },
+        {
+            "courses_dept": "span"
+        },
+        {
+            "courses_dept": "spph"
+        },
+        {
+            "courses_dept": "stat"
+        },
+        {
+            "courses_dept": "surg"
+        },
+        {
+            "courses_dept": "thtr"
+        },
+        {
+            "courses_dept": "zool"
+        }
+    ]
+}

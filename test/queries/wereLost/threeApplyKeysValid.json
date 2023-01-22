@@ -1,0 +1,523 @@
+{
+    "title": "three apply keys valid",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 92
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "maxAverage",
+                "minPass",
+                "countInstructor"
+            ],
+            "ORDER": {
+                "dir": "UP",
+                "keys": [
+                    "courses_dept"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_dept"
+            ],
+            "APPLY": [
+                {
+                    "maxAverage": {
+                        "MAX": "courses_avg"
+                    }
+                },
+                {
+                    "minPass": {
+                        "MIN": "courses_pass"
+                    }
+                },
+                {
+                    "countInstructor": {
+                        "COUNT": "courses_instructor"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "aanb",
+            "maxAverage": 94.44,
+            "minPass": 9,
+            "countInstructor": 1
+        },
+        {
+            "courses_dept": "adhe",
+            "maxAverage": 96.11,
+            "minPass": 26,
+            "countInstructor": 1
+        },
+        {
+            "courses_dept": "anth",
+            "maxAverage": 92.29,
+            "minPass": 7,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "apsc",
+            "maxAverage": 96,
+            "minPass": 11,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "arst",
+            "maxAverage": 96.94,
+            "minPass": 4,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "arth",
+            "maxAverage": 93,
+            "minPass": 1,
+            "countInstructor": 1
+        },
+        {
+            "courses_dept": "audi",
+            "maxAverage": 96.9,
+            "minPass": 8,
+            "countInstructor": 11
+        },
+        {
+            "courses_dept": "biof",
+            "maxAverage": 93.45,
+            "minPass": 9,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "biol",
+            "maxAverage": 94.33,
+            "minPass": 10,
+            "countInstructor": 4
+        },
+        {
+            "courses_dept": "bmeg",
+            "maxAverage": 95.15,
+            "minPass": 2,
+            "countInstructor": 3
+        },
+        {
+            "courses_dept": "ccst",
+            "maxAverage": 93.67,
+            "minPass": 3,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "ceen",
+            "maxAverage": 94.27,
+            "minPass": 6,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "cell",
+            "maxAverage": 94.4,
+            "minPass": 5,
+            "countInstructor": 5
+        },
+        {
+            "courses_dept": "chbe",
+            "maxAverage": 95.54,
+            "minPass": 4,
+            "countInstructor": 4
+        },
+        {
+            "courses_dept": "chem",
+            "maxAverage": 92.57,
+            "minPass": 7,
+            "countInstructor": 3
+        },
+        {
+            "courses_dept": "civl",
+            "maxAverage": 96.27,
+            "minPass": 6,
+            "countInstructor": 3
+        },
+        {
+            "courses_dept": "cnps",
+            "maxAverage": 99.19,
+            "minPass": 4,
+            "countInstructor": 18
+        },
+        {
+            "courses_dept": "comm",
+            "maxAverage": 94.75,
+            "minPass": 11,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "cpsc",
+            "maxAverage": 95,
+            "minPass": 1,
+            "countInstructor": 6
+        },
+        {
+            "courses_dept": "crwr",
+            "maxAverage": 98,
+            "minPass": 1,
+            "countInstructor": 16
+        },
+        {
+            "courses_dept": "dent",
+            "maxAverage": 94.33,
+            "minPass": 5,
+            "countInstructor": 1
+        },
+        {
+            "courses_dept": "dhyg",
+            "maxAverage": 93.72,
+            "minPass": 6,
+            "countInstructor": 1
+        },
+        {
+            "courses_dept": "eced",
+            "maxAverage": 93.72,
+            "minPass": 17,
+            "countInstructor": 4
+        },
+        {
+            "courses_dept": "econ",
+            "maxAverage": 95,
+            "minPass": 2,
+            "countInstructor": 7
+        },
+        {
+            "courses_dept": "edcp",
+            "maxAverage": 95.58,
+            "minPass": 6,
+            "countInstructor": 13
+        },
+        {
+            "courses_dept": "edst",
+            "maxAverage": 96.46,
+            "minPass": 5,
+            "countInstructor": 9
+        },
+        {
+            "courses_dept": "educ",
+            "maxAverage": 97.5,
+            "minPass": 5,
+            "countInstructor": 11
+        },
+        {
+            "courses_dept": "eece",
+            "maxAverage": 98.75,
+            "minPass": 2,
+            "countInstructor": 8
+        },
+        {
+            "courses_dept": "elec",
+            "maxAverage": 93.93,
+            "minPass": 25,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "eosc",
+            "maxAverage": 93.47,
+            "minPass": 4,
+            "countInstructor": 4
+        },
+        {
+            "courses_dept": "epse",
+            "maxAverage": 98.8,
+            "minPass": 4,
+            "countInstructor": 67
+        },
+        {
+            "courses_dept": "etec",
+            "maxAverage": 96.47,
+            "minPass": 13,
+            "countInstructor": 10
+        },
+        {
+            "courses_dept": "fipr",
+            "maxAverage": 96.4,
+            "minPass": 20,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "fish",
+            "maxAverage": 94,
+            "minPass": 4,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "fnh",
+            "maxAverage": 93.05,
+            "minPass": 20,
+            "countInstructor": 1
+        },
+        {
+            "courses_dept": "frst",
+            "maxAverage": 96.36,
+            "minPass": 4,
+            "countInstructor": 6
+        },
+        {
+            "courses_dept": "germ",
+            "maxAverage": 92.25,
+            "minPass": 8,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "gpp",
+            "maxAverage": 93.04,
+            "minPass": 28,
+            "countInstructor": 1
+        },
+        {
+            "courses_dept": "hgse",
+            "maxAverage": 95.29,
+            "minPass": 14,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "hinu",
+            "maxAverage": 93.22,
+            "minPass": 23,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "hist",
+            "maxAverage": 93,
+            "minPass": 2,
+            "countInstructor": 1
+        },
+        {
+            "courses_dept": "itst",
+            "maxAverage": 93,
+            "minPass": 4,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "kin",
+            "maxAverage": 96.06,
+            "minPass": 4,
+            "countInstructor": 1
+        },
+        {
+            "courses_dept": "larc",
+            "maxAverage": 92.8,
+            "minPass": 14,
+            "countInstructor": 3
+        },
+        {
+            "courses_dept": "libe",
+            "maxAverage": 92.26,
+            "minPass": 39,
+            "countInstructor": 1
+        },
+        {
+            "courses_dept": "libr",
+            "maxAverage": 96.1,
+            "minPass": 10,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "ling",
+            "maxAverage": 92.25,
+            "minPass": 4,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "lled",
+            "maxAverage": 93.2,
+            "minPass": 4,
+            "countInstructor": 3
+        },
+        {
+            "courses_dept": "math",
+            "maxAverage": 99.78,
+            "minPass": 2,
+            "countInstructor": 23
+        },
+        {
+            "courses_dept": "mech",
+            "maxAverage": 93.5,
+            "minPass": 4,
+            "countInstructor": 5
+        },
+        {
+            "courses_dept": "medg",
+            "maxAverage": 94.7,
+            "minPass": 7,
+            "countInstructor": 4
+        },
+        {
+            "courses_dept": "medi",
+            "maxAverage": 93.5,
+            "minPass": 2,
+            "countInstructor": 3
+        },
+        {
+            "courses_dept": "micb",
+            "maxAverage": 94.17,
+            "minPass": 5,
+            "countInstructor": 5
+        },
+        {
+            "courses_dept": "midw",
+            "maxAverage": 96.5,
+            "minPass": 13,
+            "countInstructor": 5
+        },
+        {
+            "courses_dept": "mine",
+            "maxAverage": 96.59,
+            "minPass": 1,
+            "countInstructor": 4
+        },
+        {
+            "courses_dept": "mtrl",
+            "maxAverage": 96.25,
+            "minPass": 1,
+            "countInstructor": 3
+        },
+        {
+            "courses_dept": "musc",
+            "maxAverage": 96.5,
+            "minPass": 1,
+            "countInstructor": 10
+        },
+        {
+            "courses_dept": "nurs",
+            "maxAverage": 98.71,
+            "minPass": 1,
+            "countInstructor": 18
+        },
+        {
+            "courses_dept": "obst",
+            "maxAverage": 95,
+            "minPass": 1,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "onco",
+            "maxAverage": 93.07,
+            "minPass": 14,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "path",
+            "maxAverage": 93.5,
+            "minPass": 2,
+            "countInstructor": 3
+        },
+        {
+            "courses_dept": "pcth",
+            "maxAverage": 96,
+            "minPass": 1,
+            "countInstructor": 3
+        },
+        {
+            "courses_dept": "phar",
+            "maxAverage": 95.07,
+            "minPass": 1,
+            "countInstructor": 6
+        },
+        {
+            "courses_dept": "phil",
+            "maxAverage": 96,
+            "minPass": 1,
+            "countInstructor": 1
+        },
+        {
+            "courses_dept": "phrm",
+            "maxAverage": 94.23,
+            "minPass": 218,
+            "countInstructor": 3
+        },
+        {
+            "courses_dept": "phth",
+            "maxAverage": 95.37,
+            "minPass": 78,
+            "countInstructor": 1
+        },
+        {
+            "courses_dept": "phys",
+            "maxAverage": 95.43,
+            "minPass": 4,
+            "countInstructor": 7
+        },
+        {
+            "courses_dept": "plan",
+            "maxAverage": 96.47,
+            "minPass": 8,
+            "countInstructor": 4
+        },
+        {
+            "courses_dept": "psyc",
+            "maxAverage": 97,
+            "minPass": 1,
+            "countInstructor": 4
+        },
+        {
+            "courses_dept": "rhsc",
+            "maxAverage": 95,
+            "minPass": 1,
+            "countInstructor": 1
+        },
+        {
+            "courses_dept": "russ",
+            "maxAverage": 92.3,
+            "minPass": 10,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "sans",
+            "maxAverage": 92.5,
+            "minPass": 8,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "sowk",
+            "maxAverage": 96.15,
+            "minPass": 3,
+            "countInstructor": 10
+        },
+        {
+            "courses_dept": "span",
+            "maxAverage": 93.25,
+            "minPass": 4,
+            "countInstructor": 1
+        },
+        {
+            "courses_dept": "spph",
+            "maxAverage": 98.98,
+            "minPass": 4,
+            "countInstructor": 14
+        },
+        {
+            "courses_dept": "stat",
+            "maxAverage": 94.7,
+            "minPass": 1,
+            "countInstructor": 2
+        },
+        {
+            "courses_dept": "surg",
+            "maxAverage": 94.25,
+            "minPass": 5,
+            "countInstructor": 1
+        },
+        {
+            "courses_dept": "thtr",
+            "maxAverage": 95.2,
+            "minPass": 15,
+            "countInstructor": 5
+        },
+        {
+            "courses_dept": "zool",
+            "maxAverage": 92.71,
+            "minPass": 7,
+            "countInstructor": 2
+        }
+    ]
+}

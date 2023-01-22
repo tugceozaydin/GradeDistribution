@@ -1,0 +1,19 @@
+{
+    "title": "where too many keys invalid",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_dept": "cpsc",
+                "courses_avg": 75
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_id"
+            ],
+            "ORDER": "courses_id"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

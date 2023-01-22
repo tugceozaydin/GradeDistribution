@@ -1,0 +1,112 @@
+{
+    "title": "GT Where fail valid",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_fail": 200
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_pass",
+                "courses_audit",
+                "courses_instructor",
+                "courses_id"
+            ],
+            "ORDER": "courses_pass"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_pass": 936,
+            "courses_audit": 0,
+            "courses_instructor": "",
+            "courses_id": "233"
+        },
+        {
+            "courses_pass": 958,
+            "courses_audit": 0,
+            "courses_instructor": "",
+            "courses_id": "200"
+        },
+        {
+            "courses_pass": 1006,
+            "courses_audit": 0,
+            "courses_instructor": "",
+            "courses_id": "233"
+        },
+        {
+            "courses_pass": 1012,
+            "courses_audit": 0,
+            "courses_instructor": "",
+            "courses_id": "101"
+        },
+        {
+            "courses_pass": 1122,
+            "courses_audit": 0,
+            "courses_instructor": "",
+            "courses_id": "101"
+        },
+        {
+            "courses_pass": 1215,
+            "courses_audit": 1,
+            "courses_instructor": "",
+            "courses_id": "112"
+        },
+        {
+            "courses_pass": 1390,
+            "courses_audit": 0,
+            "courses_instructor": "",
+            "courses_id": "101"
+        },
+        {
+            "courses_pass": 1526,
+            "courses_audit": 0,
+            "courses_instructor": "",
+            "courses_id": "121"
+        },
+        {
+            "courses_pass": 1551,
+            "courses_audit": 0,
+            "courses_instructor": "",
+            "courses_id": "121"
+        },
+        {
+            "courses_pass": 1634,
+            "courses_audit": 0,
+            "courses_instructor": "",
+            "courses_id": "121"
+        },
+        {
+            "courses_pass": 1667,
+            "courses_audit": 1,
+            "courses_instructor": "",
+            "courses_id": "121"
+        },
+        {
+            "courses_pass": 1674,
+            "courses_audit": 0,
+            "courses_instructor": "",
+            "courses_id": "121"
+        },
+        {
+            "courses_pass": 1699,
+            "courses_audit": 0,
+            "courses_instructor": "",
+            "courses_id": "121"
+        },
+        {
+            "courses_pass": 1762,
+            "courses_audit": 0,
+            "courses_instructor": "",
+            "courses_id": "121"
+        },
+        {
+            "courses_pass": 2124,
+            "courses_audit": 0,
+            "courses_instructor": "",
+            "courses_id": "101"
+        }
+    ]
+}

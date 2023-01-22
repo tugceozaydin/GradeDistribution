@@ -1,0 +1,22 @@
+{
+    "title": "GT Where multiple keys Invalid",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_pass": 2000,
+                "courses_audit": 5
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_pass",
+                "courses_audit",
+                "courses_instructor",
+                "courses_id"
+            ],
+            "ORDER": "courses_pass"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

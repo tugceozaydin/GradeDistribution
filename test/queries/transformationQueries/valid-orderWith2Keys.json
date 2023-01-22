@@ -1,0 +1,116 @@
+{
+    "title": "valid order with 2 keys",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "AND": [
+                        {
+                            "IS": {
+                                "courses_dept": "cpsc"
+                            }
+                        },
+                        {
+                            "GT": {
+                                "courses_avg": 92
+                            }
+                        }
+                    ]
+                },
+                {
+                    "LT": {
+                        "courses_avg": 95
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "courses_avg"
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "courses_avg",
+                    "courses_title"
+                ]
+            }
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_title": "computl ling 1",
+            "courses_avg": 94.5
+        },
+        {
+            "courses_title": "computl ling 1",
+            "courses_avg": 94.5
+        },
+        {
+            "courses_title": "thry of automata",
+            "courses_avg": 94
+        },
+        {
+            "courses_title": "thry of automata",
+            "courses_avg": 94
+        },
+        {
+            "courses_title": "honours thesis",
+            "courses_avg": 93.5
+        },
+        {
+            "courses_title": "honours thesis",
+            "courses_avg": 93.5
+        },
+        {
+            "courses_title": "honours thesis",
+            "courses_avg": 93.38
+        },
+        {
+            "courses_title": "honours thesis",
+            "courses_avg": 93.38
+        },
+        {
+            "courses_title": "thry of automata",
+            "courses_avg": 92.75
+        },
+        {
+            "courses_title": "thry of automata",
+            "courses_avg": 92.75
+        },
+        {
+            "courses_title": "honours thesis",
+            "courses_avg": 92.63
+        },
+        {
+            "courses_title": "honours thesis",
+            "courses_avg": 92.63
+        },
+        {
+            "courses_title": "honours thesis",
+            "courses_avg": 92.5
+        },
+        {
+            "courses_title": "honours thesis",
+            "courses_avg": 92.5
+        },
+        {
+            "courses_title": "thry of automata",
+            "courses_avg": 92.43
+        },
+        {
+            "courses_title": "thry of automata",
+            "courses_avg": 92.43
+        },
+        {
+            "courses_title": "student seminar",
+            "courses_avg": 92.4
+        },
+        {
+            "courses_title": "student seminar",
+            "courses_avg": 92.4
+        }
+    ]
+}

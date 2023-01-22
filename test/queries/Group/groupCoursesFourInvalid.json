@@ -1,0 +1,42 @@
+{
+    "title": "group courses four invalid",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 85
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "courses_pass",
+                "courses_fail",
+                "courses_dept",
+                "sumAvg"
+            ],
+            "ORDER": {
+                "dir": "UP",
+                "keys": [
+                    "sumAvg"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_title",
+                "courses_pass",
+                "courses_fail",
+                "courses_dept"
+            ],
+            "APPLY": [
+                {
+                    "sumAvg": {
+                        "SUM": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "ResultTooLargeError"
+}

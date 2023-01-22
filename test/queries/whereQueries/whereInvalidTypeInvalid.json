@@ -1,0 +1,17 @@
+{
+    "title": "Where invalid type",
+    "query": {
+        "WHERE": {
+            "ORDER": "courses_pass"
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_pass",
+                "courses_audit"
+            ],
+            "ORDER": "courses_pass"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

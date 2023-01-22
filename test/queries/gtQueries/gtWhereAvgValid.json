@@ -1,0 +1,216 @@
+{
+    "title": "GT Where average valid",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_pass",
+                "courses_audit"
+            ],
+            "ORDER": "courses_pass"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_pass": 1,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 1,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 4,
+            "courses_audit": 1
+        },
+        {
+            "courses_pass": 4,
+            "courses_audit": 1
+        },
+        {
+            "courses_pass": 9,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 9,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 9,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 9,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 10,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 11,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 11,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 11,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 11,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 11,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 11,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 12,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 12,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 12,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 12,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 12,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 12,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 12,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 14,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 14,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 14,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 14,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 14,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 14,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 14,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 15,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 15,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 16,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 16,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 16,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 16,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 17,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 17,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 17,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 17,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 17,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 17,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 21,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 21,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 22,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 24,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 24,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 25,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 82,
+            "courses_audit": 0
+        },
+        {
+            "courses_pass": 82,
+            "courses_audit": 0
+        }
+    ]
+}

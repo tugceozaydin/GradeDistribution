@@ -1,0 +1,19 @@
+{
+    "title": "LT Where audit valid",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_audit": 100
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_pass",
+                "courses_audit"
+            ],
+            "ORDER": "courses_pass"
+        }
+    },
+    "isQueryValid": true,
+    "result": []
+}

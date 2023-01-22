@@ -1,0 +1,19 @@
+{
+    "title": "Invalid Dataset Reference Options 2",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "oneValidCourse_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

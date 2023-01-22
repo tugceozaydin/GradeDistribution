@@ -1,0 +1,101 @@
+{
+    "title": "WHERE eq lon Rooms Valid",
+    "query": {
+        "WHERE": {
+            "EQ": {
+                "rooms_lon": -123.24673
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_shortname",
+                "rooms_lon",
+                "rooms_lat"
+            ],
+            "ORDER": "rooms_shortname"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "rooms_shortname": "WOOD",
+            "rooms_lon": -123.24673,
+            "rooms_lat": 49.26478
+        },
+        {
+            "rooms_shortname": "WOOD",
+            "rooms_lon": -123.24673,
+            "rooms_lat": 49.26478
+        },
+        {
+            "rooms_shortname": "WOOD",
+            "rooms_lon": -123.24673,
+            "rooms_lat": 49.26478
+        },
+        {
+            "rooms_shortname": "WOOD",
+            "rooms_lon": -123.24673,
+            "rooms_lat": 49.26478
+        },
+        {
+            "rooms_shortname": "WOOD",
+            "rooms_lon": -123.24673,
+            "rooms_lat": 49.26478
+        },
+        {
+            "rooms_shortname": "WOOD",
+            "rooms_lon": -123.24673,
+            "rooms_lat": 49.26478
+        },
+        {
+            "rooms_shortname": "WOOD",
+            "rooms_lon": -123.24673,
+            "rooms_lat": 49.26478
+        },
+        {
+            "rooms_shortname": "WOOD",
+            "rooms_lon": -123.24673,
+            "rooms_lat": 49.26478
+        },
+        {
+            "rooms_shortname": "WOOD",
+            "rooms_lon": -123.24673,
+            "rooms_lat": 49.26478
+        },
+        {
+            "rooms_shortname": "WOOD",
+            "rooms_lon": -123.24673,
+            "rooms_lat": 49.26478
+        },
+        {
+            "rooms_shortname": "WOOD",
+            "rooms_lon": -123.24673,
+            "rooms_lat": 49.26478
+        },
+        {
+            "rooms_shortname": "WOOD",
+            "rooms_lon": -123.24673,
+            "rooms_lat": 49.26478
+        },
+        {
+            "rooms_shortname": "WOOD",
+            "rooms_lon": -123.24673,
+            "rooms_lat": 49.26478
+        },
+        {
+            "rooms_shortname": "WOOD",
+            "rooms_lon": -123.24673,
+            "rooms_lat": 49.26478
+        },
+        {
+            "rooms_shortname": "WOOD",
+            "rooms_lon": -123.24673,
+            "rooms_lat": 49.26478
+        },
+        {
+            "rooms_shortname": "WOOD",
+            "rooms_lon": -123.24673,
+            "rooms_lat": 49.26478
+        }
+    ]
+}

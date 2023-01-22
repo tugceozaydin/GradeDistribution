@@ -1,0 +1,19 @@
+{
+    "title": "LT Where object type invalid",
+    "query": {
+        "WHERE": {
+            "LT": {
+                "courses_avg": "crwr"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_pass",
+                "courses_audit"
+            ],
+            "ORDER": "courses_pass"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

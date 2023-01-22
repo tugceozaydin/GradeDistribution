@@ -1,0 +1,18 @@
+{
+    "title":"Column invalid double underscore",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_pass": 900
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses__dept"
+            ],
+            "ORDER": "courses__dept"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

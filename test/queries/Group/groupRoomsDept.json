@@ -1,0 +1,529 @@
+{
+    "title": "group courses dept",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 89
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "sumAvg"
+            ],
+            "ORDER": {
+                "dir": "UP",
+                "keys": [
+                    "sumAvg"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_dept"
+            ],
+            "APPLY": [
+                {
+                    "sumAvg": {
+                        "SUM": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "cogs",
+            "sumAvg": 89.33
+        },
+        {
+            "courses_dept": "engl",
+            "sumAvg": 89.68
+        },
+        {
+            "courses_dept": "jrnl",
+            "sumAvg": 89.93
+        },
+        {
+            "courses_dept": "igen",
+            "sumAvg": 178.12
+        },
+        {
+            "courses_dept": "punj",
+            "sumAvg": 178.16
+        },
+        {
+            "courses_dept": "cnrs",
+            "sumAvg": 178.26
+        },
+        {
+            "courses_dept": "envr",
+            "sumAvg": 178.34
+        },
+        {
+            "courses_dept": "dani",
+            "sumAvg": 178.54
+        },
+        {
+            "courses_dept": "cnto",
+            "sumAvg": 178.8
+        },
+        {
+            "courses_dept": "cics",
+            "sumAvg": 179.36
+        },
+        {
+            "courses_dept": "spha",
+            "sumAvg": 179.52
+        },
+        {
+            "courses_dept": "sts",
+            "sumAvg": 180
+        },
+        {
+            "courses_dept": "isci",
+            "sumAvg": 180.88
+        },
+        {
+            "courses_dept": "cohr",
+            "sumAvg": 180.92
+        },
+        {
+            "courses_dept": "hunu",
+            "sumAvg": 182.66
+        },
+        {
+            "courses_dept": "babs",
+            "sumAvg": 182.76
+        },
+        {
+            "courses_dept": "atsc",
+            "sumAvg": 184
+        },
+        {
+            "courses_dept": "hist",
+            "sumAvg": 186
+        },
+        {
+            "courses_dept": "gpp",
+            "sumAvg": 186.08
+        },
+        {
+            "courses_dept": "aanb",
+            "sumAvg": 188.88
+        },
+        {
+            "courses_dept": "pers",
+            "sumAvg": 267.65
+        },
+        {
+            "courses_dept": "rmes",
+            "sumAvg": 267.65
+        },
+        {
+            "courses_dept": "fopr",
+            "sumAvg": 271.88
+        },
+        {
+            "courses_dept": "hinu",
+            "sumAvg": 277.44
+        },
+        {
+            "courses_dept": "mrne",
+            "sumAvg": 357.14
+        },
+        {
+            "courses_dept": "bafi",
+            "sumAvg": 357.4
+        },
+        {
+            "courses_dept": "udes",
+            "sumAvg": 357.46
+        },
+        {
+            "courses_dept": "grsj",
+            "sumAvg": 358.26
+        },
+        {
+            "courses_dept": "geog",
+            "sumAvg": 358.57
+        },
+        {
+            "courses_dept": "port",
+            "sumAvg": 359.5
+        },
+        {
+            "courses_dept": "apbi",
+            "sumAvg": 359.94
+        },
+        {
+            "courses_dept": "food",
+            "sumAvg": 360.12
+        },
+        {
+            "courses_dept": "bams",
+            "sumAvg": 363.4
+        },
+        {
+            "courses_dept": "rsot",
+            "sumAvg": 364.18
+        },
+        {
+            "courses_dept": "germ",
+            "sumAvg": 364.5
+        },
+        {
+            "courses_dept": "astr",
+            "sumAvg": 365.3
+        },
+        {
+            "courses_dept": "span",
+            "sumAvg": 369.7
+        },
+        {
+            "courses_dept": "itst",
+            "sumAvg": 371.5
+        },
+        {
+            "courses_dept": "phrm",
+            "sumAvg": 372.58
+        },
+        {
+            "courses_dept": "arch",
+            "sumAvg": 447.95
+        },
+        {
+            "courses_dept": "lfs",
+            "sumAvg": 450.16
+        },
+        {
+            "courses_dept": "ccst",
+            "sumAvg": 455.96
+        },
+        {
+            "courses_dept": "cons",
+            "sumAvg": 541.4
+        },
+        {
+            "courses_dept": "ital",
+            "sumAvg": 542
+        },
+        {
+            "courses_dept": "russ",
+            "sumAvg": 544.35
+        },
+        {
+            "courses_dept": "anat",
+            "sumAvg": 546.54
+        },
+        {
+            "courses_dept": "larc",
+            "sumAvg": 548.5
+        },
+        {
+            "courses_dept": "nrsc",
+            "sumAvg": 630.44
+        },
+        {
+            "courses_dept": "anth",
+            "sumAvg": 637.84
+        },
+        {
+            "courses_dept": "gsat",
+            "sumAvg": 718.66
+        },
+        {
+            "courses_dept": "ling",
+            "sumAvg": 721.5
+        },
+        {
+            "courses_dept": "soil",
+            "sumAvg": 723.12
+        },
+        {
+            "courses_dept": "sans",
+            "sumAvg": 724.16
+        },
+        {
+            "courses_dept": "bota",
+            "sumAvg": 725.52
+        },
+        {
+            "courses_dept": "phil",
+            "sumAvg": 728.42
+        },
+        {
+            "courses_dept": "elec",
+            "sumAvg": 823.82
+        },
+        {
+            "courses_dept": "caps",
+            "sumAvg": 895.38
+        },
+        {
+            "courses_dept": "name",
+            "sumAvg": 902.1
+        },
+        {
+            "courses_dept": "libe",
+            "sumAvg": 904.81
+        },
+        {
+            "courses_dept": "fipr",
+            "sumAvg": 908.34
+        },
+        {
+            "courses_dept": "ceen",
+            "sumAvg": 913.32
+        },
+        {
+            "courses_dept": "biof",
+            "sumAvg": 917.66
+        },
+        {
+            "courses_dept": "obst",
+            "sumAvg": 999.94
+        },
+        {
+            "courses_dept": "bioc",
+            "sumAvg": 1079.4
+        },
+        {
+            "courses_dept": "chil",
+            "sumAvg": 1092.67
+        },
+        {
+            "courses_dept": "fish",
+            "sumAvg": 1095.2
+        },
+        {
+            "courses_dept": "surg",
+            "sumAvg": 1108.7
+        },
+        {
+            "courses_dept": "comm",
+            "sumAvg": 1110.52
+        },
+        {
+            "courses_dept": "mtrl",
+            "sumAvg": 1115.22
+        },
+        {
+            "courses_dept": "arth",
+            "sumAvg": 1180.03
+        },
+        {
+            "courses_dept": "onco",
+            "sumAvg": 1279.08
+        },
+        {
+            "courses_dept": "bmeg",
+            "sumAvg": 1371.39
+        },
+        {
+            "courses_dept": "arst",
+            "sumAvg": 1566.76
+        },
+        {
+            "courses_dept": "zool",
+            "sumAvg": 1721.09
+        },
+        {
+            "courses_dept": "eced",
+            "sumAvg": 1735.21
+        },
+        {
+            "courses_dept": "libr",
+            "sumAvg": 1821.4
+        },
+        {
+            "courses_dept": "phth",
+            "sumAvg": 1828.54
+        },
+        {
+            "courses_dept": "fnh",
+            "sumAvg": 1998.27
+        },
+        {
+            "courses_dept": "adhe",
+            "sumAvg": 2175.6
+        },
+        {
+            "courses_dept": "hgse",
+            "sumAvg": 2207.56
+        },
+        {
+            "courses_dept": "dhyg",
+            "sumAvg": 2444.55
+        },
+        {
+            "courses_dept": "stat",
+            "sumAvg": 2538.62
+        },
+        {
+            "courses_dept": "apsc",
+            "sumAvg": 2752.85
+        },
+        {
+            "courses_dept": "chem",
+            "sumAvg": 2889.38
+        },
+        {
+            "courses_dept": "rhsc",
+            "sumAvg": 2905.59
+        },
+        {
+            "courses_dept": "medi",
+            "sumAvg": 2922.42
+        },
+        {
+            "courses_dept": "micb",
+            "sumAvg": 3447.86
+        },
+        {
+            "courses_dept": "thtr",
+            "sumAvg": 3457.76
+        },
+        {
+            "courses_dept": "mine",
+            "sumAvg": 3655.39
+        },
+        {
+            "courses_dept": "biol",
+            "sumAvg": 3806.96
+        },
+        {
+            "courses_dept": "pcth",
+            "sumAvg": 4171.8
+        },
+        {
+            "courses_dept": "chbe",
+            "sumAvg": 4187.03
+        },
+        {
+            "courses_dept": "lled",
+            "sumAvg": 4518.65
+        },
+        {
+            "courses_dept": "medg",
+            "sumAvg": 4519.06
+        },
+        {
+            "courses_dept": "midw",
+            "sumAvg": 4741.86
+        },
+        {
+            "courses_dept": "phys",
+            "sumAvg": 4752.69
+        },
+        {
+            "courses_dept": "frst",
+            "sumAvg": 4802.93
+        },
+        {
+            "courses_dept": "civl",
+            "sumAvg": 4811.5
+        },
+        {
+            "courses_dept": "educ",
+            "sumAvg": 4923.87
+        },
+        {
+            "courses_dept": "path",
+            "sumAvg": 4988.39
+        },
+        {
+            "courses_dept": "dent",
+            "sumAvg": 5063.8
+        },
+        {
+            "courses_dept": "plan",
+            "sumAvg": 5206.12
+        },
+        {
+            "courses_dept": "cpsc",
+            "sumAvg": 5210.25
+        },
+        {
+            "courses_dept": "mech",
+            "sumAvg": 5350.94
+        },
+        {
+            "courses_dept": "sowk",
+            "sumAvg": 5483.51
+        },
+        {
+            "courses_dept": "eosc",
+            "sumAvg": 5524.65
+        },
+        {
+            "courses_dept": "crwr",
+            "sumAvg": 5989.75
+        },
+        {
+            "courses_dept": "cell",
+            "sumAvg": 6175
+        },
+        {
+            "courses_dept": "musc",
+            "sumAvg": 6259.98
+        },
+        {
+            "courses_dept": "phar",
+            "sumAvg": 7267.88
+        },
+        {
+            "courses_dept": "kin",
+            "sumAvg": 7439.46
+        },
+        {
+            "courses_dept": "econ",
+            "sumAvg": 9174.45
+        },
+        {
+            "courses_dept": "eece",
+            "sumAvg": 9190.34
+        },
+        {
+            "courses_dept": "psyc",
+            "sumAvg": 9568.85
+        },
+        {
+            "courses_dept": "edst",
+            "sumAvg": 9765.51
+        },
+        {
+            "courses_dept": "edcp",
+            "sumAvg": 11118.76
+        },
+        {
+            "courses_dept": "spph",
+            "sumAvg": 12993.66
+        },
+        {
+            "courses_dept": "nurs",
+            "sumAvg": 14013.42
+        },
+        {
+            "courses_dept": "audi",
+            "sumAvg": 14048.25
+        },
+        {
+            "courses_dept": "math",
+            "sumAvg": 18948.72
+        },
+        {
+            "courses_dept": "etec",
+            "sumAvg": 20190.24
+        },
+        {
+            "courses_dept": "cnps",
+            "sumAvg": 24110.03
+        },
+        {
+            "courses_dept": "epse",
+            "sumAvg": 64770.94
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "title": "valid 2 apply keys - 3",
+    "query": {
+      "WHERE": {
+        "AND": [
+          {
+            "IS": {
+              "rooms_furniture": "*Tables*"
+            }
+          },
+          {
+            "GT": {
+              "rooms_seats": 80
+            }
+          }
+        ]
+      },
+      "OPTIONS": {
+        "COLUMNS": [
+          "rooms_shortname",
+          "maxSeats",
+          "minLon"
+        ],
+        "ORDER": {
+          "dir": "DOWN",
+          "keys": [
+            "maxSeats",
+              "minLon"
+          ]
+        }
+      },
+      "TRANSFORMATIONS": {
+        "GROUP": [
+          "rooms_shortname"
+        ],
+        "APPLY": [
+          {
+            "maxSeats": {
+              "MAX": "rooms_seats"
+            }
+          },
+          {
+            "minLon": {
+              "MIN": "rooms_lon"
+            }
+          }
+        ]
+      }
+    },
+    "isQueryValid": true,
+    "result":[{"rooms_shortname":"OSBO","maxSeats":442,"minLon":-123.24467},{"rooms_shortname":"HEBB","maxSeats":375,"minLon":-123.25165},{"rooms_shortname":"LSC","maxSeats":350,"minLon":-123.24494},{"rooms_shortname":"SRC","maxSeats":299,"minLon":-123.24894},{"rooms_shortname":"ANGU","maxSeats":260,"minLon":-123.25364},{"rooms_shortname":"PHRM","maxSeats":236,"minLon":-123.24342},{"rooms_shortname":"LSK","maxSeats":205,"minLon":-123.25533},{"rooms_shortname":"CHBE","maxSeats":200,"minLon":-123.24718},{"rooms_shortname":"SWNG","maxSeats":190,"minLon":-123.25431},{"rooms_shortname":"FRDM","maxSeats":160,"minLon":-123.24608},{"rooms_shortname":"DMP","maxSeats":160,"minLon":-123.24807},{"rooms_shortname":"IBLC","maxSeats":154,"minLon":-123.2521},{"rooms_shortname":"MCLD","maxSeats":136,"minLon":-123.24935},{"rooms_shortname":"WOOD","maxSeats":120,"minLon":-123.24673},{"rooms_shortname":"BUCH","maxSeats":108,"minLon":-123.25468},{"rooms_shortname":"CEME","maxSeats":100,"minLon":-123.24894},{"rooms_shortname":"IONA","maxSeats":100,"minLon":-123.25042},{"rooms_shortname":"GEOG","maxSeats":100,"minLon":-123.25623},{"rooms_shortname":"ALRD","maxSeats":94,"minLon":-123.25318}]
+}

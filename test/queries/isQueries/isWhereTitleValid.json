@@ -1,0 +1,18 @@
+{
+    "title": "where title valid",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_dept": "compensation"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_id"
+            ],
+            "ORDER": "courses_id"
+        }
+    },
+    "isQueryValid": true,
+    "result": []
+}

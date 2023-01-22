@@ -1,0 +1,3313 @@
+{
+    "title": "group courses instructor",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 89
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_instructor",
+                "sumAvg"
+            ],
+            "ORDER": {
+                "dir": "UP",
+                "keys": [
+                    "sumAvg"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_instructor"
+            ],
+            "APPLY": [
+                {
+                    "sumAvg": {
+                        "SUM": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_instructor": "bradfield, gary;rosado rey, abel",
+            "sumAvg": 89.05
+        },
+        {
+            "courses_instructor": "wilson, david",
+            "sumAvg": 89.06
+        },
+        {
+            "courses_instructor": "goodwill, alanaise",
+            "sumAvg": 89.06
+        },
+        {
+            "courses_instructor": "bigelow-ghaname, carrie",
+            "sumAvg": 89.06
+        },
+        {
+            "courses_instructor": "dunbar, w scott;taghipour, fariborz",
+            "sumAvg": 89.06
+        },
+        {
+            "courses_instructor": "hieter, philip;jones, steven j",
+            "sumAvg": 89.07
+        },
+        {
+            "courses_instructor": "halstead, anne catherine;holmes, daniel;keown, paul anthony;li, dailin;martz, walter;mattman, andre;pudek, morris;purssell, roy",
+            "sumAvg": 89.07
+        },
+        {
+            "courses_instructor": "hundal, sukhwant",
+            "sumAvg": 89.08
+        },
+        {
+            "courses_instructor": "hu, alan",
+            "sumAvg": 89.09
+        },
+        {
+            "courses_instructor": "schulte, patricia;suttle, curtis",
+            "sumAvg": 89.1
+        },
+        {
+            "courses_instructor": "lee, karen",
+            "sumAvg": 89.11
+        },
+        {
+            "courses_instructor": "lewis, jennifer",
+            "sumAvg": 89.11
+        },
+        {
+            "courses_instructor": "el-kassaby, yousry",
+            "sumAvg": 89.12
+        },
+        {
+            "courses_instructor": "cousland, robert",
+            "sumAvg": 89.13
+        },
+        {
+            "courses_instructor": "shapka, jennifer",
+            "sumAvg": 89.13
+        },
+        {
+            "courses_instructor": "covey, scott",
+            "sumAvg": 89.14
+        },
+        {
+            "courses_instructor": "andersen, raymond",
+            "sumAvg": 89.14
+        },
+        {
+            "courses_instructor": "beaudry, paul",
+            "sumAvg": 89.14
+        },
+        {
+            "courses_instructor": "cole, peter",
+            "sumAvg": 89.14
+        },
+        {
+            "courses_instructor": "beristain, alexander guillermo",
+            "sumAvg": 89.14
+        },
+        {
+            "courses_instructor": "nitkin, patricia;westwood, marvin",
+            "sumAvg": 89.15
+        },
+        {
+            "courses_instructor": "lane, erin",
+            "sumAvg": 89.17
+        },
+        {
+            "courses_instructor": "harris, sara",
+            "sumAvg": 89.17
+        },
+        {
+            "courses_instructor": "av-gay, yossef;manges, amee;mohn, william;thompson, charles",
+            "sumAvg": 89.18
+        },
+        {
+            "courses_instructor": "koert, emily",
+            "sumAvg": 89.19
+        },
+        {
+            "courses_instructor": "galanis, eleni;otterstatter, michael",
+            "sumAvg": 89.19
+        },
+        {
+            "courses_instructor": "rullmann, hotze",
+            "sumAvg": 89.2
+        },
+        {
+            "courses_instructor": "klonsky, elisha;mcgee, brandy",
+            "sumAvg": 89.2
+        },
+        {
+            "courses_instructor": "zerriffi, hisham",
+            "sumAvg": 89.2
+        },
+        {
+            "courses_instructor": "feng, francis;petrina, stephen",
+            "sumAvg": 89.21
+        },
+        {
+            "courses_instructor": "friedel, tracy;nashon, samson madera",
+            "sumAvg": 89.21
+        },
+        {
+            "courses_instructor": "absar, rafa",
+            "sumAvg": 89.22
+        },
+        {
+            "courses_instructor": "atabaki, nima;chiao, mu;fengler, markus;hodgson, antony;mckesson, christopher;parsons, gregg;van der loos, hendrik;winkelman, paul",
+            "sumAvg": 89.22
+        },
+        {
+            "courses_instructor": "marshall, sheila",
+            "sumAvg": 89.23
+        },
+        {
+            "courses_instructor": "brands, ralph",
+            "sumAvg": 89.23
+        },
+        {
+            "courses_instructor": "hein, scot",
+            "sumAvg": 89.23
+        },
+        {
+            "courses_instructor": "nashon, samson madera;scott, sandra",
+            "sumAvg": 89.24
+        },
+        {
+            "courses_instructor": "huemoeller, james",
+            "sumAvg": 89.25
+        },
+        {
+            "courses_instructor": "regev, michal",
+            "sumAvg": 89.25
+        },
+        {
+            "courses_instructor": "cambruzzi, john;coil, jeffrey martin;corber, ron;fraser, john gordon",
+            "sumAvg": 89.25
+        },
+        {
+            "courses_instructor": "song, unjy",
+            "sumAvg": 89.25
+        },
+        {
+            "courses_instructor": "d'silva, reginald",
+            "sumAvg": 89.25
+        },
+        {
+            "courses_instructor": "warnock, fay",
+            "sumAvg": 89.25
+        },
+        {
+            "courses_instructor": "marzban, lucy",
+            "sumAvg": 89.25
+        },
+        {
+            "courses_instructor": "soma, kiran",
+            "sumAvg": 89.25
+        },
+        {
+            "courses_instructor": "small, jeff alan;tba",
+            "sumAvg": 89.26
+        },
+        {
+            "courses_instructor": "rostam, hajera",
+            "sumAvg": 89.27
+        },
+        {
+            "courses_instructor": "monrad, jens",
+            "sumAvg": 89.27
+        },
+        {
+            "courses_instructor": "goelman, hillel",
+            "sumAvg": 89.27
+        },
+        {
+            "courses_instructor": "lewis, delisa ann",
+            "sumAvg": 89.29
+        },
+        {
+            "courses_instructor": "marinova-todd, stefka",
+            "sumAvg": 89.29
+        },
+        {
+            "courses_instructor": "jaeger, nicolas a",
+            "sumAvg": 89.29
+        },
+        {
+            "courses_instructor": "burrows, marlene;harding, jillian",
+            "sumAvg": 89.29
+        },
+        {
+            "courses_instructor": "astrakianakis, george;davies, hugh william",
+            "sumAvg": 89.29
+        },
+        {
+            "courses_instructor": "hudson kam, carla",
+            "sumAvg": 89.3
+        },
+        {
+            "courses_instructor": "mansoor, jaleh",
+            "sumAvg": 89.31
+        },
+        {
+            "courses_instructor": "campbell, katie",
+            "sumAvg": 89.31
+        },
+        {
+            "courses_instructor": "horwitz, marc",
+            "sumAvg": 89.31
+        },
+        {
+            "courses_instructor": "taghipour, fariborz",
+            "sumAvg": 89.33
+        },
+        {
+            "courses_instructor": "barbosa, adriano;vatikiotis-bateson, eric",
+            "sumAvg": 89.33
+        },
+        {
+            "courses_instructor": "mctavish, marianne",
+            "sumAvg": 89.33
+        },
+        {
+            "courses_instructor": "gadala, mohamed",
+            "sumAvg": 89.33
+        },
+        {
+            "courses_instructor": "galea, liisa ann margaret",
+            "sumAvg": 89.33
+        },
+        {
+            "courses_instructor": "pechet, bill",
+            "sumAvg": 89.35
+        },
+        {
+            "courses_instructor": "bohlmann, jorg;cullis, pieter;eltis, lindsay;hieter, philip;hirst, martin;marra, marco;rieseberg, loren;ryan, katherine",
+            "sumAvg": 89.36
+        },
+        {
+            "courses_instructor": "smulders, dave",
+            "sumAvg": 89.38
+        },
+        {
+            "courses_instructor": "good, allison",
+            "sumAvg": 89.38
+        },
+        {
+            "courses_instructor": "johnson, pauline",
+            "sumAvg": 89.38
+        },
+        {
+            "courses_instructor": "cardwell, steve",
+            "sumAvg": 89.4
+        },
+        {
+            "courses_instructor": "sessional lecturer",
+            "sumAvg": 89.4
+        },
+        {
+            "courses_instructor": "tan, elsie",
+            "sumAvg": 89.4
+        },
+        {
+            "courses_instructor": "vogt, david",
+            "sumAvg": 89.41
+        },
+        {
+            "courses_instructor": "pai, kit",
+            "sumAvg": 89.42
+        },
+        {
+            "courses_instructor": "schotzau, dominik",
+            "sumAvg": 89.44
+        },
+        {
+            "courses_instructor": "smith, mary gale",
+            "sumAvg": 89.45
+        },
+        {
+            "courses_instructor": "de oliveira andreotti, vanessa;wang, fei",
+            "sumAvg": 89.45
+        },
+        {
+            "courses_instructor": "dalziel, anne c;porteus, cosima sandra",
+            "sumAvg": 89.45
+        },
+        {
+            "courses_instructor": "thordarson, dana",
+            "sumAvg": 89.46
+        },
+        {
+            "courses_instructor": "rosales, roberto",
+            "sumAvg": 89.47
+        },
+        {
+            "courses_instructor": "ma, hongshen;wilson, david",
+            "sumAvg": 89.5
+        },
+        {
+            "courses_instructor": "bi, xiaotao;ellis, naoko",
+            "sumAvg": 89.5
+        },
+        {
+            "courses_instructor": "cubbon, paul;dahl, darren",
+            "sumAvg": 89.5
+        },
+        {
+            "courses_instructor": "maldonado-pareja, maria",
+            "sumAvg": 89.5
+        },
+        {
+            "courses_instructor": "bull, gary",
+            "sumAvg": 89.5
+        },
+        {
+            "courses_instructor": "scott, jennifer a",
+            "sumAvg": 89.5
+        },
+        {
+            "courses_instructor": "ricci, joanne;wong, sabrina",
+            "sumAvg": 89.5
+        },
+        {
+            "courses_instructor": "karim, sultan;pang, catherine c",
+            "sumAvg": 89.5
+        },
+        {
+            "courses_instructor": "van raamsdonk, mark",
+            "sumAvg": 89.5
+        },
+        {
+            "courses_instructor": "lai, sylvia;marshall, janet vaughan",
+            "sumAvg": 89.5
+        },
+        {
+            "courses_instructor": "luymes, donald",
+            "sumAvg": 89.5
+        },
+        {
+            "courses_instructor": "cyr, david;tba",
+            "sumAvg": 89.52
+        },
+        {
+            "courses_instructor": "han, hsiao-cheng;kentel, jeanne",
+            "sumAvg": 89.53
+        },
+        {
+            "courses_instructor": "arefifar, seyed ali;botman, pieter;fels, s sidney;grecu, cristian sorin;kruchten, philippe;lee, terry;lusina, paul;madden, john;najarian, siamak;tang, shuo",
+            "sumAvg": 89.54
+        },
+        {
+            "courses_instructor": "butler, deborah",
+            "sumAvg": 89.55
+        },
+        {
+            "courses_instructor": "zhao, jinhua",
+            "sumAvg": 89.56
+        },
+        {
+            "courses_instructor": "gully, paul;spiegel, jerry",
+            "sumAvg": 89.56
+        },
+        {
+            "courses_instructor": "schulte, patricia",
+            "sumAvg": 89.56
+        },
+        {
+            "courses_instructor": "maier, kirsten",
+            "sumAvg": 89.57
+        },
+        {
+            "courses_instructor": "lorincz, matthew",
+            "sumAvg": 89.57
+        },
+        {
+            "courses_instructor": "beasley, larry",
+            "sumAvg": 89.57
+        },
+        {
+            "courses_instructor": "chen, jiahua",
+            "sumAvg": 89.57
+        },
+        {
+            "courses_instructor": "curle, deirdre;jamieson, janet ruth",
+            "sumAvg": 89.58
+        },
+        {
+            "courses_instructor": "bryan, jennifer frazier;cohen freue, gabriela;pavlidis, paul",
+            "sumAvg": 89.59
+        },
+        {
+            "courses_instructor": "vincent, steven",
+            "sumAvg": 89.6
+        },
+        {
+            "courses_instructor": "beatty, cheryl",
+            "sumAvg": 89.6
+        },
+        {
+            "courses_instructor": "johnston, charlotte",
+            "sumAvg": 89.6
+        },
+        {
+            "courses_instructor": "adelman, sharon;shahnaz, navid",
+            "sumAvg": 89.62
+        },
+        {
+            "courses_instructor": "wetton, brian thomas",
+            "sumAvg": 89.63
+        },
+        {
+            "courses_instructor": "reid, darlene",
+            "sumAvg": 89.63
+        },
+        {
+            "courses_instructor": "nickel, wayne",
+            "sumAvg": 89.63
+        },
+        {
+            "courses_instructor": "marini, francesca",
+            "sumAvg": 89.64
+        },
+        {
+            "courses_instructor": "choptuik, matthew",
+            "sumAvg": 89.65
+        },
+        {
+            "courses_instructor": "sawatsky, frank",
+            "sumAvg": 89.67
+        },
+        {
+            "courses_instructor": "james, kedrick",
+            "sumAvg": 89.67
+        },
+        {
+            "courses_instructor": "brown, sandra;grayston, susan;krzic, maja;novak, mike david",
+            "sumAvg": 89.67
+        },
+        {
+            "courses_instructor": "calvino-fraga, jesus",
+            "sumAvg": 89.68
+        },
+        {
+            "courses_instructor": "biermann, wilhelmina georgina",
+            "sumAvg": 89.68
+        },
+        {
+            "courses_instructor": "wilson, carole",
+            "sumAvg": 89.69
+        },
+        {
+            "courses_instructor": "farzamian, farideh",
+            "sumAvg": 89.7
+        },
+        {
+            "courses_instructor": "shelley, christopher",
+            "sumAvg": 89.72
+        },
+        {
+            "courses_instructor": "bebam zadeh, armin",
+            "sumAvg": 89.75
+        },
+        {
+            "courses_instructor": "maclean, karon",
+            "sumAvg": 89.75
+        },
+        {
+            "courses_instructor": "broten, courtney;mcrae, lorna",
+            "sumAvg": 89.75
+        },
+        {
+            "courses_instructor": "wu, lang",
+            "sumAvg": 89.75
+        },
+        {
+            "courses_instructor": "lee, stephen",
+            "sumAvg": 89.76
+        },
+        {
+            "courses_instructor": "duran, leslie",
+            "sumAvg": 89.77
+        },
+        {
+            "courses_instructor": "dahinten, susan",
+            "sumAvg": 89.78
+        },
+        {
+            "courses_instructor": "allan, douglas;baimbridge, kenneth;clee, susanne michelle;haas, kurt;hammond, geoffrey lewis;johnson, james;kieffer, tim;loewen, christopher;luciani, dan;mason, barry;osborne, salma;tanentzapf, guy",
+            "sumAvg": 89.8
+        },
+        {
+            "courses_instructor": "mcgowan, sharon",
+            "sumAvg": 89.81
+        },
+        {
+            "courses_instructor": "bohlmann, jorg;bryan, jennifer frazier;eltis, lindsay;foster, leonard;hallam, steven;hansen, carl;hieter, philip;kastrup, christian;kobor, michael;marra, marco;mostafavi, sara;nislow, corey;stirling, peter;tokuriki, nobuhiko",
+            "sumAvg": 89.82
+        },
+        {
+            "courses_instructor": "bouchard-cote, alexandre",
+            "sumAvg": 89.83
+        },
+        {
+            "courses_instructor": "guy, robert",
+            "sumAvg": 89.86
+        },
+        {
+            "courses_instructor": "mostafavi, sara",
+            "sumAvg": 89.88
+        },
+        {
+            "courses_instructor": "haney, colleen",
+            "sumAvg": 89.93
+        },
+        {
+            "courses_instructor": "takei, fumio",
+            "sumAvg": 89.94
+        },
+        {
+            "courses_instructor": "stack, michelle",
+            "sumAvg": 89.95
+        },
+        {
+            "courses_instructor": "justus, marian",
+            "sumAvg": 89.95
+        },
+        {
+            "courses_instructor": "nashon, samson madera",
+            "sumAvg": 89.95
+        },
+        {
+            "courses_instructor": "shahnaz, navid;stapells, david",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "cheung, karen;hodgson, antony",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "pina, freddy",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "isaacson, michael d",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "chen, hui;pliska, benjamin;yen, edwin h",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "drelichman, mauricio",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "waithman, marilynne",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "webb, philip",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "chrostowski, lukas;jaeger, nicolas a",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "lieblang, jason",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "al-kassim, dina",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "dechaine, rose-marie",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "rogak, steven nicholas",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "dutz, jan peter",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "bryce, elizabeth;roscoe, diane",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "walker, david",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "brady, colleen",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "burt, helen mary",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "karczmarek, joanna",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "nader, rami",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "stainton, timothy",
+            "sumAvg": 90
+        },
+        {
+            "courses_instructor": "butterwick, shauna",
+            "sumAvg": 90.06
+        },
+        {
+            "courses_instructor": "wright, margaret",
+            "sumAvg": 90.06
+        },
+        {
+            "courses_instructor": "mccuaig, fairleth;tba",
+            "sumAvg": 90.07
+        },
+        {
+            "courses_instructor": "barcza, peter;sharon, rena",
+            "sumAvg": 90.08
+        },
+        {
+            "courses_instructor": "casson, barbara;choi, marcia",
+            "sumAvg": 90.09
+        },
+        {
+            "courses_instructor": "arcese, peter",
+            "sumAvg": 90.1
+        },
+        {
+            "courses_instructor": "rogers, theresa",
+            "sumAvg": 90.1
+        },
+        {
+            "courses_instructor": "naghibi, ali",
+            "sumAvg": 90.11
+        },
+        {
+            "courses_instructor": "krasic, charles",
+            "sumAvg": 90.11
+        },
+        {
+            "courses_instructor": "swan, graeme",
+            "sumAvg": 90.12
+        },
+        {
+            "courses_instructor": "hoffmann, florian",
+            "sumAvg": 90.13
+        },
+        {
+            "courses_instructor": "simard, suzanne",
+            "sumAvg": 90.13
+        },
+        {
+            "courses_instructor": "advisor, -",
+            "sumAvg": 90.13
+        },
+        {
+            "courses_instructor": "feng, francis;o'riley, patricia",
+            "sumAvg": 90.14
+        },
+        {
+            "courses_instructor": "forghani, alireza;zobeiry, navid",
+            "sumAvg": 90.14
+        },
+        {
+            "courses_instructor": "ditor, rachel",
+            "sumAvg": 90.14
+        },
+        {
+            "courses_instructor": "merida-donis, walter",
+            "sumAvg": 90.17
+        },
+        {
+            "courses_instructor": "nelson, harry william",
+            "sumAvg": 90.18
+        },
+        {
+            "courses_instructor": "staub-french, sheryl",
+            "sumAvg": 90.2
+        },
+        {
+            "courses_instructor": "baker, shaun;kennedy, lori",
+            "sumAvg": 90.2
+        },
+        {
+            "courses_instructor": "mortensen, james;tba",
+            "sumAvg": 90.2
+        },
+        {
+            "courses_instructor": "mueller, aaron",
+            "sumAvg": 90.22
+        },
+        {
+            "courses_instructor": "atkins, derek",
+            "sumAvg": 90.23
+        },
+        {
+            "courses_instructor": "young, tigerson",
+            "sumAvg": 90.27
+        },
+        {
+            "courses_instructor": "lamb, brian",
+            "sumAvg": 90.27
+        },
+        {
+            "courses_instructor": "norrie, cathy",
+            "sumAvg": 90.29
+        },
+        {
+            "courses_instructor": "brown, helen jean;mccuaig, fairleth",
+            "sumAvg": 90.29
+        },
+        {
+            "courses_instructor": "sandilands, dallie",
+            "sumAvg": 90.32
+        },
+        {
+            "courses_instructor": "cullis, pieter;duong van hoa, franck;molday, robert",
+            "sumAvg": 90.33
+        },
+        {
+            "courses_instructor": "haynes, charles",
+            "sumAvg": 90.33
+        },
+        {
+            "courses_instructor": "eberhardt, erik",
+            "sumAvg": 90.33
+        },
+        {
+            "courses_instructor": "wang, yifei",
+            "sumAvg": 90.33
+        },
+        {
+            "courses_instructor": "pamer, monica",
+            "sumAvg": 90.36
+        },
+        {
+            "courses_instructor": "avery, lisa ann;rammage, linda;reynolds, cindy",
+            "sumAvg": 90.38
+        },
+        {
+            "courses_instructor": "fusaro, nicole",
+            "sumAvg": 90.38
+        },
+        {
+            "courses_instructor": "mcgrail, kimberlyn",
+            "sumAvg": 90.38
+        },
+        {
+            "courses_instructor": "gantt, soren;horwitz, marc",
+            "sumAvg": 90.39
+        },
+        {
+            "courses_instructor": "adler-bock, marcy;avery, lisa ann",
+            "sumAvg": 90.43
+        },
+        {
+            "courses_instructor": "handelsman, simon",
+            "sumAvg": 90.43
+        },
+        {
+            "courses_instructor": "lo, kwang victor",
+            "sumAvg": 90.44
+        },
+        {
+            "courses_instructor": "elez, tatjana",
+            "sumAvg": 90.44
+        },
+        {
+            "courses_instructor": "evans, robert james",
+            "sumAvg": 90.44
+        },
+        {
+            "courses_instructor": "wasan, kishor",
+            "sumAvg": 90.45
+        },
+        {
+            "courses_instructor": "mcgrail, kimberlyn;shoveller, jean",
+            "sumAvg": 90.45
+        },
+        {
+            "courses_instructor": "berrington, david arthur",
+            "sumAvg": 90.46
+        },
+        {
+            "courses_instructor": "konishi, chiaki",
+            "sumAvg": 90.46
+        },
+        {
+            "courses_instructor": "fowler, ruth skai",
+            "sumAvg": 90.46
+        },
+        {
+            "courses_instructor": "reynolds, cindy",
+            "sumAvg": 90.5
+        },
+        {
+            "courses_instructor": "gyenge, christina",
+            "sumAvg": 90.5
+        },
+        {
+            "courses_instructor": "li, dong",
+            "sumAvg": 90.5
+        },
+        {
+            "courses_instructor": "yusupova, stella",
+            "sumAvg": 90.5
+        },
+        {
+            "courses_instructor": "johnson, jennifer",
+            "sumAvg": 90.52
+        },
+        {
+            "courses_instructor": "both, pauline",
+            "sumAvg": 90.54
+        },
+        {
+            "courses_instructor": "gold, michael;perona wright, georgia;sly, laura",
+            "sumAvg": 90.55
+        },
+        {
+            "courses_instructor": "pena alonso, ernesto",
+            "sumAvg": 90.57
+        },
+        {
+            "courses_instructor": "collier, abby;ensom, mary;wong, harvey",
+            "sumAvg": 90.63
+        },
+        {
+            "courses_instructor": "dadson, michael",
+            "sumAvg": 90.64
+        },
+        {
+            "courses_instructor": "lee, victoria",
+            "sumAvg": 90.64
+        },
+        {
+            "courses_instructor": "groat, lee",
+            "sumAvg": 90.67
+        },
+        {
+            "courses_instructor": "ashe, maureen;cherkasov, artem;cox, michael;duronio, vincent;mcnagny, kelly marshall;mui, alice;pelech, steven daniel;reiner, neil;roberts, clive;rossi, fabio;sandford, andrew;sly, laura;steiner, theodore;tebbutt, scott;vallance, bruce;wang, yu tian",
+            "sumAvg": 90.68
+        },
+        {
+            "courses_instructor": "spadinger, ingrid",
+            "sumAvg": 90.7
+        },
+        {
+            "courses_instructor": "zhang, yuelin",
+            "sumAvg": 90.71
+        },
+        {
+            "courses_instructor": "poole, david",
+            "sumAvg": 90.71
+        },
+        {
+            "courses_instructor": "lavkulich, leslie;wilson, julie",
+            "sumAvg": 90.71
+        },
+        {
+            "courses_instructor": "avery, lisa ann;tba",
+            "sumAvg": 90.75
+        },
+        {
+            "courses_instructor": "streelasky, jodi",
+            "sumAvg": 90.75
+        },
+        {
+            "courses_instructor": "allard, michael",
+            "sumAvg": 90.75
+        },
+        {
+            "courses_instructor": "dillon, lisa",
+            "sumAvg": 90.77
+        },
+        {
+            "courses_instructor": "weng, andrew",
+            "sumAvg": 90.78
+        },
+        {
+            "courses_instructor": "richardson, catherine",
+            "sumAvg": 90.81
+        },
+        {
+            "courses_instructor": "duzenli, cheryl",
+            "sumAvg": 90.83
+        },
+        {
+            "courses_instructor": "naus, monika",
+            "sumAvg": 90.84
+        },
+        {
+            "courses_instructor": "cretu, edmond",
+            "sumAvg": 90.88
+        },
+        {
+            "courses_instructor": "van enk, anneke",
+            "sumAvg": 90.89
+        },
+        {
+            "courses_instructor": "van der loos, hendrik;wilson, david",
+            "sumAvg": 90.9
+        },
+        {
+            "courses_instructor": "bryan, jennifer frazier;cohen freue, gabriela",
+            "sumAvg": 90.9
+        },
+        {
+            "courses_instructor": "feng, francis;scott, sandra",
+            "sumAvg": 90.91
+        },
+        {
+            "courses_instructor": "menzies, charles",
+            "sumAvg": 90.92
+        },
+        {
+            "courses_instructor": "singh, santokh",
+            "sumAvg": 90.92
+        },
+        {
+            "courses_instructor": "pang, catherine c",
+            "sumAvg": 90.93
+        },
+        {
+            "courses_instructor": "mackay, alexander;schulzer, michael",
+            "sumAvg": 90.94
+        },
+        {
+            "courses_instructor": "jeroff, debra",
+            "sumAvg": 90.95
+        },
+        {
+            "courses_instructor": "murphy, susan",
+            "sumAvg": 90.99
+        },
+        {
+            "courses_instructor": "nasiopoulos, panos",
+            "sumAvg": 91
+        },
+        {
+            "courses_instructor": "russell, james kelly",
+            "sumAvg": 91
+        },
+        {
+            "courses_instructor": "tosdal, richard",
+            "sumAvg": 91
+        },
+        {
+            "courses_instructor": "mcallister, murdoch",
+            "sumAvg": 91
+        },
+        {
+            "courses_instructor": "hines, naseem",
+            "sumAvg": 91
+        },
+        {
+            "courses_instructor": "anasavarapu, srikantha",
+            "sumAvg": 91
+        },
+        {
+            "courses_instructor": "saewyc, elizabeth",
+            "sumAvg": 91
+        },
+        {
+            "courses_instructor": "joghataie, abdolreza",
+            "sumAvg": 91.06
+        },
+        {
+            "courses_instructor": "both, pauline;faber, shawna",
+            "sumAvg": 91.07
+        },
+        {
+            "courses_instructor": "aquash, mark",
+            "sumAvg": 91.09
+        },
+        {
+            "courses_instructor": "zhao, mingfeng",
+            "sumAvg": 91.1
+        },
+        {
+            "courses_instructor": "rodgers, sarah",
+            "sumAvg": 91.1
+        },
+        {
+            "courses_instructor": "marti, jose",
+            "sumAvg": 91.13
+        },
+        {
+            "courses_instructor": "sumaila, ussif rashid",
+            "sumAvg": 91.14
+        },
+        {
+            "courses_instructor": "alila, younes",
+            "sumAvg": 91.17
+        },
+        {
+            "courses_instructor": "cote, helene;kalloger, steve ernest;wellington, cheryl lea",
+            "sumAvg": 91.17
+        },
+        {
+            "courses_instructor": "carr, wendy;denizot, isabelle",
+            "sumAvg": 91.18
+        },
+        {
+            "courses_instructor": "cairns, brian;levine, marc;soja, peter",
+            "sumAvg": 91.2
+        },
+        {
+            "courses_instructor": "cronk, quentin charles",
+            "sumAvg": 91.21
+        },
+        {
+            "courses_instructor": "beschastnikh, ivan",
+            "sumAvg": 91.22
+        },
+        {
+            "courses_instructor": "dormuth, colin",
+            "sumAvg": 91.22
+        },
+        {
+            "courses_instructor": "sossi, vesna",
+            "sumAvg": 91.25
+        },
+        {
+            "courses_instructor": "hoos, holger",
+            "sumAvg": 91.25
+        },
+        {
+            "courses_instructor": "lister, alison",
+            "sumAvg": 91.25
+        },
+        {
+            "courses_instructor": "spittal, patricia",
+            "sumAvg": 91.25
+        },
+        {
+            "courses_instructor": "tannert, thomas",
+            "sumAvg": 91.32
+        },
+        {
+            "courses_instructor": "macneil, kimberley",
+            "sumAvg": 91.33
+        },
+        {
+            "courses_instructor": "butterwick, shauna;chan, jennifer",
+            "sumAvg": 91.36
+        },
+        {
+            "courses_instructor": "barbic, skye",
+            "sumAvg": 91.36
+        },
+        {
+            "courses_instructor": "lamoureux, michael",
+            "sumAvg": 91.38
+        },
+        {
+            "courses_instructor": "abraham, ninan",
+            "sumAvg": 91.42
+        },
+        {
+            "courses_instructor": "macdowell, paula",
+            "sumAvg": 91.44
+        },
+        {
+            "courses_instructor": "chieng, sie-tan;stiemer, siegfried",
+            "sumAvg": 91.46
+        },
+        {
+            "courses_instructor": "zhang, zhe",
+            "sumAvg": 91.47
+        },
+        {
+            "courses_instructor": "lamonde, anne-marie",
+            "sumAvg": 91.48
+        },
+        {
+            "courses_instructor": "butler, joy;clarke, anthony",
+            "sumAvg": 91.5
+        },
+        {
+            "courses_instructor": "boccassini, daniela",
+            "sumAvg": 91.5
+        },
+        {
+            "courses_instructor": "bennett, michael",
+            "sumAvg": 91.5
+        },
+        {
+            "courses_instructor": "knight, darryl",
+            "sumAvg": 91.5
+        },
+        {
+            "courses_instructor": "erfan, aftab",
+            "sumAvg": 91.5
+        },
+        {
+            "courses_instructor": "heaven, roberta",
+            "sumAvg": 91.5
+        },
+        {
+            "courses_instructor": "kishor, nand;launeanu, mihaela",
+            "sumAvg": 91.56
+        },
+        {
+            "courses_instructor": "elmo, davide",
+            "sumAvg": 91.56
+        },
+        {
+            "courses_instructor": "renwick, kerry",
+            "sumAvg": 91.58
+        },
+        {
+            "courses_instructor": "law, danielle m",
+            "sumAvg": 91.6
+        },
+        {
+            "courses_instructor": "spacciante, stephanie;tba",
+            "sumAvg": 91.6
+        },
+        {
+            "courses_instructor": "robinson, maria",
+            "sumAvg": 91.63
+        },
+        {
+            "courses_instructor": "prendergast, teresa",
+            "sumAvg": 91.63
+        },
+        {
+            "courses_instructor": "jamieson, janet ruth",
+            "sumAvg": 91.67
+        },
+        {
+            "courses_instructor": "carey, stephen",
+            "sumAvg": 91.7
+        },
+        {
+            "courses_instructor": "gustafson, stephen james",
+            "sumAvg": 91.71
+        },
+        {
+            "courses_instructor": "ghioca, dragos",
+            "sumAvg": 91.75
+        },
+        {
+            "courses_instructor": "rozali, moshe",
+            "sumAvg": 91.75
+        },
+        {
+            "courses_instructor": "oliver, david",
+            "sumAvg": 91.79
+        },
+        {
+            "courses_instructor": "broten, courtney",
+            "sumAvg": 91.79
+        },
+        {
+            "courses_instructor": "bennewith, kevin;cote, helene;devlin, angela;granville, david;lockwood, william;shah, sohrab;steidl, christian;verchere, bruce;wellington, cheryl lea;weng, andrew",
+            "sumAvg": 91.79
+        },
+        {
+            "courses_instructor": "smith, kevin",
+            "sumAvg": 91.8
+        },
+        {
+            "courses_instructor": "amundson, norman;sawatsky, frank",
+            "sumAvg": 91.8
+        },
+        {
+            "courses_instructor": "mortensen, james;tosdal, richard",
+            "sumAvg": 91.8
+        },
+        {
+            "courses_instructor": "barlow, martin",
+            "sumAvg": 91.8
+        },
+        {
+            "courses_instructor": "von bergmann, hsingchi",
+            "sumAvg": 91.82
+        },
+        {
+            "courses_instructor": "weaver, sydney",
+            "sumAvg": 91.82
+        },
+        {
+            "courses_instructor": "rohling, robert",
+            "sumAvg": 91.83
+        },
+        {
+            "courses_instructor": "both, pauline;romero, amber",
+            "sumAvg": 91.83
+        },
+        {
+            "courses_instructor": "rushen, jeffrey",
+            "sumAvg": 91.86
+        },
+        {
+            "courses_instructor": "kasahara, hiroyuki",
+            "sumAvg": 91.86
+        },
+        {
+            "courses_instructor": "lintott, deirdre;thom, marie",
+            "sumAvg": 91.93
+        },
+        {
+            "courses_instructor": "jennings,  mary lou;mccuaig, fairleth",
+            "sumAvg": 91.93
+        },
+        {
+            "courses_instructor": "butler, joy;de cosson, alexander",
+            "sumAvg": 91.94
+        },
+        {
+            "courses_instructor": "massaro, davide;seto, katherine",
+            "sumAvg": 91.95
+        },
+        {
+            "courses_instructor": "stull, roland",
+            "sumAvg": 92
+        },
+        {
+            "courses_instructor": "bigazzi, alexander york",
+            "sumAvg": 92
+        },
+        {
+            "courses_instructor": "wolfman, steven",
+            "sumAvg": 92
+        },
+        {
+            "courses_instructor": "min, jason",
+            "sumAvg": 92.06
+        },
+        {
+            "courses_instructor": "dunster, katherine",
+            "sumAvg": 92.07
+        },
+        {
+            "courses_instructor": "birnbaum, david",
+            "sumAvg": 92.08
+        },
+        {
+            "courses_instructor": "savage, ken;shadwick, robert edward",
+            "sumAvg": 92.1
+        },
+        {
+            "courses_instructor": "hallam, steven",
+            "sumAvg": 92.12
+        },
+        {
+            "courses_instructor": "virani, alice",
+            "sumAvg": 92.14
+        },
+        {
+            "courses_instructor": "ng, john",
+            "sumAvg": 92.2
+        },
+        {
+            "courses_instructor": "frackman, kyle",
+            "sumAvg": 92.25
+        },
+        {
+            "courses_instructor": "matthewson, lisa",
+            "sumAvg": 92.25
+        },
+        {
+            "courses_instructor": "letain, anne",
+            "sumAvg": 92.26
+        },
+        {
+            "courses_instructor": "kozak, robert antal;panwar, rajat",
+            "sumAvg": 92.27
+        },
+        {
+            "courses_instructor": "purves, barbara",
+            "sumAvg": 92.29
+        },
+        {
+            "courses_instructor": "haney, colleen;hawley, jody;tba",
+            "sumAvg": 92.29
+        },
+        {
+            "courses_instructor": "campbell, kim;vedam, saraswathi",
+            "sumAvg": 92.29
+        },
+        {
+            "courses_instructor": "habajova, irina",
+            "sumAvg": 92.3
+        },
+        {
+            "courses_instructor": "driscoll-bell, jean",
+            "sumAvg": 92.32
+        },
+        {
+            "courses_instructor": "musgrave, susan",
+            "sumAvg": 92.33
+        },
+        {
+            "courses_instructor": "mizumoto, kota",
+            "sumAvg": 92.36
+        },
+        {
+            "courses_instructor": "robinson, georgina",
+            "sumAvg": 92.43
+        },
+        {
+            "courses_instructor": "cripton, peter",
+            "sumAvg": 92.43
+        },
+        {
+            "courses_instructor": "quinton, bradley",
+            "sumAvg": 92.5
+        },
+        {
+            "courses_instructor": "mortensen, james",
+            "sumAvg": 92.5
+        },
+        {
+            "courses_instructor": "smith, veronica",
+            "sumAvg": 92.5
+        },
+        {
+            "courses_instructor": "bally, marcel bertran;bennewith, kevin;cote, helene;devlin, angela;rajcan-separovic, evica;shah, sohrab;steidl, christian;verchere, bruce;wellington, cheryl lea;weng, andrew",
+            "sumAvg": 92.58
+        },
+        {
+            "courses_instructor": "lis, mieszko",
+            "sumAvg": 92.6
+        },
+        {
+            "courses_instructor": "massaro, davide",
+            "sumAvg": 92.66
+        },
+        {
+            "courses_instructor": "schoen, michael",
+            "sumAvg": 92.67
+        },
+        {
+            "courses_instructor": "raftery, james",
+            "sumAvg": 92.67
+        },
+        {
+            "courses_instructor": "harvey, nicholas",
+            "sumAvg": 92.75
+        },
+        {
+            "courses_instructor": "gordon, terence;russell, james kelly",
+            "sumAvg": 92.75
+        },
+        {
+            "courses_instructor": "brydges, david",
+            "sumAvg": 92.75
+        },
+        {
+            "courses_instructor": "gartner, zsu zsi",
+            "sumAvg": 92.8
+        },
+        {
+            "courses_instructor": "girling, cynthia",
+            "sumAvg": 92.8
+        },
+        {
+            "courses_instructor": "mulpuri, kishore",
+            "sumAvg": 92.83
+        },
+        {
+            "courses_instructor": "seto, katherine",
+            "sumAvg": 92.85
+        },
+        {
+            "courses_instructor": "gauvin, emma",
+            "sumAvg": 92.88
+        },
+        {
+            "courses_instructor": "cockcroft, steven",
+            "sumAvg": 92.89
+        },
+        {
+            "courses_instructor": "tan, yuen sze michelle",
+            "sumAvg": 93
+        },
+        {
+            "courses_instructor": "curle, deirdre;jordan, elizabeth",
+            "sumAvg": 93
+        },
+        {
+            "courses_instructor": "hamm, corey;magnanensi, giorgio;wilson, eric",
+            "sumAvg": 93.06
+        },
+        {
+            "courses_instructor": "thomson, sharon",
+            "sumAvg": 93.07
+        },
+        {
+            "courses_instructor": "hatton, jennifer;herdman, anthony",
+            "sumAvg": 93.09
+        },
+        {
+            "courses_instructor": "lauridsen, kristi",
+            "sumAvg": 93.15
+        },
+        {
+            "courses_instructor": "li, guofang",
+            "sumAvg": 93.2
+        },
+        {
+            "courses_instructor": "sinha, srija",
+            "sumAvg": 93.22
+        },
+        {
+            "courses_instructor": "green, david",
+            "sumAvg": 93.33
+        },
+        {
+            "courses_instructor": "wormeli, ted",
+            "sumAvg": 93.33
+        },
+        {
+            "courses_instructor": "masse, louise",
+            "sumAvg": 93.33
+        },
+        {
+            "courses_instructor": "palacios, carolina",
+            "sumAvg": 93.4
+        },
+        {
+            "courses_instructor": "burrows, marlene;mccuaig, fairleth",
+            "sumAvg": 93.4
+        },
+        {
+            "courses_instructor": "hesselink, nathan",
+            "sumAvg": 93.45
+        },
+        {
+            "courses_instructor": "hungr, oldrich",
+            "sumAvg": 93.47
+        },
+        {
+            "courses_instructor": "mohammadhasani khorasany, rami",
+            "sumAvg": 93.5
+        },
+        {
+            "courses_instructor": "smith, mary",
+            "sumAvg": 93.56
+        },
+        {
+            "courses_instructor": "andreou, theresa",
+            "sumAvg": 93.56
+        },
+        {
+            "courses_instructor": "watson, scott",
+            "sumAvg": 93.67
+        },
+        {
+            "courses_instructor": "schendlinger, mary",
+            "sumAvg": 93.67
+        },
+        {
+            "courses_instructor": "thom, marie",
+            "sumAvg": 93.72
+        },
+        {
+            "courses_instructor": "doyle-waters, mary;taylor, darlene",
+            "sumAvg": 93.73
+        },
+        {
+            "courses_instructor": "marcoux, caroline;poirier, brigitte",
+            "sumAvg": 93.75
+        },
+        {
+            "courses_instructor": "chau, albert",
+            "sumAvg": 93.75
+        },
+        {
+            "courses_instructor": "bayrampour basmenj, hamideh",
+            "sumAvg": 93.75
+        },
+        {
+            "courses_instructor": "brew, nancy;mccuaig, fairleth",
+            "sumAvg": 93.86
+        },
+        {
+            "courses_instructor": "frankish, charles james;guhn, martin;tanimura, kanna",
+            "sumAvg": 93.89
+        },
+        {
+            "courses_instructor": "adelman, sharon;macleod, elizabeth d",
+            "sumAvg": 93.91
+        },
+        {
+            "courses_instructor": "reid, gavin",
+            "sumAvg": 93.94
+        },
+        {
+            "courses_instructor": "hamm, corey;wilson, eric",
+            "sumAvg": 94
+        },
+        {
+            "courses_instructor": "burrows, marlene;harding, jillian;mccuaig, fairleth",
+            "sumAvg": 94
+        },
+        {
+            "courses_instructor": "adem, alejandro",
+            "sumAvg": 94.17
+        },
+        {
+            "courses_instructor": "kion, tracy",
+            "sumAvg": 94.17
+        },
+        {
+            "courses_instructor": "leung, larry",
+            "sumAvg": 94.23
+        },
+        {
+            "courses_instructor": "stock, richard",
+            "sumAvg": 94.4
+        },
+        {
+            "courses_instructor": "kealy, david",
+            "sumAvg": 94.56
+        },
+        {
+            "courses_instructor": "slade, gordon",
+            "sumAvg": 94.67
+        },
+        {
+            "courses_instructor": "clarke, lorne",
+            "sumAvg": 94.7
+        },
+        {
+            "courses_instructor": "henry, annette",
+            "sumAvg": 94.75
+        },
+        {
+            "courses_instructor": "both, pauline;ervin, ruth",
+            "sumAvg": 94.88
+        },
+        {
+            "courses_instructor": "karres, debora",
+            "sumAvg": 94.88
+        },
+        {
+            "courses_instructor": "acheson, alison",
+            "sumAvg": 95
+        },
+        {
+            "courses_instructor": "hodgson, antony",
+            "sumAvg": 95.15
+        },
+        {
+            "courses_instructor": "krist, jennifer;mccuaig, fairleth",
+            "sumAvg": 95.29
+        },
+        {
+            "courses_instructor": "stamp, philip c",
+            "sumAvg": 95.43
+        },
+        {
+            "courses_instructor": "murugan, mathav",
+            "sumAvg": 95.67
+        },
+        {
+            "courses_instructor": "owens, rhea",
+            "sumAvg": 95.78
+        },
+        {
+            "courses_instructor": "jackson, howard",
+            "sumAvg": 96
+        },
+        {
+            "courses_instructor": "farrell, adam",
+            "sumAvg": 96.1
+        },
+        {
+            "courses_instructor": "bryson, stephanie;o'connor, deborah;stainton, timothy;sullivan, t richard;tester, frank",
+            "sumAvg": 96.15
+        },
+        {
+            "courses_instructor": "wei, juncheng",
+            "sumAvg": 96.25
+        },
+        {
+            "courses_instructor": "timko, joleen",
+            "sumAvg": 96.36
+        },
+        {
+            "courses_instructor": "wenzek, rob",
+            "sumAvg": 96.4
+        },
+        {
+            "courses_instructor": "nachmias, asaf",
+            "sumAvg": 96.83
+        },
+        {
+            "courses_instructor": "neault, roberta a",
+            "sumAvg": 97.47
+        },
+        {
+            "courses_instructor": "morgan, tannis",
+            "sumAvg": 97.5
+        },
+        {
+            "courses_instructor": "coria, lino",
+            "sumAvg": 98.75
+        },
+        {
+            "courses_instructor": "frank, erica",
+            "sumAvg": 98.98
+        },
+        {
+            "courses_instructor": "gomez, jose",
+            "sumAvg": 99.78
+        },
+        {
+            "courses_instructor": "rostad, faith",
+            "sumAvg": 178.28
+        },
+        {
+            "courses_instructor": "lucyshyn, joseph",
+            "sumAvg": 178.35
+        },
+        {
+            "courses_instructor": "kubota, ryuko",
+            "sumAvg": 178.39
+        },
+        {
+            "courses_instructor": "zolfi-sistani, fahimeh",
+            "sumAvg": 178.45
+        },
+        {
+            "courses_instructor": "cote, helene;kalloger, steve ernest;laule, cornelia;lockwood, william;wellington, cheryl lea",
+            "sumAvg": 178.46
+        },
+        {
+            "courses_instructor": "leaf, michael",
+            "sumAvg": 178.5
+        },
+        {
+            "courses_instructor": "sadovnick, adele",
+            "sumAvg": 178.67
+        },
+        {
+            "courses_instructor": "donaldson, r glen",
+            "sumAvg": 178.7
+        },
+        {
+            "courses_instructor": "kwok, yin nam kenny",
+            "sumAvg": 178.74
+        },
+        {
+            "courses_instructor": "regmi, kapil",
+            "sumAvg": 178.79
+        },
+        {
+            "courses_instructor": "o'riley, patricia",
+            "sumAvg": 178.8
+        },
+        {
+            "courses_instructor": "harder, kenneth;johnson, pauline",
+            "sumAvg": 178.8
+        },
+        {
+            "courses_instructor": "bansback, nicholas",
+            "sumAvg": 178.83
+        },
+        {
+            "courses_instructor": "leander, brian",
+            "sumAvg": 178.92
+        },
+        {
+            "courses_instructor": "bedi, robinder",
+            "sumAvg": 178.94
+        },
+        {
+            "courses_instructor": "sullivan, thomas priestlay",
+            "sumAvg": 178.97
+        },
+        {
+            "courses_instructor": "gunderson, lee paul",
+            "sumAvg": 179.03
+        },
+        {
+            "courses_instructor": "grecov, dana",
+            "sumAvg": 179.04
+        },
+        {
+            "courses_instructor": "pawlik, marek",
+            "sumAvg": 179.08
+        },
+        {
+            "courses_instructor": "garrett, bernard mark",
+            "sumAvg": 179.13
+        },
+        {
+            "courses_instructor": "walter, pierre",
+            "sumAvg": 179.14
+        },
+        {
+            "courses_instructor": "horwitz, erika",
+            "sumAvg": 179.18
+        },
+        {
+            "courses_instructor": "roskelley, calvin",
+            "sumAvg": 179.19
+        },
+        {
+            "courses_instructor": "fisher, alexander john;oke, doreen",
+            "sumAvg": 179.23
+        },
+        {
+            "courses_instructor": "friedmann, john",
+            "sumAvg": 179.25
+        },
+        {
+            "courses_instructor": "bally, marcel bertran",
+            "sumAvg": 179.33
+        },
+        {
+            "courses_instructor": "bonn, douglas andrew",
+            "sumAvg": 179.33
+        },
+        {
+            "courses_instructor": "o'connor, timothy",
+            "sumAvg": 179.4
+        },
+        {
+            "courses_instructor": "duff, patricia",
+            "sumAvg": 179.53
+        },
+        {
+            "courses_instructor": "cullis, pieter;molday, robert",
+            "sumAvg": 179.56
+        },
+        {
+            "courses_instructor": "patey, grenfell",
+            "sumAvg": 179.67
+        },
+        {
+            "courses_instructor": "khosravi, mahta",
+            "sumAvg": 179.7
+        },
+        {
+            "courses_instructor": "chitnev, veta",
+            "sumAvg": 179.71
+        },
+        {
+            "courses_instructor": "young, richard",
+            "sumAvg": 179.72
+        },
+        {
+            "courses_instructor": "bourlova, tatiana",
+            "sumAvg": 179.72
+        },
+        {
+            "courses_instructor": "dos santos, pedro",
+            "sumAvg": 179.75
+        },
+        {
+            "courses_instructor": "anderson, jim",
+            "sumAvg": 179.8
+        },
+        {
+            "courses_instructor": "perks, anthony",
+            "sumAvg": 179.83
+        },
+        {
+            "courses_instructor": "klubben, laura",
+            "sumAvg": 179.87
+        },
+        {
+            "courses_instructor": "wijewickreme, dharmapriya",
+            "sumAvg": 179.88
+        },
+        {
+            "courses_instructor": "meyer, karen",
+            "sumAvg": 179.94
+        },
+        {
+            "courses_instructor": "dharamsi, shafik;spiegel, jerry",
+            "sumAvg": 179.95
+        },
+        {
+            "courses_instructor": "matthews, philip",
+            "sumAvg": 179.95
+        },
+        {
+            "courses_instructor": "jongbloed, lyn",
+            "sumAvg": 180
+        },
+        {
+            "courses_instructor": "lim, clark",
+            "sumAvg": 180.01
+        },
+        {
+            "courses_instructor": "ross, nancy",
+            "sumAvg": 180.06
+        },
+        {
+            "courses_instructor": "stana, vitorio",
+            "sumAvg": 180.06
+        },
+        {
+            "courses_instructor": "patrick, david",
+            "sumAvg": 180.1
+        },
+        {
+            "courses_instructor": "nicol, cynthia",
+            "sumAvg": 180.13
+        },
+        {
+            "courses_instructor": "wilkie, donald",
+            "sumAvg": 180.21
+        },
+        {
+            "courses_instructor": "hsieh, william",
+            "sumAvg": 180.23
+        },
+        {
+            "courses_instructor": "shoveller, jean",
+            "sumAvg": 180.3
+        },
+        {
+            "courses_instructor": "wilkinson, david",
+            "sumAvg": 180.33
+        },
+        {
+            "courses_instructor": "walker, michael j a",
+            "sumAvg": 180.47
+        },
+        {
+            "courses_instructor": "cullis, pieter",
+            "sumAvg": 180.67
+        },
+        {
+            "courses_instructor": "de groot, joanne",
+            "sumAvg": 180.67
+        },
+        {
+            "courses_instructor": "duke, wendy",
+            "sumAvg": 180.84
+        },
+        {
+            "courses_instructor": "jatskevich, juri",
+            "sumAvg": 180.85
+        },
+        {
+            "courses_instructor": "wohlstadter, eric",
+            "sumAvg": 180.96
+        },
+        {
+            "courses_instructor": "dowler, judith rosemary",
+            "sumAvg": 180.98
+        },
+        {
+            "courses_instructor": "kassam, rosemin",
+            "sumAvg": 181
+        },
+        {
+            "courses_instructor": "brown, sasha",
+            "sumAvg": 181.04
+        },
+        {
+            "courses_instructor": "johnston, patricia",
+            "sumAvg": 181.06
+        },
+        {
+            "courses_instructor": "reichstein, zinovy",
+            "sumAvg": 181.07
+        },
+        {
+            "courses_instructor": "hutton, thomas",
+            "sumAvg": 181.07
+        },
+        {
+            "courses_instructor": "brown, helen jean;o'flynn-magee, katherine;smye, victoria;tan, elsie",
+            "sumAvg": 181.13
+        },
+        {
+            "courses_instructor": "wilson, julie",
+            "sumAvg": 181.18
+        },
+        {
+            "courses_instructor": "joachim, gloria;thomson, sharon",
+            "sumAvg": 181.21
+        },
+        {
+            "courses_instructor": "lence, barbara jean",
+            "sumAvg": 181.25
+        },
+        {
+            "courses_instructor": "herrmann, felix",
+            "sumAvg": 181.25
+        },
+        {
+            "courses_instructor": "bryan, jim",
+            "sumAvg": 181.27
+        },
+        {
+            "courses_instructor": "gardiner, robert",
+            "sumAvg": 181.33
+        },
+        {
+            "courses_instructor": "smailes, elizabeth;smith, robert",
+            "sumAvg": 181.34
+        },
+        {
+            "courses_instructor": "avery, lisa ann",
+            "sumAvg": 181.4
+        },
+        {
+            "courses_instructor": "hafeli, urs;kumar, ujendra",
+            "sumAvg": 181.4
+        },
+        {
+            "courses_instructor": "bendickson, dennis",
+            "sumAvg": 181.44
+        },
+        {
+            "courses_instructor": "mazawi, andre;waithman, marilynne",
+            "sumAvg": 181.45
+        },
+        {
+            "courses_instructor": "gerofsky, susan",
+            "sumAvg": 181.5
+        },
+        {
+            "courses_instructor": "cox, elizabeth;reiner, ann",
+            "sumAvg": 181.58
+        },
+        {
+            "courses_instructor": "krishnamurthy, vikram",
+            "sumAvg": 181.67
+        },
+        {
+            "courses_instructor": "servati, peyman",
+            "sumAvg": 181.7
+        },
+        {
+            "courses_instructor": "schmidt, mark",
+            "sumAvg": 181.75
+        },
+        {
+            "courses_instructor": "mitchell, stephen jarvis",
+            "sumAvg": 181.77
+        },
+        {
+            "courses_instructor": "launeanu, mihaela",
+            "sumAvg": 181.87
+        },
+        {
+            "courses_instructor": "chiao, mu",
+            "sumAvg": 182.02
+        },
+        {
+            "courses_instructor": "carlson, scott",
+            "sumAvg": 182.08
+        },
+        {
+            "courses_instructor": "ekdahl, moira",
+            "sumAvg": 182.15
+        },
+        {
+            "courses_instructor": "behrend, kai",
+            "sumAvg": 182.2
+        },
+        {
+            "courses_instructor": "englezos, peter",
+            "sumAvg": 182.25
+        },
+        {
+            "courses_instructor": "bostock, michael",
+            "sumAvg": 182.25
+        },
+        {
+            "courses_instructor": "halevy, yoram",
+            "sumAvg": 182.29
+        },
+        {
+            "courses_instructor": "chen, jingyi",
+            "sumAvg": 182.29
+        },
+        {
+            "courses_instructor": "senbel, maged",
+            "sumAvg": 182.29
+        },
+        {
+            "courses_instructor": "trosper, ronald",
+            "sumAvg": 182.43
+        },
+        {
+            "courses_instructor": "mitchell, allison rugh",
+            "sumAvg": 182.43
+        },
+        {
+            "courses_instructor": "hodgson, murray",
+            "sumAvg": 182.5
+        },
+        {
+            "courses_instructor": "pickerell, deirdre",
+            "sumAvg": 182.51
+        },
+        {
+            "courses_instructor": "douglas, carl;schulte, patricia",
+            "sumAvg": 182.67
+        },
+        {
+            "courses_instructor": "jenkins, dr jacqueline",
+            "sumAvg": 182.69
+        },
+        {
+            "courses_instructor": "fossett, brenda",
+            "sumAvg": 182.7
+        },
+        {
+            "courses_instructor": "marmer, vadim",
+            "sumAvg": 182.72
+        },
+        {
+            "courses_instructor": "small, jeff alan",
+            "sumAvg": 182.94
+        },
+        {
+            "courses_instructor": "schrimpf, paul",
+            "sumAvg": 183
+        },
+        {
+            "courses_instructor": "affleck, ian keith",
+            "sumAvg": 183
+        },
+        {
+            "courses_instructor": "greig, linda elizabeth",
+            "sumAvg": 183.05
+        },
+        {
+            "courses_instructor": "villagomez, erick",
+            "sumAvg": 183.16
+        },
+        {
+            "courses_instructor": "hauge, chelsey",
+            "sumAvg": 183.17
+        },
+        {
+            "courses_instructor": "bungay, victoria",
+            "sumAvg": 183.33
+        },
+        {
+            "courses_instructor": "hafeli, urs",
+            "sumAvg": 183.43
+        },
+        {
+            "courses_instructor": "ramey, william d",
+            "sumAvg": 183.53
+        },
+        {
+            "courses_instructor": "lee, hyekyung",
+            "sumAvg": 183.6
+        },
+        {
+            "courses_instructor": "macleod, bernard a",
+            "sumAvg": 183.6
+        },
+        {
+            "courses_instructor": "de silva, clarence wilfred",
+            "sumAvg": 183.75
+        },
+        {
+            "courses_instructor": "horka, andy",
+            "sumAvg": 183.78
+        },
+        {
+            "courses_instructor": "oviedo-joekes, eugenia",
+            "sumAvg": 183.92
+        },
+        {
+            "courses_instructor": "nagata, k wayne",
+            "sumAvg": 183.93
+        },
+        {
+            "courses_instructor": "walus, konrad",
+            "sumAvg": 184
+        },
+        {
+            "courses_instructor": "hatzikiriakos, savvas",
+            "sumAvg": 184.08
+        },
+        {
+            "courses_instructor": "henczel, lisa",
+            "sumAvg": 184.16
+        },
+        {
+            "courses_instructor": "guhn, martin",
+            "sumAvg": 184.32
+        },
+        {
+            "courses_instructor": "amaral, deborah;missiaen, sharon anne",
+            "sumAvg": 184.38
+        },
+        {
+            "courses_instructor": "jhangiani, rajiv",
+            "sumAvg": 184.44
+        },
+        {
+            "courses_instructor": "rodney, patricia",
+            "sumAvg": 184.45
+        },
+        {
+            "courses_instructor": "jillings, carol",
+            "sumAvg": 184.63
+        },
+        {
+            "courses_instructor": "flood, karen",
+            "sumAvg": 184.82
+        },
+        {
+            "courses_instructor": "fatemi, sayyed mohsen",
+            "sumAvg": 184.89
+        },
+        {
+            "courses_instructor": "kim, young-heon",
+            "sumAvg": 185.05
+        },
+        {
+            "courses_instructor": "semenoff, gordon walter",
+            "sumAvg": 185.16
+        },
+        {
+            "courses_instructor": "james, susan",
+            "sumAvg": 185.2
+        },
+        {
+            "courses_instructor": "lucus, calin",
+            "sumAvg": 185.29
+        },
+        {
+            "courses_instructor": "perona wright, georgia",
+            "sumAvg": 185.49
+        },
+        {
+            "courses_instructor": "weber, barbara",
+            "sumAvg": 185.53
+        },
+        {
+            "courses_instructor": "yorke, erin",
+            "sumAvg": 185.93
+        },
+        {
+            "courses_instructor": "van deursen, john",
+            "sumAvg": 185.96
+        },
+        {
+            "courses_instructor": "knorr, edwin max",
+            "sumAvg": 186.13
+        },
+        {
+            "courses_instructor": "mckee, william",
+            "sumAvg": 186.38
+        },
+        {
+            "courses_instructor": "graefe, sara",
+            "sumAvg": 187.5
+        },
+        {
+            "courses_instructor": "scott, sandra",
+            "sumAvg": 187.53
+        },
+        {
+            "courses_instructor": "missiaen, sharon anne",
+            "sumAvg": 187.58
+        },
+        {
+            "courses_instructor": "tregebov, rhea",
+            "sumAvg": 187.66
+        },
+        {
+            "courses_instructor": "ford, laurie;robinson, georgina",
+            "sumAvg": 187.75
+        },
+        {
+            "courses_instructor": "motavas, saloome",
+            "sumAvg": 187.81
+        },
+        {
+            "courses_instructor": "curle, deirdre;jordan, elizabeth;norman, nancy",
+            "sumAvg": 187.88
+        },
+        {
+            "courses_instructor": "taylor, timothy",
+            "sumAvg": 188
+        },
+        {
+            "courses_instructor": "lalji, fawziah;seto, katherine",
+            "sumAvg": 189.61
+        },
+        {
+            "courses_instructor": "ervin, ruth",
+            "sumAvg": 189.94
+        },
+        {
+            "courses_instructor": "wagner, john",
+            "sumAvg": 190
+        },
+        {
+            "courses_instructor": "adler, james douglas;scott, sandra",
+            "sumAvg": 190.03
+        },
+        {
+            "courses_instructor": "harding, jillian",
+            "sumAvg": 190.05
+        },
+        {
+            "courses_instructor": "grady, albert wayne",
+            "sumAvg": 190.67
+        },
+        {
+            "courses_instructor": "laba, izabella",
+            "sumAvg": 190.69
+        },
+        {
+            "courses_instructor": "mcquarrie, maureen",
+            "sumAvg": 191.17
+        },
+        {
+            "courses_instructor": "dixon, david",
+            "sumAvg": 191.25
+        },
+        {
+            "courses_instructor": "amaral, deborah;ford, laurie",
+            "sumAvg": 194.78
+        },
+        {
+            "courses_instructor": "krist, jennifer",
+            "sumAvg": 194.85
+        },
+        {
+            "courses_instructor": "spiegel, jerry",
+            "sumAvg": 267.93
+        },
+        {
+            "courses_instructor": "bournot-trites, monique",
+            "sumAvg": 268.53
+        },
+        {
+            "courses_instructor": "francois, patrick",
+            "sumAvg": 268.58
+        },
+        {
+            "courses_instructor": "horwitz, marc;jean, francois",
+            "sumAvg": 268.62
+        },
+        {
+            "courses_instructor": "pijl, sipke",
+            "sumAvg": 268.67
+        },
+        {
+            "courses_instructor": "frank, lawrence",
+            "sumAvg": 268.94
+        },
+        {
+            "courses_instructor": "haber, eldad",
+            "sumAvg": 269
+        },
+        {
+            "courses_instructor": "bernhardt, barbara;rammage, linda;small, jeff alan",
+            "sumAvg": 269.02
+        },
+        {
+            "courses_instructor": "lau, anthony k",
+            "sumAvg": 269.3
+        },
+        {
+            "courses_instructor": "fortin, nicole",
+            "sumAvg": 269.38
+        },
+        {
+            "courses_instructor": "krems, roman",
+            "sumAvg": 269.4
+        },
+        {
+            "courses_instructor": "dobson, teresa",
+            "sumAvg": 269.68
+        },
+        {
+            "courses_instructor": "shan, hongxia",
+            "sumAvg": 269.86
+        },
+        {
+            "courses_instructor": "blake, robert wm;ganders, fred r",
+            "sumAvg": 269.89
+        },
+        {
+            "courses_instructor": "broadley, louise;olsen, anne",
+            "sumAvg": 269.92
+        },
+        {
+            "courses_instructor": "mindell, randal",
+            "sumAvg": 270.2
+        },
+        {
+            "courses_instructor": "ragaz, joseph",
+            "sumAvg": 270.43
+        },
+        {
+            "courses_instructor": "taubeneck, steven",
+            "sumAvg": 270.46
+        },
+        {
+            "courses_instructor": "teslenko, tatiana",
+            "sumAvg": 270.5
+        },
+        {
+            "courses_instructor": "prodanovic, vladan zoran",
+            "sumAvg": 270.63
+        },
+        {
+            "courses_instructor": "firkins, jacqueline",
+            "sumAvg": 271.05
+        },
+        {
+            "courses_instructor": "abolmaesumi, purang",
+            "sumAvg": 271.17
+        },
+        {
+            "courses_instructor": "johnston, kirsty",
+            "sumAvg": 271.18
+        },
+        {
+            "courses_instructor": "loutzenheiser, lisa",
+            "sumAvg": 271.35
+        },
+        {
+            "courses_instructor": "hart, craig;mortensen, james",
+            "sumAvg": 271.43
+        },
+        {
+            "courses_instructor": "taubert, stefan",
+            "sumAvg": 271.45
+        },
+        {
+            "courses_instructor": "kieffer, tim",
+            "sumAvg": 271.55
+        },
+        {
+            "courses_instructor": "malone, sharon",
+            "sumAvg": 271.56
+        },
+        {
+            "courses_instructor": "pighini, maria",
+            "sumAvg": 271.59
+        },
+        {
+            "courses_instructor": "silberman, lior",
+            "sumAvg": 271.71
+        },
+        {
+            "courses_instructor": "chen, david",
+            "sumAvg": 272.06
+        },
+        {
+            "courses_instructor": "adler, michal",
+            "sumAvg": 272.22
+        },
+        {
+            "courses_instructor": "rocha perkerwicz, samuel",
+            "sumAvg": 272.36
+        },
+        {
+            "courses_instructor": "darwich, lina",
+            "sumAvg": 272.39
+        },
+        {
+            "courses_instructor": "vedan, richard",
+            "sumAvg": 272.44
+        },
+        {
+            "courses_instructor": "mirenda, pat",
+            "sumAvg": 272.57
+        },
+        {
+            "courses_instructor": "low, alan",
+            "sumAvg": 272.62
+        },
+        {
+            "courses_instructor": "kazanjian, arminee",
+            "sumAvg": 272.65
+        },
+        {
+            "courses_instructor": "konoval, michael brandon",
+            "sumAvg": 272.68
+        },
+        {
+            "courses_instructor": "patrick, brian",
+            "sumAvg": 272.76
+        },
+        {
+            "courses_instructor": "sharon, rena",
+            "sumAvg": 272.85
+        },
+        {
+            "courses_instructor": "carenini, giuseppe",
+            "sumAvg": 273.07
+        },
+        {
+            "courses_instructor": "siu, henry",
+            "sumAvg": 273.07
+        },
+        {
+            "courses_instructor": "jordan, sharalyn",
+            "sumAvg": 273.12
+        },
+        {
+            "courses_instructor": "harding, jillian;krist, jennifer;mccuaig, fairleth",
+            "sumAvg": 273.25
+        },
+        {
+            "courses_instructor": "krebs, claudia",
+            "sumAvg": 273.27
+        },
+        {
+            "courses_instructor": "bryson, stephanie",
+            "sumAvg": 273.28
+        },
+        {
+            "courses_instructor": "ahenakew, cash",
+            "sumAvg": 273.45
+        },
+        {
+            "courses_instructor": "nojeh, alireza",
+            "sumAvg": 273.48
+        },
+        {
+            "courses_instructor": "zebehazy, kim",
+            "sumAvg": 273.67
+        },
+        {
+            "courses_instructor": "kamat, vinay ramnath",
+            "sumAvg": 274.04
+        },
+        {
+            "courses_instructor": "reinsberg, stefan",
+            "sumAvg": 274.16
+        },
+        {
+            "courses_instructor": "magyar, akos",
+            "sumAvg": 274.21
+        },
+        {
+            "courses_instructor": "hymel, shelley",
+            "sumAvg": 274.38
+        },
+        {
+            "courses_instructor": "martell, steve",
+            "sumAvg": 274.6
+        },
+        {
+            "courses_instructor": "cox, michael",
+            "sumAvg": 275.41
+        },
+        {
+            "courses_instructor": "escueta, mok",
+            "sumAvg": 275.42
+        },
+        {
+            "courses_instructor": "ayas, najib",
+            "sumAvg": 275.51
+        },
+        {
+            "courses_instructor": "clark, natalie",
+            "sumAvg": 275.63
+        },
+        {
+            "courses_instructor": "dommel, hermann",
+            "sumAvg": 275.7
+        },
+        {
+            "courses_instructor": "russell, debra",
+            "sumAvg": 275.8
+        },
+        {
+            "courses_instructor": "magee, theresa",
+            "sumAvg": 275.97
+        },
+        {
+            "courses_instructor": "metcalfe, amy",
+            "sumAvg": 276.1
+        },
+        {
+            "courses_instructor": "mcrae, lorna",
+            "sumAvg": 276.76
+        },
+        {
+            "courses_instructor": "nicholson, kathleen;petersen, susan",
+            "sumAvg": 277.59
+        },
+        {
+            "courses_instructor": "mceachern hughes, tammy",
+            "sumAvg": 278.65
+        },
+        {
+            "courses_instructor": "levinson, tami",
+            "sumAvg": 279.52
+        },
+        {
+            "courses_instructor": "sobolev, boris",
+            "sumAvg": 279.58
+        },
+        {
+            "courses_instructor": "gopaluni, bhushan",
+            "sumAvg": 280.1
+        },
+        {
+            "courses_instructor": "lo, chih shen",
+            "sumAvg": 280.55
+        },
+        {
+            "courses_instructor": "amaral, deborah",
+            "sumAvg": 281.37
+        },
+        {
+            "courses_instructor": "gordon, julia yulia",
+            "sumAvg": 281.7
+        },
+        {
+            "courses_instructor": "pourbohloul, babak",
+            "sumAvg": 281.88
+        },
+        {
+            "courses_instructor": "svendsen, linda jane",
+            "sumAvg": 283.5
+        },
+        {
+            "courses_instructor": "dorcey, anthony h j",
+            "sumAvg": 284.05
+        },
+        {
+            "courses_instructor": "girard, jonathan",
+            "sumAvg": 284.35
+        },
+        {
+            "courses_instructor": "stockman, james",
+            "sumAvg": 284.48
+        },
+        {
+            "courses_instructor": "burrows, marlene",
+            "sumAvg": 285.21
+        },
+        {
+            "courses_instructor": "gill, deana",
+            "sumAvg": 285.84
+        },
+        {
+            "courses_instructor": "allan, douglas;bamji, shernaz;loewen, christopher",
+            "sumAvg": 357.48
+        },
+        {
+            "courses_instructor": "vedam, saraswathi",
+            "sumAvg": 357.71
+        },
+        {
+            "courses_instructor": "thomson, vicky",
+            "sumAvg": 358.41
+        },
+        {
+            "courses_instructor": "white, vincent",
+            "sumAvg": 358.45
+        },
+        {
+            "courses_instructor": "cohen freue, gabriela",
+            "sumAvg": 358.49
+        },
+        {
+            "courses_instructor": "klonsky, elisha",
+            "sumAvg": 359.47
+        },
+        {
+            "courses_instructor": "woody, sheila",
+            "sumAvg": 359.53
+        },
+        {
+            "courses_instructor": "phelan, anne",
+            "sumAvg": 359.76
+        },
+        {
+            "courses_instructor": "johnson, shelly",
+            "sumAvg": 360.09
+        },
+        {
+            "courses_instructor": "balmforth, neil",
+            "sumAvg": 360.23
+        },
+        {
+            "courses_instructor": "underhill, tully michael",
+            "sumAvg": 360.44
+        },
+        {
+            "courses_instructor": "vogl, a wayne",
+            "sumAvg": 360.79
+        },
+        {
+            "courses_instructor": "bernhardt, barbara",
+            "sumAvg": 360.85
+        },
+        {
+            "courses_instructor": "lemieux, thomas",
+            "sumAvg": 361
+        },
+        {
+            "courses_instructor": "nicholl, tessa",
+            "sumAvg": 361.08
+        },
+        {
+            "courses_instructor": "avery, lisa ann;taylor, sandra lynn",
+            "sumAvg": 361.17
+        },
+        {
+            "courses_instructor": "ellis, shona margaret",
+            "sumAvg": 361.18
+        },
+        {
+            "courses_instructor": "gill, hartej",
+            "sumAvg": 361.42
+        },
+        {
+            "courses_instructor": "blades, michael;turner, robin",
+            "sumAvg": 361.66
+        },
+        {
+            "courses_instructor": "anderson, kristin siwan",
+            "sumAvg": 361.67
+        },
+        {
+            "courses_instructor": "ward, michael jeffrey",
+            "sumAvg": 362.04
+        },
+        {
+            "courses_instructor": "shahnaz, navid",
+            "sumAvg": 362.05
+        },
+        {
+            "courses_instructor": "ensom, mary;riggs, kenneth wayne",
+            "sumAvg": 362.08
+        },
+        {
+            "courses_instructor": "hunter, thomas",
+            "sumAvg": 362.08
+        },
+        {
+            "courses_instructor": "bartosh, oksana",
+            "sumAvg": 362.47
+        },
+        {
+            "courses_instructor": "turriff, wendy",
+            "sumAvg": 362.7
+        },
+        {
+            "courses_instructor": "hubley, anita",
+            "sumAvg": 362.76
+        },
+        {
+            "courses_instructor": "karim, sultan;pang, catherine c;walker, michael j a",
+            "sumAvg": 362.76
+        },
+        {
+            "courses_instructor": "ensom, mary",
+            "sumAvg": 363.16
+        },
+        {
+            "courses_instructor": "gouzouasis, peter",
+            "sumAvg": 363.41
+        },
+        {
+            "courses_instructor": "mackay, alexander",
+            "sumAvg": 363.83
+        },
+        {
+            "courses_instructor": "janssen, patricia",
+            "sumAvg": 364.25
+        },
+        {
+            "courses_instructor": "adler, james douglas",
+            "sumAvg": 364.39
+        },
+        {
+            "courses_instructor": "leung, larry;min, jason",
+            "sumAvg": 364.47
+        },
+        {
+            "courses_instructor": "krug, don",
+            "sumAvg": 364.71
+        },
+        {
+            "courses_instructor": "davis, brent",
+            "sumAvg": 364.8
+        },
+        {
+            "courses_instructor": "arias hernandez, richard",
+            "sumAvg": 364.82
+        },
+        {
+            "courses_instructor": "altintas, yusuf",
+            "sumAvg": 364.86
+        },
+        {
+            "courses_instructor": "bortolussi, paolo;hamm, corey",
+            "sumAvg": 365.01
+        },
+        {
+            "courses_instructor": "adelman, sharon;hicks, darlene",
+            "sumAvg": 365.14
+        },
+        {
+            "courses_instructor": "benimeo, maria",
+            "sumAvg": 365.25
+        },
+        {
+            "courses_instructor": "o'neill, brian",
+            "sumAvg": 365.44
+        },
+        {
+            "courses_instructor": "phillips, craig",
+            "sumAvg": 365.47
+        },
+        {
+            "courses_instructor": "tsiknis, georgios",
+            "sumAvg": 365.81
+        },
+        {
+            "courses_instructor": "small, susan",
+            "sumAvg": 366.59
+        },
+        {
+            "courses_instructor": "lyon, annabel",
+            "sumAvg": 367
+        },
+        {
+            "courses_instructor": "yip, stephen",
+            "sumAvg": 367.08
+        },
+        {
+            "courses_instructor": "tsai, tai-peng",
+            "sumAvg": 367.13
+        },
+        {
+            "courses_instructor": "mclean, jayson",
+            "sumAvg": 367.13
+        },
+        {
+            "courses_instructor": "mazzi, eric",
+            "sumAvg": 367.35
+        },
+        {
+            "courses_instructor": "motl, thomas",
+            "sumAvg": 367.35
+        },
+        {
+            "courses_instructor": "zamar, ruben",
+            "sumAvg": 368.18
+        },
+        {
+            "courses_instructor": "veiga, marcello",
+            "sumAvg": 368.23
+        },
+        {
+            "courses_instructor": "zhitnitsky, ariel",
+            "sumAvg": 368.28
+        },
+        {
+            "courses_instructor": "solymosi, jozsef",
+            "sumAvg": 368.51
+        },
+        {
+            "courses_instructor": "ercikan, kadriye",
+            "sumAvg": 368.57
+        },
+        {
+            "courses_instructor": "gaster, sean",
+            "sumAvg": 368.7
+        },
+        {
+            "courses_instructor": "vanwynsberghe, robert",
+            "sumAvg": 368.75
+        },
+        {
+            "courses_instructor": "jones, steven j",
+            "sumAvg": 368.95
+        },
+        {
+            "courses_instructor": "diewert, w erwin",
+            "sumAvg": 369.37
+        },
+        {
+            "courses_instructor": "smith, gillian",
+            "sumAvg": 372.32
+        },
+        {
+            "courses_instructor": "sochting, ingrid",
+            "sumAvg": 373.5
+        },
+        {
+            "courses_instructor": "galloway, steve",
+            "sumAvg": 375.67
+        },
+        {
+            "courses_instructor": "de longis, anita",
+            "sumAvg": 376.5
+        },
+        {
+            "courses_instructor": "medved, maureen",
+            "sumAvg": 377
+        },
+        {
+            "courses_instructor": "dunbar, w scott",
+            "sumAvg": 377.34
+        },
+        {
+            "courses_instructor": "maillard, keith",
+            "sumAvg": 380
+        },
+        {
+            "courses_instructor": "burrows, marlene;harding, jillian;krist, jennifer;mccuaig, fairleth",
+            "sumAvg": 380.34
+        },
+        {
+            "courses_instructor": "cole, kenneth",
+            "sumAvg": 390.28
+        },
+        {
+            "courses_instructor": "stride, frederick",
+            "sumAvg": 447.38
+        },
+        {
+            "courses_instructor": "schaller, mark",
+            "sumAvg": 447.44
+        },
+        {
+            "courses_instructor": "morin, gregg",
+            "sumAvg": 448.78
+        },
+        {
+            "courses_instructor": "delvecchio, jennifer",
+            "sumAvg": 449.04
+        },
+        {
+            "courses_instructor": "westwood, marvin",
+            "sumAvg": 449.26
+        },
+        {
+            "courses_instructor": "kelty, jane",
+            "sumAvg": 449.52
+        },
+        {
+            "courses_instructor": "bryson, mary",
+            "sumAvg": 450.17
+        },
+        {
+            "courses_instructor": "perla, jesse",
+            "sumAvg": 450.7
+        },
+        {
+            "courses_instructor": "mcintosh, kent",
+            "sumAvg": 451.57
+        },
+        {
+            "courses_instructor": "alden, lynn",
+            "sumAvg": 452.04
+        },
+        {
+            "courses_instructor": "sarkaria, sarbjit",
+            "sumAvg": 452.1
+        },
+        {
+            "courses_instructor": "rusticus, shayna",
+            "sumAvg": 452.75
+        },
+        {
+            "courses_instructor": "lacroix, serge",
+            "sumAvg": 454.11
+        },
+        {
+            "courses_instructor": "sakata, shinichi",
+            "sumAvg": 454.59
+        },
+        {
+            "courses_instructor": "mcgee, brandy",
+            "sumAvg": 455.15
+        },
+        {
+            "courses_instructor": "kent, debra ann",
+            "sumAvg": 455.31
+        },
+        {
+            "courses_instructor": "bruno, talino",
+            "sumAvg": 456.13
+        },
+        {
+            "courses_instructor": "nicks, david",
+            "sumAvg": 456.49
+        },
+        {
+            "courses_instructor": "dumont, guy a",
+            "sumAvg": 457.79
+        },
+        {
+            "courses_instructor": "faber, shawna",
+            "sumAvg": 459.09
+        },
+        {
+            "courses_instructor": "perkins, edwin",
+            "sumAvg": 459.82
+        },
+        {
+            "courses_instructor": "friedman, joel",
+            "sumAvg": 460.1
+        },
+        {
+            "courses_instructor": "pramanik, malabika",
+            "sumAvg": 460.25
+        },
+        {
+            "courses_instructor": "romero, amber",
+            "sumAvg": 461.09
+        },
+        {
+            "courses_instructor": "weinberg, mark",
+            "sumAvg": 462.04
+        },
+        {
+            "courses_instructor": "rathwell, david",
+            "sumAvg": 462.27
+        },
+        {
+            "courses_instructor": "fraser, ailana",
+            "sumAvg": 463.88
+        },
+        {
+            "courses_instructor": "pinar, william",
+            "sumAvg": 463.91
+        },
+        {
+            "courses_instructor": "cannon, joanna",
+            "sumAvg": 465.52
+        },
+        {
+            "courses_instructor": "ghement, isabella",
+            "sumAvg": 465.76
+        },
+        {
+            "courses_instructor": "cox, daniel",
+            "sumAvg": 471.7
+        },
+        {
+            "courses_instructor": "falk, clifford",
+            "sumAvg": 540.49
+        },
+        {
+            "courses_instructor": "marshall, janet vaughan",
+            "sumAvg": 540.82
+        },
+        {
+            "courses_instructor": "lyons, jeanne",
+            "sumAvg": 542.96
+        },
+        {
+            "courses_instructor": "shamsher, mohammed",
+            "sumAvg": 544.28
+        },
+        {
+            "courses_instructor": "lovato, chris",
+            "sumAvg": 546.04
+        },
+        {
+            "courses_instructor": "hieter, philip;jones, steven j;rose, ann",
+            "sumAvg": 546.49
+        },
+        {
+            "courses_instructor": "wilton, steven",
+            "sumAvg": 547.1
+        },
+        {
+            "courses_instructor": "mazawi, andre",
+            "sumAvg": 548.46
+        },
+        {
+            "courses_instructor": "angel, omer",
+            "sumAvg": 549.05
+        },
+        {
+            "courses_instructor": "ventura, carlos estuardo",
+            "sumAvg": 549.67
+        },
+        {
+            "courses_instructor": "loewen, christopher;nabi, ivan robert",
+            "sumAvg": 549.71
+        },
+        {
+            "courses_instructor": "wilk, diana",
+            "sumAvg": 549.71
+        },
+        {
+            "courses_instructor": "bohlmann, jorg",
+            "sumAvg": 550.1
+        },
+        {
+            "courses_instructor": "ishiyama, fumio ishu",
+            "sumAvg": 550.42
+        },
+        {
+            "courses_instructor": "gallipoli, giovanni",
+            "sumAvg": 553.83
+        },
+        {
+            "courses_instructor": "milner-bolotin, marina",
+            "sumAvg": 556.94
+        },
+        {
+            "courses_instructor": "karu, kalle",
+            "sumAvg": 557.85
+        },
+        {
+            "courses_instructor": "chan, eric",
+            "sumAvg": 558
+        },
+        {
+            "courses_instructor": "weber, rachel",
+            "sumAvg": 560.81
+        },
+        {
+            "courses_instructor": "carter, john",
+            "sumAvg": 561.51
+        },
+        {
+            "courses_instructor": "langager, graeme",
+            "sumAvg": 566
+        },
+        {
+            "courses_instructor": "brew, nancy",
+            "sumAvg": 566.87
+        },
+        {
+            "courses_instructor": "miller, jeffrey",
+            "sumAvg": 629.25
+        },
+        {
+            "courses_instructor": "poole, wendy",
+            "sumAvg": 629.34
+        },
+        {
+            "courses_instructor": "miller, lynn delaine",
+            "sumAvg": 632.66
+        },
+        {
+            "courses_instructor": "feng, james jingtao",
+            "sumAvg": 633.7
+        },
+        {
+            "courses_instructor": "ng, david",
+            "sumAvg": 633.75
+        },
+        {
+            "courses_instructor": "dyer, brenda",
+            "sumAvg": 634.08
+        },
+        {
+            "courses_instructor": "cote, helene",
+            "sumAvg": 638.79
+        },
+        {
+            "courses_instructor": "haas, kurt",
+            "sumAvg": 642.31
+        },
+        {
+            "courses_instructor": "roman, leslie",
+            "sumAvg": 645.07
+        },
+        {
+            "courses_instructor": "petrina, stephen",
+            "sumAvg": 645.56
+        },
+        {
+            "courses_instructor": "macphee, maura",
+            "sumAvg": 648.93
+        },
+        {
+            "courses_instructor": "mercer, sterett",
+            "sumAvg": 649.21
+        },
+        {
+            "courses_instructor": "bhagavatula, sastry",
+            "sumAvg": 720.81
+        },
+        {
+            "courses_instructor": "mccracken, janet",
+            "sumAvg": 723.76
+        },
+        {
+            "courses_instructor": "chartres, lynn",
+            "sumAvg": 731.23
+        },
+        {
+            "courses_instructor": "white, aaron",
+            "sumAvg": 735.69
+        },
+        {
+            "courses_instructor": "herdman, anthony",
+            "sumAvg": 740.37
+        },
+        {
+            "courses_instructor": "porath, marion",
+            "sumAvg": 763.1
+        },
+        {
+            "courses_instructor": "amundson, norman",
+            "sumAvg": 817.7
+        },
+        {
+            "courses_instructor": "kishchenko, svetlana",
+            "sumAvg": 818.88
+        },
+        {
+            "courses_instructor": "wollenberg, jay",
+            "sumAvg": 824.88
+        },
+        {
+            "courses_instructor": "ford, laurie",
+            "sumAvg": 829.68
+        },
+        {
+            "courses_instructor": "adelman, sharon",
+            "sumAvg": 833.28
+        },
+        {
+            "courses_instructor": "vadeboncoeur, jennifer",
+            "sumAvg": 836.05
+        },
+        {
+            "courses_instructor": "campbell, deborah",
+            "sumAvg": 839.17
+        },
+        {
+            "courses_instructor": "zumbo, bruno",
+            "sumAvg": 840.51
+        },
+        {
+            "courses_instructor": "mccuaig, fairleth",
+            "sumAvg": 906.31
+        },
+        {
+            "courses_instructor": "perry, nancy",
+            "sumAvg": 914.42
+        },
+        {
+            "courses_instructor": "schultz, izabela",
+            "sumAvg": 923.59
+        },
+        {
+            "courses_instructor": "alam, matiul",
+            "sumAvg": 998.55
+        },
+        {
+            "courses_instructor": "ross, eddie wayne",
+            "sumAvg": 1003.68
+        },
+        {
+            "courses_instructor": "jordan, elizabeth",
+            "sumAvg": 1018.42
+        },
+        {
+            "courses_instructor": "mathison, sandra",
+            "sumAvg": 1089.21
+        },
+        {
+            "courses_instructor": "grow, laura",
+            "sumAvg": 1146.4
+        },
+        {
+            "courses_instructor": "watts, susan",
+            "sumAvg": 1174.91
+        },
+        {
+            "courses_instructor": "bishundayal, deonarine",
+            "sumAvg": 1186.88
+        },
+        {
+            "courses_instructor": "heikkila, mary",
+            "sumAvg": 1198.96
+        },
+        {
+            "courses_instructor": "frankish, charles james",
+            "sumAvg": 1219.94
+        },
+        {
+            "courses_instructor": "marker, michael",
+            "sumAvg": 1308.67
+        },
+        {
+            "courses_instructor": "cho, sunah",
+            "sumAvg": 1372.19
+        },
+        {
+            "courses_instructor": "mcfarlane, rae",
+            "sumAvg": 1455.39
+        },
+        {
+            "courses_instructor": "champion, kathleen",
+            "sumAvg": 1483.83
+        },
+        {
+            "courses_instructor": "munteanu, mircea",
+            "sumAvg": 1570.71
+        },
+        {
+            "courses_instructor": "wu, amery",
+            "sumAvg": 1584.3
+        },
+        {
+            "courses_instructor": "de cosson, alexander",
+            "sumAvg": 2095.53
+        },
+        {
+            "courses_instructor": "feng, francis",
+            "sumAvg": 2113.51
+        },
+        {
+            "courses_instructor": "wassink, berend",
+            "sumAvg": 2298.55
+        },
+        {
+            "courses_instructor": "janes, diane",
+            "sumAvg": 2387.32
+        },
+        {
+            "courses_instructor": "el khatib, lara",
+            "sumAvg": 2478.89
+        },
+        {
+            "courses_instructor": "kishor, nand",
+            "sumAvg": 2605.65
+        },
+        {
+            "courses_instructor": "tba",
+            "sumAvg": 3725.94
+        },
+        {
+            "courses_instructor": "",
+            "sumAvg": 215584.1
+        }
+    ]
+}

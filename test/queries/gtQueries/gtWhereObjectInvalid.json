@@ -1,0 +1,19 @@
+{
+    "title": "GT Where object invalid",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_dept": "crwr"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_pass",
+                "courses_audit"
+            ],
+            "ORDER": "courses_pass"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

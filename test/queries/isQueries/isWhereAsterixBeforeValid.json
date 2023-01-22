@@ -1,0 +1,67 @@
+{
+    "title": "where is asterix before valid",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_dept": "*rbc"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_id"
+            ],
+            "ORDER": "courses_id"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_id": "101"
+        },
+        {
+            "courses_id": "101"
+        },
+        {
+            "courses_id": "101"
+        },
+        {
+            "courses_id": "101"
+        },
+        {
+            "courses_id": "102"
+        },
+        {
+            "courses_id": "102"
+        },
+        {
+            "courses_id": "102"
+        },
+        {
+            "courses_id": "102"
+        },
+        {
+            "courses_id": "201"
+        },
+        {
+            "courses_id": "201"
+        },
+        {
+            "courses_id": "201"
+        },
+        {
+            "courses_id": "201"
+        },
+        {
+            "courses_id": "202"
+        },
+        {
+            "courses_id": "202"
+        },
+        {
+            "courses_id": "202"
+        },
+        {
+            "courses_id": "202"
+        }
+    ]
+}

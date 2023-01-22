@@ -1,0 +1,3125 @@
+{
+    "title": "group courses title",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 89
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "sumAvg"
+            ],
+            "ORDER": {
+                "dir": "UP",
+                "keys": [
+                    "sumAvg"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_title"
+            ],
+            "APPLY": [
+                {
+                    "sumAvg": {
+                        "SUM": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_title": "arch design v",
+            "sumAvg": 89.25
+        },
+        {
+            "courses_title": "pers writ & read",
+            "sumAvg": 89.25
+        },
+        {
+            "courses_title": "lnd, food&comnty",
+            "sumAvg": 89.3
+        },
+        {
+            "courses_title": "rsrch cog system",
+            "sumAvg": 89.33
+        },
+        {
+            "courses_title": "intr first natns",
+            "sumAvg": 89.33
+        },
+        {
+            "courses_title": "epid methods 1",
+            "sumAvg": 89.37
+        },
+        {
+            "courses_title": "ventr learn tech",
+            "sumAvg": 89.41
+        },
+        {
+            "courses_title": "undergrad thesis",
+            "sumAvg": 89.5
+        },
+        {
+            "courses_title": "traditnl grammar",
+            "sumAvg": 89.68
+        },
+        {
+            "courses_title": "guid pln dcsn mk",
+            "sumAvg": 89.7
+        },
+        {
+            "courses_title": "ethics & the law",
+            "sumAvg": 89.93
+        },
+        {
+            "courses_title": "doctoral seminar",
+            "sumAvg": 90.1
+        },
+        {
+            "courses_title": "work & learning",
+            "sumAvg": 90.11
+        },
+        {
+            "courses_title": "exer physolgy ii",
+            "sumAvg": 90.19
+        },
+        {
+            "courses_title": "3d mdl cost est",
+            "sumAvg": 90.2
+        },
+        {
+            "courses_title": "teaching of psyc",
+            "sumAvg": 90.44
+        },
+        {
+            "courses_title": "rsrch evidence",
+            "sumAvg": 90.65
+        },
+        {
+            "courses_title": "intr tch ch lit",
+            "sumAvg": 90.67
+        },
+        {
+            "courses_title": "m.eng. grad papr",
+            "sumAvg": 91
+        },
+        {
+            "courses_title": "forest oper's i",
+            "sumAvg": 91
+        },
+        {
+            "courses_title": "sch adv rsrch pr",
+            "sumAvg": 91
+        },
+        {
+            "courses_title": "ord diff equtns",
+            "sumAvg": 91.1
+        },
+        {
+            "courses_title": "top food nu hea",
+            "sumAvg": 91.36
+        },
+        {
+            "courses_title": "power elec dsgn",
+            "sumAvg": 91.5
+        },
+        {
+            "courses_title": "tpcs appl biolgy",
+            "sumAvg": 91.86
+        },
+        {
+            "courses_title": "home/schl/cmnty",
+            "sumAvg": 91.93
+        },
+        {
+            "courses_title": "case res&analys",
+            "sumAvg": 92.45
+        },
+        {
+            "courses_title": "msn major essay",
+            "sumAvg": 94
+        },
+        {
+            "courses_title": "enviro chml lab",
+            "sumAvg": 178.1
+        },
+        {
+            "courses_title": "adv eng design",
+            "sumAvg": 178.12
+        },
+        {
+            "courses_title": "intro punjabi",
+            "sumAvg": 178.16
+        },
+        {
+            "courses_title": "intgrt sys desgn",
+            "sumAvg": 178.18
+        },
+        {
+            "courses_title": "music education",
+            "sumAvg": 178.22
+        },
+        {
+            "courses_title": "forest genetics",
+            "sumAvg": 178.24
+        },
+        {
+            "courses_title": "sem mediter stdy",
+            "sumAvg": 178.26
+        },
+        {
+            "courses_title": "decol & femn mth",
+            "sumAvg": 178.26
+        },
+        {
+            "courses_title": "adv bioc technqs",
+            "sumAvg": 178.28
+        },
+        {
+            "courses_title": "organc stru prob",
+            "sumAvg": 178.28
+        },
+        {
+            "courses_title": "reprd endocrin i",
+            "sumAvg": 178.28
+        },
+        {
+            "courses_title": "fmly ed & consul",
+            "sumAvg": 178.3
+        },
+        {
+            "courses_title": "theory & practic",
+            "sumAvg": 178.3
+        },
+        {
+            "courses_title": "linear inv thry",
+            "sumAvg": 178.34
+        },
+        {
+            "courses_title": "pop&comm ec mr o",
+            "sumAvg": 178.34
+        },
+        {
+            "courses_title": "primry care proj",
+            "sumAvg": 178.34
+        },
+        {
+            "courses_title": "educ std vis imp",
+            "sumAvg": 178.36
+        },
+        {
+            "courses_title": "tp mol pth & imm",
+            "sumAvg": 178.36
+        },
+        {
+            "courses_title": "adv persian 1",
+            "sumAvg": 178.4
+        },
+        {
+            "courses_title": "clin prac iva",
+            "sumAvg": 178.4
+        },
+        {
+            "courses_title": "climate change",
+            "sumAvg": 178.4
+        },
+        {
+            "courses_title": "biomed dsgn proj",
+            "sumAvg": 178.44
+        },
+        {
+            "courses_title": "clinical epidlgy",
+            "sumAvg": 178.46
+        },
+        {
+            "courses_title": "studio sust neig",
+            "sumAvg": 178.46
+        },
+        {
+            "courses_title": "biomaterials",
+            "sumAvg": 178.5
+        },
+        {
+            "courses_title": "busines perform",
+            "sumAvg": 178.5
+        },
+        {
+            "courses_title": "com srv learning",
+            "sumAvg": 178.5
+        },
+        {
+            "courses_title": "power syst anlys",
+            "sumAvg": 178.5
+        },
+        {
+            "courses_title": "plan thy adv sem",
+            "sumAvg": 178.5
+        },
+        {
+            "courses_title": "psychoneuroendro",
+            "sumAvg": 178.5
+        },
+        {
+            "courses_title": "case studies",
+            "sumAvg": 178.5
+        },
+        {
+            "courses_title": "intl finl mngmnt",
+            "sumAvg": 178.54
+        },
+        {
+            "courses_title": "elem danish 1",
+            "sumAvg": 178.54
+        },
+        {
+            "courses_title": "forestry in b.c.",
+            "sumAvg": 178.54
+        },
+        {
+            "courses_title": "sustain agr&food",
+            "sumAvg": 178.58
+        },
+        {
+            "courses_title": "main eng",
+            "sumAvg": 178.58
+        },
+        {
+            "courses_title": "chem&biol hz con",
+            "sumAvg": 178.58
+        },
+        {
+            "courses_title": "acq syntax",
+            "sumAvg": 178.6
+        },
+        {
+            "courses_title": "sem idys museum",
+            "sumAvg": 178.62
+        },
+        {
+            "courses_title": "moment heat mass",
+            "sumAvg": 178.66
+        },
+        {
+            "courses_title": "post-prod tec i",
+            "sumAvg": 178.66
+        },
+        {
+            "courses_title": "biomech research",
+            "sumAvg": 178.66
+        },
+        {
+            "courses_title": "fluid mechanics",
+            "sumAvg": 178.66
+        },
+        {
+            "courses_title": "lin fea sld&heat",
+            "sumAvg": 178.66
+        },
+        {
+            "courses_title": "lactation conslt",
+            "sumAvg": 178.66
+        },
+        {
+            "courses_title": "exp npsy & an mo",
+            "sumAvg": 178.66
+        },
+        {
+            "courses_title": "mtrl&mthd constr",
+            "sumAvg": 178.7
+        },
+        {
+            "courses_title": "pc & s-a issues",
+            "sumAvg": 178.78
+        },
+        {
+            "courses_title": "teach adult",
+            "sumAvg": 178.79
+        },
+        {
+            "courses_title": "basic cnto 2",
+            "sumAvg": 178.8
+        },
+        {
+            "courses_title": "sem&pprs mrne sc",
+            "sumAvg": 178.8
+        },
+        {
+            "courses_title": "fin engineering",
+            "sumAvg": 178.86
+        },
+        {
+            "courses_title": "primary care i",
+            "sumAvg": 178.86
+        },
+        {
+            "courses_title": "proj management",
+            "sumAvg": 178.9
+        },
+        {
+            "courses_title": "sr rsrch project",
+            "sumAvg": 178.92
+        },
+        {
+            "courses_title": "circuits & systs",
+            "sumAvg": 178.94
+        },
+        {
+            "courses_title": "comm dvel&disord",
+            "sumAvg": 179
+        },
+        {
+            "courses_title": "clinical orienta",
+            "sumAvg": 179
+        },
+        {
+            "courses_title": "particle tech",
+            "sumAvg": 179
+        },
+        {
+            "courses_title": "new venture des",
+            "sumAvg": 179
+        },
+        {
+            "courses_title": "prdt trtmt pln s",
+            "sumAvg": 179
+        },
+        {
+            "courses_title": "appl geophysics",
+            "sumAvg": 179
+        },
+        {
+            "courses_title": "biol ocean sem",
+            "sumAvg": 179
+        },
+        {
+            "courses_title": "eco economics",
+            "sumAvg": 179
+        },
+        {
+            "courses_title": "srvy soc psyc ii",
+            "sumAvg": 179
+        },
+        {
+            "courses_title": "policymaking",
+            "sumAvg": 179
+        },
+        {
+            "courses_title": "biomed cpstn dsn",
+            "sumAvg": 179.08
+        },
+        {
+            "courses_title": "fourth-year russ",
+            "sumAvg": 179.08
+        },
+        {
+            "courses_title": "fundamental audi",
+            "sumAvg": 179.12
+        },
+        {
+            "courses_title": "cty plan craft",
+            "sumAvg": 179.14
+        },
+        {
+            "courses_title": "fnc hmn ant musc",
+            "sumAvg": 179.2
+        },
+        {
+            "courses_title": "pop & quant gene",
+            "sumAvg": 179.2
+        },
+        {
+            "courses_title": "molec embryology",
+            "sumAvg": 179.2
+        },
+        {
+            "courses_title": "topics topology",
+            "sumAvg": 179.2
+        },
+        {
+            "courses_title": "pthophysiol proc",
+            "sumAvg": 179.2
+        },
+        {
+            "courses_title": "psycopathy child",
+            "sumAvg": 179.2
+        },
+        {
+            "courses_title": "diag audio i",
+            "sumAvg": 179.24
+        },
+        {
+            "courses_title": "macroecon anl ii",
+            "sumAvg": 179.28
+        },
+        {
+            "courses_title": "intro cptnl phys",
+            "sumAvg": 179.3
+        },
+        {
+            "courses_title": "intro exper phys",
+            "sumAvg": 179.33
+        },
+        {
+            "courses_title": "stat mech chem",
+            "sumAvg": 179.34
+        },
+        {
+            "courses_title": "adv fld&soil sci",
+            "sumAvg": 179.34
+        },
+        {
+            "courses_title": "ad software proj",
+            "sumAvg": 179.36
+        },
+        {
+            "courses_title": "biom dsgn studio",
+            "sumAvg": 179.36
+        },
+        {
+            "courses_title": "oral cell bio",
+            "sumAvg": 179.38
+        },
+        {
+            "courses_title": "biofluids",
+            "sumAvg": 179.42
+        },
+        {
+            "courses_title": "cog proc & ald",
+            "sumAvg": 179.48
+        },
+        {
+            "courses_title": "econ thry i",
+            "sumAvg": 179.48
+        },
+        {
+            "courses_title": "nonlin strct anl",
+            "sumAvg": 179.5
+        },
+        {
+            "courses_title": "phy user intfc",
+            "sumAvg": 179.5
+        },
+        {
+            "courses_title": "fld lab grdwtr h",
+            "sumAvg": 179.5
+        },
+        {
+            "courses_title": "port for busines",
+            "sumAvg": 179.5
+        },
+        {
+            "courses_title": "urbn wtrshd mgmt",
+            "sumAvg": 179.5
+        },
+        {
+            "courses_title": "manag accounting",
+            "sumAvg": 179.52
+        },
+        {
+            "courses_title": "sem work & educ",
+            "sumAvg": 179.56
+        },
+        {
+            "courses_title": "ldr adm aim educ",
+            "sumAvg": 179.56
+        },
+        {
+            "courses_title": "adv lab physiol",
+            "sumAvg": 179.6
+        },
+        {
+            "courses_title": "mo pict prod ii",
+            "sumAvg": 179.62
+        },
+        {
+            "courses_title": "anim cell molec",
+            "sumAvg": 179.64
+        },
+        {
+            "courses_title": "lighting dsgn ii",
+            "sumAvg": 179.66
+        },
+        {
+            "courses_title": "dev rehab prog",
+            "sumAvg": 179.71
+        },
+        {
+            "courses_title": "plan man learn",
+            "sumAvg": 179.72
+        },
+        {
+            "courses_title": "tree physiology",
+            "sumAvg": 179.72
+        },
+        {
+            "courses_title": "stat hi dim biol",
+            "sumAvg": 179.76
+        },
+        {
+            "courses_title": "sesm&ses des par",
+            "sumAvg": 179.78
+        },
+        {
+            "courses_title": "probability",
+            "sumAvg": 179.78
+        },
+        {
+            "courses_title": "masa thesis",
+            "sumAvg": 180
+        },
+        {
+            "courses_title": "stat'l mech chem",
+            "sumAvg": 180
+        },
+        {
+            "courses_title": "adv coastal eng",
+            "sumAvg": 180
+        },
+        {
+            "courses_title": "prosth lit rv i",
+            "sumAvg": 180
+        },
+        {
+            "courses_title": "prs pln&outc i",
+            "sumAvg": 180
+        },
+        {
+            "courses_title": "biomec cr-fac i",
+            "sumAvg": 180
+        },
+        {
+            "courses_title": "hist mod europe",
+            "sumAvg": 180
+        },
+        {
+            "courses_title": "tcher union educ",
+            "sumAvg": 180
+        },
+        {
+            "courses_title": "plnt molec biol",
+            "sumAvg": 180
+        },
+        {
+            "courses_title": "conv german ii",
+            "sumAvg": 180
+        },
+        {
+            "courses_title": "gndr sex crt rce",
+            "sumAvg": 180
+        },
+        {
+            "courses_title": "fld mthd ling ii",
+            "sumAvg": 180
+        },
+        {
+            "courses_title": "tpcs algebra",
+            "sumAvg": 180
+        },
+        {
+            "courses_title": "clk in lab medic",
+            "sumAvg": 180
+        },
+        {
+            "courses_title": "peer teaching 2",
+            "sumAvg": 180
+        },
+        {
+            "courses_title": "elementary port",
+            "sumAvg": 180
+        },
+        {
+            "courses_title": "soc work doc sem",
+            "sumAvg": 180
+        },
+        {
+            "courses_title": "sts mstrs colloq",
+            "sumAvg": 180
+        },
+        {
+            "courses_title": "educ prc nurs",
+            "sumAvg": 180.05
+        },
+        {
+            "courses_title": "trad adult edu",
+            "sumAvg": 180.12
+        },
+        {
+            "courses_title": "adv int sem in sw th",
+            "sumAvg": 180.13
+        },
+        {
+            "courses_title": "dentalhyg prac i",
+            "sumAvg": 180.16
+        },
+        {
+            "courses_title": "art song int prf",
+            "sumAvg": 180.16
+        },
+        {
+            "courses_title": "health care team",
+            "sumAvg": 180.18
+        },
+        {
+            "courses_title": "opt&dcs anl civl",
+            "sumAvg": 180.22
+        },
+        {
+            "courses_title": "complex adapt sy",
+            "sumAvg": 180.26
+        },
+        {
+            "courses_title": "adv compsit mtrl",
+            "sumAvg": 180.28
+        },
+        {
+            "courses_title": "dramaturgy",
+            "sumAvg": 180.28
+        },
+        {
+            "courses_title": "fuel cell system",
+            "sumAvg": 180.34
+        },
+        {
+            "courses_title": "natural res econ",
+            "sumAvg": 180.36
+        },
+        {
+            "courses_title": "adv geo fld dyn",
+            "sumAvg": 180.4
+        },
+        {
+            "courses_title": "aborignl forestr",
+            "sumAvg": 180.42
+        },
+        {
+            "courses_title": "matrx struc anly",
+            "sumAvg": 180.44
+        },
+        {
+            "courses_title": "app mng scie i",
+            "sumAvg": 180.46
+        },
+        {
+            "courses_title": "digtl med: intro",
+            "sumAvg": 180.48
+        },
+        {
+            "courses_title": "optimiz eng syst",
+            "sumAvg": 180.5
+        },
+        {
+            "courses_title": "endo lit rev i",
+            "sumAvg": 180.5
+        },
+        {
+            "courses_title": "mltvar&vctr calc",
+            "sumAvg": 180.5
+        },
+        {
+            "courses_title": "commnty & popltn",
+            "sumAvg": 180.5
+        },
+        {
+            "courses_title": "transprt'n eng 2",
+            "sumAvg": 180.52
+        },
+        {
+            "courses_title": "pharmacokinetics",
+            "sumAvg": 180.52
+        },
+        {
+            "courses_title": "res mthds kin",
+            "sumAvg": 180.58
+        },
+        {
+            "courses_title": "org lrn res",
+            "sumAvg": 180.58
+        },
+        {
+            "courses_title": "intermd sanskrit",
+            "sumAvg": 180.58
+        },
+        {
+            "courses_title": "comm networks",
+            "sumAvg": 180.66
+        },
+        {
+            "courses_title": "num tec oc,at&er",
+            "sumAvg": 180.66
+        },
+        {
+            "courses_title": "adv rock engnrng",
+            "sumAvg": 180.66
+        },
+        {
+            "courses_title": "test constructio",
+            "sumAvg": 180.66
+        },
+        {
+            "courses_title": "basic russian ii",
+            "sumAvg": 180.67
+        },
+        {
+            "courses_title": "disord sp prod",
+            "sumAvg": 180.76
+        },
+        {
+            "courses_title": "hltcr systm anyl",
+            "sumAvg": 180.76
+        },
+        {
+            "courses_title": "trns sys pl&anly",
+            "sumAvg": 180.78
+        },
+        {
+            "courses_title": "complex analysis",
+            "sumAvg": 180.86
+        },
+        {
+            "courses_title": "diag img & rdoph",
+            "sumAvg": 180.86
+        },
+        {
+            "courses_title": "envr'tl lab anly",
+            "sumAvg": 180.88
+        },
+        {
+            "courses_title": "econ, cont, fina",
+            "sumAvg": 180.88
+        },
+        {
+            "courses_title": "size of things",
+            "sumAvg": 180.88
+        },
+        {
+            "courses_title": "compensation",
+            "sumAvg": 180.92
+        },
+        {
+            "courses_title": "scene painting i",
+            "sumAvg": 180.92
+        },
+        {
+            "courses_title": "energy enginring",
+            "sumAvg": 181
+        },
+        {
+            "courses_title": "clin endo yr 2",
+            "sumAvg": 181
+        },
+        {
+            "courses_title": "min eco fin",
+            "sumAvg": 181.04
+        },
+        {
+            "courses_title": "real analysis i",
+            "sumAvg": 181.14
+        },
+        {
+            "courses_title": "qst, theor, mthd",
+            "sumAvg": 181.2
+        },
+        {
+            "courses_title": "case integr i",
+            "sumAvg": 181.22
+        },
+        {
+            "courses_title": "adv mineralogy",
+            "sumAvg": 181.34
+        },
+        {
+            "courses_title": "chrn hlth iss",
+            "sumAvg": 181.36
+        },
+        {
+            "courses_title": "mole & cell biol",
+            "sumAvg": 181.36
+        },
+        {
+            "courses_title": "min & soc",
+            "sumAvg": 181.38
+        },
+        {
+            "courses_title": "rdiothrpy phy ii",
+            "sumAvg": 181.4
+        },
+        {
+            "courses_title": "artif intell 2",
+            "sumAvg": 181.42
+        },
+        {
+            "courses_title": "land water semnr",
+            "sumAvg": 181.42
+        },
+        {
+            "courses_title": "ths: biotech tpc",
+            "sumAvg": 181.5
+        },
+        {
+            "courses_title": "int nut fld stdy",
+            "sumAvg": 181.5
+        },
+        {
+            "courses_title": "cardiovas path",
+            "sumAvg": 181.5
+        },
+        {
+            "courses_title": "sowk practice ii",
+            "sumAvg": 181.61
+        },
+        {
+            "courses_title": "sup indg inftnts",
+            "sumAvg": 181.62
+        },
+        {
+            "courses_title": "or microbi&immun",
+            "sumAvg": 181.66
+        },
+        {
+            "courses_title": "fin el heat tran",
+            "sumAvg": 181.66
+        },
+        {
+            "courses_title": "rdtn dosimetry",
+            "sumAvg": 181.66
+        },
+        {
+            "courses_title": "high ed pol",
+            "sumAvg": 181.74
+        },
+        {
+            "courses_title": "adv microsys des",
+            "sumAvg": 181.76
+        },
+        {
+            "courses_title": "adv can soc plcy",
+            "sumAvg": 181.78
+        },
+        {
+            "courses_title": "hist anth thght",
+            "sumAvg": 181.84
+        },
+        {
+            "courses_title": "plant molec lab",
+            "sumAvg": 182
+        },
+        {
+            "courses_title": "anly civl sys",
+            "sumAvg": 182
+        },
+        {
+            "courses_title": "adv volcanology",
+            "sumAvg": 182
+        },
+        {
+            "courses_title": "adv field earth",
+            "sumAvg": 182
+        },
+        {
+            "courses_title": "bayesn dcsn anl",
+            "sumAvg": 182
+        },
+        {
+            "courses_title": "adv quant design",
+            "sumAvg": 182
+        },
+        {
+            "courses_title": "adv steel design",
+            "sumAvg": 182.12
+        },
+        {
+            "courses_title": "mvmt exp yg chld",
+            "sumAvg": 182.14
+        },
+        {
+            "courses_title": "topcs macroecon",
+            "sumAvg": 182.16
+        },
+        {
+            "courses_title": "perf study ii",
+            "sumAvg": 182.2
+        },
+        {
+            "courses_title": "fsh econ & mgmnt",
+            "sumAvg": 182.28
+        },
+        {
+            "courses_title": "stat mth hydrlgy",
+            "sumAvg": 182.34
+        },
+        {
+            "courses_title": "pain res & thera",
+            "sumAvg": 182.4
+        },
+        {
+            "courses_title": "plant genomics",
+            "sumAvg": 182.42
+        },
+        {
+            "courses_title": "dgtl libraries",
+            "sumAvg": 182.48
+        },
+        {
+            "courses_title": "alg in bioin",
+            "sumAvg": 182.5
+        },
+        {
+            "courses_title": "elm prticle phys",
+            "sumAvg": 182.5
+        },
+        {
+            "courses_title": "meas in practice",
+            "sumAvg": 182.5
+        },
+        {
+            "courses_title": "aborig pb health",
+            "sumAvg": 182.5
+        },
+        {
+            "courses_title": "adv tpcs tmbr st",
+            "sumAvg": 182.64
+        },
+        {
+            "courses_title": "sp-lg pth prc i",
+            "sumAvg": 182.66
+        },
+        {
+            "courses_title": "cur iss ntr&dis",
+            "sumAvg": 182.66
+        },
+        {
+            "courses_title": "forecasting mgmt",
+            "sumAvg": 182.76
+        },
+        {
+            "courses_title": "real analysis ii",
+            "sumAvg": 182.76
+        },
+        {
+            "courses_title": "astronomical lab",
+            "sumAvg": 182.8
+        },
+        {
+            "courses_title": "acous & art phon",
+            "sumAvg": 182.8
+        },
+        {
+            "courses_title": "prof comms strat",
+            "sumAvg": 182.86
+        },
+        {
+            "courses_title": "desig & analys 2",
+            "sumAvg": 182.92
+        },
+        {
+            "courses_title": "prob mgmt models",
+            "sumAvg": 182.94
+        },
+        {
+            "courses_title": "hlth promo prac",
+            "sumAvg": 182.94
+        },
+        {
+            "courses_title": "mus&mov elem c&p",
+            "sumAvg": 182.96
+        },
+        {
+            "courses_title": "mth e: bynd erly",
+            "sumAvg": 183
+        },
+        {
+            "courses_title": "inst mthd chalng",
+            "sumAvg": 183
+        },
+        {
+            "courses_title": "dante's div com",
+            "sumAvg": 183
+        },
+        {
+            "courses_title": "behav assessment",
+            "sumAvg": 183
+        },
+        {
+            "courses_title": "sc dsgn std i",
+            "sumAvg": 183
+        },
+        {
+            "courses_title": "adv tpcs stl str",
+            "sumAvg": 183.12
+        },
+        {
+            "courses_title": "cave mn sys: d&p",
+            "sumAvg": 183.12
+        },
+        {
+            "courses_title": "serv for chld",
+            "sumAvg": 183.26
+        },
+        {
+            "courses_title": "fnc hmn ant h&n",
+            "sumAvg": 183.34
+        },
+        {
+            "courses_title": "leis & disbl prs",
+            "sumAvg": 183.4
+        },
+        {
+            "courses_title": "relativty & elec",
+            "sumAvg": 183.5
+        },
+        {
+            "courses_title": "macroecon ii",
+            "sumAvg": 183.58
+        },
+        {
+            "courses_title": "expermntl micb",
+            "sumAvg": 183.58
+        },
+        {
+            "courses_title": "clinical skills",
+            "sumAvg": 183.58
+        },
+        {
+            "courses_title": "appl heterog cat",
+            "sumAvg": 183.6
+        },
+        {
+            "courses_title": "stats methods",
+            "sumAvg": 183.64
+        },
+        {
+            "courses_title": "tpcs biomed eng",
+            "sumAvg": 183.66
+        },
+        {
+            "courses_title": "practice praxis",
+            "sumAvg": 183.66
+        },
+        {
+            "courses_title": "fnd bdy dsgn:bsc",
+            "sumAvg": 184
+        },
+        {
+            "courses_title": "bndry-lyr metrly",
+            "sumAvg": 184
+        },
+        {
+            "courses_title": "topics plnt bioc",
+            "sumAvg": 184
+        },
+        {
+            "courses_title": "py-sc asp ph act",
+            "sumAvg": 184
+        },
+        {
+            "courses_title": "proj mec studies",
+            "sumAvg": 184
+        },
+        {
+            "courses_title": "tech in hlthcare",
+            "sumAvg": 184.12
+        },
+        {
+            "courses_title": "landsc plan&mgmt",
+            "sumAvg": 184.14
+        },
+        {
+            "courses_title": "imprv pblic hlth",
+            "sumAvg": 184.16
+        },
+        {
+            "courses_title": "micb eco genomic",
+            "sumAvg": 184.24
+        },
+        {
+            "courses_title": "genetics& ethics",
+            "sumAvg": 184.28
+        },
+        {
+            "courses_title": "intro tech prod",
+            "sumAvg": 184.3
+        },
+        {
+            "courses_title": "ind peo frst lnd",
+            "sumAvg": 184.44
+        },
+        {
+            "courses_title": "cultural studies",
+            "sumAvg": 184.5
+        },
+        {
+            "courses_title": "frst busn enterp",
+            "sumAvg": 184.54
+        },
+        {
+            "courses_title": "clinical clerkship",
+            "sumAvg": 184.58
+        },
+        {
+            "courses_title": "urbn trans systm",
+            "sumAvg": 184.6
+        },
+        {
+            "courses_title": "third-year russ",
+            "sumAvg": 184.6
+        },
+        {
+            "courses_title": "animal dvl gntcs",
+            "sumAvg": 184.72
+        },
+        {
+            "courses_title": "coaching effctv",
+            "sumAvg": 184.76
+        },
+        {
+            "courses_title": "gen&cell therapy",
+            "sumAvg": 184.8
+        },
+        {
+            "courses_title": "complex analy i",
+            "sumAvg": 184.8
+        },
+        {
+            "courses_title": "fdmt inj biomech",
+            "sumAvg": 184.86
+        },
+        {
+            "courses_title": "amplification ii",
+            "sumAvg": 184.9
+        },
+        {
+            "courses_title": "solid earth sci",
+            "sumAvg": 185
+        },
+        {
+            "courses_title": "adv comp archtct",
+            "sumAvg": 185.2
+        },
+        {
+            "courses_title": "meas thry&integr",
+            "sumAvg": 185.26
+        },
+        {
+            "courses_title": "rdngs orch rep",
+            "sumAvg": 185.26
+        },
+        {
+            "courses_title": "vocal techniques",
+            "sumAvg": 185.34
+        },
+        {
+            "courses_title": "fdns highr educ",
+            "sumAvg": 185.46
+        },
+        {
+            "courses_title": "mth&mdl ptrl&gch",
+            "sumAvg": 185.5
+        },
+        {
+            "courses_title": "qual mth res des",
+            "sumAvg": 185.56
+        },
+        {
+            "courses_title": "env phil & educ",
+            "sumAvg": 185.66
+        },
+        {
+            "courses_title": "rsch surgical pr",
+            "sumAvg": 185.66
+        },
+        {
+            "courses_title": "mtrl manufact",
+            "sumAvg": 185.78
+        },
+        {
+            "courses_title": "adv std min area",
+            "sumAvg": 186
+        },
+        {
+            "courses_title": "thry&rs soc cont",
+            "sumAvg": 186
+        },
+        {
+            "courses_title": "perinatal epidem",
+            "sumAvg": 186
+        },
+        {
+            "courses_title": "tops public plcy",
+            "sumAvg": 186.08
+        },
+        {
+            "courses_title": "hlth tech asmnt",
+            "sumAvg": 186.4
+        },
+        {
+            "courses_title": "home ec: 2nd ii",
+            "sumAvg": 186.6
+        },
+        {
+            "courses_title": "hist poplr music",
+            "sumAvg": 186.9
+        },
+        {
+            "courses_title": "adv geotechnics",
+            "sumAvg": 186.94
+        },
+        {
+            "courses_title": "linear vibrtns",
+            "sumAvg": 187
+        },
+        {
+            "courses_title": "dsgn&anl smp&sub",
+            "sumAvg": 187.18
+        },
+        {
+            "courses_title": "kinder curriclm",
+            "sumAvg": 187.44
+        },
+        {
+            "courses_title": "syst rev hlth rs",
+            "sumAvg": 187.46
+        },
+        {
+            "courses_title": "crit apprais lit",
+            "sumAvg": 187.5
+        },
+        {
+            "courses_title": "log & crit think",
+            "sumAvg": 187.5
+        },
+        {
+            "courses_title": "fisheries mngmt",
+            "sumAvg": 188
+        },
+        {
+            "courses_title": "ldrshp, ethics",
+            "sumAvg": 188.3
+        },
+        {
+            "courses_title": "phrm in practc 1",
+            "sumAvg": 188.46
+        },
+        {
+            "courses_title": "rsrch methdlgy",
+            "sumAvg": 188.88
+        },
+        {
+            "courses_title": "ths prop: biotec",
+            "sumAvg": 189.5
+        },
+        {
+            "courses_title": "master eng proj",
+            "sumAvg": 190
+        },
+        {
+            "courses_title": "m.sc major essay",
+            "sumAvg": 190
+        },
+        {
+            "courses_title": "mntl hlth concrn",
+            "sumAvg": 190
+        },
+        {
+            "courses_title": "tchg st visl imp",
+            "sumAvg": 190.54
+        },
+        {
+            "courses_title": "acad libraries",
+            "sumAvg": 192.2
+        },
+        {
+            "courses_title": "ds intl forstry",
+            "sumAvg": 192.72
+        },
+        {
+            "courses_title": "mo pict prod i",
+            "sumAvg": 192.8
+        },
+        {
+            "courses_title": "ubc chamb string",
+            "sumAvg": 193
+        },
+        {
+            "courses_title": "aud&non-txt arch",
+            "sumAvg": 193.88
+        },
+        {
+            "courses_title": "dev el sk df&hrd",
+            "sumAvg": 196.9
+        },
+        {
+            "courses_title": "work int health",
+            "sumAvg": 197.96
+        },
+        {
+            "courses_title": "violenc lifespan",
+            "sumAvg": 267.94
+        },
+        {
+            "courses_title": "eng proj",
+            "sumAvg": 268.28
+        },
+        {
+            "courses_title": "stat lit nursing",
+            "sumAvg": 269.88
+        },
+        {
+            "courses_title": "mangmt info orgs",
+            "sumAvg": 270.74
+        },
+        {
+            "courses_title": "hlth srv res i",
+            "sumAvg": 271.42
+        },
+        {
+            "courses_title": "assess plan eval",
+            "sumAvg": 271.63
+        },
+        {
+            "courses_title": "iss public hlth",
+            "sumAvg": 271.77
+        },
+        {
+            "courses_title": "reas & dec-mking",
+            "sumAvg": 272.4
+        },
+        {
+            "courses_title": "contxt ed policy",
+            "sumAvg": 273.85
+        },
+        {
+            "courses_title": "grad prac",
+            "sumAvg": 277.34
+        },
+        {
+            "courses_title": "intr hindi-urdu",
+            "sumAvg": 277.44
+        },
+        {
+            "courses_title": "electronics lab",
+            "sumAvg": 281.72
+        },
+        {
+            "courses_title": "sociocult determ",
+            "sumAvg": 286.61
+        },
+        {
+            "courses_title": "systematic pcol",
+            "sumAvg": 356.64
+        },
+        {
+            "courses_title": "clt&pol sec lang",
+            "sumAvg": 356.78
+        },
+        {
+            "courses_title": "pathophys i",
+            "sumAvg": 357.02
+        },
+        {
+            "courses_title": "motn pictr sound",
+            "sumAvg": 357.26
+        },
+        {
+            "courses_title": "renl&gastro phyl",
+            "sumAvg": 357.48
+        },
+        {
+            "courses_title": "hlth cr dec anly",
+            "sumAvg": 357.66
+        },
+        {
+            "courses_title": "evl mor mar invr",
+            "sumAvg": 357.84
+        },
+        {
+            "courses_title": "research methods",
+            "sumAvg": 357.94
+        },
+        {
+            "courses_title": "quant mtds&anyl",
+            "sumAvg": 358.06
+        },
+        {
+            "courses_title": "adv prct nurs",
+            "sumAvg": 358.26
+        },
+        {
+            "courses_title": "grad essay",
+            "sumAvg": 358.3
+        },
+        {
+            "courses_title": "clin endo yr 3",
+            "sumAvg": 358.5
+        },
+        {
+            "courses_title": "nanophoton fab",
+            "sumAvg": 358.58
+        },
+        {
+            "courses_title": "clin dietetc ii",
+            "sumAvg": 358.58
+        },
+        {
+            "courses_title": "med lab toxiclgy",
+            "sumAvg": 358.64
+        },
+        {
+            "courses_title": "stat infrnce ii",
+            "sumAvg": 358.64
+        },
+        {
+            "courses_title": "primry care thry",
+            "sumAvg": 358.78
+        },
+        {
+            "courses_title": "shp prod ind eng",
+            "sumAvg": 358.84
+        },
+        {
+            "courses_title": "birth meaning",
+            "sumAvg": 358.92
+        },
+        {
+            "courses_title": "tpcs dev biol",
+            "sumAvg": 358.94
+        },
+        {
+            "courses_title": "research collbrt",
+            "sumAvg": 358.96
+        },
+        {
+            "courses_title": "adul educ",
+            "sumAvg": 358.97
+        },
+        {
+            "courses_title": "drugs &intercell",
+            "sumAvg": 358.98
+        },
+        {
+            "courses_title": "advanced ital i",
+            "sumAvg": 359
+        },
+        {
+            "courses_title": "complex fluids",
+            "sumAvg": 359.02
+        },
+        {
+            "courses_title": "tech stat conslt",
+            "sumAvg": 359.04
+        },
+        {
+            "courses_title": "crt anly iss&mth",
+            "sumAvg": 359.06
+        },
+        {
+            "courses_title": "costum constr ii",
+            "sumAvg": 359.18
+        },
+        {
+            "courses_title": "arch rsrch&schlr",
+            "sumAvg": 359.28
+        },
+        {
+            "courses_title": "coast terr esyst",
+            "sumAvg": 359.34
+        },
+        {
+            "courses_title": "viral infec humn",
+            "sumAvg": 359.4
+        },
+        {
+            "courses_title": "first nat soc is",
+            "sumAvg": 359.46
+        },
+        {
+            "courses_title": "sem in botany",
+            "sumAvg": 359.52
+        },
+        {
+            "courses_title": "sem reprd biol",
+            "sumAvg": 359.66
+        },
+        {
+            "courses_title": "soil dynamics",
+            "sumAvg": 359.76
+        },
+        {
+            "courses_title": "rehab theory",
+            "sumAvg": 360
+        },
+        {
+            "courses_title": "biophys pharm i",
+            "sumAvg": 360.02
+        },
+        {
+            "courses_title": "hazard anal food",
+            "sumAvg": 360.12
+        },
+        {
+            "courses_title": "dta anl at,er&oc",
+            "sumAvg": 360.14
+        },
+        {
+            "courses_title": "t & l kind & prm",
+            "sumAvg": 360.16
+        },
+        {
+            "courses_title": "res tch & lrn sc",
+            "sumAvg": 360.2
+        },
+        {
+            "courses_title": "h gwaii cse stdy",
+            "sumAvg": 360.26
+        },
+        {
+            "courses_title": "thy rea adu lea",
+            "sumAvg": 360.3
+        },
+        {
+            "courses_title": "mech nat defrmtn",
+            "sumAvg": 360.4
+        },
+        {
+            "courses_title": "lang dev&dis sch",
+            "sumAvg": 360.48
+        },
+        {
+            "courses_title": "air polutn cntrl",
+            "sumAvg": 360.5
+        },
+        {
+            "courses_title": "mth ed: crnt iss",
+            "sumAvg": 360.66
+        },
+        {
+            "courses_title": "econometrics",
+            "sumAvg": 360.72
+        },
+        {
+            "courses_title": "oral pathology",
+            "sumAvg": 360.84
+        },
+        {
+            "courses_title": "dig comm&tpcs ag",
+            "sumAvg": 360.86
+        },
+        {
+            "courses_title": "intro to pcol",
+            "sumAvg": 360.86
+        },
+        {
+            "courses_title": "database design",
+            "sumAvg": 360.9
+        },
+        {
+            "courses_title": "intro to conserv",
+            "sumAvg": 360.98
+        },
+        {
+            "courses_title": "adv tpcs mole bi",
+            "sumAvg": 361.34
+        },
+        {
+            "courses_title": "select libr res",
+            "sumAvg": 361.34
+        },
+        {
+            "courses_title": "dyn mdl elec",
+            "sumAvg": 361.7
+        },
+        {
+            "courses_title": "software eng",
+            "sumAvg": 361.92
+        },
+        {
+            "courses_title": "endo micro-surg",
+            "sumAvg": 362
+        },
+        {
+            "courses_title": "urbn restructing",
+            "sumAvg": 362.14
+        },
+        {
+            "courses_title": "adv conc rehb rs",
+            "sumAvg": 362.14
+        },
+        {
+            "courses_title": "int thry counsel",
+            "sumAvg": 362.45
+        },
+        {
+            "courses_title": "primary care ii",
+            "sumAvg": 362.46
+        },
+        {
+            "courses_title": "wavelets",
+            "sumAvg": 362.5
+        },
+        {
+            "courses_title": "comp comm protcl",
+            "sumAvg": 362.66
+        },
+        {
+            "courses_title": "quantum elctrdyn",
+            "sumAvg": 362.7
+        },
+        {
+            "courses_title": "network analysis",
+            "sumAvg": 362.76
+        },
+        {
+            "courses_title": "info services i",
+            "sumAvg": 362.89
+        },
+        {
+            "courses_title": "sem theor",
+            "sumAvg": 362.9
+        },
+        {
+            "courses_title": "vid eth ed res",
+            "sumAvg": 362.94
+        },
+        {
+            "courses_title": "stat infrnce i",
+            "sumAvg": 362.96
+        },
+        {
+            "courses_title": "clinical dec ii",
+            "sumAvg": 363.02
+        },
+        {
+            "courses_title": "soc wrk & justce",
+            "sumAvg": 363.2
+        },
+        {
+            "courses_title": "intr mod diff ge",
+            "sumAvg": 363.24
+        },
+        {
+            "courses_title": "pharm mgmt",
+            "sumAvg": 363.33
+        },
+        {
+            "courses_title": "stat sig proc",
+            "sumAvg": 363.34
+        },
+        {
+            "courses_title": "grn nanoelec dev",
+            "sumAvg": 363.4
+        },
+        {
+            "courses_title": "machine learn i",
+            "sumAvg": 363.5
+        },
+        {
+            "courses_title": "endo lit rev ii",
+            "sumAvg": 363.5
+        },
+        {
+            "courses_title": "int field school",
+            "sumAvg": 363.54
+        },
+        {
+            "courses_title": "tpcs app econ i",
+            "sumAvg": 363.56
+        },
+        {
+            "courses_title": "perinatl epidlgy",
+            "sumAvg": 363.76
+        },
+        {
+            "courses_title": "microelectromech",
+            "sumAvg": 364.04
+        },
+        {
+            "courses_title": "soci environ",
+            "sumAvg": 364.18
+        },
+        {
+            "courses_title": "prof prct larc",
+            "sumAvg": 364.36
+        },
+        {
+            "courses_title": "mech erth quake",
+            "sumAvg": 364.5
+        },
+        {
+            "courses_title": "ad top vlsi desg",
+            "sumAvg": 364.54
+        },
+        {
+            "courses_title": "behav economics",
+            "sumAvg": 364.58
+        },
+        {
+            "courses_title": "dgtl img & text",
+            "sumAvg": 364.7
+        },
+        {
+            "courses_title": "ecol plnt bioch",
+            "sumAvg": 364.8
+        },
+        {
+            "courses_title": "lang dev life",
+            "sumAvg": 364.92
+        },
+        {
+            "courses_title": "ptl dif eqn flud",
+            "sumAvg": 365
+        },
+        {
+            "courses_title": "adv eng acoustcs",
+            "sumAvg": 365
+        },
+        {
+            "courses_title": "eval src evidenc",
+            "sumAvg": 365.57
+        },
+        {
+            "courses_title": "audi adv prc i",
+            "sumAvg": 365.66
+        },
+        {
+            "courses_title": "intro musc thry",
+            "sumAvg": 365.68
+        },
+        {
+            "courses_title": "hlth & soc care",
+            "sumAvg": 365.83
+        },
+        {
+            "courses_title": "market structure",
+            "sumAvg": 366
+        },
+        {
+            "courses_title": "cond matter ii",
+            "sumAvg": 366
+        },
+        {
+            "courses_title": "quantum mech ii",
+            "sumAvg": 366.62
+        },
+        {
+            "courses_title": "eco-based mgmt",
+            "sumAvg": 366.72
+        },
+        {
+            "courses_title": "chldren&families",
+            "sumAvg": 366.8
+        },
+        {
+            "courses_title": "labour economics",
+            "sumAvg": 366.92
+        },
+        {
+            "courses_title": "item respns thry",
+            "sumAvg": 366.94
+        },
+        {
+            "courses_title": "cr-fc grwth&dev",
+            "sumAvg": 367
+        },
+        {
+            "courses_title": "seismic rsp strc",
+            "sumAvg": 367.1
+        },
+        {
+            "courses_title": "fst ntns soc iss",
+            "sumAvg": 367.2
+        },
+        {
+            "courses_title": "sem hum mtr perf",
+            "sumAvg": 367.5
+        },
+        {
+            "courses_title": "modl dynam systm",
+            "sumAvg": 367.5
+        },
+        {
+            "courses_title": "sound design",
+            "sumAvg": 367.56
+        },
+        {
+            "courses_title": "cnt tme stchastc",
+            "sumAvg": 367.62
+        },
+        {
+            "courses_title": "pln pe,sp&ex prg",
+            "sumAvg": 367.82
+        },
+        {
+            "courses_title": "sbst use addictn",
+            "sumAvg": 367.84
+        },
+        {
+            "courses_title": "intr dyn systems",
+            "sumAvg": 367.86
+        },
+        {
+            "courses_title": "semicon thy appl",
+            "sumAvg": 368
+        },
+        {
+            "courses_title": "math prblm slvng",
+            "sumAvg": 368.29
+        },
+        {
+            "courses_title": "admn ldrshp nurs",
+            "sumAvg": 368.48
+        },
+        {
+            "courses_title": "as in s&s disord",
+            "sumAvg": 368.5
+        },
+        {
+            "courses_title": "tpcs path rsrch",
+            "sumAvg": 368.74
+        },
+        {
+            "courses_title": "algebra i",
+            "sumAvg": 368.8
+        },
+        {
+            "courses_title": "curr hist contxt",
+            "sumAvg": 368.84
+        },
+        {
+            "courses_title": "rehab learning",
+            "sumAvg": 368.84
+        },
+        {
+            "courses_title": "problty & stat",
+            "sumAvg": 368.98
+        },
+        {
+            "courses_title": "frst ntns rsorcs",
+            "sumAvg": 369
+        },
+        {
+            "courses_title": "adv human gene",
+            "sumAvg": 369.6
+        },
+        {
+            "courses_title": "meas health care",
+            "sumAvg": 369.66
+        },
+        {
+            "courses_title": "advancd span iii",
+            "sumAvg": 369.7
+        },
+        {
+            "courses_title": "sem sociol educ",
+            "sumAvg": 370
+        },
+        {
+            "courses_title": "org&admin hi edu",
+            "sumAvg": 370.46
+        },
+        {
+            "courses_title": "dev scale&measur",
+            "sumAvg": 371.36
+        },
+        {
+            "courses_title": "ital lit cult",
+            "sumAvg": 371.5
+        },
+        {
+            "courses_title": "thermodynamics",
+            "sumAvg": 371.74
+        },
+        {
+            "courses_title": "audi adv prc ii",
+            "sumAvg": 372.88
+        },
+        {
+            "courses_title": "comm disorders",
+            "sumAvg": 373.62
+        },
+        {
+            "courses_title": "adlt edu pract",
+            "sumAvg": 375.64
+        },
+        {
+            "courses_title": "prev spts inj i",
+            "sumAvg": 375.78
+        },
+        {
+            "courses_title": "mt-anl qnt rs sy",
+            "sumAvg": 377.2
+        },
+        {
+            "courses_title": "clin make iv",
+            "sumAvg": 379.38
+        },
+        {
+            "courses_title": "multimedia sys",
+            "sumAvg": 379.5
+        },
+        {
+            "courses_title": "hydrmtllgcl rctr",
+            "sumAvg": 382.5
+        },
+        {
+            "courses_title": "social analysis",
+            "sumAvg": 384.16
+        },
+        {
+            "courses_title": "phd colloquium",
+            "sumAvg": 447.12
+        },
+        {
+            "courses_title": "curr chng&imple",
+            "sumAvg": 449.64
+        },
+        {
+            "courses_title": "int sem in sw th",
+            "sumAvg": 450.91
+        },
+        {
+            "courses_title": "curr iss oral hl",
+            "sumAvg": 451.62
+        },
+        {
+            "courses_title": "lit review i",
+            "sumAvg": 451.62
+        },
+        {
+            "courses_title": "soc detrmin hlth",
+            "sumAvg": 451.87
+        },
+        {
+            "courses_title": "m.a. sc. thesis",
+            "sumAvg": 452.17
+        },
+        {
+            "courses_title": "implant therapy",
+            "sumAvg": 452.9
+        },
+        {
+            "courses_title": "eng report",
+            "sumAvg": 453.47
+        },
+        {
+            "courses_title": "graduating paper",
+            "sumAvg": 454.5
+        },
+        {
+            "courses_title": "sem medical anth",
+            "sumAvg": 456
+        },
+        {
+            "courses_title": "hmec ii sec c&p",
+            "sumAvg": 456.58
+        },
+        {
+            "courses_title": "directed study",
+            "sumAvg": 460.8
+        },
+        {
+            "courses_title": "an meth epid res",
+            "sumAvg": 461.28
+        },
+        {
+            "courses_title": "augmt&alt comm",
+            "sumAvg": 464.75
+        },
+        {
+            "courses_title": "prin behav anlys",
+            "sumAvg": 468.78
+        },
+        {
+            "courses_title": "cncpts clin gene",
+            "sumAvg": 536.34
+        },
+        {
+            "courses_title": "top immun resrch",
+            "sumAvg": 536.36
+        },
+        {
+            "courses_title": "jazz ensemble",
+            "sumAvg": 536.41
+        },
+        {
+            "courses_title": "early music ens",
+            "sumAvg": 536.74
+        },
+        {
+            "courses_title": "tpcs med gen res",
+            "sumAvg": 536.86
+        },
+        {
+            "courses_title": "comp thry&prctc",
+            "sumAvg": 537.12
+        },
+        {
+            "courses_title": "top mol virology",
+            "sumAvg": 537.24
+        },
+        {
+            "courses_title": "cochl implants",
+            "sumAvg": 537.34
+        },
+        {
+            "courses_title": "ceramics: art ed",
+            "sumAvg": 537.8
+        },
+        {
+            "courses_title": "urban transport",
+            "sumAvg": 537.88
+        },
+        {
+            "courses_title": "cntrl com dis",
+            "sumAvg": 538.67
+        },
+        {
+            "courses_title": "quant mech chem",
+            "sumAvg": 538.8
+        },
+        {
+            "courses_title": "research in cnps",
+            "sumAvg": 539.3
+        },
+        {
+            "courses_title": "masc thesis dev",
+            "sumAvg": 539.32
+        },
+        {
+            "courses_title": "membrane str&fnc",
+            "sumAvg": 539.78
+        },
+        {
+            "courses_title": "montry thry pol",
+            "sumAvg": 539.96
+        },
+        {
+            "courses_title": "intro rsrch educ",
+            "sumAvg": 540.02
+        },
+        {
+            "courses_title": "tpcs cell comm",
+            "sumAvg": 540.1
+        },
+        {
+            "courses_title": "dir fld st sp&ph",
+            "sumAvg": 540.33
+        },
+        {
+            "courses_title": "stat meth hd bio",
+            "sumAvg": 540.42
+        },
+        {
+            "courses_title": "directed reading",
+            "sumAvg": 540.92
+        },
+        {
+            "courses_title": "elem number thry",
+            "sumAvg": 541.16
+        },
+        {
+            "courses_title": "num anly prtl df",
+            "sumAvg": 541.26
+        },
+        {
+            "courses_title": "qlt mthd ed psy",
+            "sumAvg": 542.06
+        },
+        {
+            "courses_title": "diag audio ii",
+            "sumAvg": 542.1
+        },
+        {
+            "courses_title": "bibliog & resrch",
+            "sumAvg": 542.36
+        },
+        {
+            "courses_title": "thry&prc prg evl",
+            "sumAvg": 542.54
+        },
+        {
+            "courses_title": "urbn engr m&m",
+            "sumAvg": 542.62
+        },
+        {
+            "courses_title": "assm intrv techn",
+            "sumAvg": 542.66
+        },
+        {
+            "courses_title": "phono intervent",
+            "sumAvg": 542.7
+        },
+        {
+            "courses_title": "major proj prt 1",
+            "sumAvg": 542.8
+        },
+        {
+            "courses_title": "aural rehb i",
+            "sumAvg": 542.82
+        },
+        {
+            "courses_title": "quant an fish i",
+            "sumAvg": 542.92
+        },
+        {
+            "courses_title": "obsv&doc erly ch",
+            "sumAvg": 543.18
+        },
+        {
+            "courses_title": "shpbld proj mgmt",
+            "sumAvg": 543.26
+        },
+        {
+            "courses_title": "design & bioassy",
+            "sumAvg": 543.38
+        },
+        {
+            "courses_title": "prin&meth rsch i",
+            "sumAvg": 543.54
+        },
+        {
+            "courses_title": "intro sanskrit",
+            "sumAvg": 543.58
+        },
+        {
+            "courses_title": "can soci plcy",
+            "sumAvg": 543.81
+        },
+        {
+            "courses_title": "econ thry ii",
+            "sumAvg": 543.82
+        },
+        {
+            "courses_title": "hearng and noise",
+            "sumAvg": 544.08
+        },
+        {
+            "courses_title": "prin chem separ",
+            "sumAvg": 544.12
+        },
+        {
+            "courses_title": "prev spts inj ii",
+            "sumAvg": 544.18
+        },
+        {
+            "courses_title": "adu edu pro",
+            "sumAvg": 545.08
+        },
+        {
+            "courses_title": "crystal structre",
+            "sumAvg": 545.52
+        },
+        {
+            "courses_title": "clbrtv piano ii",
+            "sumAvg": 545.7
+        },
+        {
+            "courses_title": "pertrb diff equa",
+            "sumAvg": 545.74
+        },
+        {
+            "courses_title": "computl ling 1",
+            "sumAvg": 546.14
+        },
+        {
+            "courses_title": "acquired lng dis",
+            "sumAvg": 546.26
+        },
+        {
+            "courses_title": "crit anly sci ed",
+            "sumAvg": 546.34
+        },
+        {
+            "courses_title": "rs mth&sem orbi",
+            "sumAvg": 546.72
+        },
+        {
+            "courses_title": "trends & topics",
+            "sumAvg": 547.21
+        },
+        {
+            "courses_title": "rl div hlth expr",
+            "sumAvg": 547.5
+        },
+        {
+            "courses_title": "analyt num thry",
+            "sumAvg": 547.76
+        },
+        {
+            "courses_title": "adv rad biophys",
+            "sumAvg": 548.32
+        },
+        {
+            "courses_title": "costume constr",
+            "sumAvg": 548.34
+        },
+        {
+            "courses_title": "pcol anaesthesia",
+            "sumAvg": 548.92
+        },
+        {
+            "courses_title": "scenery prod i",
+            "sumAvg": 549.96
+        },
+        {
+            "courses_title": "med tech project",
+            "sumAvg": 550.22
+        },
+        {
+            "courses_title": "cog lang proc ed",
+            "sumAvg": 550.9
+        },
+        {
+            "courses_title": "sem in autism",
+            "sumAvg": 551.05
+        },
+        {
+            "courses_title": "tech for vis imp",
+            "sumAvg": 551.06
+        },
+        {
+            "courses_title": "ecolg plant bioc",
+            "sumAvg": 551.4
+        },
+        {
+            "courses_title": "power syst dynam",
+            "sumAvg": 551.4
+        },
+        {
+            "courses_title": "combinatorial op",
+            "sumAvg": 551.56
+        },
+        {
+            "courses_title": "std in sign lang",
+            "sumAvg": 551.6
+        },
+        {
+            "courses_title": "ds tec ii sc c&p",
+            "sumAvg": 551.94
+        },
+        {
+            "courses_title": "contem players",
+            "sumAvg": 552.08
+        },
+        {
+            "courses_title": "ict educ ethics",
+            "sumAvg": 554.02
+        },
+        {
+            "courses_title": "soc-psych fndtns",
+            "sumAvg": 554.72
+        },
+        {
+            "courses_title": "research problem",
+            "sumAvg": 555.4
+        },
+        {
+            "courses_title": "ind skl vis imp",
+            "sumAvg": 556.68
+        },
+        {
+            "courses_title": "info tech&archvs",
+            "sumAvg": 556.86
+        },
+        {
+            "courses_title": "lie theory i",
+            "sumAvg": 556.86
+        },
+        {
+            "courses_title": "incl bl vis-imp",
+            "sumAvg": 558.61
+        },
+        {
+            "courses_title": "math mdl com dis",
+            "sumAvg": 563.76
+        },
+        {
+            "courses_title": "dev neuropsych",
+            "sumAvg": 566.02
+        },
+        {
+            "courses_title": "harmonic anal i",
+            "sumAvg": 567.96
+        },
+        {
+            "courses_title": "algb topology i",
+            "sumAvg": 571.24
+        },
+        {
+            "courses_title": "2nd lang assess: c&e app",
+            "sumAvg": 629.77
+        },
+        {
+            "courses_title": "ldrship pub hlth",
+            "sumAvg": 629.96
+        },
+        {
+            "courses_title": "qlt rsrch mthd",
+            "sumAvg": 631.87
+        },
+        {
+            "courses_title": "resource-bsd tch",
+            "sumAvg": 633.91
+        },
+        {
+            "courses_title": "phar care aborig",
+            "sumAvg": 637.89
+        },
+        {
+            "courses_title": "adv int seminar",
+            "sumAvg": 639.04
+        },
+        {
+            "courses_title": "pr mental health",
+            "sumAvg": 645.4
+        },
+        {
+            "courses_title": "able&creatv lrnr",
+            "sumAvg": 661.63
+        },
+        {
+            "courses_title": "cll&dev bio lit",
+            "sumAvg": 714.96
+        },
+        {
+            "courses_title": "adv speech scie",
+            "sumAvg": 717.04
+        },
+        {
+            "courses_title": "adv gsat concept",
+            "sumAvg": 718.66
+        },
+        {
+            "courses_title": "cs phar sci iv",
+            "sumAvg": 718.67
+        },
+        {
+            "courses_title": "lab expl earth",
+            "sumAvg": 718.91
+        },
+        {
+            "courses_title": "tech cel&dev bio",
+            "sumAvg": 720.88
+        },
+        {
+            "courses_title": "adv hum mole gen",
+            "sumAvg": 722.04
+        },
+        {
+            "courses_title": "sp-lg pth pr iii",
+            "sumAvg": 722.34
+        },
+        {
+            "courses_title": "bioanalyt chem",
+            "sumAvg": 723.32
+        },
+        {
+            "courses_title": "tec comm skls ii",
+            "sumAvg": 723.9
+        },
+        {
+            "courses_title": "tpcs flu disord",
+            "sumAvg": 725.16
+        },
+        {
+            "courses_title": "thr lng&lit rsrc",
+            "sumAvg": 725.28
+        },
+        {
+            "courses_title": "nanosc model&sim",
+            "sumAvg": 725.36
+        },
+        {
+            "courses_title": "bioenrgtc ph act",
+            "sumAvg": 725.38
+        },
+        {
+            "courses_title": "educ theories",
+            "sumAvg": 725.52
+        },
+        {
+            "courses_title": "systmtc pcol lab",
+            "sumAvg": 725.52
+        },
+        {
+            "courses_title": "self-tuning ctrl",
+            "sumAvg": 725.58
+        },
+        {
+            "courses_title": "clin pharcknetcs",
+            "sumAvg": 726.32
+        },
+        {
+            "courses_title": "clinical dec i",
+            "sumAvg": 726.52
+        },
+        {
+            "courses_title": "ethics mtrnycare",
+            "sumAvg": 727
+        },
+        {
+            "courses_title": "mch tool str&vib",
+            "sumAvg": 729.72
+        },
+        {
+            "courses_title": "pediatric audio",
+            "sumAvg": 729.92
+        },
+        {
+            "courses_title": "prog pln & eval",
+            "sumAvg": 730
+        },
+        {
+            "courses_title": "motivation educ",
+            "sumAvg": 730.42
+        },
+        {
+            "courses_title": "discrete math",
+            "sumAvg": 730.8
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "sumAvg": 730.88
+        },
+        {
+            "courses_title": "urb dsgn thr&met",
+            "sumAvg": 730.9
+        },
+        {
+            "courses_title": "asmnt spec needs",
+            "sumAvg": 731.04
+        },
+        {
+            "courses_title": "dynam struct 2",
+            "sumAvg": 731.8
+        },
+        {
+            "courses_title": "discourse & talk",
+            "sumAvg": 731.9
+        },
+        {
+            "courses_title": "pulmonry pthphyl",
+            "sumAvg": 732.52
+        },
+        {
+            "courses_title": "contemp players",
+            "sumAvg": 734.06
+        },
+        {
+            "courses_title": "appl hlth serv",
+            "sumAvg": 734.22
+        },
+        {
+            "courses_title": "spec tpcs kin",
+            "sumAvg": 734.28
+        },
+        {
+            "courses_title": "adlt psychpathlg",
+            "sumAvg": 736.06
+        },
+        {
+            "courses_title": "txt pol& id cdev",
+            "sumAvg": 736.3
+        },
+        {
+            "courses_title": "ldrshp ethcs pol",
+            "sumAvg": 737.74
+        },
+        {
+            "courses_title": "prob-bsd lrn bio",
+            "sumAvg": 737.9
+        },
+        {
+            "courses_title": "thry of automata",
+            "sumAvg": 740.36
+        },
+        {
+            "courses_title": "algb geometry i",
+            "sumAvg": 744.02
+        },
+        {
+            "courses_title": "phyl ms aud func",
+            "sumAvg": 744.48
+        },
+        {
+            "courses_title": "mult des anal rs",
+            "sumAvg": 745.52
+        },
+        {
+            "courses_title": "algebra ii",
+            "sumAvg": 745.96
+        },
+        {
+            "courses_title": "orch repertoire",
+            "sumAvg": 746.65
+        },
+        {
+            "courses_title": "admn of injectns",
+            "sumAvg": 746.79
+        },
+        {
+            "courses_title": "hier lin modelng",
+            "sumAvg": 748.14
+        },
+        {
+            "courses_title": "cur dev e df&hrd",
+            "sumAvg": 749.38
+        },
+        {
+            "courses_title": "islnd wild mgmt",
+            "sumAvg": 752.24
+        },
+        {
+            "courses_title": "tech math sci",
+            "sumAvg": 753.68
+        },
+        {
+            "courses_title": "phyl asp phy act",
+            "sumAvg": 760.54
+        },
+        {
+            "courses_title": "lit review ii",
+            "sumAvg": 813.94
+        },
+        {
+            "courses_title": "rsc trd edu admn",
+            "sumAvg": 816.65
+        },
+        {
+            "courses_title": "mgmt sc meth",
+            "sumAvg": 838.62
+        },
+        {
+            "courses_title": "honours essay",
+            "sumAvg": 897.42
+        },
+        {
+            "courses_title": "biolgy of cancer",
+            "sumAvg": 897.56
+        },
+        {
+            "courses_title": "clinical res des",
+            "sumAvg": 897.98
+        },
+        {
+            "courses_title": "pharcgy prm care",
+            "sumAvg": 899.12
+        },
+        {
+            "courses_title": "research seminar",
+            "sumAvg": 899.36
+        },
+        {
+            "courses_title": "psnl soc dv adlt",
+            "sumAvg": 901.23
+        },
+        {
+            "courses_title": "sch lrc prog",
+            "sumAvg": 902.92
+        },
+        {
+            "courses_title": "mthds asymp anal",
+            "sumAvg": 903
+        },
+        {
+            "courses_title": "stdy educ organ",
+            "sumAvg": 903.4
+        },
+        {
+            "courses_title": "arch learn systs",
+            "sumAvg": 904.2
+        },
+        {
+            "courses_title": "tpc cytosk&cl mo",
+            "sumAvg": 906.08
+        },
+        {
+            "courses_title": "expl methodology",
+            "sumAvg": 906.86
+        },
+        {
+            "courses_title": "com adult educ",
+            "sumAvg": 906.96
+        },
+        {
+            "courses_title": "tech mlc biol&ex",
+            "sumAvg": 907.68
+        },
+        {
+            "courses_title": "ch&ad psyco-path",
+            "sumAvg": 908
+        },
+        {
+            "courses_title": "anat phys stats",
+            "sumAvg": 909.54
+        },
+        {
+            "courses_title": "drug safety",
+            "sumAvg": 910.62
+        },
+        {
+            "courses_title": "tpcs sociol educ",
+            "sumAvg": 912.8
+        },
+        {
+            "courses_title": "adv immunogeneti",
+            "sumAvg": 913.28
+        },
+        {
+            "courses_title": "project & report",
+            "sumAvg": 913.32
+        },
+        {
+            "courses_title": "complex analy",
+            "sumAvg": 913.88
+        },
+        {
+            "courses_title": "survlnc&monitrng",
+            "sumAvg": 916
+        },
+        {
+            "courses_title": "counsl adolescnt",
+            "sumAvg": 916.68
+        },
+        {
+            "courses_title": "soc & econ measu",
+            "sumAvg": 918.74
+        },
+        {
+            "courses_title": "prof,eth&lgl iss",
+            "sumAvg": 919.44
+        },
+        {
+            "courses_title": "exptl med method",
+            "sumAvg": 921.74
+        },
+        {
+            "courses_title": "probability i",
+            "sumAvg": 923.94
+        },
+        {
+            "courses_title": "functional analy",
+            "sumAvg": 924
+        },
+        {
+            "courses_title": "intro psychthrpy",
+            "sumAvg": 924.04
+        },
+        {
+            "courses_title": "stats methlgy i",
+            "sumAvg": 931.52
+        },
+        {
+            "courses_title": "probability ii",
+            "sumAvg": 932.04
+        },
+        {
+            "courses_title": "cnsl mat cr prov",
+            "sumAvg": 934.28
+        },
+        {
+            "courses_title": "nat resrce mngmt",
+            "sumAvg": 938.98
+        },
+        {
+            "courses_title": "health psych",
+            "sumAvg": 941.4
+        },
+        {
+            "courses_title": "biol p hlth prac",
+            "sumAvg": 991.53
+        },
+        {
+            "courses_title": "tech comm skills",
+            "sumAvg": 992.59
+        },
+        {
+            "courses_title": "m.sc. thesis",
+            "sumAvg": 994.16
+        },
+        {
+            "courses_title": "masc thesis",
+            "sumAvg": 994.38
+        },
+        {
+            "courses_title": "student seminar",
+            "sumAvg": 999.55
+        },
+        {
+            "courses_title": "msc thesis",
+            "sumAvg": 1000.75
+        },
+        {
+            "courses_title": "prg child sp lrn",
+            "sumAvg": 1007.63
+        },
+        {
+            "courses_title": "text tech",
+            "sumAvg": 1081.77
+        },
+        {
+            "courses_title": "basic intvw skls",
+            "sumAvg": 1082.4
+        },
+        {
+            "courses_title": "role tcher guid",
+            "sumAvg": 1082.7
+        },
+        {
+            "courses_title": "cog/beh interven",
+            "sumAvg": 1084.08
+        },
+        {
+            "courses_title": "comp animal phyl",
+            "sumAvg": 1087.54
+        },
+        {
+            "courses_title": "adv conc pharmac",
+            "sumAvg": 1088.54
+        },
+        {
+            "courses_title": "audi prctcm iii",
+            "sumAvg": 1092.52
+        },
+        {
+            "courses_title": "child's lit",
+            "sumAvg": 1092.67
+        },
+        {
+            "courses_title": "hn dev: inf-adlt",
+            "sumAvg": 1093.91
+        },
+        {
+            "courses_title": "tpc int-cel traf",
+            "sumAvg": 1099.42
+        },
+        {
+            "courses_title": "spc tpcs macroec",
+            "sumAvg": 1102.36
+        },
+        {
+            "courses_title": "hearing sci ii",
+            "sumAvg": 1102.44
+        },
+        {
+            "courses_title": "surgical rsrch",
+            "sumAvg": 1108.7
+        },
+        {
+            "courses_title": "quant fld theory",
+            "sumAvg": 1111.82
+        },
+        {
+            "courses_title": "diff geometry i",
+            "sumAvg": 1116.6
+        },
+        {
+            "courses_title": "fn & educ change",
+            "sumAvg": 1125.06
+        },
+        {
+            "courses_title": "audi prctcm iv",
+            "sumAvg": 1126.25
+        },
+        {
+            "courses_title": "hlth & human sec",
+            "sumAvg": 1254.66
+        },
+        {
+            "courses_title": "counslng adults",
+            "sumAvg": 1264.26
+        },
+        {
+            "courses_title": "primary care iii",
+            "sumAvg": 1271.18
+        },
+        {
+            "courses_title": "career counselng",
+            "sumAvg": 1272.73
+        },
+        {
+            "courses_title": "ms thesis",
+            "sumAvg": 1277.5
+        },
+        {
+            "courses_title": "concepts in onco",
+            "sumAvg": 1279.08
+        },
+        {
+            "courses_title": "math operations",
+            "sumAvg": 1280.36
+        },
+        {
+            "courses_title": "cad algrthm i cr",
+            "sumAvg": 1281.32
+        },
+        {
+            "courses_title": "intrv ch&ad bh d",
+            "sumAvg": 1282.12
+        },
+        {
+            "courses_title": "honours thesis",
+            "sumAvg": 1285.36
+        },
+        {
+            "courses_title": "cross-cltr cnsl",
+            "sumAvg": 1289.2
+        },
+        {
+            "courses_title": "eth & prof clin",
+            "sumAvg": 1291.66
+        },
+        {
+            "courses_title": "prt diff equa i",
+            "sumAvg": 1296.28
+        },
+        {
+            "courses_title": "ubc singers",
+            "sumAvg": 1312
+        },
+        {
+            "courses_title": "acad assess schl",
+            "sumAvg": 1314.94
+        },
+        {
+            "courses_title": "food theor app",
+            "sumAvg": 1366.83
+        },
+        {
+            "courses_title": "msc major essay",
+            "sumAvg": 1377.72
+        },
+        {
+            "courses_title": "kin project",
+            "sumAvg": 1382.72
+        },
+        {
+            "courses_title": "indig, tech&ed",
+            "sumAvg": 1401.91
+        },
+        {
+            "courses_title": "ldrshp educ org",
+            "sumAvg": 1443.34
+        },
+        {
+            "courses_title": "appl lear theor",
+            "sumAvg": 1446.68
+        },
+        {
+            "courses_title": "genome analysis",
+            "sumAvg": 1454.38
+        },
+        {
+            "courses_title": "hn dev, lrn, cul",
+            "sumAvg": 1459.5
+        },
+        {
+            "courses_title": "fluor microscpy",
+            "sumAvg": 1470.62
+        },
+        {
+            "courses_title": "socl&emtl assess",
+            "sumAvg": 1475.07
+        },
+        {
+            "courses_title": "prep writ career",
+            "sumAvg": 1484.34
+        },
+        {
+            "courses_title": "fam nrs pract",
+            "sumAvg": 1511.6
+        },
+        {
+            "courses_title": "cl pro prim care",
+            "sumAvg": 1511.64
+        },
+        {
+            "courses_title": "ph d resrch sem",
+            "sumAvg": 1533.71
+        },
+        {
+            "courses_title": "schl counselling",
+            "sumAvg": 1543.35
+        },
+        {
+            "courses_title": "rev res curr&ped",
+            "sumAvg": 1547.17
+        },
+        {
+            "courses_title": "biology research",
+            "sumAvg": 1628.2
+        },
+        {
+            "courses_title": "ed st dvl ds inc",
+            "sumAvg": 1628.41
+        },
+        {
+            "courses_title": "adv hlth assess",
+            "sumAvg": 1653.86
+        },
+        {
+            "courses_title": "ed prg hghly abl",
+            "sumAvg": 1656.08
+        },
+        {
+            "courses_title": "coll&uni teachng",
+            "sumAvg": 1675.75
+        },
+        {
+            "courses_title": "eth&profl issues",
+            "sumAvg": 1697.34
+        },
+        {
+            "courses_title": "curric as&interv",
+            "sumAvg": 1740.23
+        },
+        {
+            "courses_title": "specific lrn dis",
+            "sumAvg": 1762.57
+        },
+        {
+            "courses_title": "thy cognt assess",
+            "sumAvg": 1764.76
+        },
+        {
+            "courses_title": "group counsling",
+            "sumAvg": 1799.3
+        },
+        {
+            "courses_title": "honours seminar",
+            "sumAvg": 1802.5
+        },
+        {
+            "courses_title": "sem r prpty dv&p",
+            "sumAvg": 1831.46
+        },
+        {
+            "courses_title": "master's thesis",
+            "sumAvg": 1899.72
+        },
+        {
+            "courses_title": "intr stat rs edu",
+            "sumAvg": 1905.62
+        },
+        {
+            "courses_title": "basic princ meas",
+            "sumAvg": 1940.46
+        },
+        {
+            "courses_title": "prgm devl cnsl",
+            "sumAvg": 1947.15
+        },
+        {
+            "courses_title": "cor des ed res",
+            "sumAvg": 1958.72
+        },
+        {
+            "courses_title": "com hlth prom",
+            "sumAvg": 1962.4
+        },
+        {
+            "courses_title": "tech arts hum",
+            "sumAvg": 2004.8
+        },
+        {
+            "courses_title": "family counsl ii",
+            "sumAvg": 2090.01
+        },
+        {
+            "courses_title": "lrn'g disablties",
+            "sumAvg": 2094.72
+        },
+        {
+            "courses_title": "constr strat",
+            "sumAvg": 2099.56
+        },
+        {
+            "courses_title": "career planning",
+            "sumAvg": 2208.43
+        },
+        {
+            "courses_title": "intro excp child",
+            "sumAvg": 2217.38
+        },
+        {
+            "courses_title": "res meth educ",
+            "sumAvg": 2366.86
+        },
+        {
+            "courses_title": "tch'g hghly able",
+            "sumAvg": 2381.86
+        },
+        {
+            "courses_title": "typ atyp inf/ch",
+            "sumAvg": 2389.2
+        },
+        {
+            "courses_title": "assess lrn diffi",
+            "sumAvg": 2411.75
+        },
+        {
+            "courses_title": "curric issu",
+            "sumAvg": 2489.85
+        },
+        {
+            "courses_title": "educ stds autism",
+            "sumAvg": 2615.2
+        },
+        {
+            "courses_title": "classroom mgmt",
+            "sumAvg": 2672.85
+        },
+        {
+            "courses_title": "exp des anl ed",
+            "sumAvg": 2702.67
+        },
+        {
+            "courses_title": "curric iss&thry",
+            "sumAvg": 2728.33
+        },
+        {
+            "courses_title": "eng mtls lab",
+            "sumAvg": 2752.85
+        },
+        {
+            "courses_title": "found ed tech",
+            "sumAvg": 2903.99
+        },
+        {
+            "courses_title": "masters thesis",
+            "sumAvg": 2913.53
+        },
+        {
+            "courses_title": "surv bhvr dis ch",
+            "sumAvg": 2965.82
+        },
+        {
+            "courses_title": "crit spec ed",
+            "sumAvg": 2966.49
+        },
+        {
+            "courses_title": "des tech",
+            "sumAvg": 3372.01
+        },
+        {
+            "courses_title": "res mthd in educ",
+            "sumAvg": 4468.84
+        },
+        {
+            "courses_title": "thesis",
+            "sumAvg": 4505.41
+        },
+        {
+            "courses_title": "",
+            "sumAvg": 5733.04
+        },
+        {
+            "courses_title": "seminar",
+            "sumAvg": 5990.93
+        }
+    ]
+}

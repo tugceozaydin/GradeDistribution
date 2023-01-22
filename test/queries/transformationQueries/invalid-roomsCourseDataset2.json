@@ -1,0 +1,33 @@
+{
+    "title": "valid rooms sum",
+    "query": {    
+      "WHERE": {        
+          "AND": [{            
+             "IS": {                
+                 "rooms_furniture": "*Tables*"            
+              }        
+          }, {            
+              "GT": {                
+                "rooms_seats": 300            
+               }        
+         }]    
+       },    
+       "OPTIONS": {        
+           "COLUMNS": [            
+               "rooms_lon", 
+               "rooms_address",
+               "sumSeats"        
+           ]      
+       },    
+       "TRANSFORMATIONS": {        
+           "GROUP": ["rooms_lon"],        
+           "APPLY": [{            
+               "sumSeats": {                
+                   "SUM": "rooms_seats"            
+                }        
+           }]    
+       }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

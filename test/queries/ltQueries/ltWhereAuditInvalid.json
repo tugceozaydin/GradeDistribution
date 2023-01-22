@@ -1,0 +1,19 @@
+{
+    "title": "LT Where audit invalid",
+    "query": {
+        "WHERE": {
+            "LT": {
+                "courses_audit": 13
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_pass",
+                "courses_audit"
+            ],
+            "ORDER": "courses_pass"
+        }
+    },
+    "isQueryValid": false,
+    "result": "ResultTooLargeError"
+}

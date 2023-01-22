@@ -1,0 +1,17 @@
+{
+    "title": "where empty invalid",
+    "query": {
+        "WHERE": {
+            "IS": {
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_id"
+            ],
+            "ORDER": "courses_id"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

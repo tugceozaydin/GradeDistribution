@@ -1,0 +1,21 @@
+{
+    "title": "options key invalid",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_pass": 2020
+            }
+        },
+        "OPTIONS": {
+            "COLMNS": [
+                "courses_pass",
+                "courses_audit",
+                "courses_instructor",
+                "courses_id"
+            ],
+            "ORDER": "courses_pass"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

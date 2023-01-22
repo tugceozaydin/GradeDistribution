@@ -1,0 +1,18 @@
+{
+    "title":"Column invalid key typo",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_pass": 900
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "crs_dept"
+            ],
+            "ORDER": "crs_dept"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

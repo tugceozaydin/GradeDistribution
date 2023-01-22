@@ -1,0 +1,18 @@
+{
+    "title": "options where instead of columns invalid",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_pass": 2020
+            }
+        },
+        "OPTIONS": {
+            "WHERE": {
+
+            },
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,283 @@
+{
+    "title": "three apply keys valid - not all in columns - 3",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 92
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "maxAverage"
+            ],
+            "ORDER": {
+                "dir": "UP",
+                "keys": [
+                    "maxAverage"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_dept"
+            ],
+            "APPLY": [
+                {
+                    "maxAverage": {
+                        "MAX": "courses_avg"
+                    }
+                },
+                {
+                    "minPass": {
+                        "MIN": "courses_pass"
+                    }
+                },
+                {
+                    "countInstructor": {
+                        "COUNT": "courses_instructor"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "maxAverage": 92.25
+        },
+        {
+            "maxAverage": 92.25
+        },
+        {
+            "maxAverage": 92.26
+        },
+        {
+            "maxAverage": 92.29
+        },
+        {
+            "maxAverage": 92.3
+        },
+        {
+            "maxAverage": 92.5
+        },
+        {
+            "maxAverage": 92.57
+        },
+        {
+            "maxAverage": 92.71
+        },
+        {
+            "maxAverage": 92.8
+        },
+        {
+            "maxAverage": 93
+        },
+        {
+            "maxAverage": 93
+        },
+        {
+            "maxAverage": 93
+        },
+        {
+            "maxAverage": 93.04
+        },
+        {
+            "maxAverage": 93.05
+        },
+        {
+            "maxAverage": 93.07
+        },
+        {
+            "maxAverage": 93.2
+        },
+        {
+            "maxAverage": 93.22
+        },
+        {
+            "maxAverage": 93.25
+        },
+        {
+            "maxAverage": 93.45
+        },
+        {
+            "maxAverage": 93.47
+        },
+        {
+            "maxAverage": 93.5
+        },
+        {
+            "maxAverage": 93.5
+        },
+        {
+            "maxAverage": 93.5
+        },
+        {
+            "maxAverage": 93.67
+        },
+        {
+            "maxAverage": 93.72
+        },
+        {
+            "maxAverage": 93.72
+        },
+        {
+            "maxAverage": 93.93
+        },
+        {
+            "maxAverage": 94
+        },
+        {
+            "maxAverage": 94.17
+        },
+        {
+            "maxAverage": 94.23
+        },
+        {
+            "maxAverage": 94.25
+        },
+        {
+            "maxAverage": 94.27
+        },
+        {
+            "maxAverage": 94.33
+        },
+        {
+            "maxAverage": 94.33
+        },
+        {
+            "maxAverage": 94.4
+        },
+        {
+            "maxAverage": 94.44
+        },
+        {
+            "maxAverage": 94.7
+        },
+        {
+            "maxAverage": 94.7
+        },
+        {
+            "maxAverage": 94.75
+        },
+        {
+            "maxAverage": 95
+        },
+        {
+            "maxAverage": 95
+        },
+        {
+            "maxAverage": 95
+        },
+        {
+            "maxAverage": 95
+        },
+        {
+            "maxAverage": 95.07
+        },
+        {
+            "maxAverage": 95.15
+        },
+        {
+            "maxAverage": 95.2
+        },
+        {
+            "maxAverage": 95.29
+        },
+        {
+            "maxAverage": 95.37
+        },
+        {
+            "maxAverage": 95.43
+        },
+        {
+            "maxAverage": 95.54
+        },
+        {
+            "maxAverage": 95.58
+        },
+        {
+            "maxAverage": 96
+        },
+        {
+            "maxAverage": 96
+        },
+        {
+            "maxAverage": 96
+        },
+        {
+            "maxAverage": 96.06
+        },
+        {
+            "maxAverage": 96.1
+        },
+        {
+            "maxAverage": 96.11
+        },
+        {
+            "maxAverage": 96.15
+        },
+        {
+            "maxAverage": 96.25
+        },
+        {
+            "maxAverage": 96.27
+        },
+        {
+            "maxAverage": 96.36
+        },
+        {
+            "maxAverage": 96.4
+        },
+        {
+            "maxAverage": 96.46
+        },
+        {
+            "maxAverage": 96.47
+        },
+        {
+            "maxAverage": 96.47
+        },
+        {
+            "maxAverage": 96.5
+        },
+        {
+            "maxAverage": 96.5
+        },
+        {
+            "maxAverage": 96.59
+        },
+        {
+            "maxAverage": 96.9
+        },
+        {
+            "maxAverage": 96.94
+        },
+        {
+            "maxAverage": 97
+        },
+        {
+            "maxAverage": 97.5
+        },
+        {
+            "maxAverage": 98
+        },
+        {
+            "maxAverage": 98.71
+        },
+        {
+            "maxAverage": 98.75
+        },
+        {
+            "maxAverage": 98.8
+        },
+        {
+            "maxAverage": 98.98
+        },
+        {
+            "maxAverage": 99.19
+        },
+        {
+            "maxAverage": 99.78
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "title": "valid 2 apply keys",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "IS": {
+                        "rooms_furniture": "*Tables*"
+                    }
+                },
+                {
+                    "GT": {
+                        "rooms_seats": 80
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_shortname",
+                "maxSeats",
+                "min"
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "maxSeats",
+                    "rooms_shortname"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "rooms_shortname"
+            ],
+            "APPLY": [
+                {
+                    "maxSeats": {
+                        "MAX": "rooms_seats"
+                    }
+                },
+                {
+                    "min": {
+                        "MIN": "rooms_lon"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "rooms_shortname": "OSBO",
+            "maxSeats": 442,
+            "min": -123.24467
+        },
+        {
+            "rooms_shortname": "HEBB",
+            "maxSeats": 375,
+            "min": -123.25165
+        },
+        {
+            "rooms_shortname": "LSC",
+            "maxSeats": 350,
+            "min": -123.24494
+        },
+        {
+            "rooms_shortname": "SRC",
+            "maxSeats": 299,
+            "min": -123.24894
+        },
+        {
+            "rooms_shortname": "ANGU",
+            "maxSeats": 260,
+            "min": -123.25364
+        },
+        {
+            "rooms_shortname": "PHRM",
+            "maxSeats": 236,
+            "min": -123.24342
+        },
+        {
+            "rooms_shortname": "LSK",
+            "maxSeats": 205,
+            "min": -123.25533
+        },
+        {
+            "rooms_shortname": "CHBE",
+            "maxSeats": 200,
+            "min": -123.24718
+        },
+        {
+            "rooms_shortname": "SWNG",
+            "maxSeats": 190,
+            "min": -123.25431
+        },
+        {
+            "rooms_shortname": "FRDM",
+            "maxSeats": 160,
+            "min": -123.24608
+        },
+        {
+            "rooms_shortname": "DMP",
+            "maxSeats": 160,
+            "min": -123.24807
+        },
+        {
+            "rooms_shortname": "IBLC",
+            "maxSeats": 154,
+            "min": -123.2521
+        },
+        {
+            "rooms_shortname": "MCLD",
+            "maxSeats": 136,
+            "min": -123.24935
+        },
+        {
+            "rooms_shortname": "WOOD",
+            "maxSeats": 120,
+            "min": -123.24673
+        },
+        {
+            "rooms_shortname": "BUCH",
+            "maxSeats": 108,
+            "min": -123.25468
+        },
+        {
+            "rooms_shortname": "IONA",
+            "maxSeats": 100,
+            "min": -123.25042
+        },
+        {
+            "rooms_shortname": "GEOG",
+            "maxSeats": 100,
+            "min": -123.25623
+        },
+        {
+            "rooms_shortname": "CEME",
+            "maxSeats": 100,
+            "min": -123.24894
+        },
+        {
+            "rooms_shortname": "ALRD",
+            "maxSeats": 94,
+            "min": -123.25318
+        }
+    ]
+}

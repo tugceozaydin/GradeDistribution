@@ -1,0 +1,28 @@
+{
+    "title": "AND Invalid Dataset",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "LT": {
+                        "courseResultInvalid_avg": 98
+                    }
+                },
+                {
+                    "GT": {
+                        "courseResultInvalid_avg": 97
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courseResultInvalid_dept",
+                "courseResultInvalid_avg"
+            ],
+            "ORDER": "courseResultInvalid_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

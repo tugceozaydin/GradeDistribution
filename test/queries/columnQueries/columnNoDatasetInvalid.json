@@ -1,0 +1,18 @@
+{
+    "title":"Column invalid no dataset",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_pass": 900
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "dept"
+            ],
+            "ORDER": "dept"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}
